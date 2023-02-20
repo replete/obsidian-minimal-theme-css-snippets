@@ -37,11 +37,13 @@ Likely to change over time, probably most useful to other hackers working on the
 3. Install the `MySnippets` community plugin by [chetachiezikeuzor](https://github.com/chetachiezikeuzor) and activate snippets individually through the icon in the bottom right of the statusbar
 4. Make new snippets, maybe contribute if you have fixes, improvements or whatever - make an issue or PR perhaps, but I can't guarantee anything as I'm basically just sharing my work
 
-# Versions / updates
+## Versions / updates
 
 Its in my own interest to keep Obsidian and the various plugins up to date, but life gets busy and there may be a delay - so I will make incremental updates to the repo (via commits) to update/improve plugins as they are updated but when a new version of Obsidian is released, I'll tag the last commit with that verison number. So all commits previous to 
 that will support that version. Basically, this repo assumes your Obsidian is up to date and also assumes I have fixed it.
 
 No warranties or guarantees, please don't ask for plugin X to be supported - if you want it, do it. If I want it, it will already exist here. Please submit fixes or any great ideas though and if it makes sense to me I'll include it.
+
+I'm using Obsidian every day for more and more things, so chances are I'll keep updating this repo
 
 -Phil
