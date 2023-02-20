@@ -39,11 +39,10 @@ Likely to change over time, probably most useful to other hackers working on the
 
 ## Versions / updates
 
-Its in my own interest to keep Obsidian and the various plugins up to date, but life gets busy and there may be a delay - so I will make incremental updates to the repo (via commits) to update/improve plugins as they are updated but when a new version of Obsidian is released, I'll tag the last commit with that verison number. So all commits previous to 
-that will support that version. Basically, this repo assumes your Obsidian is up to date and also assumes I have fixed it.
+I use Obsidian every day, these are my snippets, if something breaks I am likely to fix it because it will be bugging me - but there are no promises because the fixes do not pay any bills. If a new Obsidian version comes along and breaks a massive amount of things - I might keep using the older version until the problems settle, and then fix 
+everything for the new version. Shouting me coffee might make me work faster though.
 
-No warranties or guarantees, please don't ask for plugin X to be supported - if you want it, do it. If I want it, it will already exist here. Please submit fixes or any great ideas though and if it makes sense to me I'll include it.
+The reality of Obsidian is that it is a commercial product still in heavy development. Things will inevitably break and become annoying at points, because right now the features we all want from this product only exist across complex configurations of discrete open source extensions to the core product, varied in quality and orchestration. This 
+repository is for hackers like me, it's all a stop gap and I cannot make wide promises of support, but because I'm using it every day I'm likely to make improvements.
 
-I'm using Obsidian every day for more and more things, so chances are I'll keep updating this repo
-
--Phil
+If a new version is released, I will tag the repo at the last version (e.g. `v1.1.18`, and commits after that will be for the next version (e.g. 'v1.1.19'). I'll update my plugins regularly so fixes will come as and when as new commits.
