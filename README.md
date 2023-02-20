@@ -6,6 +6,12 @@ The main drive is to make everything look like one app. The benefit of using the
 
 It's a work in progress as I work on my own Vault, so the best bet is to activate the snippets individually with the `MySnippets` plugin and decide if you want it or not.
 
+Most of these snippets are exclusively suited to the minimal theme, but some will also work on anything else, such as `hide-ribbon`, `minimal-make-tweaks` and a few others.
+
+It's opnionated, an example of which is that I prefer more condensed views, so this might not be for everyone but this isn't for everyone, it's for me, and I'd rather see more stuff on a smaller display. It's going to change over time, but feel free to steal what suits you,
+
+Likely to change over time, probably most useful to other hackers working on their vault
+
 ## Gotchas
 
 - MacOS: I haven't tested these on Windows or Linux, as I use a mac for day to day work. This can be fixed easily with os-specific body css classes (such as `body.mod-macos` etc) but I haven't done this because I'm not sharing this vault with Windows yet. If/when I do need to do this I'll fix everything.
@@ -26,7 +32,7 @@ It's a work in progress as I work on my own Vault, so the best bet is to activat
 
 ## How to use
 
-1. Clone/fork this repo into `<your vault location/.obsidian/snippets` and make changes as needed
+1. Clone/fork this repo into `<your vault location>/.obsidian/snippets` and make changes as needed
 2. Dupe existing files and modify to your requirements
 3. Install the `MySnippets` community plugin by [chetachiezikeuzor](https://github.com/chetachiezikeuzor) and activate snippets individually through the icon in the bottom right of the statusbar
 4. Make new snippets, maybe contribute if you have fixes, improvements or whatever - make an issue or PR perhaps, but I can't guarantee anything as I'm basically just sharing my work
