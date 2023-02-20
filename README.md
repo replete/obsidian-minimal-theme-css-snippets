@@ -1,6 +1,6 @@
-# Replete's Obsidian CSS snippets (for Obsidian `v1.1.19`)
+# Replete's Obsidian CSS snippets for Minimal Theme (for Obsidian `v1.1.19`)
 
-Basically, this a folder of CSS snippets which are designed to smooth out visual, and sometimes interactive, problems with the various community plugins used for common workflows.
+Basically, this a folder of CSS snippets which are designed to smooth out visual, and sometimes interactive, problems with the various community plugins used for common workflows with the popular minimal theme.
 
 The main drive is to make everything look like one app. The benefit of using the [@kepano](https://github.com/kepan)'s [Minimal Theme](https://github.com/kepano/obsidian-minimal) is an emerging ecosystem and standardisation of various aspects of Obsidian, which is constantly being developed.
 
