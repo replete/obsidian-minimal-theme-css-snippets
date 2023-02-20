@@ -4,6 +4,26 @@ Basically, this a folder of CSS snippets which are designed to smooth out visual
 
 The main drive is to make everything look like one app. The benefit of using the [@kepano](https://github.com/kepan)'s [Minimal Theme](https://github.com/kepano/obsidian-minimal) is an emerging ecosystem and standardisation of various aspects of Obsidian, which is constantly being developed.
 
+It's a work in progress as I work on my own Vault, so the best bet is to activate the snippets individually with the `MySnippets` plugin and decide if you want it or not.
+
+## Gotchas
+
+- MacOS: I haven't tested these on Windows or Linux, as I use a mac for day to day work. This can be fixed easily with os-specific body css classes (such as `body.mod-macos` etc) but I haven't done this because I'm not sharing this vault with Windows yet. If/when I do need to do this I'll fix everything.
+- Desktop: I haven't fixed anything for mobile Obsidian yet, but when I get around to using obsidian on mobile I will fix these
+
+## Screenshots (incomplete)
+
+![Dark theme](_theme-dark.png)
+![Light theme](_theme-light.png)
+
+## Recommended Community plugins
+
+- `MySnippets` to toggle individual CSS snippet files on/off from statusbar
+- `Minimal Theme Settings` to select colour schemes/options for the minimal theme via GUI
+- `MAKE.MD` for the banner functionality, but you must disable 'Spaces' to make 'Custom File Explorer Sorting' plugin work
+- `Database Folders` to create table views of habits
+- ... too many to list, but if its useful I've probably made some CSS for it
+
 ## How to use
 
 1. Clone/fork this repo into `<your vault location/.obsidian/snippets` and make changes as needed
