@@ -1,0 +1,9 @@
+/* .dashboard #dashboard-weekno {
+    --d-fsize: 80px;
+    font-size:var(--d-fsize);
+    position: fixed;
+    top:calc(var(--d-fsize) / 2);
+    right:calc(var(--d-fsize) / 2);
+    opacity:0.2;
+    font-weight:700
+} */

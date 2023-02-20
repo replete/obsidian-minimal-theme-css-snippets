@@ -1,0 +1,8 @@
+/* Make collapse icon less colorful */
+.cm-s-obsidian .collapse-indicator.collapse-icon svg{
+    stroke: var(--tx2)
+}
+
+.cm-s-obsidian .edit-block-button {
+    left: calc(max(calc(50% + var(--folding-offset) - var(--line-width-adaptive)/ 2),calc(50% + var(--folding-offset) - var(--max-width)/ 2)) - 30px )!important;
+}

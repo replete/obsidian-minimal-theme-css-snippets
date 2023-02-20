@@ -1,0 +1,21 @@
+.workspace .view-content .checklist-plugin-main {
+    padding:8px
+}
+
+.workspace .view-content .checklist-plugin-main .group-header {
+    padding-left:8px;
+}
+
+.workspace .view-content .checklist-plugin-main .settings-container svg {
+    transform: scale(0.75);
+}
+
+.workspace .view-content .checklist-plugin-main ul p {
+    margin-top:4px;
+    margin-bottom:4px;
+}
+
+.workspace .view-content .checklist-plugin-main ul .toggle {
+    padding-top:3px;
+    padding-top:3px;
+}

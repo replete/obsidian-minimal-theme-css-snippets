@@ -1,0 +1,29 @@
+.dailynote {
+
+}
+
+/* navigation bar */
+.dailynote .HyperMD-header-1 + .cm-line .cm-link-alias {
+    color:var(--tx3) !important;
+}
+
+.dailynote .HyperMD-header-1 + .cm-line .cm-link-alias .cm-underline {
+    text-decoration:none;
+}
+
+/* h2 styles */
+.dailynote .cm-header-2 {
+    font-size:20px !important;
+    text-transform:uppercase;
+    letter-spacing: 0.05em;
+    color:var(--tx2) !important;
+}
+
+/* Fix task progressbar  for heading */
+.dailynote .HyperMD-header-1 .cm-task-progress-bar {
+    transform:translate(0, -3px) !important
+}
+
+.dailynote .HyperMD-header-2 .cm-task-progress-bar {
+    transform:translate(0, -2px) !important
+}

@@ -1,0 +1,208 @@
+.database-plugin__container {
+    border-top:1px solid var(--background-modifier-border);
+}
+
+
+/* Header */
+
+.database-plugin__header-menu {
+    transform:scale(0.75) translate(5px, 4px)
+}
+
+.database-plugin__header-menu .svg-icon svg {
+    fill:var(--tx2)
+}
+
+.database-plugin__th .svg-icon {
+    display:none !important;
+}
+
+.database-plugin__th > .database-plugin__header-menu .svg-icon {
+    display:block !important
+}
+
+.database-plugin__th-content {
+    transform:translate(0,-7px);
+    width:100%;
+    text-align:center !important;
+    justify-content:center;
+    font-size:12px;
+}
+
+/* main */
+
+.database-plugin__th {
+    overflow: hidden !important;
+}
+.database-plugin__tr:nth-of-type(2n-1) .database-plugin__td:last-child {
+    background: linear-gradient(to right, var(--background-secondary), var(--tab-container-background))
+}
+
+.database-plugin__tr.database-plugin__footer-group:last-child .database-plugin__td:last-child {
+    background:var(--tab-container-background);
+}
+
+.database-plugin__td.database-plugin__footer {
+    border:none
+}
+
+.database-plugin__tbody .database-plugin__tr:last-child .database-plugin__td {
+    border-bottom:1px solid var(--background-modifier-border);
+}
+
+
+
+.database-plugin__td {
+    padding:0 !important
+}
+
+/* Fix target/focus outlines */
+.database-plugin__td:hover {
+    box-shadow:none !important
+}
+
+.database-plugin__td > span:focus {
+    box-shadow:none !important;
+}
+
+.database-plugin__td:hover {
+    /* outline: 1px solid var(--tx3) */
+    outline:none
+}
+
+.database-plugin__tr .database-plugin__td:last-child:hover {
+    outline:none;
+    background:inherit
+}
+
+.database-plugin__td:focus-within {
+    outline: 1px solid var(--tx3);
+    background-color:inherit;
+}
+
+.database-plugin__td a[href] {
+    color:var(--tx2);
+    text-decoration:none;
+    /* border-bottom:1px solid var(--tx3) */
+}
+
+.database-plugin__td a[href*='.md']::after {
+    content:'MD';
+    color:var(--tx3);
+    display:inline-block;
+    font-size:8px;
+    font-weight:bold;
+    padding:2px;
+    margin-left:2px;
+    background:var(--bg2);
+    /* border:1px solid var(--tx3); */
+    border-radius: 4px;
+    line-height:1em;
+    transform:translate(0,-2px)
+
+}
+
+/* partial fix of outline hover issue */
+.database-plugin__tr:hover,
+.database-plugin__tr:hover .database-plugin__td {
+    z-index:500
+}
+
+.database-plugin__tr:focus-within {
+    /* background-color:var(--background-modifier-border) !important */
+    /* outline:1px solid var(--tx3) */
+}
+
+.database-plugin__tr .database-plugin__td:first-child .database-plugin__relationship[style] {
+    background-color:transparent !important
+}
+
+.database-plugin__tr .database-plugin__td:first-child p {
+    color: var(--tx2) !important;
+    opacity:.6;
+}
+
+
+.database-plugin__tr:nth-of-type(2n-1) .database-plugin__td:first-child {
+    background:var(--background-secondary)
+}
+
+/* checkbox */
+.theme-light .database-plugin__td input[type=checkbox]{
+    border-color:var(--tx3) !important;
+}
+
+.database-plugin__td input[type=checkbox]{
+    border-color:var(--tx2);
+    transform:translate(0,0px)
+}
+.database-plugin__td input[type=checkbox]:checked {
+    border:none;
+    background-color:var(--tx2)
+}
+
+.theme-light .database-plugin__td input[type=checkbox]:checked {
+    background-color:var(--tx3)
+}
+
+.database-plugin__td input[type=checkbox]:focus {
+    outline:none
+}
+
+.database-plugin__td.data-input textarea.database-plugin__editor-cell  {
+    /* resize:none; */
+    border-radius:0;
+    margin-bottom:-2px;
+}
+
+
+
+/* Header search */
+.database-plugin__th input[type=text] {
+    border-radius:0 !important;
+    border-left:0;
+    border-right:0;
+}
+
+.database-plugin__th input[type=text]::placeholder {
+    /* color:var(--tx2) */
+    font-size:11px;
+}
+
+
+/* Footer */
+
+.database-plugin__tfoot .database-plugin__footer-group .database-plugin__td {
+    border-right-color: transparent !important;
+}
+
+.database-plugin__tfoot {
+    box-shadow: 0 -5px 5px -4px var(--background-secondary)
+}
+
+.database-plugin__table {
+    border-bottom-color:transparent !important
+}
+
+/* .database-plugin__tfoot .database-plugin__footer-group::after {
+    content:'';
+    background:linear-gradient(to top, red, transparent);
+    height:3px;
+    width:100%;
+    display: block;
+    position: absolute;
+    left:0;
+    z-index:5;
+} */
+
+/* Pagination */
+.database-plugin__pagination {
+    right:auto;
+    left:10px;
+    transform:scale(0.8);
+}
+.database-plugin__pagination-button {
+    border:1px solid var(--background-modifier-border) !important;
+    padding:4px !important;   
+}
+

@@ -1,0 +1,57 @@
+
+/* Full Calendar in right sidebar */
+.mod-right-split [data-type="full-calendar-view"] .fc {
+    --link-color:var(--text-normal);
+    --fc-button-active-bg-color: var(--background-modifier-hover);
+    font-size:75%
+}
+
+.mod-right-split [data-type="full-calendar-view"] .fc a:hover {
+    color:var(--text-on-accent)
+}
+
+/* Header toolbar */
+
+.mod-right-split [data-type="full-calendar-view"] .fc-header-toolbar {
+    margin-bottom:6px
+}
+.mod-right-split [data-type="full-calendar-view"] .fc-header-toolbar .fc-button {
+    padding: 4px !important;
+}
+
+/* List table styling */
+.mod-right-split [data-type="full-calendar-view"] .fc-list {
+    border:none
+}
+.mod-right-split [data-type="full-calendar-view"] .fc-list-day-side-text {
+    float:left;
+    font-weight:normal;
+}
+.mod-right-split [data-type="full-calendar-view"] .fc-list-day-side-text::before {
+    content:' ';
+    padding-left:.4em;
+}
+
+.mod-right-split [data-type="full-calendar-view"] .fc td {
+    padding:4px 4px 0px 0;
+}
+
+.mod-right-split [data-type="full-calendar-view"] .fc .fc-list-day-cushion {
+    padding:8px 4px 4px 0;
+    background:transparent;
+    margin-bottom:4px;
+    margin-top:4px;
+}
+
+.mod-right-split [data-type="full-calendar-view"] .fc-toolbar-title {
+    font-size:11px
+}
+
+.mod-right-split [data-type="full-calendar-view"] .fc-button {
+    font-size:10px
+}
+
+.mod-right-split [data-type="full-calendar-view"] .fc-col-header-cell {
+    font-size:9px;
+    font-weight: 600;
+}

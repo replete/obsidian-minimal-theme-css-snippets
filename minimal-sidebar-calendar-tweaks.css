@@ -1,0 +1,58 @@
+
+/* #calendar-container .calendar thead {
+    border-top:1px solid var(--bg2) !important
+} */
+/* #calendar-container .calendar tr:last-of-type td {
+    border-bottom:1px solid var(--nav-indentation-guide-color) !important
+} */
+/* #calendar-container .nav {
+    margin-left:0;
+} */
+
+#calendar-container .year {
+    /* color:var(--text-muted); */
+}
+#calendar-container td,
+#calendar-container .day {
+    border-radius:0 !important;
+}
+#calendar-container .day.active {
+    background:
+    linear-gradient(
+        to bottom,
+        transparent,
+        var(--tx3)
+  );
+}
+#calendar-container .day.active .filled,
+#calendar-container .day.today.active .filled {
+    fill:var(--tx1) !important;
+}
+#calendar-container .day.active .hollow,
+#calendar-container .day.today.active .hollow {
+    stroke:var(--tx1) !important;
+}
+#calendar-container .day.today .filled {
+    fill:var(--text-muted) !important;
+}
+#calendar-container .day.today .hollow {
+    stroke:var(--text-muted) !important;
+}
+
+#calendar-container .day.today {
+    color:var(--text-bold);
+    font-weight:900;
+}
+#calendar-container .day.today.active {
+    /* color:var(--text-bright); */
+}
+#calendar-container .day:active {
+    background:var(--tx2)
+}
+#calendar-container .day.adjacent-month {
+    /* color:var(--tx2) */
+}
+
+#calendar-container .weekend {
+    background: var(--bg2);
+}

@@ -1,0 +1,40 @@
+.mod-right-split .outline {
+    /* background:red */
+    padding:6px 8px;
+}
+
+.mod-right-split .outline .tree-item-children {
+    --nav-item-children-padding-left:4px;
+    --nav-item-children-margin-left:5px;
+    border-left-color:transparent
+}
+
+.mod-right-split .outline .tree-item-icon.collapse-icon {
+    order:2;
+    /* background:red; */
+    padding-left:2px;
+    transform:scale(0.8) translate(0, -1px)
+}
+
+.mod-right-split .outline .tree-item-inner {
+ flex:0 1 auto 
+}
+
+/* First item (page h1) */
+.mod-right-split .outline > .tree-item > .tree-item-self {
+    font-weight:500;
+}
+
+.mod-right-split .outline > .tree-item > .tree-item-children {
+    padding-left:4px;
+    margin-left:5px;
+    --nav-item-children-padding-left:0px;
+    --nav-item-children-margin-left:0px;
+}
+
+/* .mod-right-split .outline > .tree-item > .tree-item-children .mod-collapsible{
+    text-transform:uppercase;
+    font-size:75%;
+    font-weight:500;
+    margin-top:5px
+} */

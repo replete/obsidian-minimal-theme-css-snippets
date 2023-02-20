@@ -1,0 +1,6 @@
+.workspace-ribbon.mod-left {display:none;}
+
+.workspace-tabs.mod-top.mod-top-left-space .workspace-tab-header-container {
+    padding-left: calc( var(--frame-left-space) + var(--ribbon-width)) !important;
+    /* background:red !important; */
+}

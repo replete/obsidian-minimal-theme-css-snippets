@@ -1,0 +1,20 @@
+.view-header-title-container {
+    /* Override hover fade */
+    opacity:1;
+    justify-content:start
+}
+
+.view-header-title-container .view-header-title {
+    color:var(--tx2) !important;
+    transform: translate(0,1px)
+}
+
+.view-header-title-container .view-header-title:hover,
+.view-header-title-container .view-header-title:focus {
+    color:var(--tx1) !important
+}
+
+.view-header {
+    /* box-shadow: 0 3px 3px -1px var(--shadow-color);*/
+    background:linear-gradient(to bottom, transparent 90%, var(--bg2))
+}

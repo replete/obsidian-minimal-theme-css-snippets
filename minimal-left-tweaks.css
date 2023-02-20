@@ -1,0 +1,109 @@
+
+/* @replete Sidebar header */
+
+.workspace-tab-header-container-inner {
+    gap:0 !important
+}
+
+.workspace-tab-header[data-type=starred] {
+    display:none
+}
+
+.workspace-tab-header-inner{
+    padding-left:3px;
+    padding-right:3px;
+}
+.nav-header {
+    padding-top:8px;
+    padding-bottom:4px;
+    padding-left:9px;
+}
+.nav-buttons-container {
+    justify-content:start !important;
+}
+
+.nav-buttons-container .clickable-icon {
+    padding-left:3px;
+    padding-right:3px;
+}
+
+.nav-buttons-container .clickable-icon{
+    color:var(--tx2) !important;
+    transition: .2s color ease-in;
+}
+
+.nav-buttons-container .view-actions:hover .clickable-icon {
+    color: var(--tx1) !important;
+}
+
+.nav-buttons-container .cmdr.clickable-icon{
+    /* background:var(--bg3) */
+    /* box-shadow:1px 1px 2px var(--bg3) */
+    /* color:var(--tx2) !important */
+}
+
+/* Workspace: Sidebar navigation */
+
+.nav-files-container {
+    padding-left:8px;
+    padding-right:8px;
+}
+.nav-folder-collapse-indicator {
+    order:4;
+    padding-left:3px;
+}
+.nav-folder-collapse-indicator svg {
+    stroke:var(--text-faint);
+    margin-top:1px;
+}
+.nav-file-title,
+.nav-folder-title {
+    padding-left:4px;
+    padding-right:4px;
+}
+.nav-file,
+.nav-folder {
+    position:relative;
+    z-index:1;
+}
+.nav-folder-children .nav-folder-children .nav-file-title::before, 
+.nav-folder-children .nav-folder-children .nav-folder-title::before {
+    content:'';
+    display:block;
+    width:8px;
+    height:1px;
+    background-color: var(--nav-indentation-guide-color);
+    position:absolute;
+    margin-left:-12px;
+    z-index:-1;
+}
+.nav-folder.mod-root .nav-folder > .nav-folder-children {
+    margin-left:8px;
+    position:relative;
+    padding-left:7px;
+}
+.nav-folder.mod-root .nav-file:hover .nav-file-title::before,
+.nav-folder.mod-root .nav-file-title.is-active::before {
+    width:8px;
+}
+.nav-folder.mod-root .nav-folder > .nav-folder-children::after {
+    /* covers up bottom of indent guide below last arm */
+    content:'';
+    display:block;
+    width:var(--nav-indentation-guide-width);
+    height: 12px;
+    position:absolute;
+    background-color:var(--bg2);
+    opacity:1 !important;
+    bottom:0;
+    left:-1px;
+}
+
+
+body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-content {
+    color:var(--tx3)
+}
+
+.is-flashing {
+    background-color: var(--tx3)
+}

@@ -1,0 +1,137 @@
+
+/* Dayplanner plugin tweaks */
+
+/* Container max size */
+.mod-right-split [data-type=timeline] .view-content {
+    padding:0;
+}
+.mod-right-split [data-type=timeline] .events {
+    padding-bottom: 0 !important
+}
+
+/* Planner box styling - hide timeline bar, minimal styles */
+.mod-right-split [data-type=timeline] .aside {
+    width:30px !important;
+    opacity:0.5 !important;
+}
+.mod-right-split [data-type=timeline] .aside__line {
+    left:20px !important;
+    display:none;
+}
+.mod-right-split [data-type=timeline] .event_item_contents {
+    padding-left:30px !important;
+}
+.mod-right-split [data-type=timeline] .event_item .ei_Dot {
+    display:none;
+}
+.mod-right-split [data-type=timeline] .event_item .ei_Title {
+    margin-left:-5px;
+    font-size:11px;
+    line-height:1em;
+    opacity:0.75
+}
+.mod-right-split [data-type=timeline] .event_item .ei_Copy {
+    margin-left:10px;
+}
+
+/* Fix 'hour quarters' bg in dark themes */
+.theme-dark .mod-right-split [data-type=timeline] .aside,
+.theme-dark .mod-right-split [data-type=timeline] .aside .aside__line {
+    filter:invert(100%)
+}
+
+/* Make colours fit minimal theme */
+.mod-right-split [data-type=timeline] .event_item {
+    background-color:var(--bg2) !important;
+    background: linear-gradient(var(--bg1), transparent);
+    border-bottom-color: var(--progress-outline) !important;
+}
+.mod-right-split [data-type=timeline] .event_item:hover {
+    box-shadow:none !important;
+    background: var(--bg3) !important;
+}
+.mod-right-split [data-type=timeline] .event_item .ei_Title {
+    color: var(--tx1) !important;
+    opacity:0.6;
+    text-shadow: 1px 1px 1px var(--progress-outline)
+}
+.mod-right-split [data-type=timeline] .event_item .ei_Copy{
+    color: var(--tx2) !important
+}
+
+/* Cleverer colours (limited to theme, but better than nothing) */
+.mod-right-split [data-type=timeline] .event_item:nth-of-type(2n-1) {
+    /* background-color:var(--bg1) !important; */
+    
+}
+
+/* Now line overlay */
+
+.mod-right-split [data-type=timeline] #now-line {
+    /* background-color:var(--tx2) !important */
+}
+.mod-right-split [data-type=timeline] #now-line .timeline-time {
+    left: 75% !important;
+    /* right:20px !important; */
+    position: absolute !important;
+    font-size:12px;
+    margin-top:-7px;
+    /* background-color:var(--tx2) !important; */
+    /* color:var(--text-faint) !important; */
+}
+
+
+
+/* Planner box timeline line colors */
+.mod-right-split [data-type=timeline] #day-planner-timeline-container .aside__line,
+.mod-right-split [data-type=timeline] #day-planner-timeline-container .ei_Dot {
+    background-color: var(--tx3);
+}
+
+/* Hide autoscroll label */
+.mod-right-split [data-type=timeline] label[for=auto-scroll] {
+    display:none !important;
+}
+
+/* Restyle autoscroll checkbox and place over the planner top right */
+.mod-right-split [data-type=timeline] #scroll-controls {
+    position: fixed !important;
+    top:0 !important;
+    margin-top:-10px !important;
+    background:transparent !important
+}
+.mod-right-split [data-type=timeline] #auto-scroll {
+    position:absolute !important;
+    right:-4px;
+    top: 10px;
+    transform:scale(0.8);
+    transform-origin: 0 0;
+    opacity:0.75;
+    background-color: var(--tx2) !important;
+}
+.mod-right-split [data-type=timeline] #auto-scroll:hover {
+    opacity:1;
+}
+.mod-right-split [data-type=timeline] #auto-scroll::before {
+content: 'time time' !important
+}
+.mod-right-split [data-type=timeline] #auto-scroll:not(:checked)::before {
+    text-indent:-33px !important
+}
+
+.mod-right-split [data-type=timeline] .empty-timeline {
+    color: var(--tx3) !important;
+}
+
+/* status bar fixes */
+
+.status-bar-item.plugin-obsidian-day-planner .progress-pie {
+    background-image:linear-gradient(to right,transparent 50%, var(--tx1) 0)
+}
+.status-bar-item.plugin-obsidian-day-planner .progress-pie::before {
+    background-color:var(--tx1);
+}
+
+.status-bar-item.plugin-obsidian-day-planner .day-planner-status-bar-text {
+    margin-top:5px;
+}

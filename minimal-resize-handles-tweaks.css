@@ -1,0 +1,9 @@
+/* @replete Divider Resize Handle muted style */
+
+.workspace-leaf-resize-handle {
+    transition: all .2s ease-in;
+}
+.workspace-leaf-resize-handle:hover {
+    border-color:var(--text-muted);
+    background-color:var(--text-muted);
+}

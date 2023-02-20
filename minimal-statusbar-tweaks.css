@@ -1,0 +1,8 @@
+/* @replete More visible status bar */
+.status-bar{
+    color:var(--nav-item-color) !important;
+}
+
+.status-bar:hover{
+    color:var(--tx1) !important
+}

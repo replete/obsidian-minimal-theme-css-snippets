@@ -1,0 +1,41 @@
+/* @replete Folder Separators for Obsidian 1.19+ */
+:root {
+    --nav-separator-hack-padding: 4px;
+}
+
+/* Separator below */
+.nav-folder-children > [class*=nav-]:has([data-path="Archive"])::after
+{
+    content:'';
+    display:block;
+    height:1px;
+    width:100%;
+    background:linear-gradient(to right, var(--divider-color), transparent);
+    margin:var(--nav-separator-hack-padding) 0 var(--nav-separator-hack-padding) -8px;
+}
+
+/* Separator above */
+.nav-folder-children > [class*=nav-]:has([data-path="Daily"])::before,
+.nav-folder-children > [class*=nav-]:has([data-path="Scratchpad.md"])::before,
+.nav-folder-children > [class*=nav-]:has([data-path="People"])::before,
+.nav-folder-children > [class*=nav-]:has([data-path="Archive"])::before
+{
+    content:'';
+    display:block;
+    height:1px;
+    width:100%;
+    background:linear-gradient(to right, var(--divider-color), transparent);
+    margin:var(--nav-separator-hack-padding) 0 var(--nav-separator-hack-padding) -8px;
+}
+
+
+/* Separator for first item */
+/* .nav-folder-children > [class*=nav-]:nth-of-type(2)::before
+{
+    content:'';
+    display:block;
+    height:1px;
+    width:100%;
+    background:linear-gradient(to right, var(--divider-color), transparent);
+    margin:0 0 var(--nav-separator-hack-padding) -8px;
+} */

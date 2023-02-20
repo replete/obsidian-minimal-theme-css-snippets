@@ -1,0 +1,29 @@
+/* @replete scrollbar styling for minimal theme */
+:root {
+    --scrollbar-size: 8px;
+}
+::-webkit-scrollbar {
+  width: var(--scrollbar-size);  /* for vertical scrollbars */
+  height: var(--scrollbar-size); /* for horizontal scrollbars */
+}
+::-webkit-scrollbar-track {
+    background:transparent;
+}
+::-webkit-scrollbar-track:vertical {
+    background:linear-gradient(to right, transparent 50%, rgba(0,0,0,.08));
+}
+::-webkit-scrollbar-track:horizontal {
+    background:linear-gradient(to bottom, transparent 50%, rgba(0,0,0,.08));
+  }
+::-webkit-scrollbar-thumb {
+    background: var(--nav-indentation-guide-color);
+}
+::-webkit-scrollbar-thumb:vertical {
+    border-radius: var(--scrollbar-size) 0 0 var(--scrollbar-size);
+}
+::-webkit-scrollbar-thumb:horizontal {
+    border-radius: var(--scrollbar-size) var(--scrollbar-size) 0 0;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+}

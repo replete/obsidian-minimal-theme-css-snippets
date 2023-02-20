@@ -1,0 +1,250 @@
+/* @replete MAKE.MD adjustmanets 14/02/23 */
+
+/***** HEADER ******/
+
+/* Disable file stickers */
+.mk-note-header + .mk-file-context-component .mk-file-icon {
+    display:none
+}
+
+/* align field buttons */
+.mk-note-header + .mk-file-context-component .mk-file-context-field-new {
+    transform:translate(-7px,0);
+    opacity:1;
+}
+
+/* reposition tags */
+.mk-note-header + .mk-file-context-component .mk-tag-selector {
+    position: absolute;
+    right:10px;
+    top:15px;
+}
+
+/* Make field values less visible */
+.mk-file-context-value input {
+    color: var(--tx3) !important
+}
+
+.mk-file-context-value input:hover {
+    color:var(--tx1) !important
+}
+.mk-file-context-value input:focus {
+    color:var(--tx1) !important
+}
+
+/* cover image gradient */
+.mk-note-header::after {
+    content:'';
+    display: block;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    background:
+        linear-gradient(to bottom, transparent 20%, var(--background-primary)),
+        linear-gradient(to bottom, transparent 60%, var(--background-primary));
+    position: absolute;
+    pointer-events:none;
+}
+
+/* Disable Type '/' for commands placeholder text */
+.cm-active.mk-placeholder:before {
+    content:''
+}
+
+/* Disable img zoom cursor */
+.mk-note-header img {
+    cursor: default !important;
+}
+
+.mk-note-header {
+    z-index:-1;
+}
+
+/* Hide empty last spacer div */
+.mk-header .mk-file-context-section + div:empty {
+    display:none;
+}
+
+/* cssclass override: hide header until hover */
+.cm-s-obsidian.hide-meta .mk-header .mk-file-context-component{
+    opacity:0;
+    transition: .2s opacity ease-in;
+}
+.cm-s-obsidian.hide-meta .mk-header:hover .mk-file-context-component{
+    opacity:1;
+}
+
+/* cssclass override: short banner */
+.cm-s-obsidian.banner-short .mk-note-header img{
+    outline:2px solid red !important;
+    height:150px !important;
+}
+.cm-s-obsidian.banner-short .cm-content > .mk-header .mk-spacer{
+    height:70px !important
+}
+
+/* cssclass override: tall banner */
+.cm-s-obsidian.banner-tall .mk-note-header img{
+    outline:2px solid red !important;
+    height:250px !important;
+}
+.cm-s-obsidian.banner-tall .cm-content > .mk-header .mk-spacer{
+    height:160px !important
+}
+
+/* cssclass override: align banner to top */
+.cm-s-obsidian.banner-top .mk-note-header img {
+    object-position: top
+}
+
+/* cssclass override: align banner to bottom */
+.cm-s-obsidian.banner-top .mk-note-header img {
+    object-position: bottom
+}
+
+/* cssclass override: hide meta values in fold until focus */
+.is-live-preview.meta-short .cm-content > .mk-header .mk-file-context-component,
+.is-live-preview.meta-short .cm-content > .mk-header .mk-file-context-section{
+    opacity:0;
+    transition: .2s opacity ease-in;
+}
+.is-live-preview.meta-short .cm-content > .mk-header .mk-file-context-section {
+    height:0;
+}
+.is-live-preview.meta-short .cm-content > .mk-header:hover .mk-file-context-component,
+.is-live-preview.meta-short .cm-content > .mk-header:focus-within .mk-file-context-component {
+    opacity:1;
+}
+.is-live-preview.meta-short.is-live-view .cm-content > .mk-header:hover .mk-file-context-section,
+.is-live-preview.meta-short .cm-content > .mk-header:focus-within .mk-file-context-section,
+.is-live-preview.meta-short .cm-content > .mk-header:hover .mk-file-context-section,
+.is-live-preview.meta-short .cm-content > .mk-header:focus-within .mk-file-context-section {
+    opacity:1;
+    height:auto;
+}
+
+/* cssclass override: blend banner image to background */
+.cm-s-obsidian.banner-blend .mk-note-header img {
+    background: url()
+
+}
+
+/* cssclass override: blend banner image to background */
+.cm-s-obsidian.banner-blur .mk-note-header img {
+    filter:blur(5px);
+    transform:scale(1.05) translate(0, -10px);
+}
+
+/* Fixes hover cursor target */
+.cm-s-obsidian .mk-header {
+    overflow:hidden;
+}
+
+
+/***** SPACES ******/
+
+/* Assumes compact view enabled */
+
+/* Shift collapse/expand to end of text */
+.mk-sidebar .mk-collapse {
+    order:1;
+}
+.mk-sidebar .mk-tree-text {
+    flex-grow:0 !important;
+}
+.mk-tree-item:hover {
+    align-items:right !important;
+}
+.mk-tree-item:hover .mk-folder-buttons {
+    order:1 !important;
+    flex-grow:1;
+    display:flex !important;
+    justify-content: end !important
+}
+
+/* Style collapse button */
+.mk-sidebar .mk-collapse svg {
+    transform:translate(-5px,1px) scale(0.9);
+    opacity:0.8
+    
+}
+.mk-sidebar .mk-collapse:hover {
+    background:transparent !important;
+}
+.mk-sidebar .mk-collapse:hover svg {
+    opacity:1;
+}
+
+/* Style section text */
+.mk-sidebar .mk-section-title .mk-tree-text{
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--text-muted);
+    font-size: var(--font-adaptive-smallest) !important;
+}
+
+/* sidebar header margins */
+.mk-sidebar .mk-flow-bar-compact {
+    margin-bottom:-15px;
+}
+
+/* Less prominent main menu-button */
+.mk-main-menu-button {
+    color:var(--tx2)
+}
+
+/* Move drag handle to right side */
+.mk-tree-wrapper > div {
+    display:inline-flex;
+}
+.mk-drag-handle {
+    order:2;
+    margin-left:-4px;
+}
+.mk-drag-handle svg {
+    transform:translate(3px,0)
+}
+.mk-tree-wrapper:hover:has(.mk-drag-handle:hover) .mk-folder-buttons {
+    display:none !important;
+}
+/* These styles are for the drag handle reposition: */
+    /* Tree margins */
+    .mk-tree-wrapper {
+        padding-left:15px !important;
+        padding-right:0;
+    }
+    /* section header text wrapper */
+    .mk-section-wrapper {
+        margin-left:-14px;
+    }
+
+    .mk-tree-wrapper .nav-file-title,
+    .mk-tree-wrapper .nav-folder-title {
+        margin-right:0;
+    }
+
+/* Section heading text */
+.mk-section .mk-tree-text {
+    color:var(--tx3) !important;
+}
+
+.mk-sidebar .mk-tree-item {
+    /* padding-top:0 !important;
+    padding-bottom:0; */
+}
+
+.mk-tree-wrapper .mk-tree-item[data-path*="/"] {
+    /* background-color: red !important; */
+}
+
+/* Fix top header padding alignment */
+.mk-flow-bar-compact {
+    padding-top:3px;
+}
+
+/* Section heading icon alignment */
+.mk-section-title:hover .mk-collapse svg {
+    transform: translate(-2px,-1px) scale(0.8);
+}

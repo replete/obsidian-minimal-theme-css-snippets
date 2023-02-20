@@ -1,0 +1,16 @@
+.cm-s-obsidian .heatmap-calendar-boxes li {
+    color:#000;
+    text-align:center;
+    font-size:9px;
+    font-weight:bold;
+    padding-top:2px;
+}
+.cm-s-obsidian .heatmap-calendar-boxes li.today {
+    border:none;
+    box-shadow:inset 0 0 1px 0 rgba(255,255,255,1);
+}
+
+
+.heatmap-calendar-boxes .isEmpty {
+    background-color: var(--bg3) !important;
+}

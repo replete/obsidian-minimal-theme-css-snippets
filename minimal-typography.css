@@ -1,0 +1,104 @@
+
+/* Fix list offset */
+.HyperMD-list-line.cm-line {
+    transform:translate(-8px,0)
+}
+
+/* Fix list styling */
+.HyperMD-list-line.cm-line .cm-formatting-list {
+    margin-left:-5px;
+    margin-right:4px;
+}
+
+/* list and blockquote colors */
+.cm-s-obsidian .cm-formatting-list,
+.cm-s-obsidian .cm-formatting-quote {
+    color: var(--tx2)
+}
+
+.cm-s-obsidian .cm-formatting-quote {
+    transform:translate(-3px,0);
+    display: inline-block;
+}
+
+
+/* Headings */
+.cm-s-obsidian {
+    --h1-size:2em !important;
+    --h2-size:1.5em !important;
+    --h3-size:1.25em !important;
+    --h3-weight:600 !important;
+    --h4-size:1em !important;
+    --h4-weight:600 !important;
+    --h4-variant: normal !important;
+    --h5-size:0.875em !important;
+    --h5-weight:600 !important;
+    --h5-variant: normal !important;
+    --h6-size:0.75em !important;
+    --h6-weight:600 !important;
+    --h6-variant: normal !important;
+}
+
+h5, 
+.markdown-rendered h5, 
+.HyperMD-header-5, 
+.HyperMD-list-line .cm-header-5 {
+    text-transform: uppercase;
+    letter-spacing:0.05em
+}
+
+h6, 
+.markdown-rendered h6, 
+.HyperMD-header-6, 
+.HyperMD-list-line .cm-header-6 {
+    text-transform: uppercase;
+    letter-spacing:0.05em
+}
+
+/* Quotes */
+.HyperMD-quote {
+    /* background: var(--bg2) !important; */
+    /* border:1px solid var(--bg3); */
+    display:block !important;
+    /* padding-left:2em !important; */
+    /* padding: .5em 1em !important; */
+}
+.HyperMD-quote::before {
+    opacity:0;
+}
+.HyperMD-quote::after {
+    content:'';
+    display:block;
+    background:var(--bg3);
+    width:4px;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.HyperMD-quote.cm-active {
+    border-color:transparent;
+}
+.HyperMD-quote.cm-active::after{
+    display:none;
+}
+
+.HyperMD-quote cite {
+    color:var(--tx3);
+    display: inline-block;
+    /* font-size:14px; */
+}
+
+/* .HyperMD-quote cite::after {
+    content:'”';
+    font-size:72px;
+    color:var(--tx3);
+    position:absolute;
+    right:0;
+    top:0;
+    opacity:0.3;
+    line-height:.2em;
+    transform:translate(0,15px);
+} */
+
