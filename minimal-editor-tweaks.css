@@ -1,3 +1,9 @@
+/*
+    Editor tweaks
+    Basically styles for the editor, small tweaks.
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
 /* Make collapse icon less colorful */
 .cm-s-obsidian .collapse-indicator.collapse-icon svg{
     stroke: var(--tx2)

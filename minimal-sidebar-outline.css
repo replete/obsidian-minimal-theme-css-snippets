@@ -1,3 +1,9 @@
+/*
+    Outline
+    This makes the outline view far more condensed and shifts the chevrons to where I prefer them on the right
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
 .mod-right-split .outline {
     /* background:red */
     padding:6px 8px;

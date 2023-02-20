@@ -1,4 +1,11 @@
-/* @replete Folder Separators for Obsidian 1.19+ */
+/*
+    File Explorer Separators
+    So this is super handy, I found a way to add visual separators below and above navigation items in the file explorer. 
+    This works nicely along side the 'Custom File Explorer Sorting' plugin, and there's a thread on their github about my solution.
+    You need to customize the rule below in accordance with your file structure.
+    These styles go with
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
 :root {
     --nav-separator-hack-padding: 4px;
 }

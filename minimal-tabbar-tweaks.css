@@ -1,3 +1,8 @@
+/*
+    Tab Bar tweaks
+    Probably for use with the 'Commander' plugin
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
 .view-header .view-actions .clickable-icon{
     color:var(--tx2) !important;
     transition: .2s color ease-in;

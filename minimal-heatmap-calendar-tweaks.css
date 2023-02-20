@@ -1,3 +1,8 @@
+/*
+    Heatmap calendar tweaks
+    Very basic styling tweaks, likely to change as I use it more
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
 .cm-s-obsidian .heatmap-calendar-boxes li {
     color:#000;
     text-align:center;

@@ -1,6 +1,9 @@
 
-/* @replete Sidebar header */
-
+/*
+    Left 'sidebar' tweaks
+    I prefer a condensed view and more icons visible, and I dislike the chevron placement so this one is rather opinionated and you might like it, if you hate it please email me at dev@null.com
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
 .workspace-tab-header-container-inner {
     gap:0 !important
 }

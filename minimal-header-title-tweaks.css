@@ -1,3 +1,8 @@
+/*
+    Header Title tweaks
+    Adjustments to the main tab header view
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
 .view-header-title-container {
     /* Override hover fade */
     opacity:1;

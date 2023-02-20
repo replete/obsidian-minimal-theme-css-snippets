@@ -1,5 +1,9 @@
 
-/* Dayplanner plugin tweaks */
+/*
+    Day Planner visual changes
+    (This plugin is useful but appears abandoned, I don't love these styles yet but they are at least in keeping with the minimal theme and work when switching between light/dark)
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
 
 /* Container max size */
 .mod-right-split [data-type=timeline] .view-content {

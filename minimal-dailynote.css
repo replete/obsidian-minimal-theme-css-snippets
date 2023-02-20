@@ -1,6 +1,8 @@
-.dailynote {
-
-}
+/*
+    Daily Note tweaks (these are specific tweaks to my 'daily note' files)
+    Requires `cssclass  dailynote` in note YAML frontmatter 
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
 
 /* navigation bar */
 .dailynote .HyperMD-header-1 + .cm-line .cm-link-alias {

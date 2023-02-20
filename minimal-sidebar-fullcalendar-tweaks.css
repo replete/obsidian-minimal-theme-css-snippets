@@ -1,3 +1,8 @@
+/*
+    Full Calendar plugin tweaks
+    This is more condensed but obviously pretty hacky to achieve the result
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
 
 /* Full Calendar in right sidebar */
 .mod-right-split [data-type="full-calendar-view"] .fc {

@@ -1,5 +1,8 @@
-/* @replete Divider Resize Handle muted style */
-
+/*
+    Resize handles tweaks
+    The resize handles when you resize sidebars use the accent colour which makes no sense to me
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
 .workspace-leaf-resize-handle {
     transition: all .2s ease-in;
 }

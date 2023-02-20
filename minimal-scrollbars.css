@@ -1,4 +1,8 @@
-/* @replete scrollbar styling for minimal theme */
+/*
+    Native scrollbars
+    I styled the native scrollbars before I reaized there was an option to render them in Obsidian, but I like these and don't care enough to make styles for the non-native scrollbars
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
 :root {
     --scrollbar-size: 8px;
 }
