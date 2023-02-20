@@ -8,9 +8,7 @@ It's a work in progress as I work on my own Vault, so the best bet is to activat
 
 Most of these snippets are exclusively suited to the minimal theme, but some will also work on anything else, such as `hide-ribbon`, `minimal-make-tweaks` and a few others.
 
-It's opnionated, an example of which is that I prefer more condensed views, so this might not be for everyone but this isn't for everyone, it's for me, and I'd rather see more stuff on a smaller display. It's going to change over time, but feel free to steal what suits you,
-
-Likely to change over time, probably most useful to other hackers working on their vault
+It's opnionated, an example of which is that I prefer more condensed views, so this might not be for everyone.
 
 <a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=6a8695&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00"></a>
 
@@ -41,11 +39,7 @@ Likely to change over time, probably most useful to other hackers working on the
 
 ## Versions / updates
 
-Its in my own interest to keep Obsidian and the various plugins up to date, but life gets busy and there may be a delay - so I will make incremental updates to the repo (via commits) to update/improve plugins as they are updated but when a new version of Obsidian is released, I'll tag the last commit with that verison number. So all commits previous to 
-that will support that version. Basically, this repo assumes your Obsidian is up to date and also assumes I have fixed it.
+Its in my own interest to keep Obsidian and the various plugins up to date, but life gets busy and there may be a delay - so I will make incremental updates to the repo (via commits) to update/improve plugins as they are updated but when a new version of Obsidian is released, I'll tag the last commit with that verison number. So all commits previous to that will support that version. Basically, this repo assumes your Obsidian is up to date and also assumes I have fixed it.
 
-No warranties or guarantees, please don't ask for plugin X to be supported - if you want it, do it. If I want it, it will already exist here. Please submit fixes or any great ideas though and if it makes sense to me I'll include it.
-
-I'm using Obsidian every day for more and more things, so chances are I'll keep updating this repo
 
 -Phil
