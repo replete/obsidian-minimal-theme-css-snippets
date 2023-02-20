@@ -8,9 +8,9 @@ It's a work in progress as I work on my own Vault, so the best bet is to activat
 
 Most of these snippets are exclusively suited to the minimal theme, but some will also work on anything else, such as `hide-ribbon`, `minimal-make-tweaks` and a few others.
 
-It's opnionated, an example of which is that I prefer more condensed views, so this might not be for everyone but this isn't for everyone, it's for me, and I'd rather see more stuff on a smaller display. It's going to change over time, but feel free to steal what suits you,
+It's opnionated, an example of which is that I prefer more condensed views, so this might not be for everyone.
 
-Likely to change over time, probably most useful to other hackers working on their vault
+<a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=6a8695&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00"></a>
 
 ## Gotchas
 
