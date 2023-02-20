@@ -8,7 +8,7 @@ It's a work in progress as I work on my own Vault, so the best bet is to activat
 
 Most of these snippets are exclusively suited to the minimal theme, but some will also work on anything else, such as `hide-ribbon`, `minimal-make-tweaks` and a few others.
 
-It's opnionated, an example of which is that I prefer more condensed views, so this might not be for everyone.
+It's a bit opinionated, an example of which is that I prefer more condensed views, so this might not be for everyone.
 
 <a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=6a8695&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00"></a>
 
