@@ -12,6 +12,8 @@ It's opnionated, an example of which is that I prefer more condensed views, so t
 
 Likely to change over time, probably most useful to other hackers working on their vault
 
+<a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=6a8695&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00"></a>
+
 ## Gotchas
 
 - MacOS: I haven't tested these on Windows or Linux, as I use a mac for day to day work. This can be fixed easily with os-specific body css classes (such as `body.mod-macos` etc) but I haven't done this because I'm not sharing this vault with Windows yet. If/when I do need to do this I'll fix everything.
