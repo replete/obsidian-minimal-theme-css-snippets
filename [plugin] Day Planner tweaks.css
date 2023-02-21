@@ -1,4 +1,3 @@
-
 /*
     Day Planner visual changes
     (This plugin is useful but appears abandoned, I don't love these styles yet but they are at least in keeping with the minimal theme and work when switching between light/dark)
@@ -55,10 +54,15 @@
     }
 .mod-right-split [data-type=timeline] .event_item:hover {
     box-shadow:none !important;
+    background-color: var(--tx2) !important;
 }
 
+.theme-light .mod-right-split [data-type=timeline] .event_item:hover {
+    background-color: var(--color-red) !important;
+}
 .theme-light .mod-right-split [data-type=timeline] .event_item {
     border-bottom-color: var(--tx2) !important;
+
 }
 
 .mod-right-split [data-type=timeline] .event_item .ei_Title {
@@ -143,6 +147,28 @@
     color: var(--tx3) !important;
 }
 
+
+#day-planner-timeline-container {
+}
+#day-planner-timeline-container::after {
+    content:'';
+    display:block;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6));
+    width:100%;
+    height:8px;
+    position: fixed;
+    bottom:0;
+    pointer-events:none;
+}
+
+/* Hide scrollbar */
+
+.view-content:has(#day-planner-timeline-container) {
+    outline: 2px solid red !important;
+    overflow-y:hidden !important;
+}
+
+
 /* status bar fixes */
 
 .status-bar-item.plugin-obsidian-day-planner .progress-pie {
@@ -158,7 +184,7 @@
 
 .status-bar-item.plugin-obsidian-day-planner .day-planner-progress-bar {
     background:var(--divider-color);
-    transform:translate(0, -1px)
+    transform:translate(0, -1px);
 }
 
 .status-bar-item.plugin-obsidian-day-planner .day-planner-progress-value {
