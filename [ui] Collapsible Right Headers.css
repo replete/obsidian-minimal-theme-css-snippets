@@ -1,0 +1,27 @@
+/*
+    Collapsible Right Headers
+    Save some space in the right headers
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/* header container on right */
+.mod-right-split .workspace-tabs + .workspace-tabs .workspace-tab-header-container {
+    background:
+        repeating-linear-gradient(
+            135deg, 
+            var(--divider-color) 0px, 
+            transparent 1px,
+            transparent 10px,
+            var(--divider-color) 11px, 
+            transparent 11px
+        ) !important;
+    height:7px;
+    transition:.2s height ease-in;
+    border-bottom-color:transparent;
+}
+
+.mod-right-split .workspace-tabs + .workspace-tabs .workspace-tab-header-container:hover,
+.mod-right-split .workspace-tabs + .workspace-tabs .workspace-tab-header-container:focus-within {
+    height:var(--header-height);
+    background:var(--background-primary) !important;
+}
