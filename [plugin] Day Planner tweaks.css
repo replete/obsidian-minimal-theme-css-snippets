@@ -165,7 +165,11 @@
 
 .view-content:has(#day-planner-timeline-container) {
     outline: 2px solid red !important;
-    overflow-y:hidden !important;
+}
+
+.view-content:has(#day-planner-timeline-container)::-webkit-scrollbar {
+    scrollbar-width: 0 !important;
+    width:0
 }
 
 
