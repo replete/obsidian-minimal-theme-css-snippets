@@ -34,8 +34,10 @@ It's a bit opinionated, an example of which is that I prefer more condensed view
 
 1. Clone/fork this repo into `<your vault location>/.obsidian/snippets` and make changes as needed
 2. Dupe existing files and modify to your requirements
-3. Install the `MySnippets` community plugin by [chetachiezikeuzor](https://github.com/chetachiezikeuzor) and activate snippets individually through the icon in the bottom right of the statusbar
+3. Install the `MySnippets` community plugin by [@chetachiezikeuzor](https://github.com/chetachiezikeuzor) and activate snippets individually through the icon in the bottom right of the statusbar
 4. Make new snippets, maybe contribute if you have fixes, improvements or whatever - make an issue or PR perhaps, but I can't guarantee anything as I'm basically just sharing my work
+
+![MySnippets plugin preview](_mysnippets-image.png)
 
 ## Versions / updates
 
