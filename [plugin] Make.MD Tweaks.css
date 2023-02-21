@@ -7,6 +7,11 @@
 
 /***** HEADER ******/
 
+/* Hide filename editor in banner */
+.mk-note-header + .mk-file-context-component .mk-file-context-file {
+    display:none !important;
+}
+
 /* Disable file stickers */
 .mk-note-header + .mk-file-context-component .mk-file-icon {
     display:none
