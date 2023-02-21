@@ -16,7 +16,7 @@
 /* Planner box styling - hide timeline bar, minimal styles */
 .mod-right-split [data-type=timeline] .aside {
     width:30px !important;
-    opacity:0.5 !important;
+    /* opacity:0.5 !important; */
 }
 .mod-right-split [data-type=timeline] .aside__line {
     left:20px !important;
@@ -41,18 +41,18 @@
 /* Fix 'hour quarters' bg in dark themes */
 .theme-dark .mod-right-split [data-type=timeline] .aside,
 .theme-dark .mod-right-split [data-type=timeline] .aside .aside__line {
-    filter:invert(100%)
+    filter:invert(100%);
 }
 
 /* Make colours fit minimal theme */
 .mod-right-split [data-type=timeline] .event_item {
-    background-color:var(--bg2) !important;
-    background: linear-gradient(var(--bg1), transparent);
+    background-color:var(--background-modifier-hover) !important;
+    background: linear-gradient(135deg, var(--background-primary), transparent);
     border-bottom-color: var(--progress-outline) !important;
 }
 .mod-right-split [data-type=timeline] .event_item:hover {
     box-shadow:none !important;
-    background: var(--bg3) !important;
+    /* background: var(--tx3) !important; */
 }
 .mod-right-split [data-type=timeline] .event_item .ei_Title {
     color: var(--tx1) !important;
