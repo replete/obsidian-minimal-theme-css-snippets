@@ -1,0 +1,28 @@
+/*
+    MySnippets plugin tweaks
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/* Embiggen menu width for longer filenames */
+.MySnippets-statusbar-menu {
+    width:420px;
+}
+
+/* Re-order menu item */
+.MySnippets-statusbar-menu .menu-item .checkbox-container {
+    order:1
+}
+
+/* Make code button less prominent */
+.MySnippets-statusbar-menu .MS-OpenSnippet {
+    box-shadow:none;
+    background:transparent;
+}
+.MySnippets-statusbar-menu .MS-OpenSnippet:hover svg path{
+    fill:var(--interactive-accent) !important;
+}
+
+/* Fix open snippet button on light themes */
+.theme-light .MS-OpenSnippet svg path{
+    fill:var(--tx3) !important;
+}
