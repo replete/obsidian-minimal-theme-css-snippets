@@ -16,7 +16,7 @@
 /* Planner box styling - hide timeline bar, minimal styles */
 .mod-right-split [data-type=timeline] .aside {
     width:30px !important;
-    /* opacity:0.5 !important; */
+    opacity:0.75 !important;
 }
 .mod-right-split [data-type=timeline] .aside__line {
     left:20px !important;
@@ -32,56 +32,72 @@
     margin-left:-5px;
     font-size:11px;
     line-height:1em;
-    opacity:0.75
 }
 .mod-right-split [data-type=timeline] .event_item .ei_Copy {
     margin-left:10px;
 }
 
 /* Fix 'hour quarters' bg in dark themes */
-.theme-dark .mod-right-split [data-type=timeline] .aside,
-.theme-dark .mod-right-split [data-type=timeline] .aside .aside__line {
+.mod-right-split [data-type=timeline] .aside,
+.mod-right-split [data-type=timeline] .aside .aside__line {
     filter:invert(100%);
+    mix-blend-mode:overlay;
 }
 
 /* Make colours fit minimal theme */
 .mod-right-split [data-type=timeline] .event_item {
-    background-color:var(--background-modifier-hover) !important;
-    background: linear-gradient(135deg, var(--background-primary), transparent);
-    border-bottom-color: var(--progress-outline) !important;
+    /* background-color:var(--background-modifier-hover) !important; */
+    /* background: linear-gradient(0deg, var(--background-primary), transparent); */
+    /* border-bottom-color: var(--tx3) !important; */
 }
+    .theme-light .mod-right-split [data-type=timeline] .event_item {
+        filter:brightness(2) saturate(0.4);
+    }
 .mod-right-split [data-type=timeline] .event_item:hover {
     box-shadow:none !important;
-    /* background: var(--tx3) !important; */
 }
+
+.theme-light .mod-right-split [data-type=timeline] .event_item {
+    border-bottom-color: var(--tx2) !important;
+}
+
 .mod-right-split [data-type=timeline] .event_item .ei_Title {
     color: var(--tx1) !important;
-    opacity:0.6;
+    opacity:0.8;
     text-shadow: 1px 1px 1px var(--progress-outline)
 }
-.mod-right-split [data-type=timeline] .event_item .ei_Copy{
-    color: var(--tx2) !important
+
+.theme-light .mod-right-split [data-type=timeline] .event_item .ei_Title,
+.theme-light .mod-right-split [data-type=timeline] .event_item .ei_Copy {
+    color:var(--tx3) !important
+}
+
+.theme-dark .mod-right-split [data-type=timeline] .event_item .ei_Title,
+.theme-dark .mod-right-split [data-type=timeline] .event_item .ei_Copy{
+    color: var(--tx1) !important
 }
 
 /* Cleverer colours (limited to theme, but better than nothing) */
 .mod-right-split [data-type=timeline] .event_item:nth-of-type(2n-1) {
-    /* background-color:var(--bg1) !important; */
+    /* background-color:var(--color-green) !important; */
     
+}
+.mod-right-split [data-type=timeline] .event_item_color1 {
+    /* background-color:red !important; */
 }
 
 /* Now line overlay */
 
 .mod-right-split [data-type=timeline] #now-line {
-    /* background-color:var(--tx2) !important */
+    /* background-color:var(--interactive-accent) !important; */
+    /* height:1px !important; */
 }
 .mod-right-split [data-type=timeline] #now-line .timeline-time {
-    left: 75% !important;
-    /* right:20px !important; */
+    left: 80% !important;
     position: absolute !important;
     font-size:12px;
-    margin-top:-7px;
-    /* background-color:var(--tx2) !important; */
-    /* color:var(--text-faint) !important; */
+    padding-bottom:0 !important;
+    /* background-color:var(--interactive-accent) !important; */
 }
 
 
@@ -110,14 +126,14 @@
     top: 10px;
     transform:scale(0.8);
     transform-origin: 0 0;
-    opacity:0.75;
+    opacity:0.5;
     background-color: var(--tx2) !important;
 }
 .mod-right-split [data-type=timeline] #auto-scroll:hover {
     opacity:1;
 }
 .mod-right-split [data-type=timeline] #auto-scroll::before {
-content: 'time time' !important
+    content: 'time time' !important;
 }
 .mod-right-split [data-type=timeline] #auto-scroll:not(:checked)::before {
     text-indent:-33px !important
@@ -137,5 +153,14 @@ content: 'time time' !important
 }
 
 .status-bar-item.plugin-obsidian-day-planner .day-planner-status-bar-text {
-    margin-top:5px;
+    transform: translate(0, 3px)
+}
+
+.status-bar-item.plugin-obsidian-day-planner .day-planner-progress-bar {
+    background:var(--divider-color);
+    transform:translate(0, -1px)
+}
+
+.status-bar-item.plugin-obsidian-day-planner .day-planner-progress-value {
+    /* background:red; */
 }
