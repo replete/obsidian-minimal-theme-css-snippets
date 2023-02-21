@@ -2,14 +2,15 @@
 
 ![Screenshot](_screenshot.png)
 
-This is my working folder of CSS snippets for Obsidian `v1.1.19`. There are opinionated tweaks and fixes for various plugins and aspects of Obsidian's UI, organized into separate CSS files. I'm using [@kepano](https://github.com/kepan)'s [Minimal Theme](https://github.com/kepano/obsidian-minimal) and haven't tested with anything else.
+This is my working folder of CSS snippets for Obsidian using [@kepano](https://github.com/kepan)'s [Minimal Theme](https://github.com/kepano/obsidian-minimal). There are opinionated tweaks and fixes for various plugins and aspects of Obsidian's UI organized into separate CSS files.
 
 ## My environment
 
-I'm using latest MacOS with Obsidian installed via the Installer (Obsidian released multiple versions of their app with the same version number, so homebrew casks are not reliable)
 
-Enabled plugins: `['templater-obsidian', 'dataview', 'calendar', 'settings-search', 'cmdr', 'periodic-notes', 'heatmap-calendar', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-minimal-settings', 'obsidian-custom-frames', 'obsidian-attachment-name-formatting', 'open-vscode', 'obsidian-full-calendar', 'quickadd', 'metadata-menu', 'mysnippets-plugin', 'obsidian-day-planner', 'dbfolder', 'obsidian-tagfolder', 'no-dupe-leaves', 'cm-editor-syntax-highlight-obsidian', 'obsidian-toggle-list', 'custom-sort', 'obsidian-icon-folder', 'omnisearch', 'obsidian-tabs', 'obsidian-task-progress-bar', 'obsidian-hotkeys-for-specific-files', 'table-editor-obsidian', 'obsidian-advanced-uri', 'auto-class', 'obsidian-checklist-plugin', 'obsidian-contextual-typography', 'code-block-copy', 'make-md', 'obsidian-kanban', 'nldates-obsidian']`
-
+- `MacOS 13.x`, ~~Mobile~~ 
+- `Obsidian v1.1.19` (official Installer, homebrew unreliable)
+- `Minimal Theme v6.2.3`
+- Enabled plugins: `['templater-obsidian', 'dataview', 'calendar', 'settings-search', 'cmdr', 'periodic-notes', 'heatmap-calendar', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-minimal-settings', 'obsidian-custom-frames', 'obsidian-attachment-name-formatting', 'open-vscode', 'obsidian-full-calendar', 'quickadd', 'metadata-menu', 'mysnippets-plugin', 'obsidian-day-planner', 'dbfolder', 'obsidian-tagfolder', 'no-dupe-leaves', 'cm-editor-syntax-highlight-obsidian', 'obsidian-toggle-list', 'custom-sort', 'obsidian-icon-folder', 'omnisearch', 'obsidian-tabs', 'obsidian-task-progress-bar', 'obsidian-hotkeys-for-specific-files', 'table-editor-obsidian', 'obsidian-advanced-uri', 'auto-class', 'obsidian-checklist-plugin', 'obsidian-contextual-typography', 'code-block-copy', 'make-md', 'obsidian-kanban', 'nldates-obsidian']`
 ```js
 [...new Set(app.plugins.enabledPlugins)]
 ```
