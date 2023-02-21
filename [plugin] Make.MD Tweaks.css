@@ -87,7 +87,6 @@
 
 /* cssclass override: short banner */
 .cm-s-obsidian.banner-short .mk-note-header img{
-    outline:2px solid red !important;
     height:150px !important;
 }
 .cm-s-obsidian.banner-short .cm-content > .mk-header .mk-spacer{
@@ -96,8 +95,40 @@
 
 /* cssclass override: tall banner */
 .cm-s-obsidian.banner-tall .mk-note-header img{
-    outline:2px solid red !important;
     height:250px !important;
+}
+.cm-s-obsidian.banner-tall .cm-content > .mk-header .mk-spacer{
+    height:160px !important
+}
+
+
+/* cssclass override: muted banner */
+.cm-s-obsidian.banner-muted .mk-note-header::before{
+    content:'';
+    position:absolute;
+    display: block;
+    background:var(--background-primary);
+    top:0;
+    left:0;
+    z-index:500;
+    width:100%;
+    height:100%;
+    opacity:0.4;
+}
+
+.theme-light .cm-s-obsidian.banner-muted .mk-note-header::before {
+    opacity:0.6
+}
+
+.cm-s-obsidian.banner-muted .mk-note-header {
+    background: var(--background-primary)
+}
+.theme-light .cm-s-obsidian.banner-muted .mk-note-header img {
+    filter:brightness(1.2) saturate(0.2);
+}
+
+.theme-dark .cm-s-obsidian.banner-muted .mk-note-header img {
+    filter:contrast(0.5);
 }
 .cm-s-obsidian.banner-tall .cm-content > .mk-header .mk-spacer{
     height:160px !important
