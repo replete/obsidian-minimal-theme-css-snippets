@@ -3,10 +3,27 @@
     Improves visual prominence of status bar, I don't want to hover in order to see what's on the status bar
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
-.status-bar{
-    color:var(--nav-item-color) !important;
+
+
+
+/* Visual style */
+/* .status-bar{
+    background:transparent !important;
+    transition: .2s all ease-in;
 }
 
 .status-bar:hover{
-    color:var(--tx1) !important
+    background:var(--background-primary) !important;
+    box-shadow: 0 0 3px 3px rgba(0,0,0,.1);
+} */
+
+/* More visibility on dark theme */
+.theme-dark .status-bar {
+    color:var(--nav-item-color) !important;
+}
+
+/* Compact icons */
+.status-bar .clickable-icon {
+    padding-left:3px;
+    padding-right:3px;
 }

@@ -1,0 +1,75 @@
+/*
+    Tab Tweaks
+    Probably for use with the 'Commander' plugin
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/* Pin icon less prominent */
+/* .mod-root .workspace-tab-header-status-icon,
+.workspace .mod-root .workspace-tab-header .workspace-tab-header-inner-close-button {
+    opacity:0.4
+} */
+
+.workspace-tab-header-container{
+    background:var(--bg2);
+    /* background: linear-gradient(to top, var(--bg2) 10%, var(--background-primary) 50%); */
+}
+/* header container on left */
+.mod-left-split .workspace-tab-header-container {
+    background:var(--bg2);
+}
+/* header container on right */
+.mod-right-split .workspace-tab-header-container {
+    background:var(--background-primary);
+}
+
+
+/* Header tabs new styles
+
+    This is abit of a clusterfuck because there's no way to just select the navigation tabs 
+    which seems like a huge oversight to me, tabs suck on obsidian and hopefully they sort 
+    it out in the future
+*/
+.workspace-tab-header {
+    margin-right:-1px;
+}
+.workspace-tab-header:not(.is-active) {
+    background: var(--background-secondary);
+    /* background: linear-gradient(to top, var(--bg3) 1%, var(--background-secondary) 20%); */
+    border:1px solid var(--bg3);
+}
+
+.workspace-tab-header.is-active {
+    background:var(--background-primary);
+}
+
+/* fix bottom right curl graphic */
+.workspace-tab-header.is-active::after {
+    z-index:2;
+    transform:translate(-1px, 0)
+}
+
+/* Hide separator bar */
+.workspace-tab-header-inner::after {
+    display:none;
+}
+
+.workspace-tab-header:hover .workspace-tab-header-inner,
+.workspace-tab-header-inner:hover {
+    background:transparent !important;
+}
+
+.workspace-tab-header:not(.is-active):hover {
+    /* background:var(--bg3) !important; */
+    /* background: linear-gradient(to top, var(--bg3) 4%, transparent 10%) !important; */
+    /* box-shadow:inset 0 0 6px -3px var(--background-primary) !important; */
+    /* background:blue !important */
+}
+
+
+/* Unset borders for left/right sidebars */
+.mod-left-split .workspace-tab-header-container .workspace-tab-header,
+.mod-right-split .workspace-tab-header-container .workspace-tab-header {
+    border:none;
+    margin-right:3px;
+}
