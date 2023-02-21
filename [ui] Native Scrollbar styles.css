@@ -1,6 +1,7 @@
 /*
     Native scrollbars
-    I styled the native scrollbars before I reaized there was an option to render them in Obsidian, but I like these and don't care enough to make styles for the non-native scrollbars
+    I styled the native scrollbars before I reaized there was an option to render them in Obsidian...
+    Only tested on MacOS
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 :root {
@@ -10,7 +11,8 @@
   width: var(--scrollbar-size);  /* for vertical scrollbars */
   height: var(--scrollbar-size); /* for horizontal scrollbars */
 }
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
     background:transparent;
 }
 ::-webkit-scrollbar-track:vertical {
