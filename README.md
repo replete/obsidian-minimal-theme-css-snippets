@@ -16,10 +16,4 @@ Obsidian is that it is a commercial product still in heavy development and thing
 
 If a new version is released, I will tag the repo at the last version (e.g. `v1.1.18`, and commits after that will be for the next version (e.g. 'v1.1.19'). I'll update my plugins regularly so fixes will come as and when as new commits.
 
-## Recommended Community plugins
-
-- `Minimal Theme Settings` to select colour schemes/options for the minimal theme via GUI
-- `MySnippets` to toggle individual CSS snippet files on/off from statusbar
-
-
 <a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=6a8695&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00"></a>
