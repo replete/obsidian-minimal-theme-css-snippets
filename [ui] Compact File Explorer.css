@@ -1,49 +1,9 @@
 
 /*
-    Left 'sidebar' tweaks
+    Compact File Explorer
     I prefer a condensed view and more icons visible, and I dislike the chevron placement so this one is rather opinionated and you might like it, if you hate it please email me at dev@null.com
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
-.workspace-tab-header-container-inner {
-    gap:0 !important
-}
-
-.workspace-tab-header[data-type=starred] {
-    display:none
-}
-
-.workspace-tab-header-inner{
-    padding-left:3px;
-    padding-right:3px;
-}
-.nav-header {
-    padding-top:8px;
-    padding-bottom:4px;
-    padding-left:9px;
-}
-.nav-buttons-container {
-    justify-content:start !important;
-}
-
-.nav-buttons-container .clickable-icon {
-    padding-left:3px;
-    padding-right:3px;
-}
-
-.nav-buttons-container .clickable-icon{
-    color:var(--tx2) !important;
-    transition: .2s color ease-in;
-}
-
-.nav-buttons-container .view-actions:hover .clickable-icon {
-    color: var(--tx1) !important;
-}
-
-.nav-buttons-container .cmdr.clickable-icon{
-    /* background:var(--bg3) */
-    /* box-shadow:1px 1px 2px var(--bg3) */
-    /* color:var(--tx2) !important */
-}
 
 /* Workspace: Sidebar navigation */
 
@@ -100,13 +60,4 @@
     opacity:1 !important;
     bottom:0;
     left:-1px;
-}
-
-
-body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-content {
-    color:var(--tx3)
-}
-
-.is-flashing {
-    background-color: var(--tx3)
 }

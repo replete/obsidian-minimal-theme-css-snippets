@@ -1,5 +1,7 @@
 # Replete's Obsidian CSS snippets for Minimal Theme
 
+![Screenshot](_screenshot.png)
+
 This is my working folder of CSS snippets for Obsidian `v1.1.19`. There are opinionated tweaks and fixes for various plugins and aspects of Obsidian's UI, organized into separate CSS files. I'm using [@kepano](https://github.com/kepan)'s [Minimal Theme](https://github.com/kepano/obsidian-minimal) and haven't tested with anything else.
 
 ## My environment
@@ -17,6 +19,7 @@ Enabled plugins: `['templater-obsidian', 'dataview', 'calendar', 'settings-searc
 1. Clone/fork this repo into `<your vault location>/.obsidian/snippets` and make changes as needed
 2. Dupe existing files and modify to your requirements
 3. Install the `MySnippets` community plugin by [@chetachiezikeuzor](https://github.com/chetachiezikeuzor) and activate snippets individually through the icon in the bottom right of the statusbar
+![MySnippets plugin screenshot](_mysnippets-screenshot.png)
 
 ## Someday/maybe
 - [ ] Test/fix for Mobile Obsidian (likely near future)
