@@ -3,31 +3,15 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-
-/* #calendar-container .calendar thead {
-    border-top:1px solid var(--bg2) !important
-} */
-/* #calendar-container .calendar tr:last-of-type td {
-    border-bottom:1px solid var(--nav-indentation-guide-color) !important
-} */
-/* #calendar-container .nav {
-    margin-left:0;
-} */
-
 #calendar-container .year {
-    /* color:var(--text-muted); */
+    color:var(--text-muted);
 }
 #calendar-container td,
 #calendar-container .day {
     border-radius:0 !important;
 }
 #calendar-container .day.active {
-    background:
-    linear-gradient(
-        to bottom,
-        transparent,
-        var(--tx3)
-  );
+    outline:1px solid var(--tx3);
 }
 #calendar-container .day.active .filled,
 #calendar-container .day.today.active .filled {
@@ -46,7 +30,7 @@
 
 #calendar-container .day.today {
     color:var(--text-bold);
-    font-weight:900;
+    font-weight:700;
 }
 #calendar-container .day.today.active {
     /* color:var(--text-bright); */
