@@ -4,11 +4,6 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-/* Less visually prominent vault name headings */
-body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-content {
-    color:var(--tx3)
-}
-
 /* Minimal theme fix: Fix file explorer flashing color */
 .is-flashing {
     background-color: var(--tx3)

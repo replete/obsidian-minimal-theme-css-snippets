@@ -8,8 +8,7 @@
 /* Workspace: Sidebar navigation */
 
 .nav-files-container {
-    padding-left:8px;
-    padding-right:8px;
+
 }
 .nav-folder-collapse-indicator {
     order:4;
@@ -60,4 +59,9 @@
     opacity:1 !important;
     bottom:0;
     left:-1px;
+}
+
+/* Align vault title */
+body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-content {
+    margin-left:-4px;
 }
