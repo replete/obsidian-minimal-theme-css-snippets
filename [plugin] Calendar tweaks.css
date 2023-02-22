@@ -18,6 +18,10 @@
 #calendar-container .day {
     border-radius:0 !important;
 }
+#calendar-container .day {
+    padding-top:0;
+    padding-bottom:0;
+}
 #calendar-container .day.active {
     outline:1px solid var(--tx3);
 }
