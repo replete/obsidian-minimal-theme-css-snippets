@@ -3,6 +3,14 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
+.view-content:has(#calendar-container) {
+    padding-top:0;
+}
+
+#calendar-container {
+    padding:8px 8px;
+}
+
 #calendar-container .year {
     color:var(--text-muted);
 }
