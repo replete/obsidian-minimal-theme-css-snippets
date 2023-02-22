@@ -16,10 +16,15 @@
 /* h2 styles */
 .dailynote .cm-header-2 {
     font-size:20px !important;
-    text-transform:uppercase;
     letter-spacing: 0.05em;
     color:var(--tx2) !important;
+    text-transform:uppercase;
 }
+.dailynote:not(.is-live-preview) .cm-header-2,
+.dailynote .cm-focused .cm-active .cm-header-2 {
+    text-transform:none !important
+}
+
 
 /* Fix task progressbar  for heading */
 .dailynote .HyperMD-header-1 .cm-task-progress-bar {
