@@ -4,6 +4,38 @@
 
 This is my working folder of CSS snippets for Obsidian using [@kepano](https://github.com/kepan)'s [Minimal Theme](https://github.com/kepano/obsidian-minimal). There are opinionated tweaks and fixes for various plugins and aspects of Obsidian's UI organized into separate CSS files.
 
+The Minimal Theme has a set of light and dark colour schemes, but the variables used for these have varying contrast and so there are a few colour schemes which don't look great, but I've aimed to make them work across most of them. I particularly like Gruvbox, Ayu, and Default, and quite a few others are similar and look around the same - but it's not going to cover every single colour scheme.
+
+### Feature Highlights
+
+- Sensible Typography (through `cssclass`) (WIP)
+- Table tweaks (WIP)
+- Various Editor Tweaks (WIP)
+- [Custom Daily Note styles](https://i.imgur.com/R28YXn9.png) (WIP)
+- Dashboard styles (WIP)
+- [Calendar Plugin tweaks](https://i.imgur.com/xFdbIwe.gif)
+- Checklist plugin tweaks - mostly compact view (WIP)
+- [Database Folder plugin tweaks](https://i.imgur.com/G4TfL3w.png) - compact view
+- [Day Planner plugin tweaks](https://i.imgur.com/xFdbIwe.gif) - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes
+- Full Calendar plugin tweaks - WIP, pretty hacky and I stopped using this plugin at the moment
+- [Heatmap Calendar tweaks](https://i.imgur.com/ndvRLIC.png) - mostly colours
+- [Make.MD Tweaks](https://i.imgur.com/bn5bfMS.gif) WIP- Quite a lot here mostly banners gradients through cssclass etc
+- [MySnippets plugin](https://i.imgur.com/5E0LyO0.png) - make menu wider and fix button style/order
+- Obsidian Buttons plugin - alignments
+- Task progressbars - alignments and colours
+- [Collapsible Right Headers](https://i.imgur.com/xFdbIwe.gif)
+- [Compact File Explorer with chevrons on right](https://i.imgur.com/9d4UTLb.png)
+- Compact Tab Header icons - moar space plz
+- [Custom Separators](https://i.imgur.com/9d4UTLb.png) - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
+- File Explorer tweaks
+- Frontmatter tweaks (styling, fixes for `editor syntax highlighter plugin`)
+- Hide Ribbon - guess what this does
+- [Compact Outliner styles](https://i.imgur.com/RgTxA7s.png) with chevron on right
+- Resize Handles - more muted theme colours
+- Status bar tweaks - more visible text on dark theme 
+- Tabs Tweaks - Tabs suck in Obsidian at the moment, they are not very visible so here are attempts to improve this, WIP
+- View Header Tweaks - probably icon colours and stuff for use with `Commander` plugin
+
 ## My environment
 
 
