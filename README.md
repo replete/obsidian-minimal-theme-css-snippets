@@ -14,7 +14,7 @@ The Minimal Theme has a set of light and dark colour schemes, but the variables 
 - [Custom Daily Note styles](https://i.imgur.com/R28YXn9.png) (WIP)
 - Dashboard styles (WIP)
 - [Calendar Plugin tweaks](https://i.imgur.com/xFdbIwe.gif)
-- Checklist plugin tweaks - mostly compact view (WIP)
+- [Checklist plugin tweaks](https://i.imgur.com/51Lvbbh.png) - Compact view (for tag mode users)
 - [Database Folder plugin tweaks](https://i.imgur.com/G4TfL3w.png) - compact view
 - [Day Planner plugin tweaks](https://i.imgur.com/xFdbIwe.gif) - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes
 - Full Calendar plugin tweaks - WIP, pretty hacky and I stopped using this plugin at the moment

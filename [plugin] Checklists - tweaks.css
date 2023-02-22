@@ -1,26 +1,112 @@
 /*
-    Checklists plugin tweaks (mostly alignment)
+    Checklists plugin Compact tweaks
+    I'm using tags for this plugin, and haven't tested other views
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
+.workspace .view-content:has(.checklist-plugin-main) {
+    padding:0
+}
+
 .workspace .view-content .checklist-plugin-main {
-    padding:8px
+    padding:0 6px 0 8px;
+}
+
+.workspace .view-content .checklist-plugin-main .group {
+    margin-bottom:0;
+    border:none
 }
 
 .workspace .view-content .checklist-plugin-main .group-header {
     padding-left:8px;
+    margin-bottom:0;
+}
+
+.workspace .view-content .checklist-plugin-main .group-header .space {
+    /* order:3; */
+    display:none
+}
+
+.workspace .view-content .checklist-plugin-main .group-header .collapse {
+    margin-left:-2px
+}
+
+.workspace .view-content .checklist-plugin-main .group-header .count {
+    /* order:1; */
+    /* border:1px solid red; */
+    /* width:1em; */
+    display:none;
+}
+
+.workspace .view-content .checklist-plugin-main .group-header .title {
+    /* border:1px solid var(--divider-color); */
+    font-size:13px;
+}
+
+.workspace .view-content .checklist-plugin-main .group-header .title span {
+    color:var(--tx2)
+}
+.workspace .view-content .checklist-plugin-main .group-header .title span:last-of-type {
+    color:var(--tx1);
+    font-weight:600;
+    text-indent:0.1em
 }
 
 .workspace .view-content .checklist-plugin-main .settings-container svg {
     transform: scale(0.75);
+    opacity:0.3;
+}
+
+
+.workspace .view-content .checklist-plugin-main .group-header:has(.left) {
+    opacity:0.5
+}
+
+.workspace .view-content .checklist-plugin-main ul li {
+    align-items:flex-start;
+    margin: 8px 0;
 }
 
 .workspace .view-content .checklist-plugin-main ul p {
-    margin-top:4px;
-    margin-bottom:4px;
+    margin:0;
+    font-size:13px;
+    color: var(--tx2);
+    line-height:1.35em;
+    padding-bottom:4px;
+    color:var(--tx1)
 }
 
 .workspace .view-content .checklist-plugin-main ul .toggle {
-    padding-top:3px;
-    padding-top:3px;
+    padding:0 6px 0 8px;
+    margin:0;
+    height:auto !important;
+}
+
+.workspace .view-content .checklist-plugin-main .toggle .checkbox {
+    border-color:var(--tx2);
+    height:16px !important;
+    width:16px !important;
+    min-height:auto;
+    min-width:auto;
+    transform:translate(0,0px)
+}
+
+.workspace .view-content .checklist-plugin-main input.search {
+    margin:0
+}
+
+.workspace .view-content .checklist-plugin-main input.search {
+}
+
+.workspace .view-content .checklist-plugin-main input.search:focus {
+    box-shadow: none !important
+}
+
+.workspace .view-content .checklist-plugin-main input.search::placeholder {
+    color:var(--tx3);
+    opacity:0.4;
+}
+
+.workspace .view-content .checklist-plugin-main > .container {
+    margin-bottom:0;
 }
