@@ -64,9 +64,6 @@ I use Obsidian every day so if something breaks I am likely to fix it - but ther
 
 Obsidian is that it is a commercial product still in heavy development and things will inevitably break. Some popular features only exist within complex configurations of discrete open source extensions to the core product, varied in quality and orchestration. This repository is for other hackers, it's all a stop gap and I cannot make wide promises of support, but because I'm using it every day I'm likely to make improvements.
 
-If a new version is released, I will tag the repo at the last version (e.g. `v1.1.18`, and commits after that will be for the next version (e.g. 'v1.1.19'). I'll update my plugins regularly so fixes will come as and when as new commits.
-
-# Bonus
-I forked the abandoned Day Planner plugin and [added some handy features](https://github.com/replete/obsidian-day-planner). The snippet in this repository goes well with it, pictured above in the screenshot.
+If a new version is released, I will tag the repo at the last version (e.g. `v1.1.18`, and commits after that will be for the next version (e.g`. 'v1.1.19'). I'll update my plugins regularly so fixes will come as and when as new commits.
 
 <a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=6a8695&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00"></a>
