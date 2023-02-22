@@ -3,9 +3,26 @@
     Quite a lot of tweaks here, make.md is great and I really like the banner functionality.
     There are tweaks for 'spaces' here, but I gave up on spaces and disabled the feature
     https://github.com/replete/obsidian-minimal-theme-css-snippets
+    
+    cssclass frontmatter options
+    meta-short       hides/shows properties on hover/target
+    banner-short    short banner
+    banner-tall     tall banner
+    banner-muted    less visually prominent banner, desaturated on light themes
+    banner-blur     blurred banner image
+    banner-top      align banner image to top
+    banner-bottom   align banner image to bottom
+    hide-tags       Hides tags from top
+    hide-meta       Hide meta view entirely in live preview mode
+
 */
 
 /***** HEADER ******/
+
+/* cssclass: hide-meta */
+.is-live-preview.hide-meta .mk-header {
+    display:none !important;
+}
 
 /* Hide filename editor in banner */
 .mk-note-header + .mk-file-context-component .mk-file-context-file {
@@ -29,6 +46,16 @@
     right:10px;
     top:15px;
 }
+
+/* cssclass: Hide tags */
+.mk-note-header + .mk-file-context-component .mk-tag-selector {
+display:none
+}
+
+/* cssclass: Hide meta in preview */
+.mk-note-header + .mk-file-context-component .mk-tag-selector {
+    display:none
+    }
 
 /* Make field values less visible */
 .mk-file-context-value input {
@@ -74,15 +101,6 @@
 /* Hide empty last spacer div */
 .mk-header .mk-file-context-section + div:empty {
     display:none;
-}
-
-/* cssclass override: hide header until hover */
-.cm-s-obsidian.hide-meta .mk-header .mk-file-context-component{
-    opacity:0;
-    transition: .2s opacity ease-in;
-}
-.cm-s-obsidian.hide-meta .mk-header:hover .mk-file-context-component{
-    opacity:1;
 }
 
 /* cssclass override: short banner */
@@ -163,12 +181,6 @@
 .is-live-preview.meta-short .cm-content > .mk-header:focus-within .mk-file-context-section {
     opacity:1;
     height:auto;
-}
-
-/* cssclass override: blend banner image to background */
-.cm-s-obsidian.banner-blend .mk-note-header img {
-    background: url()
-
 }
 
 /* cssclass override: blend banner image to background */
