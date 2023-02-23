@@ -4,8 +4,6 @@
 
 This is my working folder of CSS snippets for Obsidian using [@kepano](https://github.com/kepan)'s [Minimal Theme](https://github.com/kepano/obsidian-minimal). There are opinionated tweaks and fixes for various plugins and aspects of Obsidian's UI organized into separate CSS files.
 
-The Minimal Theme has a set of light and dark colour schemes, but the variables used for these have varying contrast and so there are a few colour schemes which don't look great, but I've aimed to make them work across most of them. I particularly like Gruvbox, Ayu, and Default, and quite a few others are similar and look around the same - but it's not going to cover every single colour scheme.
-
 ### Feature Highlights
 
 - Sensible Typography (through `cssclass`) (WIP)

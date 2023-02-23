@@ -7,7 +7,6 @@
 .cm-task-progress-bar.with-number{
     /* background-color: red; */
 }
-
 .cm-task-progress-bar.with-number .progress-status {
     /* background-color: blue; */
     color:var(--tx2);
@@ -18,7 +17,6 @@
     /* letter-spacing:0.04em; */
     width:4em;
 }
-
 
 .HyperMD-header .cm-task-progress-bar {
     pointer-events:none;
@@ -36,22 +34,20 @@
 
 /* background color */
 .HyperMD-header .cm-task-progress-bar .progress-bar-inline-background {
-    background-color: var(--divider-color) !important;
+    background-color: var(--background-modifier-hover) !important;
+    opacity:0.5
 }
 
 /* complete state */
-
 .cm-task-progress-bar .progress-bar-inline-4 {
-display:none
+    display:none
 }
 .cm-task-progress-bar:has(.progress-bar-inline-4)::after {
     content:'✓';
     position:absolute;
-
     top:50%;
     color: var(--tx2);
     font-size:24px;
-    /* color:var(--color-green); */
     line-height: 1em;
     transform:translate(-4px, -8px)
 }

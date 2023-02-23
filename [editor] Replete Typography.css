@@ -44,7 +44,7 @@
     --h6-variant: normal !important;
 }
 
-h5, 
+/* h5, 
 .markdown-rendered h5, 
 .HyperMD-header-5, 
 .HyperMD-list-line .cm-header-5 {
@@ -58,7 +58,7 @@ h6,
 .HyperMD-list-line .cm-header-6 {
     text-transform: uppercase;
     letter-spacing:0.05em
-}
+} */
 
 /* Quotes */
 .HyperMD-quote {

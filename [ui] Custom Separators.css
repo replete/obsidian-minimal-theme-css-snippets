@@ -11,19 +11,19 @@
 }
 
 /* Separator below */
+.nav-folder-children > [class*=nav-]:has([data-path="Scratchpad.md"])::after,
 .nav-folder-children > [class*=nav-]:has([data-path="Archive"])::after
 {
     content:'';
     display:block;
     height:1px;
     width:100%;
-    background:linear-gradient(to right, var(--divider-color), transparent);
+    background:linear-gradient(to right, var(--background-modifier-border), transparent);
     margin:var(--nav-separator-hack-padding) 0 var(--nav-separator-hack-padding) -8px;
 }
 
 /* Separator above */
 .nav-folder-children > [class*=nav-]:has([data-path="Daily"])::before,
-.nav-folder-children > [class*=nav-]:has([data-path="Scratchpad.md"])::before,
 .nav-folder-children > [class*=nav-]:has([data-path="People"])::before,
 .nav-folder-children > [class*=nav-]:has([data-path="Archive"])::before
 {
@@ -31,7 +31,7 @@
     display:block;
     height:1px;
     width:100%;
-    background:linear-gradient(to right, var(--divider-color), transparent);
+    background:linear-gradient(to right, var(--background-modifier-border), transparent);
     margin:var(--nav-separator-hack-padding) 0 var(--nav-separator-hack-padding) -8px;
 }
 

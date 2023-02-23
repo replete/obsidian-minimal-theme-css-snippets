@@ -25,12 +25,93 @@
     text-transform:none !important
 }
 
+/* h3 styles */
+.dailynote .cm-header-3 {
+    font-size:18px !important;
+    letter-spacing: 0.05em;
+    color:var(--tx2) !important;
+    text-transform:uppercase;
+}
+.dailynote:not(.is-live-preview) .cm-header-3,
+.dailynote .cm-focused .cm-active .cm-header-3 {
+    text-transform:none !important
+}
 
-/* Fix task progressbar  for heading */
+/* h4 styles */
+.dailynote .cm-header-4 {
+    font-size:16px !important;
+    color:var(--tx3) !important;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+}
+.dailynote:not(.is-live-preview) .cm-header-4,
+.dailynote .cm-focused .cm-active .cm-header-4 {
+    text-transform:none !important
+}
+.dailynote .HyperMD-header-4 {
+    padding-top:0 !important;
+    padding:.4em 0 !important
+}
+.dailynote .HyperMD-header-4 .cm-task-progress-bar:has(.progress-bar-inline-4)::after {
+    color:var(--tx3)
+}
+
+/* h5 styles */
+.dailynote .cm-header-5 {
+    font-size:14px !important;
+    color:var(--tx3) !important;
+    text-transform:uppercase;
+    font-weight:400;
+    letter-spacing:0.15em;
+}
+.dailynote:not(.is-live-preview) .cm-header-5,
+.dailynote .cm-focused .cm-active .cm-header-5 {
+    text-transform:none !important;
+    letter-spacing:0;
+}
+.dailynote .HyperMD-header-5 {
+    padding-top:0 !important;
+    /* padding:.4em 0 !important */
+}
+.dailynote .HyperMD-header-5 .cm-task-progress-bar {
+    transform:scale(0.7);
+    transform-origin:0;
+}
+.dailynote .HyperMD-header-5 .cm-task-progress-bar:has(.progress-bar-inline-4)::after {
+    color:var(--tx3)
+}
+
+
+/* Callouts */
+
+.dailynote .callout {
+    padding:.5em .75em
+}
+
+.dailynote .callout .callout-content ul {
+    padding-left:0;
+}
+/* Callouts task list fix */
+.dailynote .callout .callout-content li[data-task] {
+    padding-inline-start:var(--list-indent)
+}
+
+.dailynote .callout .callout-content li[data-task] .task-list-item-checkbox {
+    margin-left: -22px;
+    transform: translate(-4px, 0)
+}
+
+
+/* Fix task progressbar for headings */
 .dailynote .HyperMD-header-1 .cm-task-progress-bar {
     transform:translate(0, -3px) !important
 }
 
 .dailynote .HyperMD-header-2 .cm-task-progress-bar {
     transform:translate(0, -2px) !important
+}
+
+.dailynote .HyperMD-header-4 .cm-task-progress-bar {
+    transform: translate(0, -2px) scale(0.8);
+    transform-origin: 0
 }
