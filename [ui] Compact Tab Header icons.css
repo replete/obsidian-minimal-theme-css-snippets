@@ -9,13 +9,13 @@
 }
 
 .workspace-tab-header-inner{
-    padding-left:3px;
-    padding-right:3px;
+    padding-left:2px;
+    padding-right:2px;
 }
 .nav-header {
-    padding-top:8px;
+    /* padding-top:8px;
     padding-bottom:4px;
-    padding-left:9px;
+    padding-left:9px; */
 }
 .nav-buttons-container {
     justify-content:start !important;

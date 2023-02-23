@@ -6,10 +6,19 @@
 */
 
 /* Workspace: Sidebar navigation */
-
-.nav-files-container {
-
+[data-type=file-explorer] .nav-header {
+    padding-left:13px;
 }
+
+[data-type=file-explorer] .nav-header .nav-buttons-container {
+    opacity:0.7;
+    transition: .2s opacity ease-in;
+}
+
+[data-type=file-explorer] .nav-header .nav-buttons-container:hover {
+    opacity:1;
+}
+
 .nav-folder-collapse-indicator {
     order:4;
     padding-left:3px;
@@ -20,7 +29,7 @@
 }
 .nav-file-title,
 .nav-folder-title {
-    padding-left:4px;
+    /* padding-left:4px; */
     padding-right:4px;
 }
 .nav-file,
@@ -63,5 +72,5 @@
 
 /* Align vault title */
 body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-content {
-    margin-left:-4px;
+    margin-left:-3px;
 }

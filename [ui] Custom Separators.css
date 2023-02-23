@@ -7,7 +7,8 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 :root {
-    --nav-separator-hack-padding: 4px;
+    --nav-separator-hack-vertical-padding: 4px;
+    --nav-separator-hack-left-margin: -12px;
 }
 
 /* Separator below */
@@ -19,7 +20,7 @@
     height:1px;
     width:100%;
     background:linear-gradient(to right, var(--background-modifier-border), transparent);
-    margin:var(--nav-separator-hack-padding) 0 var(--nav-separator-hack-padding) -8px;
+    margin:var(--nav-separator-hack-vertical-padding) 0 var(--nav-separator-hack-vertical-padding) var(--nav-separator-hack-left-margin);
 }
 
 /* Separator above */
@@ -32,7 +33,7 @@
     height:1px;
     width:100%;
     background:linear-gradient(to right, var(--background-modifier-border), transparent);
-    margin:var(--nav-separator-hack-padding) 0 var(--nav-separator-hack-padding) -8px;
+    margin:var(--nav-separator-hack-vertical-padding) 0 var(--nav-separator-hack-vertical-padding) var(--nav-separator-hack-left-margin);
 }
 
 
@@ -44,5 +45,5 @@
     height:1px;
     width:100%;
     background:linear-gradient(to right, var(--divider-color), transparent);
-    margin:0 0 var(--nav-separator-hack-padding) -8px;
+    margin:0 0 var(--nav-separator-hack-vertical-padding) -8px;
 } */
