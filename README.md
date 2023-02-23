@@ -28,6 +28,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 - File Explorer tweaks
 - Frontmatter tweaks (styling, fixes for `editor syntax highlighter plugin`)
 - Hide Ribbon - guess what this does
+- [Hide Vault Title in Left Sidebar](https://i.imgur.com/LU98mhD.png)
 - [Compact Outliner styles](https://i.imgur.com/RgTxA7s.png) with chevron on right
 - Resize Handles - more muted theme colours
 - Status bar tweaks - more visible text on dark theme 
