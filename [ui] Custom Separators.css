@@ -19,7 +19,7 @@
     display:block;
     height:1px;
     width:calc(100% + 32px);
-    background:var(--bg3);
+    background:var(--tab-outline-color);
     margin:var(--replete-custom-separators-vertical-padding) 0 var(--replete-custom-separators-vertical-padding) var(--replete-custom-separators-left-margin);
 }
 
@@ -32,7 +32,7 @@
     display:block;
     height:1px;
     width:calc(100% + 32px);
-    background:var(--bg3);
+    background:var(--tab-outline-color);
     margin:var(--replete-custom-separators-vertical-padding) 0 var(--replete-custom-separators-vertical-padding) var(--replete-custom-separators-left-margin);
 }
 
@@ -44,6 +44,6 @@
     display:block;
     height:1px;
     width:calc(100% + 32px);
-    background:var(--bg3);
+    background:var(--tab-outline-color);
     margin:0 0 var(--replete-custom-separators-vertical-padding) var(--replete-custom-separators-left-margin);
 } */

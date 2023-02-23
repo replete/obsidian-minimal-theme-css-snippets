@@ -34,9 +34,3 @@
 .nav-buttons-container .view-actions:hover .clickable-icon {
     color: var(--tx1) !important;
 }
-
-.nav-buttons-container .cmdr.clickable-icon{
-    /* background:var(--bg3) */
-    /* box-shadow:1px 1px 2px var(--bg3) */
-    /* color:var(--tx2) !important */
-}

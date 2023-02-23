@@ -19,7 +19,7 @@
     display:block;
     height:1px;
     width:100%;
-    background:linear-gradient(to right, var(--bg3), transparent);
+    background:linear-gradient(to right, var(--tab-outline-color), transparent);
     margin:var(--replete-custom-separators-vertical-padding) 0 var(--replete-custom-separators-vertical-padding) var(--replete-custom-separators-left-margin);
 }
 
@@ -32,7 +32,7 @@
     display:block;
     height:1px;
     width:100%;
-    background:linear-gradient(to right, var(--bg3), transparent);
+    background:linear-gradient(to right, var(--tab-outline-color), transparent);
     margin:var(--replete-custom-separators-vertical-padding) 0 var(--replete-custom-separators-vertical-padding) var(--replete-custom-separators-left-margin);
 }
 
