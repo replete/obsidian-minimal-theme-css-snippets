@@ -39,7 +39,7 @@
 }
 
 .workspace .view-content .checklist-plugin-main .group-header .title {
-    /* border:1px solid var(--divider-color); */
+    /* border:1px solid var(--background-modifier-border); */
     font-size:13px;
 }
 
