@@ -8,13 +8,11 @@
     /* background-color: red; */
 }
 .cm-task-progress-bar.with-number .progress-status {
-    /* background-color: blue; */
     color:var(--tx2);
     font-weight:400;
     font-size:10px;
     position:absolute;
     transform:translate(-4px,-12px);
-    /* letter-spacing:0.04em; */
     width:4em;
 }
 

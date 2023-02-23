@@ -7,7 +7,7 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 :root {
-    --replete-custom-separators-vertical-padding: 6px;
+    --replete-custom-separators-vertical-padding: 4px;
     --replete-custom-separators-left-margin: -12px;
 }
 
@@ -18,8 +18,8 @@
     content:'';
     display:block;
     height:1px;
-    width:calc(100% + 32px);
-    background:var(--bg3);
+    width:100%;
+    background:linear-gradient(to right, var(--bg3), transparent);
     margin:var(--replete-custom-separators-vertical-padding) 0 var(--replete-custom-separators-vertical-padding) var(--replete-custom-separators-left-margin);
 }
 
@@ -31,8 +31,8 @@
     content:'';
     display:block;
     height:1px;
-    width:calc(100% + 32px);
-    background:var(--bg3);
+    width:100%;
+    background:linear-gradient(to right, var(--bg3), transparent);
     margin:var(--replete-custom-separators-vertical-padding) 0 var(--replete-custom-separators-vertical-padding) var(--replete-custom-separators-left-margin);
 }
 
@@ -43,7 +43,7 @@
     content:'';
     display:block;
     height:1px;
-    width:calc(100% + 32px);
-    background:var(--bg3);
+    width:100%;
+    background:linear-gradient(to right, var(--bg3), transparent);
     margin:0 0 var(--replete-custom-separators-vertical-padding) var(--replete-custom-separators-left-margin);
 } */

@@ -1,0 +1,9 @@
+/*
+    Hide Vault title in Left Sidebar
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.nav-folder-title[data-path="/"] {
+    display: none !important;
+    background:red;
+}
