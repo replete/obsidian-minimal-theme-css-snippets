@@ -6,8 +6,6 @@
 
 /* Make header title left justified */
 .view-header-title-container {
-    /* Override hover fade */
-    opacity:1;
     justify-content:start
 }
 .view-header-title-container .view-header-title {
