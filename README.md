@@ -12,7 +12,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 - Various Editor Tweaks (WIP)
 - [Custom Daily Note styles](https://i.imgur.com/R28YXn9.png) (WIP)
 - Dashboard styles (WIP)
-- [Calendar Plugin tweaks](https://i.imgur.com/xFdbIwe.gif)
+- [Calendar Plugin tweaks](https://i.imgur.com/1Jrvkbl.png)
 - [Checklist plugin tweaks](https://i.imgur.com/51Lvbbh.png) - Compact view (for tag mode users)
 - [Database Folder plugin tweaks](https://i.imgur.com/G4TfL3w.png) - compact view
 - [Day Planner plugin tweaks](https://i.imgur.com/xFdbIwe.gif) - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes
@@ -23,9 +23,9 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 - Obsidian Buttons plugin - alignments
 - Task progressbars - alignments and colours
 - [Collapsible Right Headers](https://i.imgur.com/xFdbIwe.gif)
-- [Compact File Explorer with chevrons on right](https://i.imgur.com/9d4UTLb.png)
+- [Compact File Explorer with chevrons on right](https://i.imgur.com/9Kizq2q.png)
 - Compact Tab Header icons - moar space plz
-- [Custom Separators](https://i.imgur.com/9d4UTLb.png) - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
+- [Custom Separators](https://i.imgur.com/9Kizq2q.png) - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
 - File Explorer tweaks
 - Frontmatter tweaks (styling, fixes for `editor syntax highlighter plugin`)
 - Hide Ribbon - guess what this does
