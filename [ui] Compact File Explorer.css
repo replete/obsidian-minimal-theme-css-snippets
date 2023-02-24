@@ -45,7 +45,7 @@
     height:1px;
     background-color: var(--nav-indentation-guide-color);
     position:absolute;
-    margin-left:-12px;
+    margin-left:-15px;
     z-index:-1;
 }
 .nav-folder.mod-root .nav-folder > .nav-folder-children {
@@ -57,7 +57,7 @@
 .nav-folder.mod-root .nav-file-title.is-active::before {
     width:8px;
 }
-.nav-folder.mod-root .nav-folder > .nav-folder-children::after {
+.nav-folder.mod-root .nav-folder > .nav-folder-children:has([class*=nav-])::after {
     /* covers up bottom of indent guide below last arm */
     content:'';
     display:block;
