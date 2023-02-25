@@ -8,7 +8,7 @@
     --replete-tag-radius: 3px;
 }
 
-/* Clean style tags */
+/* --- Clean style tags --- */
 /* .cm-hashtag {
     border-radius:0 !important;
     border:var(--replete-tag-border);
@@ -23,32 +23,57 @@
     border:var(--replete-tag-border) !important;
 } */
 
-/* Box styling if tag is in a list */
+/* --- Box styling if tag is in a list --- */
 .HyperMD-list-line .cm-hashtag {
     border:var(--replete-tag-border) !important;
-    background-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 10%), 0.2);
+    background-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 20%), 0.2);
     color:var(--tx4);
     display: inline-block;
     line-height:1em;
     transform: translate(0,-2px);
 }
 .theme-dark .HyperMD-list-line .cm-hashtag {
-    background-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) + 35%), 0.2);
+    background-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) + 40%), 0.2);
 }
+
+/* Hide pound sign without breaking dropdown UI hook */
 .HyperMD-list-line .cm-hashtag-begin {
-    width:0;
+    max-width:0;
     visibility:hidden;
 }
+
+/* main hashtag styling */
 .HyperMD-list-line .cm-hashtag-end {
     border:var(--replete-tag-border) !important;
     border-radius: var(--replete-tag-radius) !important;
-    padding: 3px 3px 4px 4px !important;
+    padding: 3px 3px 3px 4px !important;
     text-transform: uppercase !important;
     font-weight:600;
     font-size:10px;
     letter-spacing: 0.04em;
 }
 
+/* alternate styles when line is active for editing */
+.HyperMD-list-line.cm-active .cm-hashtag-end {
+    text-transform:none !important;
+    font-weight:500 !important;
+    font-size:11px;
+    letter-spacing:normal;
+    border-top-left-radius:0 !important;
+    border-bottom-left-radius:0 !important;
+}
+
+.HyperMD-list-line.cm-active .cm-hashtag-begin {
+    max-width:none;
+    width:0.6em;
+    font-size:11px;
+    font-weight:500 !important;
+    visibility: visible;
+    border-top-left-radius: var(--replete-tag-radius);
+    border-bottom-left-radius: var(--replete-tag-radius);
+    padding: 3px !important;
+    opacity:0.8;
+}
 
 /* GTD tags */
 .cm-tag-next {
@@ -61,6 +86,10 @@
 
 .cm-tag-waiting {
     color:var(--color-pink) !important;
+}
+
+.cm-tag-blocked {
+    color:var(--color-red) !important;
 }
 
 .cm-tag-done {
