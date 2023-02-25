@@ -43,10 +43,10 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 ## My environment
 
 
-- `MacOS 13.x`, ~~Mobile~~ 
+- `MacOS 13.2.1`, ~~Mobile~~ 
 - `Obsidian v1.1.15` (official Installer, homebrew unreliable)
-- `Minimal Theme v6.3`
-- Enabled plugins: `['templater-obsidian', 'dataview', 'calendar', 'settings-search', 'cmdr', 'periodic-notes', 'heatmap-calendar', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-minimal-settings', 'obsidian-custom-frames', 'open-vscode', 'quickadd', 'mysnippets-plugin', 'obsidian-day-planner', 'dbfolder', 'obsidian-tagfolder', 'no-dupe-leaves', 'cm-editor-syntax-highlight-obsidian', 'obsidian-toggle-list', 'custom-sort', 'obsidian-icon-folder', 'omnisearch', 'obsidian-task-progress-bar', 'table-editor-obsidian', 'obsidian-advanced-uri', 'auto-class', 'obsidian-checklist-plugin', 'make-md', 'nldates-obsidian', 'obsidian-tasks-plugin', 'folder-note-plugin', 'folder-note-core', 'obsidian-attachment-name-formatting', 'obsidian-tabs']`
+- `Minimal Theme v6.3.2`
+- Enabled plugins: `['templater-obsidian', 'dataview', 'calendar', 'settings-search', 'cmdr', 'periodic-notes', 'heatmap-calendar', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-minimal-settings', 'obsidian-custom-frames', 'open-vscode', 'quickadd', 'mysnippets-plugin', 'obsidian-day-planner', 'dbfolder', 'no-dupe-leaves', 'cm-editor-syntax-highlight-obsidian', 'obsidian-toggle-list', 'custom-sort', 'obsidian-icon-folder', 'omnisearch', 'obsidian-task-progress-bar', 'table-editor-obsidian', 'obsidian-advanced-uri', 'auto-class', 'obsidian-checklist-plugin', 'make-md', 'nldates-obsidian', 'folder-note-plugin', 'folder-note-core', 'obsidian-attachment-name-formatting', 'obsidian-tabs', 'obsidian-hotkeys-for-specific-files', 'card-board', 'obsidian-tasks-plugin']`
 ```js
 [...new Set(app.plugins.enabledPlugins)]
 ```
