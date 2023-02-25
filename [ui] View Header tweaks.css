@@ -17,7 +17,6 @@
 }
 
 .view-header {
-    /* box-shadow: 0 3px 3px -1px var(--shadow-color);*/
     background:linear-gradient(to bottom, transparent 90%, var(--bg2))
 }
 
