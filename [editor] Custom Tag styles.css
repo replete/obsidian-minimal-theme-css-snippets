@@ -1,0 +1,59 @@
+/*
+    Custom tag styles
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+:root {
+    --replete-tag-border: none;
+    --replete-tag-radius: 3px;
+}
+
+/* Clean style tags */
+/* .cm-hashtag {
+    border-radius:0 !important;
+    border:var(--replete-tag-border);
+}
+.cm-hashtag-begin {
+    padding-left:var(--replete-tag-padding-horizontal) !important;
+    border:var(--replete-tag-border) !important;
+}
+
+.cm-hashtag-end {
+    padding-right:var(--replete-tag-padding-horizontal) !important;
+    border:var(--replete-tag-border) !important;
+} */
+
+/* Box styling if tag is in a list */
+.HyperMD-list-line .cm-hashtag {
+    border:var(--replete-tag-border) !important;
+    background-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 10%), 0.2);
+    color:var(--tx4);
+    display: inline-block;
+    line-height:1em;
+    transform: translate(0,-2px);
+}
+.theme-dark .HyperMD-list-line .cm-hashtag {
+    background-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) + 35%), 0.2);
+}
+.HyperMD-list-line .cm-hashtag-begin {
+    display:none;
+}
+.HyperMD-list-line .cm-hashtag-end {
+    border:var(--replete-tag-border) !important;
+    border-radius: var(--replete-tag-radius) !important;
+    padding: 3px 3px 4px 4px !important;
+    text-transform: uppercase !important;
+    font-weight:600;
+    font-size:10px;
+    letter-spacing: 0.04em;
+}
+
+
+/* GTD tags */
+.cm-tag-next {
+    color:var(--color-accent-1) !important;
+}
+
+.cm-list-1 {
+    /* background:pink; */
+}
