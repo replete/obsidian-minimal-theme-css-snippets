@@ -16,10 +16,10 @@
     background:transparent;
 }
 ::-webkit-scrollbar-track:vertical {
-    background:linear-gradient(to right, transparent 50%, rgba(0,0,0,.08));
+    background:linear-gradient(to right, transparent 50%, hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 10%), 0.2));
 }
 ::-webkit-scrollbar-track:horizontal {
-    background:linear-gradient(to bottom, transparent 50%, rgba(0,0,0,.08));
+    background:linear-gradient(to bottom, transparent 50%, hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 10%), 0.2));
   }
 ::-webkit-scrollbar-thumb {
     background: var(--nav-indentation-guide-color);
