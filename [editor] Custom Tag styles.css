@@ -36,7 +36,8 @@
     background-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) + 35%), 0.2);
 }
 .HyperMD-list-line .cm-hashtag-begin {
-    display:none;
+    width:0;
+    visibility:hidden;
 }
 .HyperMD-list-line .cm-hashtag-end {
     border:var(--replete-tag-border) !important;
@@ -52,6 +53,18 @@
 /* GTD tags */
 .cm-tag-next {
     color:var(--color-accent-1) !important;
+}
+
+.cm-tag-someday {
+    color:var(--color-orange) !important;
+}
+
+.cm-tag-waiting {
+    color:var(--color-pink) !important;
+}
+
+.cm-tag-done {
+    color:var(--color-green) !important;
 }
 
 .cm-list-1 {
