@@ -6,6 +6,7 @@
 
 .cm-task-progress-bar.with-number{
     /* background-color: red; */
+    /* TODO maybe */
 }
 .cm-task-progress-bar.with-number .progress-status {
     color:var(--tx2);
@@ -32,11 +33,15 @@
 
 /* background color */
 .HyperMD-header .cm-task-progress-bar .progress-bar-inline-background {
-    background-color: var(--background-modifier-hover) !important;
+    background-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 10%), 0.8) !important;
     opacity:0.5
 }
 
-/* complete state */
+.theme-dark .HyperMD-header .cm-task-progress-bar .progress-bar-inline-background {
+    background-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) + 25%), 0.8) !important;
+}
+
+/* complete checkmark state */
 .cm-task-progress-bar .progress-bar-inline-4 {
     display:none
 }
