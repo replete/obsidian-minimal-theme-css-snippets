@@ -7,15 +7,13 @@
     --table-border-color: var(--text-faint);
 }
 
+/* Border color */
 .cm-s-obsidian .cm-table-widget th, 
 .cm-s-obsidian .cm-table-widget td{
     border-color: var(--table-border-color);
 }
 
-/* .cm-s-obsidian .cm-table-widget table {
-    border: 1px solid var(--table-border-color);
-} */
+/* Bold header row */
 .cm-s-obsidian .cm-table-widget th {
-    /* color:var(--text-dim); */
     font-weight:bold;
 }

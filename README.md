@@ -8,29 +8,29 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 ### Features
 - Editor:
     - [Custom Tag Styles](https://i.imgur.com/RX0aYtI.png)
+    - Editor fixes - gutter component alignments, general editor fixes
     - Typography fixes - alignment fixes for editor, headings, quotes etc
     - Table tweaks (WIP)
-    - Various Editor Tweaks (WIP)
-- Individual Note:
-    - [Custom Daily Note styles](https://i.imgur.com/R28YXn9.png) (WIP)
-    - Dashboard styles (WIP)
+- Note styles ('cssclass' frontmatter property note styles):
+    - [Daily Note styles](https://i.imgur.com/R28YXn9.png) (WIP)
+    - Dashboard styles (WIP) (empty atm)
 - Plugin:
     - [Calendar Plugin tweaks](https://i.imgur.com/1Jrvkbl.png)
     - [Checklist plugin tweaks](https://i.imgur.com/51Lvbbh.png) - Compact view (for tag mode users)
     - [Database Folder plugin tweaks](https://i.imgur.com/G4TfL3w.png) - compact view
     - [Day Planner plugin tweaks](https://i.imgur.com/xFdbIwe.gif) - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes
-    - Full Calendar plugin tweaks - WIP, pretty hacky and I stopped using this plugin at the moment
-    - [Heatmap Calendar tweaks](https://i.imgur.com/ndvRLIC.png) - mostly colours
-    - [Make.MD Tweaks](https://i.imgur.com/bn5bfMS.gif) WIP- Quite a lot here mostly banners gradients through cssclass etc
+    - Full Calendar plugin tweaks - (WIP) pretty hacky due to limits of styling hooks (I stopped using this plugin)
+    - [Heatmap Calendar tweaks](https://i.imgur.com/ndvRLIC.png) - colours and text styles for habit type use-case
+    - [Make.MD Tweaks](https://i.imgur.com/bn5bfMS.gif) - Quite a lot here mostly banner cssclass overrides
     - [MySnippets plugin](https://i.imgur.com/5E0LyO0.png) - make menu wider and fix button style/order
     - Obsidian Buttons plugin - alignments
-    - Task progressbars - alignments and colours
+    - [Task progressbars](https://i.imgur.com/eCGkkVD.png) - alignments and colours
+- Obsidian UI tweaks:
     - [Collapsible Right Headers](https://i.imgur.com/xFdbIwe.gif)
     - [Compact File Explorer with chevrons on right](https://i.imgur.com/9Kizq2q.png)
-    - Compact Tab Header icons - moar space plz
     - [Custom Separators](https://i.imgur.com/9Kizq2q.png) - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
-- Obsidian UI tweaks:
-    - File Explorer tweaks
+    - Custom Separators (gradient version)
+    - General fixes
     - Frontmatter tweaks (styling, fixes for `editor syntax highlighter plugin`)
     - Hide Ribbon - guess what this does
     - [Hide Vault Title in Left Sidebar](https://i.imgur.com/LU98mhD.png)

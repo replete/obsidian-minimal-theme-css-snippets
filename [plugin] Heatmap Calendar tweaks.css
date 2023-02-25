@@ -3,6 +3,7 @@
     Very basic styling tweaks, likely to change as I use it more
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
+
 .cm-s-obsidian .heatmap-calendar-boxes li {
     color:#000;
     text-align:center;
@@ -15,7 +16,7 @@
     box-shadow:inset 0 0 1px 0 rgba(255,255,255,1);
 }
 
-
+/* colour fixes */
 .heatmap-calendar-boxes .isEmpty {
     background-color: var(--bg3) !important;
 }

@@ -1,6 +1,6 @@
 /*
     Checklists plugin Ultra Compact styles
-    I'm using tags for this plugin, and haven't tested other views
+    Targeting 'classic' style option in UI with 'tags' mode
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
@@ -32,14 +32,10 @@
 }
 
 .workspace .view-content .checklist-plugin-main .group-header .count {
-    /* order:1; */
-    /* border:1px solid red; */
-    /* width:1em; */
     display:none;
 }
 
 .workspace .view-content .checklist-plugin-main .group-header .title {
-    /* border:1px solid var(--background-modifier-border); */
     font-size:13px;
 }
 
