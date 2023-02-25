@@ -58,9 +58,11 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 ![MySnippets plugin screenshot](_mysnippets-screenshot.png)
 3. Use what you like, dupe + hack what you don't
 
-## Someday/maybe
+## TODO:
+- [ ] Fix some colour inconsistencies across light/dark themes
 - [ ] Test/fix for Mobile Obsidian (likely near future)
-- [ ] Test/fix for Windows or Linux (less likely)
+- [ ] Test/fix for Windows
+- [ ] Test/fix for Linux
 
 ## Versions / updates
 
