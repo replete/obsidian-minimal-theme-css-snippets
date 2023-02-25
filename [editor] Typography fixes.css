@@ -62,11 +62,7 @@ h6,
 
 /* Quotes */
 .HyperMD-quote {
-    /* background: var(--bg2) !important; */
-    /* border:1px solid var(--bg3); */
     display:block !important;
-    /* padding-left:2em !important; */
-    /* padding: .5em 1em !important; */
 }
 .HyperMD-quote::before {
     opacity:0;
@@ -92,18 +88,4 @@ h6,
 .HyperMD-quote cite {
     color:var(--tx3);
     display: inline-block;
-    /* font-size:14px; */
 }
-
-/* .HyperMD-quote cite::after {
-    content:'”';
-    font-size:72px;
-    color:var(--tx3);
-    position:absolute;
-    right:0;
-    top:0;
-    opacity:0.3;
-    line-height:.2em;
-    transform:translate(0,15px);
-} */
-

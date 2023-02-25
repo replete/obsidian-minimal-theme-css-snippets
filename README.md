@@ -5,10 +5,10 @@
 
 This is my working folder of CSS snippets for Obsidian using [@kepano](https://github.com/kepan)'s [Minimal Theme](https://github.com/kepano/obsidian-minimal). There are opinionated tweaks and fixes for various plugins and aspects of Obsidian's UI organized into separate CSS files.
 
-### Feature Highlights
+### Features
 - Editor:
     - [Custom Tag Styles](https://i.imgur.com/RX0aYtI.png)
-    - 'Sensible' Typography (through `cssclass`) (WIP)
+    - Typography fixes - alignment fixes for editor, headings, quotes etc
     - Table tweaks (WIP)
     - Various Editor Tweaks (WIP)
 - Individual Note:
