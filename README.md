@@ -16,6 +16,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - Dashboard styles (WIP) (empty atm)
 - Plugin:
     - [Calendar Plugin tweaks](https://i.imgur.com/1Jrvkbl.png)
+    - [CardBoard plugin tweaks](https://i.imgur.com/yp7Hxvb.png)
     - [Checklist plugin tweaks](https://i.imgur.com/51Lvbbh.png) - Compact view (for tag mode users)
     - [Database Folder plugin tweaks](https://i.imgur.com/G4TfL3w.png) - compact view
     - [Day Planner plugin tweaks](https://i.imgur.com/xFdbIwe.gif) - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes

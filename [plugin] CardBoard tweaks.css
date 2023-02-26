@@ -1,0 +1,31 @@
+/*
+    Card Board plugin styles
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.card-board-tab-list {
+    padding-top:6px !important;
+}
+
+.card-board-tab-icon {
+    transform: translate(0, 2px);
+    position:absolute;
+    right:5px;
+    height:30px !important;
+}
+
+.card-board-tabs-inner {
+    color: var(--tx3) !important
+}
+
+.card-board-tabs-inner:hover {
+    color: var(--tx1) !important
+}
+
+.card-board-tab-title.is-active .card-board-tabs-inner {
+    color:var(--tx2) !important;
+}
+
+.card-board-boards {
+    padding-top:5px;
+}
