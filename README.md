@@ -37,8 +37,9 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - [Compact Outliner styles](https://i.imgur.com/RgTxA7s.png) with chevron on right
     - Resize Handles - more muted theme colours
     - Status bar tweaks - more visible text on dark theme 
+    - [Tab Title Bar Bottom](https://i.imgur.com/AfpZ58u.png) - Move the tab title bar to the bottom
     - Tabs Tweaks - (WIP) More classic style tabs to improve visibility of navigation
-    - View Header Tweaks - Fixes `Commander` plugin icons, condensed icons, tweaks
+    - Tab Title Bar tweaks - Fixes `Commander` plugin icons, condensed icons, tweaks
 
 ## My environment
 

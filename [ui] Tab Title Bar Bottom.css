@@ -1,0 +1,10 @@
+/*
+    Tab Title bar Bottom
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.view-header {
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}

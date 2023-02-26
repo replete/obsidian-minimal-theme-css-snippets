@@ -38,8 +38,9 @@
 
 /* Hide pound sign without breaking dropdown UI hook */
 .HyperMD-list-line .cm-hashtag-begin {
-    max-width:0;
+    width:0;
     visibility:hidden;
+    font-size:10px;
 }
 
 /* main hashtag styling */
@@ -64,7 +65,6 @@
 }
 
 .HyperMD-list-line.cm-active .cm-hashtag-begin {
-    max-width:none;
     width:0.6em;
     font-size:11px;
     font-weight:500 !important;
