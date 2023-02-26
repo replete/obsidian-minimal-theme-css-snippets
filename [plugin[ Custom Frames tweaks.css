@@ -1,0 +1,9 @@
+/*
+    Custom Frames plugin tweaks
+    Pretty much just removing the frame padding...
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.custom-frames-view webview {
+padding:0 !important;
+}

@@ -194,6 +194,12 @@ display:none
     overflow:hidden;
 }
 
+/* Hide banner in hover popover */
+.hover-popover .mk-header {
+    display:none;
+}
+
+
 
 /***** SPACES ******/
 
@@ -281,15 +287,6 @@ display:none
 /* Section heading text */
 .mk-section .mk-tree-text {
     color:var(--tx3) !important;
-}
-
-.mk-sidebar .mk-tree-item {
-    /* padding-top:0 !important;
-    padding-bottom:0; */
-}
-
-.mk-tree-wrapper .mk-tree-item[data-path*="/"] {
-    /* background-color: red !important; */
 }
 
 /* Fix top header padding alignment */

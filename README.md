@@ -31,6 +31,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - [Compact File Explorer with chevrons on right](https://i.imgur.com/9Kizq2q.png)
     - [Custom Separators](https://i.imgur.com/9Kizq2q.png) - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
     - Custom Separators (gradient version)
+    - Custom Frames tweaks - remove padding
     - General fixes
     - Frontmatter tweaks (styling, fixes for `editor syntax highlighter plugin`)
     - Hide Ribbon - guess what this does
