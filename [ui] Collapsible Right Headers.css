@@ -21,7 +21,9 @@
 }
 
 .mod-right-split .workspace-tabs + .workspace-tabs .workspace-tab-header-container:hover,
-.mod-right-split .workspace-tabs + .workspace-tabs .workspace-tab-header-container:focus-within {
+.mod-right-split .workspace-tabs + .workspace-tabs .workspace-tab-header-container:focus-within,
+body.is-grabbing .mod-right-split .workspace-tabs + .workspace-tabs .workspace-tab-header-container
+ {
     height:var(--header-height);
     background:var(--background-primary) !important;
 }
