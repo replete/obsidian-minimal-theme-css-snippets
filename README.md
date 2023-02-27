@@ -25,6 +25,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - [Make.MD Tweaks](https://i.imgur.com/bn5bfMS.gif) - Quite a lot here mostly banner cssclass overrides
     - [MySnippets plugin](https://i.imgur.com/5E0LyO0.png) - make menu wider and fix button style/order
     - Obsidian Buttons plugin - alignments
+    - [Quite Outline tweaks](https://i.imgur.com/XJHUfMk.png) - Remove rainbow colours to theme colors, re-arrange layout
     - [Task progressbars](https://i.imgur.com/eCGkkVD.png) - alignments and colours
 - Obsidian UI tweaks:
     - [Collapsible Right Headers](https://i.imgur.com/xFdbIwe.gif)

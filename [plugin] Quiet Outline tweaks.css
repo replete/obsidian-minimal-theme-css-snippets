@@ -1,0 +1,107 @@
+/*
+    Quiet Outline plugin tweaks
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.quiet-outline {
+    padding-bottom:0;
+}
+
+.view-content:has(.quiet-outline) {
+    padding:0 !important
+}
+
+.quiet-outline .function-bar .n-button {
+    order:2 !important
+}
+
+.quiet-outline .n-input-wrapper {
+}
+
+.quiet-outline .n-slider {
+    width: calc(100% - 20px);
+    margin-left:10px !important;
+    margin-bottom:8px !important;
+    margin-top:12px !important;
+}
+
+.quiet-outline .function-bar .n-input {
+    background-color: var(--background-secondary) !important;
+}
+.quiet-outline .function-bar .n-input__border,
+.quiet-outline .function-bar .n-input__state-border {
+    border:none !important;
+    box-shadow:none !important;
+}
+
+.quiet-outline .function-bar input {
+    box-shadow:none;
+}
+
+.quiet-outline .function-bar {
+    /* background: var(--background-secondary) !important; */
+    background: linear-gradient(to bottom, transparent 1%, var(--background-secondary) 15%);
+    position: fixed;
+    bottom:0;
+    padding: 6px 0;
+    z-index:1;
+    width:100%;
+    margin-bottom:0;
+}
+
+.quiet-outline .function-bar .n-button {
+    box-shadow:none !important;
+    opacity: 0.6;
+    transform: scale(0.8);
+}
+
+.quiet-outline .function-bar .n-button__border {
+    border:0 !important;
+}
+
+.quiet-outline .n-tree {
+    padding: 2px;
+    padding-bottom: 40px;
+}
+
+.quiet-outline .n-config-provider {
+    display: flex;
+}
+
+.quiet-outline code {
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.quiet-outline .n-tree-node.located p {
+    color: var(--tx1)
+}
+
+/* Make bright colours fit theme instead of user-selectable */
+.quiet-outline .n-slider[style] {
+    --replete-subdued-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 10%), 0.7) !important;
+    --n-fill-color: var(--tx3) !important;
+    --n-fill-color-hover: var(--tx3) !important;
+    --n-dot-border: 2px solid var(--replete-subdued-color) !important;
+    --n-dot-border-active: 2px solid var(--tx3) !important;
+    --n-rail-color: var(--replete-subdued-color) !important;
+    --n-dot-color: var(--background-primary) !important;
+    --n-handle-color: var(--tx2) !important;
+}
+
+.theme-dark .quiet-outline .n-slider[style] {
+    --replete-subdued-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) + 20%), 1) !important;
+}
+
+.quiet-outline .n-input__placeholder {
+    color: var(--tx3);
+    opacity:0.6
+}
+
+.quiet-outline .n-tree-node-indent {
+    border-right-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 5%), 1) !important;
+}
+
+.theme-dark .quiet-outline .n-tree-node-indent {
+    border-right-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) + 15%), 1) !important;
+}
