@@ -58,7 +58,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 ## How to use
 
 1. Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork)/[unzip](https://github.com/replete/obsidian-minimal-theme-css-snippets/archive/refs/heads/main.zip) into `<your vault location>/.obsidian/snippets` 
-2. Install the `MySnippets` community plugin and activate snippets individually
+2. Install the `MySnippets` community [plugin](https://github.com/chetachiezikeuzor/MySnippets-Plugin) and activate snippets individually
 ![MySnippets plugin screenshot](_mysnippets-screenshot.png)
 3. Use what you like, dupe + hack what you don't
 
