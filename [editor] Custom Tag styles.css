@@ -40,6 +40,7 @@
 .HyperMD-list-line .cm-hashtag-begin {
     width:0;
     visibility:hidden;
+    display:none;
     font-size:10px;
 }
 
@@ -69,6 +70,7 @@
     font-size:11px;
     font-weight:500 !important;
     visibility: visible;
+    display:inline-block;
     border-top-left-radius: var(--replete-tag-radius);
     border-bottom-left-radius: var(--replete-tag-radius);
     padding: 3px !important;
