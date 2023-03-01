@@ -50,7 +50,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 - `MacOS 13.2.1`, ~~Mobile~~ 
 - `Obsidian v1.1.15` (official Installer, homebrew unreliable)
 - `Minimal Theme v6.3.2`
-- Enabled plugins: `['templater-obsidian', 'dataview', 'calendar', 'settings-search', 'cmdr', 'periodic-notes', 'heatmap-calendar', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-minimal-settings', 'obsidian-custom-frames', 'open-vscode', 'quickadd', 'mysnippets-plugin', 'obsidian-day-planner', 'dbfolder', 'no-dupe-leaves', 'cm-editor-syntax-highlight-obsidian', 'obsidian-toggle-list', 'custom-sort', 'obsidian-icon-folder', 'omnisearch', 'obsidian-task-progress-bar', 'table-editor-obsidian', 'obsidian-advanced-uri', 'auto-class', 'obsidian-checklist-plugin', 'make-md', 'nldates-obsidian', 'obsidian-attachment-name-formatting', 'obsidian-tabs', 'obsidian-hotkeys-for-specific-files', 'card-board', 'obsidian-tasks-plugin', 'folder-note-plugin', 'folder-note-core']`
+- Enabled plugins: `['templater-obsidian', 'dataview', 'calendar', 'settings-search', 'cmdr', 'periodic-notes', 'heatmap-calendar', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-minimal-settings', 'obsidian-custom-frames', 'open-vscode', 'quickadd', 'mysnippets-plugin', 'obsidian-day-planner', 'dbfolder', 'no-dupe-leaves', 'cm-editor-syntax-highlight-obsidian', 'obsidian-toggle-list', 'custom-sort', 'obsidian-icon-folder', 'omnisearch', 'obsidian-task-progress-bar', 'table-editor-obsidian', 'auto-class', 'make-md', 'nldates-obsidian', 'obsidian-attachment-name-formatting', 'obsidian-tabs', 'obsidian-hotkeys-for-specific-files', 'obsidian-tasks-plugin', 'folder-note-plugin', 'obsidian-hover-editor', 'file-explorer-note-count', 'obsidian-quiet-outline', 'obsidian-fullscreen-plugin']`
 ```js
 [...new Set(app.plugins.enabledPlugins)]
 ```
@@ -58,7 +58,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 ## How to use
 
 1. Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork)/[unzip](https://github.com/replete/obsidian-minimal-theme-css-snippets/archive/refs/heads/main.zip) into `<your vault location>/.obsidian/snippets` 
-2. Install the `MySnippets` community plugin by [@chetachiezikeuzor](https://github.com/chetachiezikeuzor) and activate snippets individually
+2. Install the `MySnippets` community plugin and activate snippets individually
 ![MySnippets plugin screenshot](_mysnippets-screenshot.png)
 3. Use what you like, dupe + hack what you don't
 
