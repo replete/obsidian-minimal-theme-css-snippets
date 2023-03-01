@@ -26,14 +26,14 @@
 /* --- Box styling if tag is in a list --- */
 .HyperMD-list-line .cm-hashtag {
     border:var(--replete-tag-border) !important;
-    background-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 20%), 0.2);
+    background-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 20%), 0.3);
     color:var(--tx4);
     display: inline-block;
     line-height:1em;
     transform: translate(0,-2px);
 }
 .theme-dark .HyperMD-list-line .cm-hashtag {
-    background-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) + 40%), 0.2);
+    background-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) + 40%), 0.4);
 }
 
 /* Hide pound sign without breaking dropdown UI hook */
