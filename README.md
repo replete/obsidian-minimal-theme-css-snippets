@@ -8,7 +8,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 ### Features
 - Editor:
     - [Custom Tag Styles](https://i.imgur.com/Zc9DLFa.png)
-    - Editor fixes - gutter component alignments, general editor fixes
+    - Editor fixes - gutter component alignments, general editor fixes, less visible indentation guide
     - Typography fixes - alignment fixes for editor, headings, quotes etc
     - Table tweaks (WIP)
 - Note styles ('cssclass' frontmatter property note styles):
