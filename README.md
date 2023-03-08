@@ -48,9 +48,9 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 
 
 - `MacOS 13.2.1`, ~~Mobile~~ 
-- `Obsidian v1.1.15` (official Installer, homebrew unreliable)
+- `Obsidian v1.1.16` (official Installer, homebrew unreliable)
 - `Minimal Theme v6.3.2`
-- Enabled plugins: `['templater-obsidian', 'dataview', 'calendar', 'settings-search', 'cmdr', 'periodic-notes', 'heatmap-calendar', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-minimal-settings', 'obsidian-custom-frames', 'open-vscode', 'quickadd', 'mysnippets-plugin', 'obsidian-day-planner', 'dbfolder', 'no-dupe-leaves', 'cm-editor-syntax-highlight-obsidian', 'obsidian-toggle-list', 'custom-sort', 'obsidian-icon-folder', 'omnisearch', 'obsidian-task-progress-bar', 'table-editor-obsidian', 'auto-class', 'make-md', 'nldates-obsidian', 'obsidian-attachment-name-formatting', 'obsidian-tabs', 'obsidian-hotkeys-for-specific-files', 'obsidian-tasks-plugin', 'folder-note-plugin', 'obsidian-hover-editor', 'file-explorer-note-count', 'obsidian-quiet-outline', 'obsidian-fullscreen-plugin']`
+- Enabled plugins: `['templater-obsidian', 'dataview', 'calendar', 'settings-search', 'cmdr', 'periodic-notes', 'heatmap-calendar', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-minimal-settings', 'obsidian-custom-frames', 'open-vscode', 'quickadd', 'mysnippets-plugin', 'obsidian-day-planner', 'dbfolder', 'no-dupe-leaves', 'custom-sort', 'obsidian-icon-folder', 'omnisearch', 'auto-class', 'make-md', 'nldates-obsidian', 'obsidian-attachment-name-formatting', 'obsidian-tabs', 'obsidian-hotkeys-for-specific-files', 'folder-note-plugin', 'obsidian-hover-editor', 'file-explorer-note-count', 'obsidian-quiet-outline', 'obsidian-fullscreen-plugin', 'obsidian-checklist-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-list-callouts', 'obsidian-toggle-list', 'obsidian-excalidraw-plugin', 'obsidian-task-progress-bar', 'obsidian-custom-attachment-location', 'obsidian-smart-typography', 'obsidian-tasks-plugin', 'custom-classes']`
 ```js
 [...new Set(app.plugins.enabledPlugins)]
 ```
