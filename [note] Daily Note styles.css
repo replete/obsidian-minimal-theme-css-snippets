@@ -4,14 +4,18 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-/* navigation bar */
-.dailynote .HyperMD-header-1 + .cm-line .cm-link-alias {
-    color:var(--tx3) !important;
+/* Intro quote (requires: custom class plugin */
+.dailynote .intro-quote a {
+    text-decoration:none;
+    font-style:italic;
+    color: var(--tx3);
+    font-size:75%;
 }
 
-.dailynote .HyperMD-header-1 + .cm-line .cm-link-alias .cm-underline {
-    text-decoration:none;
+.dailynote .intro-quote a::before {
+    content:'– '
 }
+
 
 /* h2 styles */
 .dailynote .cm-header-2 {
