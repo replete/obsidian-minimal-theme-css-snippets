@@ -104,7 +104,6 @@
     position: absolute !important;
     font-size:12px;
     padding-bottom:0 !important;
-    /* background-color:var(--interactive-accent) !important; */
 }
 
 
@@ -150,9 +149,6 @@
     color: var(--tx3) !important;
 }
 
-
-#day-planner-timeline-container {
-}
 #day-planner-timeline-container::after {
     content:'';
     display:block;
@@ -192,8 +188,4 @@
 .status-bar-item.plugin-obsidian-day-planner .day-planner-progress-bar {
     background:var(--background-modifier-border);
     transform:translate(0, -1px);
-}
-
-.status-bar-item.plugin-obsidian-day-planner .day-planner-progress-value {
-    /* background:red; */
 }

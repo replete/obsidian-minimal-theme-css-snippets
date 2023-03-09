@@ -4,14 +4,13 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-/* Intro quote (requires: custom class plugin */
+/* Intro quote (requires 'custom class' plugin */
 .dailynote .intro-quote a {
     text-decoration:none;
     font-style:italic;
     color: var(--tx3);
     font-size:75%;
 }
-
 .dailynote .intro-quote a::before {
     content:'– '
 }
