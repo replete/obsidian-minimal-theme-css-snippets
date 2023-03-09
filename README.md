@@ -20,6 +20,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - [Checklist plugin tweaks](https://i.imgur.com/51Lvbbh.png) - Compact view (for tag mode users)
     - [Database Folder plugin tweaks](https://i.imgur.com/G4TfL3w.png) - compact view
     - [Day Planner plugin tweaks](https://i.imgur.com/xFdbIwe.gif) - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes
+    - Excalidraw plugin fixes - fix invisible UI in dark theme
     - Full Calendar plugin tweaks - (WIP) pretty hacky due to limits of styling hooks (I stopped using this plugin)
     - [Heatmap Calendar tweaks](https://i.imgur.com/ndvRLIC.png) - colours and text styles for habit type use-case
     - [Make.MD Tweaks](https://i.imgur.com/bn5bfMS.gif) - Quite a lot here mostly banner cssclass overrides

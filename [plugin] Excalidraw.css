@@ -1,0 +1,17 @@
+/*
+    Excalidraw plugin fixes
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/* app toolbar menu item color for dark themes */
+.theme-dark .excalidraw .App-toolbar .dropdown-menu-item  {
+    color:hsl( var(--base-h),var(--base-s), calc(var(--base-l) + 70%) ) !important;
+
+}
+
+/* toolbar background for dark themes */
+.theme-dark .excalidraw .ToolIcon .ToolIcon__icon:hover,
+.theme-dark .excalidraw .dropdown-menu-button:hover,
+.theme-dark .excalidraw .library-button:hover {
+    background-color:hsl( var(--base-h),var(--base-s), calc(var(--base-l) + 15%) ) !important;
+} 
