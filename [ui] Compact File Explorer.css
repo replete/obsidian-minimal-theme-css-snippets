@@ -104,3 +104,7 @@ body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-co
 }
        
 
+/* Make attachment folders less visible */
+.nav-files-container [data-path*=attachments] {
+    opacity:0.6;
+}
