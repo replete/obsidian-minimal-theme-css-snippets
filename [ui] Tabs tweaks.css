@@ -11,7 +11,7 @@
 } */
 
 .workspace-tab-header-container{
-    background:var(--bg2);
+    /* background:var(--bg2); */
     /* background: linear-gradient(to top, var(--bg2) 10%, var(--background-primary) 50%); */
 }
 /* header container on left */
@@ -59,11 +59,30 @@
     background:transparent !important;
 }
 
+/* Fixes border color in a small number of dark themes with unconventional divider colour contrast, e.g. macOS */
+.workspace-tab-header:not(.is-active) {
+    border-bottom-color:var(--tab-outline-color);
+}
+
 .workspace-tab-header:not(.is-active):hover {
     /* background:var(--bg3) !important; */
     /* background: linear-gradient(to top, var(--bg3) 4%, transparent 10%) !important; */
     /* box-shadow:inset 0 0 6px -3px var(--background-primary) !important; */
     /* background:blue !important */
+}
+
+/* Fix corner curve misalignment */
+.workspace-tab-header:last-of-type:is(.is-active)::after {
+    margin-right:-1px
+}
+
+/* KLUDGE: This is a proper hack to fix the tab next to the active one from 'appearing' as overlapping! */
+.workspace-tab-header.is-active + .workspace-tab-header::before{
+    background-color:var(--tab-outline-color);
+    width:1px;
+    height:48px;
+    left:-1px !important;
+    top: -22px !important;    
 }
 
 
