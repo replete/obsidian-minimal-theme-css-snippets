@@ -66,11 +66,11 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 ## TODO:
 - [ ] Fix some colour inconsistencies across light/dark themes
 - [ ] Test/fix for Mobile Obsidian (likely near future)
-- [x] Test/fix for Windows (no fixes needed!)
-- [ ] Test/fix for Linux
+- [x] Test/fix for Windows (no fixes needed at time)
+- [x] Test/fix for Linux (no fixes needed at time)
 
 ## Versions / updates
 
 This repo is updated frequently as I work on my own vault. I aim to keep my environment up to date. When a new Obsidian version breaks things (which hasn't happened yet), I'll tag a release for whatever the last good Obsidian or Minimal Theme version was before it broke, and subsequent commits will be fixes for the current version.
 
-<a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=6a8695&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00"></a>
+<a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
