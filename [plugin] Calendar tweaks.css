@@ -43,12 +43,17 @@
 #calendar-container .day.today {
     color:var(--text-bold);
     font-weight:700;
+    outline:2px solid var(--color-background-day-active);
 }
+.theme-dark #calendar-container .day.today {
+    outline:2px solid var(--tx3);
+}
+
 #calendar-container .day.today.active {
     /* color:var(--text-bright); */
 }
 #calendar-container .day:active {
-    background:var(--tx2)
+    background:var(--tx2);
 }
 #calendar-container .day.adjacent-month {
     /* color:var(--tx2) */
