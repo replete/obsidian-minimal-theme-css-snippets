@@ -82,6 +82,7 @@
     background:var(--bg2);
 }
 
+/* Fade graphic to make hover close button look less harsh */
 .workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner-close-button::before {
     content:'';
     display:block;
