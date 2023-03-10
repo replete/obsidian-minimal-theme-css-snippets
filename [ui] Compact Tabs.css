@@ -4,25 +4,12 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-/* Metrics */
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-container-inner {
-    padding:0;
-    margin: 6px 0 -3px 5px;
-}
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header {
-    padding-left:2px;
-    padding-right:3px;
-}
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header .workspace-tab-header-inner {
-    gap:0 !important;
-}
+/* uncomment for solid simple tabs */
 
-/* Hide tab separator bar */
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-inner::after {
-    display:none;
+/* .workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-container-inner {
+    padding:1px 0 0 5px;
+    margin: 5px 0 -5px 0;
 }
-
-/* Reset active tab style */
 .workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header.is-active {
     background: none;
     box-shadow: none;
@@ -32,11 +19,23 @@
     display:none;
 }
 
-/* Active tab style */
 .workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header.is-active .workspace-tab-header-inner {
     background: var(--background-modifier-hover);
     border-bottom-left-radius:0;
     border-bottom-right-radius:0;
+} */
+
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header {
+    padding-left:3px;
+    padding-right:3px;
+}
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header .workspace-tab-header-inner {
+    gap:0 !important;
+}
+
+/* Hide tab separator bar */
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-inner::after {
+    display:none;
 }
 
 /* Hover tab styles */
