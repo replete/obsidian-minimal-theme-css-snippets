@@ -53,23 +53,52 @@
     opacity:1;
 }
 
+/* Less prominent pinned icon */
 .workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header.is-active .workspace-tab-header-status-icon {
     opacity:0.6 !important;
 }
 
-/* Variable width tabs */
+/* Variable width tabs WIP */
 .workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-inner {
-    width:auto;
+    /* width:auto; */
 }
 .workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header {
-    width:auto;
+    /* width:auto;
     flex: none;
+    flex-shrink: 1;
+    max-width:25% */
 }
+
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-inner {
+}
+
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active) .workspace-tab-header-inner-close-button {
+    position:absolute;
+    right:8px;
+    margin-top:0px;
+}
+
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner-close-button {
+    background:var(--bg2);
+}
+
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner-close-button::before {
+    content:'';
+    display:block;
+    position:absolute;
+    background:linear-gradient(to right, transparent, var(--bg2)) !important;
+    right:100%;
+    height:1em;
+    width: 1em;
+    pointer-events:none;
+}
+
 
 /* Smaller buttons */
 .workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-inner-close-button,
 .workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-status-icon {
-    transform:scale(0.8);
+    transform:scale(0.9) translate(2px,1px);
+    transform-origin:center;
 }
 
 /* Smaller new tab button */
