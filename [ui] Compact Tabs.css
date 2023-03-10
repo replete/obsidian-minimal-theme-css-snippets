@@ -1,0 +1,82 @@
+/*
+    Commpact Tabs
+    Cleaner, smaller tabs with hidden buttons
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/* Metrics */
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-container-inner {
+    padding:0;
+    margin: 6px 0 -3px 5px;
+}
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header {
+    padding-left:2px;
+    padding-right:3px;
+}
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header .workspace-tab-header-inner {
+    gap:0 !important;
+}
+
+/* Hide tab separator bar */
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-inner::after {
+    display:none;
+}
+
+/* Reset active tab style */
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header.is-active {
+    background: none;
+    box-shadow: none;
+}
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header.is-active::before, 
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header.is-active::after {
+    display:none;
+}
+
+/* Active tab style */
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header.is-active .workspace-tab-header-inner {
+    background: var(--background-modifier-hover);
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+}
+
+/* Hover tab styles */
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner {
+    background: var(--bg2);
+}
+
+/* Hide buttons until hover */
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active) .workspace-tab-header-inner-close-button,
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active) .workspace-tab-header-status-icon {
+    opacity:0;
+}
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner-close-button,
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active):hover .workspace-tab-header-status-icon {
+    opacity:1;
+}
+
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header.is-active .workspace-tab-header-status-icon {
+    opacity:0.6 !important;
+}
+
+/* Variable width tabs */
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-inner {
+    width:auto;
+}
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header {
+    width:auto;
+    flex: none;
+}
+
+/* Smaller buttons */
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-inner-close-button,
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-status-icon {
+    transform:scale(0.8);
+}
+
+/* Smaller new tab button */
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-new-tab {
+    margin-left:4px;
+}
+.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-new-tab .clickable-icon {
+    transform:scale(0.8) translate(0,1px);
+}

@@ -30,6 +30,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 - Obsidian UI tweaks:
     - [Collapsible Right Headers](https://i.imgur.com/xFdbIwe.gif)
     - [Compact File Explorer with chevrons on right](https://i.imgur.com/9Kizq2q.png) - also makes attachment folders less visible
+    - [Compact Tabs](https://i.imgur.com/cPHuciG.png) - Compact variable-width tabs and more prominent styling
     - [Custom Separators](https://i.imgur.com/9Kizq2q.png) - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
     - Custom Separators (gradient version)
     - Custom Frames tweaks - remove padding
@@ -41,7 +42,6 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - Resize Handles - more muted theme colours
     - Status bar tweaks - more visible text on dark theme 
     - [Tab Title Bar Bottom](https://i.imgur.com/nedVJ5g.png) - Move the tab title bar to the bottom, vertical statusbar when right sidedock closed
-    - Tabs Tweaks - (WIP) More classic style tabs to improve visibility of navigation
     - Tab Title Bar tweaks - Fixes `Commander` plugin icons, condensed icons, tweaks
 
 ## My environment
