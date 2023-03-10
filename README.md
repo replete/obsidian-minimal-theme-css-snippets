@@ -7,16 +7,18 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 
 ### Features
 - Editor:
-    - [Custom Tag Styles](https://i.imgur.com/Zc9DLFa.png) (WIP)
+    - [Custom Tag Styles](https://i.imgur.com/Zc9DLFa.png)
     - Editor fixes - gutter component alignments, general editor fixes, less visible indentation guide
-    - Typography fixes - alignment fixes for editor, headings, quotes etc
+    - Frontmatter tweaks (styling, fixes for `editor syntax highlighter plugin`)
     - Table tweaks (WIP)
+    - Typography fixes - alignment fixes for editor, headings, quotes etc
 - Note styles ('cssclass' frontmatter property note styles):
     - [Daily Note styles](https://i.imgur.com/R28YXn9.png) (WIP)
 - Plugin:
     - [Calendar Plugin tweaks](https://i.imgur.com/1Jrvkbl.png)
     - [CardBoard plugin tweaks](https://i.imgur.com/yp7Hxvb.png)
     - [Checklist plugin tweaks](https://i.imgur.com/51Lvbbh.png) - Compact view (for tag mode users)
+    - Custom Frames tweaks - remove padding
     - [Database Folder plugin tweaks](https://i.imgur.com/G4TfL3w.png) - compact view
     - [Day Planner plugin tweaks](https://i.imgur.com/xFdbIwe.gif) - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes
     - Excalidraw plugin fixes - fix invisible UI in dark theme
@@ -25,24 +27,21 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - [Make.MD Tweaks](https://i.imgur.com/bn5bfMS.gif) - Quite a lot here mostly banner cssclass overrides
     - [MySnippets plugin](https://i.imgur.com/5E0LyO0.png) - make menu wider and fix button style/order
     - Obsidian Buttons plugin - alignments
-    - [Quite Outline tweaks](https://i.imgur.com/XJHUfMk.png) - Remove rainbow colours to theme colors, re-arrange layout
+    - [Outline tweaks](https://i.imgur.com/RgTxA7s.png) chevron on right, compact
+    - [Quiet Outline tweaks](https://i.imgur.com/XJHUfMk.png) - Remove rainbow colours to theme colors, re-arrange layout
     - [Task progressbars](https://i.imgur.com/eCGkkVD.png) - alignments and colours
 - Obsidian UI tweaks:
     - [Collapsible Right Headers](https://i.imgur.com/xFdbIwe.gif)
     - [Compact File Explorer with chevrons on right](https://i.imgur.com/9Kizq2q.png) - also makes attachment folders less visible
+    - Compact Tab Header - Compact view, fixes `Commander` plugin icon colours
     - [Compact Tabs](https://i.imgur.com/cPHuciG.png) - Compact variable-width tabs and more prominent styling
     - [Custom Separators](https://i.imgur.com/9Kizq2q.png) - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
     - Custom Separators (gradient version)
-    - Custom Frames tweaks - remove padding
-    - General fixes
-    - Frontmatter tweaks (styling, fixes for `editor syntax highlighter plugin`)
-    - Hide Ribbon - guess what this does
+    - Hide Ribbon
     - [Hide Vault Title in Left Sidebar](https://i.imgur.com/LU98mhD.png)
-    - [Compact Outliner styles](https://i.imgur.com/RgTxA7s.png) with chevron on right
     - Resize Handles - more muted theme colours
     - Status bar tweaks - more visible text on dark theme 
-    - [Tab Title Bar Bottom](https://i.imgur.com/nedVJ5g.png) - Move the tab title bar to the bottom, vertical statusbar when right sidedock closed
-    - Tab Title Bar tweaks - Fixes `Commander` plugin icons, condensed icons, tweaks
+    - [Tab Header on bottom](https://i.imgur.com/nedVJ5g.png) - Move the tab title bar to the bottom, vertical statusbar when right sidedock closed
 
 ## My environment
 
