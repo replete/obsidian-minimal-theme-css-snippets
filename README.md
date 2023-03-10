@@ -62,7 +62,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 3. Use what you like, dupe + hack what you don't
 
 ## TODO:
-- [ ] Fix some colour inconsistencies across light/dark themes
+- [x] Fix some colour inconsistencies across light/dark themes
 - [ ] Test/fix for Mobile Obsidian (likely near future)
 - [x] Test/fix for Windows (no fixes needed at time)
 - [x] Test/fix for Linux (no fixes needed at time)
