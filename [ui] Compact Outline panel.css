@@ -1,5 +1,5 @@
 /*
-    Outline
+    Compact outline panel
     This makes the outline view far more condensed and shifts the chevrons to where I prefer them on the right
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
@@ -16,7 +16,6 @@
 
 .mod-right-split .outline .tree-item-icon.collapse-icon {
     order:2;
-    /* background:red; */
     padding-left:2px;
     transform:scale(0.8) translate(0, -1px)
 }

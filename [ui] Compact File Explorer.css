@@ -108,3 +108,8 @@ body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-co
 .nav-files-container [data-path*=attachments] {
     opacity:0.6;
 }
+
+/* Fix flashing color */
+.is-flashing {
+    background-color: var(--tx3)
+}
