@@ -1,0 +1,104 @@
+/*
+    Make.MD Compact Spaces
+    This makes the Spaces panel more compact with chevron on right
+    (I don't use this anymore, if you fix it please submit PR)
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+
+*/
+/***** SPACES ******/
+
+/* Assumes compact view enabled */
+
+/* Shift collapse/expand to end of text */
+.mk-sidebar .mk-collapse {
+    order:1;
+}
+.mk-sidebar .mk-tree-text {
+    flex-grow:0 !important;
+}
+.mk-tree-item:hover {
+    align-items:right !important;
+}
+.mk-tree-item:hover .mk-folder-buttons {
+    order:1 !important;
+    flex-grow:1;
+    display:flex !important;
+    justify-content: end !important
+}
+
+/* Style collapse button */
+.mk-sidebar .mk-collapse svg {
+    transform:translate(-5px,1px) scale(0.9);
+    opacity:0.8
+    
+}
+.mk-sidebar .mk-collapse:hover {
+    background:transparent !important;
+}
+.mk-sidebar .mk-collapse:hover svg {
+    opacity:1;
+}
+
+/* Style section text */
+.mk-sidebar .mk-section-title .mk-tree-text{
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--text-muted);
+    font-size: var(--font-adaptive-smallest) !important;
+}
+
+/* sidebar header margins */
+.mk-sidebar .mk-flow-bar-compact {
+    margin-bottom:-15px;
+}
+
+/* Less prominent main menu-button */
+.mk-main-menu-button {
+    color:var(--tx2)
+}
+
+/* Move drag handle to right side */
+.mk-tree-wrapper > div {
+    display:inline-flex;
+}
+.mk-drag-handle {
+    order:2;
+    margin-left:-4px;
+}
+.mk-drag-handle svg {
+    transform:translate(3px,0)
+}
+.mk-tree-wrapper:hover:has(.mk-drag-handle:hover) .mk-folder-buttons {
+    display:none !important;
+}
+/* These styles are for the drag handle reposition: */
+    /* Tree margins */
+    .mk-tree-wrapper {
+        padding-left:15px !important;
+        padding-right:0;
+    }
+    /* section header text wrapper */
+    .mk-section-wrapper {
+        margin-left:-14px;
+    }
+
+    .mk-tree-wrapper .nav-file-title,
+    .mk-tree-wrapper .nav-folder-title {
+        margin-right:0;
+    }
+
+/* Section heading text */
+.mk-section .mk-tree-text {
+    color:var(--tx3) !important;
+}
+
+/* Fix top header padding alignment */
+.mk-flow-bar-compact {
+    padding-top:3px;
+}
+
+/* Section heading icon alignment */
+.mk-section-title:hover .mk-collapse svg {
+    transform: translate(-2px,-1px) scale(0.8);
+}
