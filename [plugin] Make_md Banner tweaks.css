@@ -15,16 +15,10 @@
     banner-blur     blurred banner image
     banner-top      align banner image to top
     banner-bottom   align banner image to bottom
-
 */
 
 /* cssclass: hide-meta */
 .is-live-preview.hide-meta .mk-header {
-    display:none !important;
-}
-
-/* Hide filename editor in banner */
-.mk-note-header + .mk-file-context-component .mk-file-context-file {
     display:none !important;
 }
 
@@ -54,7 +48,7 @@ display:none
 /* cssclass: Hide meta in preview */
 .mk-note-header + .mk-file-context-component .mk-tag-selector {
     display:none
-    }
+}
 
 /* Make field values less visible */
 .mk-file-context-value input {
