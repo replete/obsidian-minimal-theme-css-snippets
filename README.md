@@ -37,6 +37,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - [Compact File Explorer with chevrons on right](https://i.imgur.com/9Kizq2q.png) - also makes attachment folders less visible
     - Compact Tab Header - Compact view, fixes `Commander` plugin icon colours
     - [Compact Tabs](hhttps://i.imgur.com/uydwFMc.png) - Compact cleaner tabs, better for smaller screens
+    - [Compact Tabs (pill style)](https://i.imgur.com/SYaJkI9.png) - Firefox like pill tabs, looks a bit weird for me but you might like it
     - [Custom Separators](https://i.imgur.com/9Kizq2q.png) - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
     - Custom Separators (gradient version)
     - [Floating Tab Header](https://i.imgur.com/mAJuEpl.gif) - Save space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)
