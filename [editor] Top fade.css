@@ -1,0 +1,23 @@
+/*
+    Editor top fade
+    This is a visual tweak for use with Floating Tab Header or Tab Header on bottom snippets
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.cm-content::after {
+    content:'';
+    height:18px;
+    background:linear-gradient(to bottom, var(--background-primary), transparent);
+    left:0;
+    position:fixed;
+    top:0;
+    width:calc(100% - var(--scrollbar-size)); /* depends on var from Native Custom Scrollbars */
+    pointer-events:none;
+    z-index:100;
+    border-top:1px solid var(--background-primary)
+}
+
+/* Hide if there's a banner */
+.cm-content:has(.mk-header img)::after {
+    display:none
+}

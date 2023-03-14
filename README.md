@@ -11,6 +11,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - Editor fixes - gutter component alignments, general editor fixes, less visible indentation guide
     - Frontmatter tweaks (styling, fixes for `editor syntax highlighter plugin`)
     - Table tweaks (WIP)
+    - [Top Fade](https://i.imgur.com/Q0AYg0m.png) - Visual tweak to remove harsh edge of content when using one of the positional Tab Header snippets
     - Typography fixes - alignment fixes for editor, headings, quotes etc (WIP)
 - Note styles ('cssclass' frontmatter property note styles):
     - [Daily Note styles](https://i.imgur.com/R28YXn9.png) (WIP)
