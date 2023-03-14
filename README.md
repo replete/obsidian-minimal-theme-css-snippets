@@ -24,7 +24,8 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - Excalidraw plugin fixes - fix invisible UI in dark theme
     - Full Calendar plugin tweaks - pretty hacky due to limits of styling hooks (I stopped using this plugin)
     - [Heatmap Calendar tweaks](https://i.imgur.com/ndvRLIC.png) - colours and text styles for habit type use-case
-    - [Make.MD Tweaks](https://i.imgur.com/bn5bfMS.gif) - Quite a lot here mostly banner cssclass overrides
+    - [Make.MD Banner tweaks](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc (WIP)
+    - Make.MD Compact Spaces - use less space, like Compact File Explorer snippet
     - [MySnippets plugin](https://i.imgur.com/5E0LyO0.png) - make menu wider and fix button style/order
     - Obsidian Buttons plugin - alignments
     - [Outline tweaks](https://i.imgur.com/RgTxA7s.png) chevron on right, compact
