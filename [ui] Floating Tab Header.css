@@ -21,6 +21,7 @@
     /* border:1px solid hsla(var(--base-h), var(--base-s), var(--base-l), 1); */
     border:1px solid transparent;
     height:auto;
+    z-index:500; /* Fixes in excalidraw */
 }
 
 .view-header:hover,
@@ -48,4 +49,14 @@
 .view-header:focus-within .cmdr-adder {
     opacity:0.4;
     display:flex;
+}
+
+/* Excalidraw fix */
+[data-type="excalidraw"] .view-header .clickable-icon:not(:last-of-type){
+    display:none;
+    opacity:0;
+}
+[data-type="excalidraw"] .view-header:hover .clickable-icon:not(.view-header-icon) {
+    display:flex;
+    opacity:1;
 }
