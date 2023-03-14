@@ -64,8 +64,9 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 3. Use what you like, dupe + hack what you don't
 
 ## TODO:
-- [x] Fix some colour inconsistencies across light/dark themes
+- [ ] Fix the weird list item alignments that vary depending on file length
 - [ ] Test/fix for Mobile Obsidian (likely near future)
+- [x] Fix some colour inconsistencies across light/dark themes
 - [x] Test/fix for Windows (no fixes needed at time)
 - [x] Test/fix for Linux (no fixes needed at time)
 
