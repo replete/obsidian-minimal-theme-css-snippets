@@ -1,0 +1,50 @@
+/*
+    Floating Tab Header
+    With inline title enabled, it seems a waste to take up vertical space of the 'view header'
+    especially if you don't use the back/forward buttons or the breadcrumb, so this minifies
+    that interface into a float right toolbar.
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+
+/* Floating tab header styles */
+.view-header {
+    background:transparent !important;
+    border:none;
+    position:fixed;
+    top:9px;
+    right:10px; /* allow for scrollbar */
+    padding: 5px 5px;
+    justify-content:end;
+    border-radius: 8px;
+    /* border:1px solid hsla(var(--base-h), var(--base-s), var(--base-l), 1); */
+    border:1px solid transparent;
+    height:auto;
+}
+
+.view-header:hover,
+.view-header:focus-within {
+    border:1px solid var(--divider-color);
+    box-shadow: -2px 2px 6px -2px var(--divider-color);
+    background-color: var(--background-primary) !important;
+}
+
+/* Show/hide nav + breadcrumb interaction */
+.view-header-nav-buttons,
+.view-header-title-container,
+.view-header .cmdr-adder {
+    opacity:0;
+    display:none;
+}
+.view-header:hover :is(.view-header-nav-buttons, .view-header-title-container),
+.view-header:focus-within :is(.view-header-nav-buttons, .view-header-title-container){
+    opacity:1;
+    display:flex
+}
+
+/* Tweak commander '+' icon */
+.view-header:hover .cmdr-adder,
+.view-header:focus-within .cmdr-adder {
+    opacity:0.4;
+    display:flex;
+}

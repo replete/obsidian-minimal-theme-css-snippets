@@ -37,6 +37,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - [Compact Tabs](hhttps://i.imgur.com/uydwFMc.png) - Compact cleaner tabs, better for smaller screens
     - [Custom Separators](https://i.imgur.com/9Kizq2q.png) - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
     - Custom Separators (gradient version)
+    - [Floating Tab Header](https://i.imgur.com/mAJuEpl.gif) - Save space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)
     - Hide Ribbon
     - [Hide Vault Title in Left Sidebar](https://i.imgur.com/LU98mhD.png)
     - Resize Handles - more muted theme colours
