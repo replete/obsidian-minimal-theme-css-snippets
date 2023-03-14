@@ -13,7 +13,7 @@
 }
 
 /* Hide tab separator bar */
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-inner::after {
+.workspace .mod-root .workspace-tab-header-inner::after {
     display:none;
 }
 
@@ -75,16 +75,16 @@
 
 
 /* Smaller buttons */
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-inner-close-button,
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-status-icon {
+.workspace .mod-root .workspace-tab-header-inner-close-button,
+.workspace .mod-root .workspace-tab-header-status-icon {
     transform:scale(0.9) translate(2px,1px);
     transform-origin:center;
 }
 
 /* Smaller new tab button */
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-new-tab {
+.workspace .mod-root .workspace-tab-header-new-tab {
     margin-left:4px;
 }
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-new-tab .clickable-icon {
+.workspace .mod-root .workspace-tab-header-new-tab .clickable-icon {
     transform:scale(0.8) translate(0,1px);
 }

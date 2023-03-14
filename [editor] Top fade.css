@@ -14,7 +14,7 @@
     width:calc(100% - var(--scrollbar-size)); /* depends on var from Native Custom Scrollbars */
     pointer-events:none;
     z-index:100;
-    border-top:1px solid var(--background-primary)
+    border-top:1px solid var(--background-primary);
 }
 
 /* Hide if there's a banner */
