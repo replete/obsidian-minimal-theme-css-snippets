@@ -13,7 +13,8 @@
     border:none;
     position:fixed;
     top:9px;
-    right:10px; /* allow for scrollbar */
+    right:10px;
+    right: calc(var(--scrollbar-size) + 3px);
     padding: 5px 5px;
     justify-content:end;
     border-radius: 8px;
