@@ -12,9 +12,9 @@
     background:transparent !important;
     border:none;
     position:fixed;
-    top:9px;
+    top:8px;
     right:10px;
-    right: calc(var(--scrollbar-size) + 3px);
+    right: calc(var(--scrollbar-size) + 2px);
     padding: 5px 5px;
     justify-content:end;
     border-radius: 8px;
