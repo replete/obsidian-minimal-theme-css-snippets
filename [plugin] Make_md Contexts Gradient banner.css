@@ -19,3 +19,11 @@
     position: absolute;
     pointer-events:none;
 }
+
+.mk-header .mk-note-header:has(img) + .mk-file-context-component > .mk-spacer {
+    margin-top:-100px;
+}
+
+.mk-note-header {
+    z-index:-1000 !important
+}
