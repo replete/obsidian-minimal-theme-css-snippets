@@ -27,7 +27,8 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - [Heatmap Calendar tweaks](https://i.imgur.com/ndvRLIC.png) - colours and text styles for habit type use-case (abandoned)
     - [Make.MD Banner tweaks (deprecated)](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc (deprecated, see `Make.MD Contexts`)
     - Make.MD Compact Spaces - use less space, like Compact File Explorer snippet (abandoned)
-    - [Make.MD Contexts](https://i.imgur.com/C9P1HH7.png) - NEW: Compact 
+    - [Make.MD Contexts](https://i.imgur.com/C9P1HH7.png) - NEW: Compact make.md Contexts, tidier layout more space (auto-hide feature from old version coming soon)
+    - [Make.MD Context Duotone Banner images](https://i.imgur.com/fvLOHfA.png) - Makes all banner images duotone to match minimal theme
     - [MySnippets tweaks](https://i.imgur.com/5E0LyO0.png) - make menu wider and fix button style/order
     - Obsidian Buttons plugin - alignments
     - [Outline tweaks](https://i.imgur.com/RgTxA7s.png) chevron on right, compact
