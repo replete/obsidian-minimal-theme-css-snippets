@@ -34,6 +34,13 @@
     --accent-s:60% !important;
     -accent-l:71% !important;
 }
+
+.theme-dark.minimal-everforest-dark {
+    --accent-h:145 !important;
+    --accent-s:27% !important;
+    --accent-l:61% !important;
+}
+
 .theme-dark.minimal-gruvbox-dark {
     --accent-h:121 !important;
     --accent-s:37% !important;
