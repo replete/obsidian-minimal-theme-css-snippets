@@ -25,11 +25,12 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - Excalidraw plugin fixes - fix invisible UI in dark theme
     - Full Calendar plugin tweaks - pretty hacky due to limits of styling hooks (I stopped using this plugin)
     - [Heatmap Calendar tweaks](https://i.imgur.com/ndvRLIC.png) - colours and text styles for habit type use-case (abandoned)
-    - [Make.MD Banner tweaks (deprecated)](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc (deprecated, see `Make.MD Contexts`)
+    - [~~Make.MD Banner tweaks (deprecated)~~](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc (deprecated, see `Make.MD Contexts`)
     - Make.MD Compact Spaces - use less space, like Compact File Explorer snippet (abandoned)
-    - [Make.MD Contexts](https://i.imgur.com/C9P1HH7.png) - NEW: Compact make.md Contexts, tidier layout more space (auto-hide feature from old version coming soon)
-    - [Make.MD Contexts: Duotone Banner images](https://i.imgur.com/fvLOHfA.png) - Makes all banner images duotone to match minimal theme
-    - [Make.MD Contexts: Gradient Banner images](https://i.imgur.com/o3e6GTa.png) Fade images to background with a gradient
+    - [Make.MD Contexts](https://i.imgur.com/C9P1HH7.png) - Compact Make.md Contexts, tidier layout
+    - [Make.MD Contexts: Auto-hide properties](https://i.imgur.com/pqUXiQj.gif) - Hide file properties until hover
+    - [Make.MD Contexts: Duotone Banner](https://i.imgur.com/fvLOHfA.png) - Makes all banner images duotone to match minimal theme
+    - [Make.MD Contexts: Gradient Banner](https://i.imgur.com/o3e6GTa.png) Fade images to background with a gradient
     - [MySnippets tweaks](https://i.imgur.com/5E0LyO0.png) - make menu wider and fix button style/order
     - Obsidian Buttons plugin - alignments
     - [Outline tweaks](https://i.imgur.com/RgTxA7s.png) chevron on right, compact
