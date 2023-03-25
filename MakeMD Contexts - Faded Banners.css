@@ -21,7 +21,7 @@
 }
 
 .mk-header .mk-note-header:has(img) + .mk-file-context-component > .mk-spacer {
-    margin-top:-160px;
+    margin-top:-120px;
 }
 
 .mk-note-header {
