@@ -14,7 +14,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - [Top Fade](https://i.imgur.com/Q0AYg0m.png) - Visual tweak to remove harsh edge of content when using one of the positional Tab Header snippets
     - Typography fixes - alignment fixes for editor, headings, quotes etc (WIP)
 - Note styles ('cssclass' frontmatter property note styles):
-    - [Daily Note styles](https://i.imgur.com/R28YXn9.png) (WIP)
+    - [Daily Note styles (WIP)](https://i.imgur.com/R28YXn9.png)
 - Plugin:
     - [Calendar Plugin tweaks](https://i.imgur.com/1Jrvkbl.png)
     - [CardBoard plugin tweaks](https://i.imgur.com/yp7Hxvb.png) (WIP)
@@ -24,10 +24,11 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - [Day Planner plugin tweaks](https://i.imgur.com/xFdbIwe.gif) - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy
     - Excalidraw plugin fixes - fix invisible UI in dark theme
     - Full Calendar plugin tweaks - pretty hacky due to limits of styling hooks (I stopped using this plugin)
-    - [Heatmap Calendar tweaks](https://i.imgur.com/ndvRLIC.png) - colours and text styles for habit type use-case (I don't use this anymore)
-    - [Make.MD Banner tweaks](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc (WIP)
-    - Make.MD Compact Spaces - use less space, like Compact File Explorer snippet
-    - [MySnippets plugin](https://i.imgur.com/5E0LyO0.png) - make menu wider and fix button style/order
+    - [Heatmap Calendar tweaks](https://i.imgur.com/ndvRLIC.png) - colours and text styles for habit type use-case (abandoned)
+    - [Make.MD Banner tweaks (deprecated)](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc (deprecated, see `Make.MD Contexts`)
+    - Make.MD Compact Spaces - use less space, like Compact File Explorer snippet (abandoned)
+    - [Make.MD Contexts](https://i.imgur.com/C9P1HH7.png) - NEW: Compact 
+    - [MySnippets tweaks](https://i.imgur.com/5E0LyO0.png) - make menu wider and fix button style/order
     - Obsidian Buttons plugin - alignments
     - [Outline tweaks](https://i.imgur.com/RgTxA7s.png) chevron on right, compact
     - [Quiet Outline tweaks](https://i.imgur.com/XJHUfMk.png) - Remove rainbow colours to theme colors, re-arrange layout

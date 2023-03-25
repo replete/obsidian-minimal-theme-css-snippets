@@ -1,0 +1,153 @@
+/*
+    Make.MD Contexts 
+    
+    Global compact restyle for Make.MD contexts
+    - Spaces disabled
+    - Sticker disabled
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.mk-header {
+    padding-top:10px !important;
+}
+
+/* Tags */
+.mk-file-context-component .mk-tag-selector {
+    margin-top:-3px;
+}
+
+.mk-file-context-component .mk-tag-selector .cm-hashtag { 
+    border:none;
+    padding:0;
+    opacity:0.8;
+}
+
+.mk-file-context-component .mk-tag-selector .cm-hashtag:hover {
+    opacity:1 !important;
+}
+
+.mk-file-context-component .mk-tag-selector :is(.cm-hashtag-begin, .cm-hashtag-end){
+    font-size:11px !important
+}
+
+/* Add Property, Add Tag, Change Cover buttons  */
+.mk-file-context-component .mk-file-context-field-new {
+    order:2;
+    margin-top:5px;
+    gap:6px
+}
+
+.mk-file-context-component .mk-file-context-field-new button {
+    background:var(--background-modifier-hover) !important;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:9px;
+    padding:3px 4px 2px 3px !important;
+    line-height:7px;
+    height: auto;
+    color:var(--tx3) !important;
+    text-indent:-3px;
+}
+
+    .theme-dark .mk-file-context-component .mk-file-context-field-new button {
+        color:var(--tx2) !important;
+    }
+
+.mk-file-context-component .mk-file-context-field-new button:hover {
+    color:var(--tx2) !important
+}
+
+    .theme-dark .mk-file-context-component .mk-file-context-field-new button:hover {
+        color:var(--tx1) !important;
+    }
+
+.mk-file-context-component .mk-file-context-field-new button .mk-icon-xsmall {
+    transform:scale(0.9);
+    transform-origin:center center;
+}
+
+
+.mk-file-context-component .mk-file-context-field-new button:first-of-type .mk-icon-xsmall {
+    transform: translate(0, -0.5px) scale(0.85)
+}
+
+    .theme-dark .mk-file-context-component .mk-file-context-field-new button .mk-icon-xsmall svg {
+        stroke:var(--tx2) !important
+    }
+
+.mk-file-context-component .mk-file-context-field-new button:nth-of-type(2) .mk-icon-xsmall {
+    transform: translate(0, -0.5px) scale(0.85);
+
+}
+
+.mk-file-context-component .mk-file-context-field-new {
+    opacity:1;
+}
+
+/* File properties */
+.mk-file-context-component:has(.mk-file-context-section) {
+    margin-top:-5px
+}
+
+.mk-file-context-field {
+    min-height:none !important;
+}
+
+.mk-file-context-section {
+    gap:0
+}
+
+.mk-file-context-component:has(.mk-file-context-section) div:empty{
+    display:none;
+}
+
+/* File properties: Fix checkboxes */
+.mk-cell-text input[type=checkbox] {
+    transform:translate(0,-2px)
+}
+
+.mk-cell-text:has(input[type=checkbox]) {
+    max-height:20px;
+}
+.mk-cell-text:has(input[type=checkbox]):hover {
+    background:transparent !important
+}
+
+/* File metadata: value */
+.mk-cell-text {
+    color:var(--text-faint) !important
+}
+
+.mk-cell-text:hover,
+.mk-cell-text:focus-within {
+    color:var(--tx1) !important
+}
+    .theme-dark .mk-cell-text:hover,
+    .theme-dark .mk-cell-text:focus-within {
+        color:var(--text) !important
+    }
+
+
+/* File metadata: Brighter colours on dark theme */
+.theme-dark .mk-cell-text,
+.theme-dark .mk-file-context-field {
+    color: var(--tx2) !important
+}
+
+/* No file properties: Hide empty div */
+.mk-header:not(:has(.mk-note-header img)) .mk-file-context-component > div:empty{
+    display:none;
+}
+
+
+/* Banners */
+
+/* Disable magnify cursor */
+.mk-note-header img {
+    cursor:default !important
+}
+
+/* Banners: Fix inline title spacing */
+.mk-note-header:has(img) + .mk-file-context-component {
+    padding-top:5px !important;
+}
