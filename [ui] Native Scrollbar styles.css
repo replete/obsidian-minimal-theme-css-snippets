@@ -5,7 +5,7 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 :root {
-    --scrollbar-size: 8px;
+    --scrollbar-size: 6px;
 }
 ::-webkit-scrollbar {
   width: var(--scrollbar-size);  /* for vertical scrollbars */
@@ -24,12 +24,12 @@
 ::-webkit-scrollbar-thumb {
     background: var(--nav-indentation-guide-color);
 }
-::-webkit-scrollbar-thumb:vertical {
+/* ::-webkit-scrollbar-thumb:vertical {
     border-radius: var(--scrollbar-size) 0 0 var(--scrollbar-size);
 }
 ::-webkit-scrollbar-thumb:horizontal {
     border-radius: var(--scrollbar-size) var(--scrollbar-size) 0 0;
-}
+} */
 ::-webkit-scrollbar-thumb:hover {
     background: var(--text-muted);
 }
