@@ -4,26 +4,24 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-/* uncomment for solid simple tabs */
-
 .workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-container {
     /* border-bottom:0 */
 }
 
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-container-inner {
+.workspace .mod-root .workspace-tab-header-container-inner {
     padding:1px 0 0px 5px;
     margin: 5px 0 2px 0;
 }
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header.is-active {
+.workspace .mod-root .workspace-tab-header.is-active {
     background: none;
     box-shadow: none;
 }
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header.is-active::before, 
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header.is-active::after {
+.workspace .mod-root .workspace-tab-header.is-active::before, 
+.workspace .mod-root .workspace-tab-header.is-active::after {
     display:none;
 }
 
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header.is-active .workspace-tab-header-inner {
+.workspace .mod-root .workspace-tab-header.is-active .workspace-tab-header-inner {
     background: var(--background-modifier-hover);
 }
 
@@ -39,7 +37,7 @@
 }
 
 /* Hide tab separator bar */
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-inner::after {
+.workspace .mod-root .workspace-tab-header-inner::after {
     display:none;
 }
 
