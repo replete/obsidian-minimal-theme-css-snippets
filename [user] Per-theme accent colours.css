@@ -1,0 +1,125 @@
+/*
+    user: Per-theme accent colours
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/* Default accent color: rgb(114,181,182) */
+
+.theme-dark.minimal-default-dark {
+    /* --accent-h:181 !important; */
+    /* --accent-s:37% !important; */
+    /* --accent-l:71% !important; */
+}
+
+.theme-dark.minimal-atom-dark {
+    --accent-h:193 !important;
+    /* --accent-s:46 !important; */
+    /* --accent-l:50 !important; */
+}
+
+.theme-dark.minimal-ayu-dark {
+    --accent-h:203 !important;
+    --accent-s:49% !important;
+    --accent-l:70% !important;
+}
+
+.theme-dark.minimal-catppuccin-dark {
+    --accent-h:207 !important;
+    --accent-s:65% !important;
+    --accent-l:70% !important;
+}
+
+.theme-dark.minimal-dracula-dark {
+    --accent-h:215 !important;
+    --accent-s:60% !important;
+    -accent-l:71% !important;
+}
+.theme-dark.minimal-gruvbox-dark {
+    --accent-h:121 !important;
+    --accent-s:37% !important;
+    --accent-l:71% !important;
+}
+
+.theme-dark.minimal-nord-dark {
+    --accent-h:205 !important;
+    --accent-s:77% !important;
+    --accent-l:76% !important;
+}
+
+.theme-dark.minimal-rose-pine-dark {
+    --accent-h:2400 !important;
+    --accent-s:37% !important;
+    --accent-l:65% !important;
+}
+
+.theme-dark.minimal-solarized-dark {
+    --accent-h:185 !important;
+    --accent-s:37% !important;
+    --accent-l:51% !important;
+}
+
+.theme-light.minimal-atom-light {
+    --accent-h:195 !important;
+    --accent-s:47% !important;
+    --accent-l:65% !important;
+}
+
+.theme-light.minimal-ayu-light {
+    /* --accent-h:210 !important;
+    --accent-s:47% !important;
+    --accent-l:75% !important; */
+}
+
+.theme-light.minimal-catppuccin-light {
+    --accent-h:225 !important;
+    --accent-s:47% !important;
+    --accent-l:70% !important;
+}
+
+.theme-light.minimal-everforest-light {
+    --accent-h:175 !important;
+    --accent-s:27% !important;
+    --accent-l:54% !important;
+}
+
+.theme-light.minimal-gruvbox-light {
+    --accent-h:165 !important;
+    --accent-s:20% !important;
+    --accent-l:54% !important;
+}
+
+.theme-light.minimal-macos-light {
+    --accent-h:205 !important;
+    --accent-s:40% !important;
+    --accent-l:64% !important;
+}
+
+.theme-light.minimal-nord-light {
+    --accent-h:225 !important;
+    --accent-s:37% !important;
+    --accent-l:66% !important;
+}
+
+.theme-light.minimal-notion-light {
+    --accent-h:190 !important;
+    --accent-s:37% !important;
+    --accent-l:64% !important;
+}
+
+.theme-light.minimal-rose-pine-light {
+    --accent-h:20 !important;
+    --accent-s:30% !important;
+    --accent-l:70% !important;
+}
+
+.theme-light.minimal-solarized-light {
+    --accent-h:20 !important;
+    --accent-s:35% !important;
+    --accent-l:68% !important;
+}
+
+.theme-light.minimal-things-light {
+    --accent-h:225 !important;
+    --accent-s:40% !important;
+    --accent-l:70% !important;
+}
