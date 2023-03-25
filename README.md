@@ -1,7 +1,6 @@
 # Replete's Obsidian CSS snippets for Minimal Theme
 
 ![Screenshot](_screenshot.png)
-<small>Screenshot out of date already..</small>
 
 This is my working folder of CSS snippets for Obsidian using [@kepano](https://github.com/kepan)'s [Minimal Theme](https://github.com/kepano/obsidian-minimal). There are opinionated tweaks and fixes for various plugins and aspects of Obsidian's UI organized into separate CSS files.
 
