@@ -4,30 +4,6 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-container {
-    /* border-bottom:0 */
-}
-
-.workspace .mod-root .workspace-tab-header-container-inner {
-    padding:0px 0 0px 5px;
-    margin: 5px 0 2px -2px;
-}
-.workspace .mod-root .workspace-tab-header.is-active {
-    background: none;
-    box-shadow: none;
-}
-.workspace .mod-root .workspace-tab-header.is-active::before, 
-.workspace .mod-root .workspace-tab-header.is-active::after {
-    display:none;
-}
-
-.workspace .mod-root .workspace-tab-header.is-active .workspace-tab-header-inner {
-    background: var(--background-modifier-hover);
-}
-
-
-
-
 .workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header {
     padding-left:3px;
     padding-right:3px;
@@ -99,16 +75,16 @@
 
 
 /* Smaller buttons */
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-inner-close-button,
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-status-icon {
+.workspace .mod-root .workspace-tab-header-inner-close-button,
+.workspace .mod-root .workspace-tab-header-status-icon {
     transform:scale(0.9) translate(2px,1px);
     transform-origin:center;
 }
 
 /* Smaller new tab button */
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-new-tab {
+.workspace .mod-root .workspace-tab-header-new-tab {
     margin-left:4px;
 }
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-new-tab .clickable-icon {
+.workspace .mod-root .workspace-tab-header-new-tab .clickable-icon {
     transform:scale(0.8) translate(0,1px);
 }
