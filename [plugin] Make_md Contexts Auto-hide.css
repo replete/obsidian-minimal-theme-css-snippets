@@ -11,3 +11,12 @@
 .is-live-preview .cm-content > .mk-header:is(:hover, :focus-within) :is(.mk-file-context-field-new,.mk-file-context-section) {
     display:flex;
 }
+
+/* Fix margin */
+.mk-header {
+    gap: 4px !important
+}
+
+.is-live-preview .cm-content > .mk-header:is(:hover, :focus-within) {
+    gap: 16px !important
+}
