@@ -46,6 +46,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - [Custom Separators](https://i.imgur.com/9Kizq2q.png) - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
     - Custom Separators (gradient version)
     - [Floating Tab Header](https://i.imgur.com/mAJuEpl.gif) - Save space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)
+    - [Floating Tab Header mini](https://i.imgur.com/mAJuEpl.gif) - Same thing but only shows the ellipsis (I'm using this atm, the mini version doesn't conflict with Search in note UI)
     - Hide Ribbon
     - [Hide Vault Title in Left Sidebar](https://i.imgur.com/LU98mhD.png)
     - Resize Handles - more muted theme colours
