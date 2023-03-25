@@ -4,7 +4,7 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-container {
+.workspace .mod-root .workspace-tab-header-container {
     /* border-bottom:0 */
 }
 
@@ -24,15 +24,17 @@
 .workspace .mod-root .workspace-tab-header.is-active .workspace-tab-header-inner {
     background: var(--background-modifier-hover);
 }
+    /* Theme-specific colour tweaks */
+    /* .theme-light.minimal-atom-light .workspace .mod-root .is-active .workspace-tab-header-inner,
+    .theme-light.minimal-catppuccin-light .workspace .mod-root .is-active .workspace-tab-header-inner  {
+        background: hsl(var(--base-h), var(--base-s), calc(var(--base-l) - 6%))
+    } */
 
-
-
-
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header {
+.workspace .mod-root .workspace-tab-header {
     padding-left:3px;
     padding-right:3px;
 }
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header .workspace-tab-header-inner {
+.workspace .mod-root .workspace-tab-header .workspace-tab-header-inner {
     gap:0 !important;
 }
 
@@ -42,51 +44,37 @@
 }
 
 /* Hover tab styles */
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner {
+.workspace .mod-root .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner {
     background: var(--bg2);
 }
 
 /* Hide buttons until hover */
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active) .workspace-tab-header-inner-close-button,
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active) .workspace-tab-header-status-icon {
+.workspace .mod-root .workspace-tab-header:not(.is-active) .workspace-tab-header-inner-close-button,
+.workspace .mod-root .workspace-tab-header:not(.is-active) .workspace-tab-header-status-icon {
     opacity:0;
 }
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner-close-button,
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active):hover .workspace-tab-header-status-icon {
+.workspace .mod-root .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner-close-button,
+.workspace .mod-root .workspace-tab-header:not(.is-active):hover .workspace-tab-header-status-icon {
     opacity:1;
 }
 
 /* Less prominent pinned icon */
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header.is-active .workspace-tab-header-status-icon {
+.workspace .mod-root .workspace-tab-header.is-active .workspace-tab-header-status-icon {
     opacity:0.6 !important;
 }
 
-/* Variable width tabs WIP */
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-inner {
-    /* width:auto; */
-}
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header {
-    /* width:auto;
-    flex: none;
-    flex-shrink: 1;
-    max-width:25% */
-}
-
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-inner {
-}
-
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active) .workspace-tab-header-inner-close-button {
+.workspace .mod-root .workspace-tab-header:not(.is-active) .workspace-tab-header-inner-close-button {
     position:absolute;
     right:6px;
     margin-top:0px;
 }
 
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner-close-button {
+.workspace .mod-root .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner-close-button {
     background:var(--bg2);
 }
 
 /* Fade graphic to make hover close button look less harsh */
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner-close-button::before {
+.workspace .mod-root .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner-close-button::before {
     content:'';
     display:block;
     position:absolute;
@@ -97,18 +85,29 @@
     pointer-events:none;
 }
 
-
 /* Smaller buttons */
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-inner-close-button,
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-status-icon {
+.workspace .mod-root .workspace-tab-header-inner-close-button,
+.workspace .mod-root .workspace-tab-header-status-icon {
     transform:scale(0.9) translate(2px,1px);
     transform-origin:center;
 }
 
 /* Smaller new tab button */
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-new-tab {
+.workspace .mod-root  .workspace-tab-header-new-tab {
     margin-left:4px;
 }
-.workspace-tabs:not([class*=-right], [class*=-left]) .workspace-tab-header-new-tab .clickable-icon {
+.workspace .mod-root .workspace-tab-header-new-tab .clickable-icon {
     transform:scale(0.8) translate(0,1px);
+}
+
+
+/* Variable width tabs WIP */
+.workspace .mod-root .workspace-tab-header-inner {
+    /* width:auto; */
+}
+.workspace .mod-root .workspace-tab-header {
+    /* width:auto;
+    flex: none;
+    flex-shrink: 1;
+    max-width:25% */
 }
