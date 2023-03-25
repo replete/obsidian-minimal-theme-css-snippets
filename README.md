@@ -13,8 +13,24 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - Table tweaks (WIP)
     - [Top Fade](https://i.imgur.com/Q0AYg0m.png) - Visual tweak to remove harsh edge of content when using one of the positional Tab Header snippets
     - Typography fixes - alignment fixes for editor, headings, quotes etc (WIP)
-- Note styles ('cssclass' frontmatter property note styles):
+ - Obsidian UI tweaks:
+    - [Collapsible Right Headers](https://i.imgur.com/xFdbIwe.gif)
+    - [Compact File Explorer with chevrons on right](https://i.imgur.com/9Kizq2q.png) - also makes attachment folders less visible
+    - Compact Tab Header - Compact view, fixes `Commander` plugin icon colours
+    - [Compact Tabs](https://i.imgur.com/SYaJkI9.png) - Compact cleaner tabs, better for smaller screensƒ
+    - [Compact Tabs (classic)](https://i.imgur.com/Xx15IVB.png) - Compact cleaner tabs, better for smaller screens
+    - [Custom Separators](https://i.imgur.com/9Kizq2q.png) - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
+    - Custom Separators (gradient version)
+    - [Floating Tab Header](https://i.imgur.com/mAJuEpl.gif) - Save space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)
+    - [Floating Tab Header mini](https://i.imgur.com/mAJuEpl.gif) - Same thing but only shows the ellipsis (I'm using this atm, the mini version doesn't conflict with Search in note UI)
+    - Hide Ribbon
+    - [Hide Vault Title in Left Sidebar](https://i.imgur.com/LU98mhD.png)
+    - Resize Handles - more muted theme colours
+    - Status bar tweaks - more visible text on dark theme 
+    - [Tab Header on bottom](https://i.imgur.com/nedVJ5g.png) - Move the tab title bar to the bottom, vertical statusbar when right sidedock closed
+- User styles:
     - [Daily Note styles (WIP)](https://i.imgur.com/R28YXn9.png)
+    - Per-theme accent colours
 - Plugin:
     - [Calendar](https://i.imgur.com/1Jrvkbl.png)
     - [CardBoard](https://i.imgur.com/yp7Hxvb.png) (WIP)
@@ -36,21 +52,6 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - [Outline](https://i.imgur.com/RgTxA7s.png) chevron on right, compact
     - [Quiet Outline](https://i.imgur.com/XJHUfMk.png) - Remove rainbow colours to theme colors, re-arrange layout
     - [Task progressbars](https://i.imgur.com/eCGkkVD.png) - alignments and colours
-- Obsidian UI tweaks:
-    - [Collapsible Right Headers](https://i.imgur.com/xFdbIwe.gif)
-    - [Compact File Explorer with chevrons on right](https://i.imgur.com/9Kizq2q.png) - also makes attachment folders less visible
-    - Compact Tab Header - Compact view, fixes `Commander` plugin icon colours
-    - [Compact Tabs](https://i.imgur.com/SYaJkI9.png) - Compact cleaner tabs, better for smaller screensƒ
-    - [Compact Tabs (classic)](https://i.imgur.com/Xx15IVB.png) - Compact cleaner tabs, better for smaller screens
-    - [Custom Separators](https://i.imgur.com/9Kizq2q.png) - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
-    - Custom Separators (gradient version)
-    - [Floating Tab Header](https://i.imgur.com/mAJuEpl.gif) - Save space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)
-    - [Floating Tab Header mini](https://i.imgur.com/mAJuEpl.gif) - Same thing but only shows the ellipsis (I'm using this atm, the mini version doesn't conflict with Search in note UI)
-    - Hide Ribbon
-    - [Hide Vault Title in Left Sidebar](https://i.imgur.com/LU98mhD.png)
-    - Resize Handles - more muted theme colours
-    - Status bar tweaks - more visible text on dark theme 
-    - [Tab Header on bottom](https://i.imgur.com/nedVJ5g.png) - Move the tab title bar to the bottom, vertical statusbar when right sidedock closed
 
 ## My environment
 
