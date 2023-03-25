@@ -14,9 +14,11 @@
 
 /* Fix margin */
 .mk-header {
+    min-height:60px !important;
     gap: 4px !important
 }
 
 .is-live-preview .cm-content > .mk-header:is(:hover, :focus-within) {
     gap: 16px !important
 }
+
