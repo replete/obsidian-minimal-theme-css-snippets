@@ -1,0 +1,21 @@
+/*
+    Make.MD Contexts: Gradient Banners
+    Gradient Banner overlay
+
+    https://i.imgur.com/fvLOHfA.png
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.mk-note-header::after {
+    content:'';
+    display: block;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    background:
+        linear-gradient(to bottom, transparent 20%, var(--background-primary)),
+        linear-gradient(to bottom, transparent 60%, var(--background-primary));
+    position: absolute;
+    pointer-events:none;
+}
