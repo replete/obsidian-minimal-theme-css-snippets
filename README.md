@@ -16,25 +16,25 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 - Note styles ('cssclass' frontmatter property note styles):
     - [Daily Note styles (WIP)](https://i.imgur.com/R28YXn9.png)
 - Plugin:
-    - [Calendar Plugin tweaks](https://i.imgur.com/1Jrvkbl.png)
-    - [CardBoard plugin tweaks](https://i.imgur.com/yp7Hxvb.png) (WIP)
-    - [Checklist plugin tweaks](https://i.imgur.com/51Lvbbh.png) - Compact view (for tag mode users)
+    - [Calendar](https://i.imgur.com/1Jrvkbl.png)
+    - [CardBoard](https://i.imgur.com/yp7Hxvb.png) (WIP)
+    - [Checklist](https://i.imgur.com/51Lvbbh.png) - Compact view (for tag mode users)
     - Custom Frames tweaks - remove padding
-    - [Database Folder plugin tweaks](https://i.imgur.com/G4TfL3w.png) - compact view
-    - [Day Planner plugin tweaks](https://i.imgur.com/xFdbIwe.gif) - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy
-    - Excalidraw plugin fixes - fix invisible UI in dark theme
-    - Full Calendar plugin tweaks - pretty hacky due to limits of styling hooks (I stopped using this plugin)
-    - [Heatmap Calendar tweaks](https://i.imgur.com/ndvRLIC.png) - colours and text styles for habit type use-case (abandoned)
-    - [~~Make.MD Banner tweaks (deprecated)~~](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc (deprecated, see `Make.MD Contexts`)
+    - [Database Folder](https://i.imgur.com/G4TfL3w.png) - compact view
+    - [Day Planner](https://i.imgur.com/xFdbIwe.gif) - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy
+    - Excalidraw fixes - fix invisible UI in dark theme
+    - Full Calendar - pretty hacky due to limits of styling hooks (I stopped using this plugin)
+    - [Heatmap Calendar](https://i.imgur.com/ndvRLIC.png) - colours and text styles for habit type use-case (abandoned)
+    - [~~Make.MD Banner  (deprecated)~~](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc (deprecated, see `Make.MD Contexts`)
     - Make.MD Compact Spaces - use less space, like Compact File Explorer snippet (abandoned)
     - [Make.MD Contexts](https://i.imgur.com/C9P1HH7.png) - Compact Make.md Contexts, tidier layout
     - [Make.MD Contexts: Auto-hide properties](https://i.imgur.com/pqUXiQj.gif) - Hide file properties until hover
     - [Make.MD Contexts: Duotone Banner](https://i.imgur.com/fvLOHfA.png) - Makes all banner images duotone to match minimal theme
     - [Make.MD Contexts: Gradient Banner](https://i.imgur.com/o3e6GTa.png) Fade images to background with a gradient
-    - [MySnippets tweaks](https://i.imgur.com/5E0LyO0.png) - make menu wider and fix button style/order
+    - [MySnippets](https://i.imgur.com/5E0LyO0.png) - make menu wider and fix button style/order
     - Obsidian Buttons plugin - alignments
-    - [Outline tweaks](https://i.imgur.com/RgTxA7s.png) chevron on right, compact
-    - [Quiet Outline tweaks](https://i.imgur.com/XJHUfMk.png) - Remove rainbow colours to theme colors, re-arrange layout
+    - [Outline](https://i.imgur.com/RgTxA7s.png) chevron on right, compact
+    - [Quiet Outline](https://i.imgur.com/XJHUfMk.png) - Remove rainbow colours to theme colors, re-arrange layout
     - [Task progressbars](https://i.imgur.com/eCGkkVD.png) - alignments and colours
 - Obsidian UI tweaks:
     - [Collapsible Right Headers](https://i.imgur.com/xFdbIwe.gif)

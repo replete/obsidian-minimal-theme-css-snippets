@@ -328,13 +328,14 @@
                     0 0 0 1 0">\
                 </feColorMatrix>\
                 <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
-                    <feFuncR type="table" tableValues="0.1882352941 0.7764705882"></feFuncR>\
-                    <feFuncG type="table" tableValues="0.2039215686 0.8156862745"></feFuncG>\
-                    <feFuncB type="table" tableValues="0.2745098039 0.9607843137"></feFuncB>\
+                    <feFuncR type="table" tableValues="0.1882352941 0.7264705882"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.2039215686 0.7956862745"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.2745098039 0.9407843137"></feFuncB>\
                     <feFuncA type="table" tableValues="0 1"></feFuncA>\
                 </feComponentTransfer>\
             </filter>\
         </svg>#filter');
+        /* removed .2 from light values text overlay legibility */
 }
 
 .theme-dark.minimal-dracula-dark .mk-note-header img {

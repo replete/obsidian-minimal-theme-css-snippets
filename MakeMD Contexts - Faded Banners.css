@@ -27,3 +27,10 @@
 .mk-note-header {
     z-index:-1000 !important
 }
+
+/* Improve text legibility on notes with banners */
+
+.mk-header .mk-note-header:has(img) + .mk-file-context-component .mk-tag-selector .cm-hashtag{
+    /* text-shadow: 1px 1px 1px rgba(0,0,0,.3); */
+    /* background:red !important */
+}

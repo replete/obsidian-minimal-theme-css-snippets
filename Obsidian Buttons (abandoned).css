@@ -6,10 +6,10 @@
 */
 
 .block-language-button {
-padding-left:0
+    padding-left:0
 }
 
 .block-language-button button[class*=button-] {
-margin-left:0;
-margin-right:0;
+    margin-left:0;
+    margin-right:0;
 }

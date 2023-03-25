@@ -19,12 +19,12 @@
 .mk-file-context-component .mk-tag-selector .cm-hashtag { 
     border:none;
     padding:0;
-    opacity:0.8;
+    opacity:1;
 }
 
-.mk-file-context-component .mk-tag-selector .cm-hashtag:hover {
+/* .mk-file-context-component .mk-tag-selector .cm-hashtag:hover {
     opacity:1 !important;
-}
+} */
 
 .mk-file-context-component .mk-tag-selector :is(.cm-hashtag-begin, .cm-hashtag-end){
     font-size:11px !important
