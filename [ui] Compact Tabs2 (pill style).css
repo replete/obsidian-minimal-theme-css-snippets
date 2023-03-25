@@ -9,8 +9,8 @@
 }
 
 .workspace .mod-root .workspace-tab-header-container-inner {
-    padding:1px 0 0px 5px;
-    margin: 5px 0 2px 0;
+    padding:0px 0 0px 5px;
+    margin: 5px 0 2px -2px;
 }
 .workspace .mod-root .workspace-tab-header.is-active {
     background: none;
