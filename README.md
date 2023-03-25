@@ -23,7 +23,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - [Database Folder](https://i.imgur.com/G4TfL3w.png) - compact view
     - [Day Planner](https://i.imgur.com/xFdbIwe.gif) - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy
     - Excalidraw fixes - fix invisible UI in dark theme
-    - Full Calendar - pretty hacky due to limits of styling hooks (I stopped using this plugin)
+    - Full Calendar (abandoned) - pretty hacky due to limits of styling hooks (I stopped using this plugin)
     - [Heatmap Calendar](https://i.imgur.com/ndvRLIC.png) - colours and text styles for habit type use-case (abandoned)
     - [~~Make.MD Banner  (deprecated)~~](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc (deprecated, see `Make.MD Contexts`)
     - Make.MD Compact Spaces - use less space, like Compact File Explorer snippet (abandoned)
