@@ -46,7 +46,7 @@
     outline:2px solid var(--color-background-day-active);
 }
 .theme-dark #calendar-container .day.today {
-    outline:2px solid var(--tx3);
+    /* outline:2px solid var(--tx3); */
 }
 
 #calendar-container .day.today.active {
