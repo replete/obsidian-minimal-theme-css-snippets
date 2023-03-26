@@ -5,12 +5,12 @@
 */
 
 .workspace-tab-header-container-inner {
-    gap:0 !important
+    gap:1px !important
 }
 
 .workspace-tab-header-inner{
-    padding-left:2px;
-    padding-right:2px;
+    padding-left:3px;
+    padding-right:3px;
 }
 
 .nav-buttons-container {
@@ -18,7 +18,7 @@
 }
 
 .nav-buttons-container .clickable-icon {
-    padding-left:3px;
+    padding-left:8px;
     padding-right:3px;
 }
 
