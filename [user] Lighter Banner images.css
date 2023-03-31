@@ -1,0 +1,9 @@
+/*
+    user: Banner colour tweaks
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/* Improve visibility on light themes */
+.theme-light .mk-note-header img {
+    opacity:0.5 !important;
+}

@@ -1,9 +1,7 @@
 /*
-    user: Per-theme accent colours
+    Theme colours
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
-
-/* Default accent color: rgb(114,181,182) */
 
 .theme-dark.minimal-default-dark {
     /* --accent-h:181 !important; */
@@ -39,6 +37,8 @@
     --accent-h:145 !important;
     --accent-s:27% !important;
     --accent-l:61% !important;
+
+    --text-selection:hsla(var(--accent-h),var(--accent-s),calc(var(--accent-l) - 5%),0.2);
 }
 
 .theme-dark.minimal-gruvbox-dark {

@@ -14,7 +14,7 @@
     position:fixed;
     top:8px;
     right:10px;
-    right: calc(var(--scrollbar-size) + 2px);
+    right: calc(var(--scrollbar-size) + 8px);
     padding: 5px 5px;
     justify-content:end;
     border-radius: 8px;
