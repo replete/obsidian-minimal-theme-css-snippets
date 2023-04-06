@@ -36,6 +36,7 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     - [CardBoard](https://i.imgur.com/yp7Hxvb.png) (WIP)
     - [Checklist](https://i.imgur.com/51Lvbbh.png) - Compact view (for tag mode users)
     - Custom Frames tweaks - remove padding
+    - Custom Frames - Duotone - blend custom frames content in with theme until hover
     - [Database Folder](https://i.imgur.com/G4TfL3w.png) - compact view
     - [Day Planner](https://i.imgur.com/xFdbIwe.gif) - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy
     - Excalidraw fixes - fix invisible UI in dark theme
