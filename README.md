@@ -1,61 +1,92 @@
 # Replete's Obsidian CSS snippets for Minimal Theme
 
-![Screenshot](_screenshot.png)
+![Screenshot](screenshots/screenshot.png)
 
 This is my working folder of CSS snippets for Obsidian using [@kepano](https://github.com/kepan)'s [Minimal Theme](https://github.com/kepano/obsidian-minimal). There are opinionated tweaks and fixes for various plugins and aspects of Obsidian's UI organized into separate CSS files.
 
-### Features
+## Features
 (some screenshots will be out of date)
-- Editor:
-    - [Custom Tag Styles](https://i.imgur.com/Zc9DLFa.png)
-    - Editor fixes - gutter component alignments, general editor fixes, less visible indentation guide
-    - Frontmatter tweaks (styling, fixes for `editor syntax highlighter plugin`)
-    - Table tweaks (WIP)
-    - [Top Fade](https://i.imgur.com/Q0AYg0m.png) - Visual tweak to remove harsh edge of content when using one of the positional Tab Header snippets
-    - Typography fixes - alignment fixes for editor, headings, quotes etc (WIP)
- - Obsidian UI tweaks:
-    - [Collapsible Right Headers](https://i.imgur.com/xFdbIwe.gif)
-    - [Compact File Explorer with chevrons on right](https://i.imgur.com/9Kizq2q.png) - also makes attachment folders less visible
-    - Compact Tab Header - Compact view, fixes `Commander` plugin icon colours
-    - [Compact Tabs](https://i.imgur.com/SYaJkI9.png) - Compact cleaner tabs, better for smaller screensƒ
-    - [Compact Tabs (classic)](https://i.imgur.com/Xx15IVB.png) - Compact cleaner tabs, better for smaller screens
-    - [Custom Separators](https://i.imgur.com/9Kizq2q.png) - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
-    - Custom Separators (gradient version)
-    - [Floating Tab Header](https://i.imgur.com/mAJuEpl.gif) - Save space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)
-    - [Floating Tab Header mini](https://i.imgur.com/mAJuEpl.gif) - Same thing but only shows the ellipsis (I'm using this atm, the mini version doesn't conflict with Search in note UI)
-    - Hide Ribbon
-    - [Hide Vault Title in Left Sidebar](https://i.imgur.com/LU98mhD.png)
-    - Resize Handles - more muted theme colours
-    - Status bar tweaks - more visible text on dark theme 
-    - [Tab Header on bottom](https://i.imgur.com/nedVJ5g.png) - Move the tab title bar to the bottom, vertical statusbar when right sidedock closed
-- User styles:
-    - [Daily Note styles (WIP)](https://i.imgur.com/R28YXn9.png)
-    - Per-theme accent colours
-- Plugin:
-    - [Calendar](https://i.imgur.com/1Jrvkbl.png)
-    - [CardBoard](https://i.imgur.com/yp7Hxvb.png) (WIP)
-    - [Checklist](https://i.imgur.com/51Lvbbh.png) - Compact view (for tag mode users)
-    - Custom Frames tweaks - remove padding
-    - [Custom Frames - Duotone](https://i.imgur.com/TL4GU5k.png) - blend custom frames content in with theme until hover
-    - [Database Folder](https://i.imgur.com/G4TfL3w.png) - compact view
-    - [Day Planner](https://i.imgur.com/xFdbIwe.gif) - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy
-    - Excalidraw fixes - fix invisible UI in dark theme
-    - Full Calendar (abandoned) - pretty hacky due to limits of styling hooks (I stopped using this plugin)
-    - [Heatmap Calendar](https://i.imgur.com/ndvRLIC.png) - colours and text styles for habit type use-case (abandoned)
-    - [~~Make.MD Banner  (deprecated)~~](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc (deprecated, see `Make.MD Contexts`)
-    - Make.MD Compact Spaces - use less space, like Compact File Explorer snippet (abandoned)
-    - [Make.MD Contexts](https://i.imgur.com/C9P1HH7.png) - Compact Make.md Contexts, tidier layout
-    - [Make.MD Contexts: Auto-hide properties](https://i.imgur.com/pqUXiQj.gif) - Hide file properties until hover
-    - [Make.MD Contexts: Duotone Banner](https://i.imgur.com/fvLOHfA.png) - Makes all banner images duotone to match minimal theme
-    - [Make.MD Contexts: Gradient Banner](https://i.imgur.com/SCAUXsz.png) Fade images to background with a gradient
-    - [MySnippets](https://i.imgur.com/5E0LyO0.png) - make menu wider and fix button style/order
-    - Obsidian Buttons plugin - alignments
-    - [Outline](https://i.imgur.com/RgTxA7s.png) chevron on right, compact
-    - [Quiet Outline](https://i.imgur.com/XJHUfMk.png) - Remove rainbow colours to theme colors, re-arrange layout
-    - [Task progressbars](https://i.imgur.com/eCGkkVD.png) - alignments and colours
+### [editor] Snippets affecting the editor:
+- **Custom Tag Styles**
+    ![custom tag styles](screenshots/custom-tags.png)
+- Editor fixes - gutter component alignments, general editor fixes, less visible indentation guide
+- Frontmatter tweaks (styling, fixes for `editor syntax highlighter plugin`)
+- Table tweaks (WIP)
+- **Top Fade** - Remove harsh edge of content when using one of the positional Tab Header snippets
+![Top fade](screenshots/top-fade.png)
+- Typography fixes - alignment fixes for editor, headings, quotes etc (WIP)
+### [ui] Obsidian UI snippets:
+- **Collapsible Right Headers** - Hide panel headers until hover in the right sidebar
+    ![Collapsible right headers](screenshots/collapsible-header.gif)
+- **Compact File Explorer with chevrons on right** - also makes attachment folders less visible 
+    ![Compact File Explorer](screenshots/compact-file-explorer.png)
+- **Compact Tab Header** - Compact icons in toolbar, also fixes `Commander` plugin icon colours
+![](screenshots/compact-tab-header.png)
+- **Compact Tabs** - Compact firefox-style pill tabs, better for smaller screens 
+    ![](screenshots/compact-tabs.png)
+- **Compact Tabs classic** - Compact classic tabs, better for smaller screens
+    ![](screenshots/compact-tabs-classic.png)
+- **Custom Separators** - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
+    ![](screenshots/custom-separators.png)
+- **Custom Separators** - gradient version, user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
+    ![](screenshots/custom-separators-gradient.png)
+- **Floating Tab Header** - Save space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)
+    ![](screenshots/floating-tab-header.gif)
+- **Floating Tab Header mini** - Save even more space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)
+    ![](screenshots/floating-tab-header-mini.gif)
+- Hide Ribbon
+- Hide Vault Title in Sidebar
+- Resize Handles - prefer more muted theme colours
+- Status bar tweaks - more visible text on dark theme 
+- **Tab Header on bottom** - Move the tab title bar to the bottom, vertical statusbar when right sidedock closed
+    ![](screenshots/tab-header-bottom.png)
+### [user] User snippets:
+- Daily Note styles (WIP)
+- **Themed accents** - I've overridden the accent colour for each minimal theme subtheme, dasrite
+    ![](screenshots/accents.gif)
+
+### Plugin snippets
+- **Calendar**
+    ![](screenshots/calendar.png)
+- **CardBoard** (WIP)
+    ![](screenshots/cardboard.png)
+ 
+- **Checklist - Ultra compact** - Compact view (for tag mode users)
+    ![](screenshots/checklist.png)
+- Custom Frames tweaks - remove padding
+- **Custom Frames - Duotone** - blend custom frames content in with theme until hover
+    ![](screenshots/custom-frames-duotone.png)
+- **Database Folder** - compact view
+    ![](screenshots/dbfolder.png)
+- **Day Planner** - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy
+    ![](screenshots/dayplanner.png)
+- Excalidraw fixes - fix invisible UI in dark theme
+- **Make.MD Contexts** - Compact Make.md Contexts, tidier layout
+    ![](screenshots/makemdcontexts.png)
+- **Make.MD Contexts: Auto-hide properties** - Hide file properties until hover
+    ![](screenshots/makemdcontextsautohide.gif)
+
+- **Make.MD Contexts: Duotone Banner** - Makes all banner images duotone to match minimal theme
+    ![](screenshots/makemdcontextsbannerduotone.png)
+- **Make.MD Contexts: Gradient Banner**  Fade images to background with a gradient
+    ![](screenshots/makemdcontextsbannergradient.png)
+- **MySnippets** - make menu wider and fix button style/order
+    ![](screenshots/mysnippets_tweaks.png)
+- Obsidian Buttons plugin - alignments
+- **Outline** - chevron on right, compact
+    ![](screenshots/outline.png)
+- **Quiet Outline** - Remove rainbow colours to theme colors, re-arrange layout
+    ![](screenshots/quietoutline.png)
+- **Task progressbars** - alignments and colours
+    ![](screenshots/taskprogressbars.png)
+### Deprecated/Abandoned snippets:
+- [Heatmap Calendar](https://i.imgur.com/ndvRLIC.png) - colours and text styles for habit type use-case (abandoned)
+- Full Calendar (abandoned) - pretty hacky due to limits of styling hooks (I stopped using this plugin)
+- [~~Make.MD Banner  (deprecated)~~](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc (deprecated, see `Make.MD Contexts`)
+- Make.MD Compact Spaces - use less space, like Compact File Explorer snippet (abandoned)
+    
 
 ## My environment
-
 
 - `MacOS 13.3`, ~~Mobile~~ 
 - `Obsidian v1.1.16` (installer 1.1.15, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
@@ -69,8 +100,9 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
 
 1. Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork)/[unzip](https://github.com/replete/obsidian-minimal-theme-css-snippets/archive/refs/heads/main.zip) into `<your vault location>/.obsidian/snippets` 
 2. Install the `MySnippets` community [plugin](https://github.com/chetachiezikeuzor/MySnippets-Plugin) and activate snippets individually
-![MySnippets plugin screenshot](_mysnippets-screenshot.png)
+![MySnippets plugin screenshot](screenshots/mysnippets.png)
 3. Use what you like, dupe + hack what you don't
+4. Send me cool stuff
 
 ## TODO:
 - [ ] Fix the weird list item alignments that vary depending on file length
