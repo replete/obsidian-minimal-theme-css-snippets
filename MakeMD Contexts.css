@@ -42,7 +42,7 @@
     text-transform:uppercase;
     font-weight:700;
     font-size:9px;
-    padding:3px 4px 2px 3px !important;
+    padding:3px 4px 3px 3px !important;
     line-height:7px;
     height: auto;
     color:var(--tx3) !important;
@@ -91,6 +91,7 @@
 
 .mk-file-context-field {
     min-height:none !important;
+    width:25%
 }
 
 .mk-file-context-section {
