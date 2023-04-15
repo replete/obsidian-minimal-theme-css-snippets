@@ -58,7 +58,6 @@ This is my working folder of CSS snippets for Obsidian using [@kepano](https://g
     ![Database Folder](screenshots/dbfolder.png)
 - **Day Planner** - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy    
     ![Day Planner](screenshots/dayplanner.png)
-- Excalidraw fixes - fix invisible UI in dark theme
 - **Make.MD Contexts** - Compact Make.md Contexts, tidier layout   
     ![](screenshots/makemdcontexts.png)
 - **Make.MD Contexts: Auto-hide properties** - Hide file properties until hover    
