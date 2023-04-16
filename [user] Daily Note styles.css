@@ -118,3 +118,21 @@
     transform: translate(0, -2px) scale(0.8);
     transform-origin: 0
 }
+
+/* Embedded markdown files */
+
+.dailynote .inline-embed {
+    border:none;
+    background: hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 10%), 0.5);
+    padding-top: var(--size-4-6);
+    padding-bottom: var(--size-4-6);
+    padding-right: calc(var(--size-4-6) * 1.5);
+    --font-text: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
+    --line-height: 1.6; 
+    letter-spacing:0.01em
+}
+
+.dailynote .inline-embed blockquote {
+    font-style:italic;
+    border-width:3px;
+}
