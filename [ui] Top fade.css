@@ -4,18 +4,23 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-.cm-content::after {
+.cm-content::before {
     content:'';
     height:18px;
     background:linear-gradient(to bottom, var(--background-primary), transparent);
     left:0;
     position:fixed;
-    top:0;
+    top:0px;
     width:calc(100% - var(--scrollbar-size)); /* depends on var from Native Custom Scrollbars */
     pointer-events:none;
     z-index:100;
     border-top:1px solid var(--background-primary);
 }
+
+    .theme-dark .cm-content::before {
+        opacity:0.5;
+        height:10px;
+    }
 
 /* Hide if there's a banner */
 .cm-content:has(.mk-header img)::after {
