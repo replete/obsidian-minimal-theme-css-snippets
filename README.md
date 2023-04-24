@@ -2,7 +2,11 @@
 
 ![Screenshot](screenshots/screenshot.png)
 
-This is my working folder of CSS snippets for Obsidian using [@kepano](https://github.com/kepan)'s [Minimal Theme](https://github.com/kepano/obsidian-minimal). There are opinionated tweaks and fixes for various plugins and aspects of Obsidian's UI organized into separate CSS files.
+My working folder of CSS snippets for Obsidian configured with the [Minimal Theme](https://github.com/kepano/obsidian-minimal). The goal is to visually harmonize the style of various plugins to suit the theme, while also making various visual improvements (proximity, alignment, contrast, higher density) to the Obsidian UI.
+
+Snippets are organized into Editor, UI, Plugin, and User snippets, see screenshots below.
+
+<a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 ## Editor Snippets
 - **Custom Tag Styles**
