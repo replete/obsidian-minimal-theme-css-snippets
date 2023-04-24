@@ -152,3 +152,8 @@
 .mk-note-header:has(img) + .mk-file-context-component {
     padding-top:5px !important;
 }
+
+/* Hide banner in hover popover */
+.hover-popover .mk-header {
+    display:none;
+}

@@ -109,6 +109,13 @@ body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-co
     opacity:0.6;
 }
 
+/* style file tag */
+.nav-file-tag {
+    margin-left:0;
+    /* background:red; */
+    transform:translate(-3px, 0)
+}
+
 /* Fix flashing color */
 .is-flashing {
     background-color: var(--tx3)
