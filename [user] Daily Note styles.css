@@ -139,19 +139,20 @@
 
 /* meta bind plugin styles */
 
-.meta-bind-plugin-input-wrapper :is(input[type='text'], input[type='search'], input[type='email'], input[type='password'], input[type='number']) {
+.dailynote .meta-bind-plugin-input-wrapper :is(input[type='text'], input[type='search'], input[type='email'], input[type='password'], input[type='number']) {
     padding: var(--size-4-1) var(--size-4-1);
     height:auto;
     margin-left:2px;
 }
 
-.meta-bind-plugin-input-wrapper input[type=number] {
+.dailynote .meta-bind-plugin-input-wrapper input[type=number] {
     width:4em;
 }
 
-.meta-bind-plugin-input-wrapper input.indent {
+.dailynote .meta-bind-plugin-input-wrapper .indent {
     margin:var(--size-4-1) 0 var(--size-4-1) var(--size-4-6)
 }
+
 
 /* Hide code blocks until hover */
 .dailynote .cm-preview-code-block .edit-block-button {
