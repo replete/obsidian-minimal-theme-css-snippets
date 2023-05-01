@@ -16,9 +16,9 @@
     color:var(--tx1) !important
 }
 
-.view-header {
+/* .view-header {
     background:linear-gradient(to bottom, transparent 90%, var(--bg2))
-}
+} */
 
 /* Condensed Icon spacing */
 .view-header .view-actions .clickable-icon{
