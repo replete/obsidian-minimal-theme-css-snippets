@@ -18,15 +18,15 @@ Snippets are organized into Editor, UI, Plugin, and User snippets, see screensho
 ![Top fade](screenshots/top-fade.png)
 - Typography fixes - alignment fixes for editor, headings, quotes etc (WIP)
 ## UI snippets:
-- **Collapsible Right Headers** - Hide panel headers until hover in the right sidebar
+- **Collapsible Right Headers** - Hide panel headers until hover in the right sidebar   
     ![Collapsible right headers](screenshots/collapsible-header.gif)
-- **Compact File Explorer with chevrons on right** - also makes attachment folders less visible 
+- **Compact File Explorer with chevrons on right** - also makes attachment folders less visible    
     ![Compact File Explorer](screenshots/compact-file-explorer.png)
-- **Compact Tab Header** - Compact icons in toolbar, also fixes `Commander` plugin icon colours 
+- **Compact Tab Header** - Compact icons in toolbar, also fixes `Commander` plugin icon colours    
     ![Compact Tab Header](screenshots/compact-tab-header.png)
-- **Compact Tabs** - Compact firefox-style pill tabs, better for smaller screens 
+- **Compact Tabs** - Compact firefox-style pill tabs, better for smaller screens     
     ![Compact Tabs](screenshots/compact-tabs.png)
-- **Compact Tabs (classic)** - Compact classic tabs, better for smaller screens
+- **Compact Tabs (classic)** - Compact classic tabs, better for smaller screens    
     ![Compact Tabs classic](screenshots/compact-tabs-classic.png)
 - **Custom Separators** - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin    
     ![Custom Separator](screenshots/custom-separators.png)
@@ -42,6 +42,8 @@ Snippets are organized into Editor, UI, Plugin, and User snippets, see screensho
 - Status bar tweaks - more visible text on dark theme 
 - **Tab Header on bottom** - Move the tab title bar to the bottom, vertical statusbar when right sidedock closed
     ![Tab Header on Bottom](screenshots/tab-header-bottom.png)
+- **Translucent Tab Header** - Classic style tab header showing blurred document content underneath
+    ![Translucent Tab Heade](screenshots/tab-header-translucent.png)
 ### User Snippets:
 - Daily Note styles (WIP)
 - **Themed accents** - I've overridden the accent colour for each minimal theme subtheme, dasrite 
