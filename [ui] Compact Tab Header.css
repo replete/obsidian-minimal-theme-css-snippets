@@ -1,6 +1,6 @@
 /*
-    View Header tweaks
-    Adjustments to the main tab header view
+    Compact Tab Header
+    Make main tab header items more compact
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
@@ -15,10 +15,6 @@
 .view-header-title-container .view-header-title:focus {
     color:var(--tx1) !important
 }
-
-/* .view-header {
-    background:linear-gradient(to bottom, transparent 90%, var(--bg2))
-} */
 
 /* Condensed Icon spacing */
 .view-header .view-actions .clickable-icon{
