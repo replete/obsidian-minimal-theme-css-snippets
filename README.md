@@ -4,86 +4,86 @@
 
 My working folder of CSS snippets for Obsidian configured with the [Minimal Theme](https://github.com/kepano/obsidian-minimal). The goal is to visually harmonize the style of various plugins to suit the theme, while also making various visual improvements (proximity, alignment, contrast, higher density) to the Obsidian UI.
 
-Snippets are organized into Editor, UI, Plugin, and User snippets, see screenshots below.
+Snippets are organized into Editor, UI, Plugin, and User snippets.
 
 <a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 ## Editor Snippets
 - **Custom Tag Styles**
-    ![custom tag styles](screenshots/custom-tags.png)
+    ![Custom tag styles screenshot](screenshots/custom-tags.png)
 - Editor fixes - gutter component alignments, general editor fixes, less visible indentation guide
 - Frontmatter tweaks (styling, fixes for `editor syntax highlighter plugin`)
 - Table tweaks (WIP)
 - **Top Fade** - Remove harsh edge of content when using one of the positional Tab Header snippets
-![Top fade](screenshots/top-fade.png)
+![Top fade screenshot](screenshots/top-fade.png)
 - Typography fixes - alignment fixes for editor, headings, quotes etc (WIP)
 ## UI snippets:
 - **Collapsible Right Headers** - Hide panel headers until hover in the right sidebar   
-    ![Collapsible right headers](screenshots/collapsible-header.gif)
+    ![Collapsible right headers screenshot](screenshots/collapsible-header.gif)
 - **Compact File Explorer with chevrons on right** - also makes attachment folders less visible    
-    ![Compact File Explorer](screenshots/compact-file-explorer.png)
+    ![Compact File Explorer screenshot](screenshots/compact-file-explorer.png)
 - **Compact Tab Header** - Compact icons in toolbar, also fixes `Commander` plugin icon colours    
-    ![Compact Tab Header](screenshots/compact-tab-header.png)
+    ![Compact Tab Header screenshot](screenshots/compact-tab-header.png)
 - **Compact Tabs** - Compact firefox-style pill tabs, better for smaller screens     
-    ![Compact Tabs](screenshots/compact-tabs.png)
+    ![Compact Tabs screenshot](screenshots/compact-tabs.png)
 - **Compact Tabs (classic)** - Compact classic tabs, better for smaller screens    
-    ![Compact Tabs classic](screenshots/compact-tabs-classic.png)
+    ![Compact Tabs classic screenshot](screenshots/compact-tabs-classic.png)
 - **Custom Separators** - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin    
-    ![Custom Separator](screenshots/custom-separators.png)
+    ![Custom Separator screenshot](screenshots/custom-separators.png)
 - **Custom Separators (gradient)** - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin    
-    ![Custom Separators (gradient)](screenshots/custom-separators-gradient.png)
+    ![Custom Separators (gradient) screenshot](screenshots/custom-separators-gradient.png)
 - **Floating Tab Header** - Save space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)    
-    ![Floating Tab Header](screenshots/floating-tab-header.gif)
+    ![Floating Tab Header screenshot](screenshots/floating-tab-header.gif)
 - **Floating Tab Header (mini)** - Save even more space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)    
-    ![Floating Tab Header (mini)](screenshots/floating-tab-header-mini.gif)
+    ![Floating Tab Header (mini) screenshot](screenshots/floating-tab-header-mini.gif)
 - Hide Ribbon
 - Hide Vault Title in Sidebar
 - Resize Handles - prefer more muted theme colours
 - Status bar tweaks - more visible text on dark theme 
 - **Tab Header on bottom** - Move the tab title bar to the bottom, vertical statusbar when right sidedock closed
-    ![Tab Header on Bottom](screenshots/tab-header-bottom.png)
+    ![Tab Header on Bottom screenshot](screenshots/tab-header-bottom.png)
 - **Translucent Tab Header** - Classic style tab header showing blurred document content underneath
-    ![Translucent Tab Heade](screenshots/tab-header-translucent.png)
+    ![Translucent Tab Header screenshot](screenshots/tab-header-translucent.png)
 ### User Snippets:
 - Daily Note styles (WIP)
-- **Themed accents** - I've overridden the accent colour for each minimal theme subtheme, dasrite 
-    ![Themed Accents](screenshots/accents.gif)
+- **Themed accents** - I've overridden the accent colour for each minimal theme subtheme 
+    ![Themed Accents screenshot](screenshots/accents.gif)
 
 ### Plugin snippets
 - **Calendar** - Compact, weekend, day styles, colours    
-    ![Calendar](screenshots/calendar.png)
+    ![Calendar screenshot](screenshots/calendar.png)
 - **CardBoard** - WIP: Compact
-    ![CardBoard](screenshots/cardboard.png)
+    ![CardBoard screenshot](screenshots/cardboard.png)
  
 - **Checklist (Ultra compact)** - Compact view (for tag mode users)    
-    ![Checklist (ultra compact)](screenshots/checklist.png)
+    ![Checklist (ultra compact) screenshot](screenshots/checklist.png)
 - Custom Frames - more compact
 - **Custom Frames (Duotone)** - blend custom frames content in with theme until hover
-    ![Custom Frames - Duotone*](screenshots/custom-frames-duotone.png)
+    ![Custom Frames - Duotone screenshot](screenshots/custom-frames-duotone.png)
 - **Database Folder (Compact)** - compact view    
-    ![Database Folder](screenshots/dbfolder.png)
+    ![Database Folder screenshot](screenshots/dbfolder.png)
 - **Day Planner** - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy    
-    ![Day Planner](screenshots/dayplanner.png)
+    ![Day Planner screenshot](screenshots/dayplanner.png)
 - **Make.MD Contexts** - Compact Make.md Contexts, tidier layout   
-    ![](screenshots/makemdcontexts.png)
+    ![Make.MD Contexts screenshot](screenshots/makemdcontexts.png)
 - **Make.MD Contexts: Auto-hide properties** - Hide file properties until hover    
-    ![](screenshots/makemdcontextsautohide.gif)
+    ![Make.MD Contexts autohide screenshot](screenshots/makemdcontextsautohide.gif)
 
 - **Make.MD Contexts: Duotone Banner** - Makes all banner images duotone to match minimal theme    
-    ![](screenshots/makemdcontextsbannerduotone.png)
+    ![Make.MD Contexts Duotone banners screenshot](screenshots/makemdcontextsbannerduotone.png)
 - **Make.MD Contexts: Gradient Banner**  Fade images to background with a gradient    
-    ![](screenshots/makemdcontextsbannergradient.png)
+    ![Make.MD Contexts Gradient banners screenshot](screenshots/makemdcontextsbannergradient.png)
 - **MySnippets** - make menu wider and fix button style/order    
-    ![](screenshots/mysnippets_tweaks.png)
+    ![MySnippets tweaks screenshot](screenshots/mysnippets_tweaks.png)
 - Obsidian Buttons plugin - alignments    
 - **Outline** - chevron on right, compact    
-    ![](screenshots/outline.png)
+    ![Outline tweaks screenshot](screenshots/outline.png)
 - **Quiet Outline** - Remove rainbow colours to theme colors, re-arrange layout
-    ![](screenshots/quietoutline.png)
+    ![Quiet Outline plugin tweaks screenshot](screenshots/quietoutline.png)
 - **Task progressbars** - alignments and colours
-    ![](screenshots/taskprogressbars.png)
+    ![Task Progressbars plugin tweaks screenshot](screenshots/taskprogressbars.png)
 ### Deprecated/Abandoned snippets:
-- [Heatmap Calendar](https://i.imgur.com/ndvRLIC.png) - colours and text styles for habit type use-case (abandoned)
+- [Heatmap Calendar screenshot](https://i.imgur.com/ndvRLIC.png) - colours and text styles for habit type use-case (abandoned)
 - Full Calendar (abandoned) - pretty hacky due to limits of styling hooks (I stopped using this plugin)
 - [~~Make.MD Banner  (deprecated)~~](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc (deprecated, see `Make.MD Contexts`)
 - Make.MD Compact Spaces - use less space, like Compact File Explorer snippet (abandoned)
