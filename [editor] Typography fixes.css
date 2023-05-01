@@ -89,3 +89,9 @@ h6,
     color:var(--tx3);
     display: inline-block;
 }
+
+/* fix is-flashing display */
+
+.cm-editor .is-flashing {
+    background:hsla(var(--base-h), var(--base-s), calc(var(--base-l) + 30%),0.5);
+}
