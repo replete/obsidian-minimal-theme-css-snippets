@@ -1,0 +1,23 @@
+/*
+    Translucent Tab Header tweaks
+    Make view header translucent, showing document underneath
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.view-header {
+    background:hsla(var(--base-h),var(--base-s),var(--base-l),.7) !important;
+    backdrop-filter:blur(5px);
+    position:fixed;
+    width:calc(100% - var(--scrollbar-size));
+    top:0;
+}
+
+/* Offset editor content */
+.cm-contentContainer {
+    padding-top:var(--header-height);
+}
+
+/* Don't offset for notes showing a Make.MD Contexts banner image */
+.cm-contentContainer:has(.mk-note-header img) {
+    padding-top:inherit;
+}
