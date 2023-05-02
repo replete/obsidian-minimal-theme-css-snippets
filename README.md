@@ -92,9 +92,9 @@ Snippets are organized into Editor, UI, Plugin, and User snippets.
 ## My environment
 
 - `MacOS 13.3.1`, ~~Mobile~~ 
-- `Obsidian v1.1.16` (installer 1.1.15, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
+- `Obsidian v1.2.7 (installer 1.2.7)`, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
 - `Minimal Theme v6.3.2`
-- Enabled plugins: `['templater-obsidian', 'dataview', 'calendar', 'cmdr', 'periodic-notes', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-minimal-settings', 'obsidian-custom-frames', 'open-vscode', 'quickadd', 'mysnippets-plugin', 'obsidian-day-planner', 'dbfolder', 'no-dupe-leaves', 'custom-sort', 'obsidian-icon-folder', 'omnisearch', 'auto-class', 'make-md', 'nldates-obsidian', 'obsidian-attachment-name-formatting', 'folder-note-plugin', 'obsidian-hover-editor', 'file-explorer-note-count', 'obsidian-quiet-outline', 'cm-editor-syntax-highlight-obsidian', 'obsidian-toggle-list', 'obsidian-excalidraw-plugin', 'obsidian-task-progress-bar', 'obsidian-custom-attachment-location', 'obsidian-smart-typography', 'obsidian-tasks-plugin', 'open-in-new-tab', 'chatgpt-md', 'obsidian-style-settings']`
+- Enabled plugins: `['obsidian-advanced-uri', 'obsidian-attachment-name-formatting', 'auto-class', 'calendar', 'chatgpt-md', 'obsidian-checklist-plugin', 'cmdr', 'obsidian-contextual-typography', 'obsidian-custom-attachment-location', 'custom-sort', 'obsidian-custom-frames', 'dataview', 'obsidian-day-planner', 'dbfolder', 'draw-harada-method', 'folder-note-plugin', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-hover-editor', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-in-new-tab', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-quiet-outline', 'obsidian-smart-typography', 'obsidian-style-settings', 'obsidian-task-progress-bar', 'obsidian-tasks-plugin', 'templater-obsidian', 'obsidian-toggle-list', 'make-md', 'mysnippets-plugin', 'nldates-obsidian', 'no-dupe-leaves']`
 ```js
 [...new Set(app.plugins.enabledPlugins)]
 ```
@@ -105,7 +105,6 @@ Snippets are organized into Editor, UI, Plugin, and User snippets.
 2. Install the `MySnippets` community [plugin](https://github.com/chetachiezikeuzor/MySnippets-Plugin) and activate snippets individually
 ![MySnippets plugin screenshot](screenshots/mysnippets.png)
 3. Use what you like, dupe + hack what you don't
-4. Send me cool stuff
 
 ## TODO:
 - [ ] Fix the weird list item alignments that vary depending on file length
