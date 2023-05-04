@@ -4,12 +4,14 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-.view-header {
+/* Only set floating translucent view-header for leafs with editors */
+.workspace-leaf-content:has(.cm-contentContainer) .view-header {
     background:hsla(var(--base-h),var(--base-s),var(--base-l),.7) !important;
     backdrop-filter:blur(5px);
     position:fixed;
     width:calc(100% - var(--scrollbar-size));
     top:0;
+    height:calc(var(--header-height) - 2px);
 }
 
 /* Offset editor content */
