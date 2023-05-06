@@ -149,13 +149,8 @@
     width:4em;
 }
 
-/* .dailynote .meta-bind-plugin-input-wrapper .indent {
-    margin:var(--size-4-1) 0 var(--size-4-1) var(--size-4-6) !important
-} */
-
 .dailynote .taskindent {
     margin:var(--size-4-1) 0 var(--size-4-1) calc(var(--size-4-6) * 1.25) !important;
-    
 }
 
 /* slider */
