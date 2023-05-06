@@ -149,9 +149,24 @@
     width:4em;
 }
 
-.dailynote .meta-bind-plugin-input-wrapper .indent {
-    margin:var(--size-4-1) 0 var(--size-4-1) var(--size-4-6)
+/* .dailynote .meta-bind-plugin-input-wrapper .indent {
+    margin:var(--size-4-1) 0 var(--size-4-1) var(--size-4-6) !important
+} */
+
+.dailynote .taskindent {
+    margin:var(--size-4-1) 0 var(--size-4-1) calc(var(--size-4-6) * 1.25) !important;
+    
 }
+
+/* slider */
+.dailynote .meta-bind-plugin-slider-input {
+    transform:translateY(-5px)
+}
+.dailynote .meta-bind-plugin-slider-input::-webkit-slider-thumb {
+    transform:scale(0.75);
+    background: var(--tx1)
+}
+
 
 
 /* Hide code blocks until hover */
