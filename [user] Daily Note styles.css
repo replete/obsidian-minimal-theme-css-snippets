@@ -4,16 +4,26 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-/* Intro quote (requires 'custom class' plugin */
-.dailynote .intro-quote a {
-    text-decoration:none;
+/* Blockquote styles */
+/* I only use blockquotes in my daily note for actual quotes */
+.dailynote .HyperMD-quote {
+    font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
+    letter-spacing:0.01em
+}
+
+.dailynote .HyperMD-quote .cm-quote.cm-hmd-internal-link {
+    color:var(--tx2);
     font-style:italic;
-    color: var(--tx3);
-    font-size:75%;
+    opacity:0.7
 }
-.dailynote .intro-quote a::before {
-    content:'– '
+
+.dailynote .HyperMD-quote .cm-quote.cm-hmd-internal-link > * {
+    text-decoration: none
 }
+
+.dailynote .HyperMD-quote .cm-quote.cm-hmd-internal-link::before {
+    content:'—'
+} 
 
 
 /* h2 styles */
@@ -174,6 +184,11 @@
 
 /* Style first footnote after page heading */
 .dailynote .HyperMD-header-1 + .HyperMD-footnote {
-    transform:translate(-8px, 4px);
-    opacity:0.5;
+    transform:translate(-6px, 4px);
+    opacity:0.7;
+    font-size:11px;
+}
+
+.dailynote .HyperMD-header-1 + .HyperMD-footnote .cm-underline {
+    text-decoration: none; 
 }
