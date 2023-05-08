@@ -163,7 +163,6 @@
 }
 
 
-
 /* Hide code blocks until hover */
 .dailynote .cm-preview-code-block .edit-block-button {
     display:none !important;
@@ -171,4 +170,10 @@
 
 .dailynote .cm-preview-code-block:hover .edit-block-button {
     display:block !important;
+}
+
+/* Style first footnote after page heading */
+.dailynote .HyperMD-header-1 + .HyperMD-footnote {
+    transform:translate(-8px, 4px);
+    opacity:0.5;
 }

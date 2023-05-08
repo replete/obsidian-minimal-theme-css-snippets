@@ -95,3 +95,16 @@ h6,
 .cm-editor .is-flashing {
     background:hsla(var(--base-h), var(--base-s), calc(var(--base-l) + 30%),0.5);
 }
+
+
+/* Footnote styles */
+.HyperMD-footnote {
+    color:var(--tx2);
+    /* font-size:12px !important; */
+}
+
+.HyperMD-footnote .cm-hmd-internal-link > *{
+    color:var(--tx2) !important;
+    text-decoration-color:var(--tx2) !important;
+    opacity:1 !important;
+}
