@@ -1,12 +1,32 @@
-# Replete's Obsidian CSS snippets for Minimal Theme
+# Obsidian CSS snippets for Minimal Theme
 
 ![Screenshot](screenshots/screenshot.png)
 
-My working folder of CSS snippets for Obsidian configured with the [Minimal Theme](https://github.com/kepano/obsidian-minimal). The goal is to visually harmonize the style of various plugins to suit the theme, while also making various visual improvements (proximity, alignment, contrast, higher density) to the Obsidian UI.
+My working folder of CSS snippets for Obsidian configured with the [Minimal Theme](https://github.com/kepano/obsidian-minimal). The purpose is to both visually harmonize the style of various plugins with the theme (and its colour schemes) while also extending Obsidian UI possibilities, incorporating a preference for increased UI density. Screenshots below.
 
-Snippets are organized into Editor, UI, Plugin, and User snippets.
+
+## How to use
+
+1. Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork)/[unzip](https://github.com/replete/obsidian-minimal-theme-css-snippets/archive/refs/heads/main.zip) into `<your vault location>/.obsidian/snippets` or use 'Snippet Downloader' plugin
+2. (recommended) Install the [MySnippets plugin](https://github.com/chetachiezikeuzor/MySnippets-Plugin) via 'Community plugins' to more easily manage snippets
+![MySnippets plugin screenshot](screenshots/mysnippets.png)
+3. Use what you like, dupe + hack what you don't
+4. Update periodically, as this repo is unversioned and actively developed
+
 
 <a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
+
+
+
+## My environment
+
+- `MacOS 13.3.1`, ~~Mobile~~ (not tested/fixed yet)
+- `Obsidian v1.2.8 (installer 1.2.7)`, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
+- `Minimal Theme v6.3.3`
+```js
+Enabled plugins: ['obsidian-advanced-uri', 'obsidian-attachment-name-formatting', 'auto-class', 'calendar', 'chatgpt-md', 'obsidian-checklist-plugin', 'cmdr', 'obsidian-contextual-typography', 'obsidian-custom-attachment-location', 'custom-sort', 'obsidian-custom-frames', 'dataview', 'obsidian-day-planner', 'dbfolder', 'draw-harada-method', 'folder-note-plugin', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-hover-editor', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-in-new-tab', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-quiet-outline', 'obsidian-smart-typography', 'obsidian-style-settings', 'obsidian-task-progress-bar', 'obsidian-tasks-plugin', 'templater-obsidian', 'obsidian-toggle-list', 'make-md', 'mysnippets-plugin', 'nldates-obsidian', 'no-dupe-leaves', 'file-explorer-note-count', 'obsidian-columns', 'ob-table-enhancer']
+// [...new Set(app.plugins.enabledPlugins)]
+```
 
 ## Editor Snippets
 - **Custom Tag Styles**
@@ -58,7 +78,7 @@ Snippets are organized into Editor, UI, Plugin, and User snippets.
 - **Checklist (Ultra compact)** - Compact view (for tag mode users)    
     ![Checklist (ultra compact) screenshot](screenshots/checklist.png)
 - Custom Frames - more compact
-- **Custom Frames (Duotone)** - blend custom frames content in with theme until hover
+- **Custom Frames (Duotone)** - blend custom frames content in with theme until hover    
     ![Custom Frames - Duotone screenshot](screenshots/custom-frames-duotone.png)
 - **Database Folder (Compact)** - compact view    
     ![Database Folder screenshot](screenshots/dbfolder.png)
@@ -82,39 +102,25 @@ Snippets are organized into Editor, UI, Plugin, and User snippets.
     ![Quiet Outline plugin tweaks screenshot](screenshots/quietoutline.png)
 - **Task progressbars** - alignments and colours
     ![Task Progressbars plugin tweaks screenshot](screenshots/taskprogressbars.png)
-### Deprecated/Abandoned snippets:
-- [Heatmap Calendar screenshot](https://i.imgur.com/ndvRLIC.png) - colours and text styles for habit type use-case (abandoned)
-- Full Calendar (abandoned) - pretty hacky due to limits of styling hooks (I stopped using this plugin)
-- [~~Make.MD Banner  (deprecated)~~](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc (deprecated, see `Make.MD Contexts`)
-- Make.MD Compact Spaces - use less space, like Compact File Explorer snippet (abandoned)
     
-
-## My environment
-
-- `MacOS 13.3.1`, ~~Mobile~~ 
-- `Obsidian v1.2.8 (installer 1.2.7)`, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
-- `Minimal Theme v6.3.2`
-- Enabled plugins: `['obsidian-advanced-uri', 'obsidian-attachment-name-formatting', 'auto-class', 'calendar', 'chatgpt-md', 'obsidian-checklist-plugin', 'cmdr', 'obsidian-contextual-typography', 'obsidian-custom-attachment-location', 'custom-sort', 'obsidian-custom-frames', 'dataview', 'obsidian-day-planner', 'dbfolder', 'draw-harada-method', 'folder-note-plugin', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-hover-editor', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-in-new-tab', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-quiet-outline', 'obsidian-smart-typography', 'obsidian-style-settings', 'obsidian-task-progress-bar', 'obsidian-tasks-plugin', 'templater-obsidian', 'obsidian-toggle-list', 'make-md', 'mysnippets-plugin', 'nldates-obsidian', 'no-dupe-leaves', 'file-explorer-note-count', 'obsidian-columns', 'ob-table-enhancer']`
-```js
-[...new Set(app.plugins.enabledPlugins)]
-```
-
-## How to use
-
-1. Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork)/[unzip](https://github.com/replete/obsidian-minimal-theme-css-snippets/archive/refs/heads/main.zip) into `<your vault location>/.obsidian/snippets` 
-2. Install the `MySnippets` community [plugin](https://github.com/chetachiezikeuzor/MySnippets-Plugin) and activate snippets individually
-![MySnippets plugin screenshot](screenshots/mysnippets.png)
-3. Use what you like, dupe + hack what you don't
-
-## TODO:
-- [ ] Fix the weird list item alignments that vary depending on file length
-- [ ] Test/fix for Mobile Obsidian (likely near future)
-- [x] Fix some colour inconsistencies across light/dark themes
-- [x] Test/fix for Windows (no fixes needed at time)
-- [x] Test/fix for Linux (no fixes needed at time)
-
 ## Versions / updates
 
 This repo is updated frequently as I work on my own vault. I aim to keep my environment up to date. When a new Obsidian version breaks things (which hasn't happened yet), I'll tag a release for whatever the last good Obsidian or Minimal Theme version was before it broke, and subsequent commits will be fixes for the current version.
 
 <a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
+
+## TODO
+- [ ] Fix the weird list item alignments that vary depending on file length
+- [ ] Test/fix for Mobile Obsidian (likely near future)
+- [x] Fix colour inconsistencies across light/dark themes
+- [x] Test/fix for Windows (no fixes needed at time)
+- [x] Test/fix for Linux (no fixes needed at time)
+
+
+## Abandoned snippets (no longer developed)
+- [Heatmap Calendar (imgur screenshot)](https://i.imgur.com/ndvRLIC.png) - colours and text styles for habit type use-case (abandoned)
+- Full Calendar - pretty hacky due to limits of styling hooks (abandoned)
+
+## Deprecated snippets (deleted from repo)
+- ~~[Make.MD Banner](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc - I refactored/improved this into separate snippets above~~
+- ~~Make.MD Compact Spaces - use less space, like Compact File Explorer snippet (deprecated)~~
