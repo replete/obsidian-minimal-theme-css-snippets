@@ -8,7 +8,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 ## How to use
 
 1. Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork)/[unzip](https://github.com/replete/obsidian-minimal-theme-css-snippets/archive/refs/heads/main.zip) into `<your vault location>/.obsidian/snippets` or use 'Snippet Downloader' plugin
-2. (recommended) Install the [MySnippets plugin](https://github.com/chetachiezikeuzor/MySnippets-Plugin) via 'Community plugins' to more easily manage snippets
+2. (recommended) Install the [MySnippets plugin](https://github.com/chetachiezikeuzor/MySnippets-Plugin) via 'Community plugins' to easily manage snippets    
 ![MySnippets plugin screenshot](screenshots/mysnippets.png)
 3. Use what you like, dupe + hack what you don't
 4. Update periodically, as this repo is unversioned and actively developed
@@ -23,8 +23,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - `Obsidian v1.2.8 (installer 1.2.7)`, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
 - `Minimal Theme v6.3.3`
 ```js
-Enabled plugins: ['obsidian-advanced-uri', 'obsidian-attachment-name-formatting', 'auto-class', 'calendar', 'chatgpt-md', 'obsidian-checklist-plugin', 'cmdr', 'obsidian-contextual-typography', 'obsidian-custom-attachment-location', 'custom-sort', 'obsidian-custom-frames', 'dataview', 'obsidian-day-planner', 'dbfolder', 'draw-harada-method', 'folder-note-plugin', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-hover-editor', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-in-new-tab', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-quiet-outline', 'obsidian-smart-typography', 'obsidian-style-settings', 'obsidian-task-progress-bar', 'obsidian-tasks-plugin', 'templater-obsidian', 'obsidian-toggle-list', 'make-md', 'mysnippets-plugin', 'nldates-obsidian', 'no-dupe-leaves', 'file-explorer-note-count', 'obsidian-columns', 'ob-table-enhancer']
 // [...new Set(app.plugins.enabledPlugins)]
+['obsidian-advanced-uri', 'obsidian-attachment-name-formatting', 'auto-class', 'calendar', 'chatgpt-md', 'obsidian-checklist-plugin', 'cmdr', 'obsidian-contextual-typography', 'obsidian-custom-attachment-location', 'custom-sort', 'obsidian-custom-frames', 'dataview', 'obsidian-day-planner', 'dbfolder', 'draw-harada-method', 'folder-note-plugin', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-hover-editor', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-in-new-tab', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-quiet-outline', 'obsidian-smart-typography', 'obsidian-style-settings', 'obsidian-task-progress-bar', 'obsidian-tasks-plugin', 'templater-obsidian', 'obsidian-toggle-list', 'make-md', 'mysnippets-plugin', 'nldates-obsidian', 'no-dupe-leaves', 'file-explorer-note-count', 'obsidian-columns', 'ob-table-enhancer']
 ```
 
 ## Editor Snippets
@@ -39,7 +39,7 @@ Enabled plugins: ['obsidian-advanced-uri', 'obsidian-attachment-name-formatting'
 ## UI snippets:
 - **Collapsible Right Headers** - Hide panel headers until hover in the right sidebar   
     ![Collapsible right headers screenshot](screenshots/collapsible-header.gif)
-- **Compact File Explorer with chevrons on right** - also makes attachment folders less visible    
+- **Compact File Explorer** - Compact styles, chevrons on right, makes attachment folders less visible    
     ![Compact File Explorer screenshot](screenshots/compact-file-explorer.png)
 - **Compact Tab Header** - Compact icons in toolbar, also fixes `Commander` plugin icon colours    
     ![Compact Tab Header screenshot](screenshots/compact-tab-header.png)
@@ -111,10 +111,12 @@ Enabled plugins: ['obsidian-advanced-uri', 'obsidian-attachment-name-formatting'
 ## Deprecated snippets (deleted from repo)
 - ~~[Make.MD Banner](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc - I refactored/improved this into separate snippets above~~
 - ~~Make.MD Compact Spaces - use less space, like Compact File Explorer snippet (deprecated)~~
+
 ## Versions / updates
 
 This repo is updated frequently as I work on my own vault. I aim to keep my environment up to date. When a new Obsidian version breaks things (which hasn't happened yet), I'll tag a release for whatever the last good Obsidian or Minimal Theme version was before it broke, and subsequent commits will be fixes for the current version.
 
+## Support development
 <a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 ## TODO
