@@ -9,6 +9,7 @@
     background:hsla(var(--base-h),var(--base-s),var(--base-l),.7) !important;
     backdrop-filter:blur(5px);
     position:fixed;
+    width:calc(100% - 16px); /* default scrollbar width*/
     width:calc(100% - var(--scrollbar-size));
     top:0;
     height:calc(var(--header-height) - 2px);
