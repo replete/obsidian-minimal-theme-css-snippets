@@ -1,0 +1,16 @@
+/*
+    Restrict last right sidebar panel
+    Limit the height of the last right sidebar item (.e.g the calendar) to save constant resizing on window resize
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+
+    How to use:
+    - activate snippet
+    - resize Obsidian window to smallest vertical size that you will use
+    - resize panel by dragging divider to make calendar visible (setting flex-grow values)
+    - calendar should now always be visible on resize
+*/
+
+/* Assumes calendar plugin is the last panel in the right sidebar */
+.mod-right-split .workspace-tabs:last-of-type {
+    max-height:300px;
+}
