@@ -4,18 +4,17 @@
 
 My working folder of CSS snippets for Obsidian configured with the [Minimal Theme](https://github.com/kepano/obsidian-minimal). The purpose is to both visually harmonize the style of various plugins with the theme (and its colour schemes) while also extending Obsidian UI possibilities, incorporating a preference for increased UI density. Updated regularly. Screenshots below.
 
-
 ## How to use
 
 1. Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork)/[unzip](https://github.com/replete/obsidian-minimal-theme-css-snippets/archive/refs/heads/main.zip) into `<your vault location>/.obsidian/snippets` or use 'Snippet Downloader' plugin
 2. (recommended) Install the [MySnippets plugin](https://github.com/chetachiezikeuzor/MySnippets-Plugin) via 'Community plugins' to easily manage snippets    
 ![MySnippets plugin screenshot](screenshots/mysnippets.png)
-3. Use what you like, dupe + hack what you don't
-4. Update periodically, as this repo is unversioned and actively developed
+4. Check periodically for updates and new goodies
+
+## Support development
 
 
 <a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
-
 
 ## My environment
 
@@ -111,10 +110,6 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 ## Deprecated snippets (deleted from repo)
 - ~~[Make.MD Banner](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc - I refactored/improved this into separate snippets above~~
 - ~~Make.MD Compact Spaces - use less space, like Compact File Explorer snippet (deprecated)~~
-
-## Versions / updates
-
-This repo is updated frequently as I work on my own vault. I aim to keep my environment up to date. When a new Obsidian version breaks things (which hasn't happened yet), I'll tag a release for whatever the last good Obsidian or Minimal Theme version was before it broke, and subsequent commits will be fixes for the current version.
 
 ## Support development
 <a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
