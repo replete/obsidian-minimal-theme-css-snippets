@@ -4,32 +4,29 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-.mod-right-split .outline {
-    /* padding:6px 8px; */
-}
 
-.mod-right-split .outline .tree-item-children {
+.outline .tree-item-children {
     --nav-item-children-padding-left:4px;
     --nav-item-children-margin-left:5px;
     border-left-color:transparent
 }
 
-.mod-right-split .outline .tree-item-icon.collapse-icon {
+.outline .tree-item-icon.collapse-icon {
     order:2;
     padding-left:2px;
     transform:scale(0.8) translate(0, -1px)
 }
 
-.mod-right-split .outline .tree-item-inner {
+.outline .tree-item-inner {
  flex:0 1 auto 
 }
 
 /* First item (page h1) */
-.mod-right-split .outline > .tree-item > .tree-item-self {
+.outline > .tree-item > .tree-item-self {
     font-weight:500;
 }
 
-.mod-right-split .outline > .tree-item > .tree-item-children {
+.outline > .tree-item > .tree-item-children {
     padding-left:4px;
     margin-left:5px;
     --nav-item-children-padding-left:0px;
