@@ -1,0 +1,8 @@
+/*
+    Monotone Emojis (override all)
+    Apply monotone emoji font to all editor instances
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+.cm-s-obsidian, .markdown-source-view, .markdown-source-view.mod-cm6 .cm-scroller {
+    font-family: var(--font-emojis), var(--font-text);
+}

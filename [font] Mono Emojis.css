@@ -1,6 +1,6 @@
 /*
-    Monotone Emojis
-    Replace emojis with monotone versions, using google's Noto Emoji typeface
+    Monotone Emojis (font)
+    Load custom emoji font
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
@@ -1402,7 +1402,3 @@
  🫸 	U+1FAF8	RIGHTWARDS PUSHING HAND
 
  */
-
-.cm-s-obsidian, .markdown-source-view, .markdown-source-view.mod-cm6 .cm-scroller {
-    font-family: var(--font-emojis), var(--font-text);
-}

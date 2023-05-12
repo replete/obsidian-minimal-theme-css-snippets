@@ -1,0 +1,11 @@
+/*
+    Monotone Emojis for task items
+    Apply monotone emojis to task items
+    inspired by @shanberg at https://discord.com/channels/686053708261228577/965681451297304596/1106271838184677376
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+span.tasks-list-text, /* dataview tasks */
+.cm-line:has(.task-list-label) .cm-list-1 {
+    font-family: var(--font-emojis), var(--font-text);
+}
