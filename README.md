@@ -31,10 +31,15 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Custom tag styles screenshot](screenshots/custom-tags.png)
 - **Editor fixes** - gutter component alignments, general editor fixes, less visible indentation guide
 - **Frontmatter tweaks** - styling, fixes for `editor syntax highlighter plugin`
+- **Mono Emojis everywhere** - uses mono emoji font (activate separately) for everything in an editor    
+- **Mono Emojis for task items** - uses mono emoji font (activate separately) for task list items (e.g. used by Tasks and similar plugins)    
+![Mono emoji font for task items screenshot](screenshots/monoemojis.png)   
 - **Table tweaks** - WIP
 - **Top Fade** - Remove harsh edge of content when using one of the positional Tab Header snippets
 ![Top fade screenshot](screenshots/top-fade.png)
 - **Typography fixes** - alignment fixes for editor, headings, quotes etc (WIP)
+## Font snippets:
+- **Mono Emojis** - embedded Noto Emoji variable, use 
 ## UI snippets:
 - **Collapsible Right Headers** - Hide panel headers until hover in the right sidebar   
     ![Collapsible right headers screenshot](screenshots/collapsible-header.gif)
