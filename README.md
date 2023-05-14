@@ -37,7 +37,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 ![Top fade screenshot](screenshots/top-fade.png)
 - **Typography fixes** - alignment fixes for editor, headings, quotes etc (WIP)
 ## Font snippets:
-- **Mono Emojis** - embedded Noto Emoji variable, use 
+- **Mono Emojis** - embedded Noto Emoji variable font (2MB snippet!)
 ## UI snippets:
 - **Collapsible Right Headers** - Hide panel headers until hover in the right sidebar   
     ![Collapsible right headers screenshot](screenshots/collapsible-header.gif)
@@ -83,6 +83,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Custom Frames** - Compact panel
 - **Custom Frames (Duotone)** - blend custom frames content in with theme until hover    
     ![Custom Frames - Duotone screenshot](screenshots/custom-frames-duotone.png)
+- **Daily Note Outline** - Compact, visual tweaks, works with compact file explorer snippet    
+    ![Daily Note Outline screenshot](screenshots/daily-note-outline.png)
 - **Database Folder (Compact)** - compact view    
     ![Database Folder screenshot](screenshots/dbfolder.png)
 - **Day Planner** - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy    

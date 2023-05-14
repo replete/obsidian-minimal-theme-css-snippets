@@ -1,0 +1,62 @@
+/*
+    Daily Note Outline
+    Visual tweaks
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/* Container */
+.workspace-leaf-content[data-type="daily-note-outline"] .view-content {
+    padding-bottom:0;
+}
+
+/* Compact header */
+.workspace-leaf-content[data-type="daily-note-outline"] .nav-header {
+    padding:4px 2px 4px 2px;
+    transform:scale(0.85);
+    transform-origin:0 0;
+    text-align: left;
+}
+/* Date range buttons styling */
+.workspace-leaf-content[data-type="daily-note-outline"] .nav-date-range {
+    color: var(--tx2);
+    line-height:1em;
+    padding: 4px 6px;
+    border-radius: 10px;
+    opacity:0.7
+}
+
+.workspace-leaf-content[data-type="daily-note-outline"] .nav-buttons-container + .nav-date-range {
+    margin-right: 4px;
+    margin-left: 4px
+}
+
+/* Files container */
+.workspace-leaf-content[data-type="daily-note-outline"] .nav-files-container {
+    padding:4px 0 0 4px;
+    border-top:1px solid var(--divider-color);
+    margin-top:-6px;
+}
+
+/* Note detail suffix styling */
+.workspace-leaf-content[data-type="daily-note-outline"] .nav-folder-title::after {
+    padding-left: 4px;
+    opacity: 0.7;
+}
+
+/* Files preview */
+.workspace-leaf-content[data-type="daily-note-outline"] .nav-file-title-preview {
+    color: var(--tx2);
+    opacity:0.7;
+    padding-left:8px;
+    font-style:italic;
+}
+.workspace-leaf-content[data-type="daily-note-outline"] .nav-file-title-preview::after {
+    content:'';
+    background:linear-gradient(to right, transparent, var(--bg1));
+    width:1.5em;
+    height:1.5em;
+    position:absolute;
+    right:0;
+    top:5px;
+    display:block;
+}
