@@ -2,7 +2,7 @@
 
 ![Screenshot](screenshots/screenshot.png)
 
-My working folder of CSS snippets for Obsidian configured with the [Minimal Theme](https://github.com/kepano/obsidian-minimal). The purpose is to both visually harmonize the style of various plugins with the theme (and its colour schemes) while also extending Obsidian UI possibilities, incorporating a preference for increased UI density. Updated regularly. Screenshots below.
+My working folder of CSS snippets for Obsidian configured with the [Minimal Theme](https://github.com/kepano/obsidian-minimal). The purpose is to extend Obsidian UI possibilities and also visually harmonize the style of various plugins with `Minimal Theme`, with a preference for compact UI. Updated regularly. Screenshots below.
 
 ## How to use
 
@@ -32,8 +32,6 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Editor fixes** - gutter component alignments, general editor fixes, less visible indentation guide
 - **Frontmatter tweaks** - styling, fixes for `editor syntax highlighter plugin`
 - **Mono Emojis everywhere** - uses mono emoji font (activate separately) for everything in an editor    
-- **Mono Emojis for task items** - uses mono emoji font (activate separately) for task list items (e.g. used by Tasks and similar plugins)    
-![Mono emoji font for task items screenshot](screenshots/monoemojis.png)   
 - **Table tweaks** - WIP
 - **Top Fade** - Remove harsh edge of content when using one of the positional Tab Header snippets
 ![Top fade screenshot](screenshots/top-fade.png)
