@@ -1,0 +1,178 @@
+/*
+    Tasks: Expand dates on hover (WIP)
+    Color priority markers and dates that expand on hover. 
+
+    Original credit to @sunb_mn for the basis of this styles which I've tweaked and extended a little,
+    he also quotes @SlRvb and @esm7 on obsidian discord for code,
+    https://discord.com/channels/686053708261228577/744933215063638183/1108617092137226320
+    
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/* Priority as Checkbox Color and Remove the Emoji */
+.task-list-item[data-task-priority=high] input[type=checkbox] {
+    box-shadow: 0px 0px 1px 1px var(--color-red);
+    border-color: var(--color-red);
+}
+.task-list-item[data-task-priority=medium] input[type=checkbox] {
+    box-shadow: 0px 0px 1px 1px var(--color-orange);
+    border-color: var(--color-orange);
+}
+.task-list-item[data-task-priority=low] input[type=checkbox] {
+    box-shadow: 0px 0px 1px 1px var(--color-cyan);
+    border-color: var(--color-cyan);
+}
+
+.task-priority {
+    display: none;
+}
+
+input[type=checkbox]:checked {
+    box-shadow: none !important;
+    border-color: var(--checkbox-border-color) !important;
+}
+
+
+/* .markdown-preview-view .task-list-item-checkbox {
+    margin-right: 6px;
+} */
+
+.tasks-list-text {
+    display: inline-flex;
+    max-width: 100%;
+}
+
+.task-description {
+    flex: 2;
+    min-width: 0;
+    width: 350px;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Show dates on emoji hover */
+:is(.task-recurring, .task-start, .task-scheduled, .task-done, .task-created) {
+    font-size: 1px;
+    letter-spacing: -1px;
+    color: transparent;
+    background-color: transparent;
+}
+:is(.task-recurring, .task-start, .task-scheduled,.task-done, .task-created)::after {
+    letter-spacing: 0px;
+    font-size: var(--font-adaptive-normal);
+    line-height: var(--line-height);
+    color: var(--tx1);
+    margin-left: 5px;
+}
+.task-recurring::after {
+    content: "🔁";
+}
+.task-start::after {
+    content: "🛫";
+}
+.task-scheduled::after {
+    content: "⏳";
+}
+.task-done::after {
+    content: "✅";
+}
+.task-created::after {
+    content: "➕";
+}
+:is(.task-recurring, .task-start, .task-scheduled, .task-done, .task-created):hover::after {
+    content: "";
+}
+
+:is(.task-recurring, .task-start, .task-scheduled, .task-done, .task-created):hover  {
+    letter-spacing: 0px;
+    font-size: var(--font-adaptive-normal);
+    line-height: var(--line-height);
+    color: var(--tx1);
+    margin-left: 5px;
+    background:var(--bg2);
+    border-radius:4px;
+    outline:1px solid var(--tx3);
+    margin-left:10px;
+    padding-left:4px;
+    /* transform: translateX(-4px); */
+}
+
+/* Due date on right */
+.task-due {
+    width: fit-content;
+    margin-left: 5px;
+    order: 5;
+    font-weight: var(--bold-weight);
+}
+
+.plugin-tasks-query-result li {
+    display:inline-flex;
+    width:100%;
+}
+
+.plugin-tasks-query-result .task-list-item-checkbox {
+    transform: translateY(6px);
+}
+
+.plugin-tasks-query-result .tasks-list-text {
+    flex-grow:1;
+}
+
+.plugin-tasks-query-result .task-extras{
+    display:flex;
+    justify-self: flex-end;
+    height:1em;
+}
+
+/* File backlink */
+.plugin-tasks-query-result .tasks-backlink {
+    font-size: 1px;
+    letter-spacing: -1px;
+    color: transparent;
+    background-color: transparent;
+    width:1.5rem;
+    height: 1.5rem;
+    align-self:baseline;
+}
+
+.plugin-tasks-query-result .tasks-backlink::before {
+    content:'📄';
+    font-size: var(--font-adaptive-normal);
+    line-height: var(--line-height);
+    color: var(--tx1);
+    transform: translateX(6px);
+    display:inline-block;
+    opacity:0.5;
+}
+
+.plugin-tasks-query-result .tasks-backlink:hover {
+    font-size: var(--font-adaptive-normal);
+    line-height: var(--line-height);
+    letter-spacing:0;
+    width:inherit;
+    opacity:1;
+    transform: translateX(8px);
+}
+
+/* Show all text on edit hover */
+.tasks-edit {
+    transform:translate(0,3px)
+}
+
+.plugin-tasks-query-result li:has(.tasks-edit:hover) :is(.task-recurring, .task-start, .task-scheduled, .task-done, .task-created) {
+    letter-spacing: 0px;
+    font-size: var(--font-adaptive-normal);
+    line-height: var(--line-height);
+    color: var(--tx1);
+    margin-left: 5px;
+}
+
+.plugin-tasks-query-result li:has(.tasks-edit:hover) :is(.task-recurring, .task-start, .task-scheduled, .task-done, .task-created)::after {
+    content:'';
+}
+
+.plugin-tasks-query-result {
+    max-width:100%;
+}

@@ -77,6 +77,23 @@
     opacity:0.8;
 }
 
+/* Boxed style for Tasks dataviews */
+.plugin-tasks-list-item .tag {
+    border:var(--replete-tag-border) !important;
+    background-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 20%), 0.3);
+    border-radius: var(--replete-tag-radius) !important;
+    padding: 3px 2px 3px 2px !important;
+    text-transform: uppercase !important;
+    font-weight:600;
+    font-size:10px;
+    letter-spacing: 0.04em;
+    transform: translate(0,-2px);
+    display:inline-block;
+}
+    .theme-dark .plugin-tasks-list-item .tag {
+    background-color: hsla(var(--base-h), var(--base-s), calc(var(--base-l) + 40%), 0.4);
+    }
+
 /* GTD tags */
 .cm-tag-next {
     color:var(--color-accent-1) !important;
