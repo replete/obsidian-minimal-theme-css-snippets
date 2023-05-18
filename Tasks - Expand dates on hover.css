@@ -33,11 +33,6 @@ input[type=checkbox]:checked {
     border-color: var(--checkbox-border-color) !important;
 }
 
-
-/* .markdown-preview-view .task-list-item-checkbox {
-    margin-right: 6px;
-} */
-
 .tasks-list-text {
     display: inline-flex;
     max-width: 100%;
@@ -172,8 +167,4 @@ input[type=checkbox]:checked {
 
 .plugin-tasks-query-result li:has(.tasks-edit:hover) :is(.task-recurring, .task-start, .task-scheduled, .task-done, .task-created)::after {
     content:'';
-}
-
-.plugin-tasks-query-result {
-    max-width:100%;
 }
