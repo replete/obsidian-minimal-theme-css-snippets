@@ -1,0 +1,179 @@
+/*
+    Tasks: Expand dates on hover (WIP)
+    Color priority markers and dates that expand on hover. 
+
+    Original credit to @sunb_mn on Obsidian's discord server for 
+    the basis of this styles which I've tweaked and extended a little,
+    he also quotes @SlRvb and @esm7 for help with code:
+    https://discord.com/channels/686053708261228577/744933215063638183/1108617092137226320
+    
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/*! 
+Included icons were modified from https://lucide.dev
+License reproduced from https://lucide.dev/license
+
+ISC License
+Copyright (c) for portions of Lucide are held by Cole Bemis 2013-2022 as part of Feather (MIT). All other copyright (c) for Lucide are held by Lucide Contributors 2022.
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+*/
+@font-face {
+    font-family: 'TasksMonoEmojis';
+    src: url('data:@file/octet-stream;base64,d09GMgABAAAAAAdkAAsAAAAAEOAAAAcTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHIIGBmAAhX4KjwCNFws2AAE2AiQDaAQgBYRqB4E0G/oOUVRx/iP7osA2pg3eUIYTIhIwrIBxgJc+/MbFf3COGEoM/mwFFPn1azWeMqjO76ume2aSHgbel1WwhJK3Mk/Sdf2pk4jM55/GBcDv+BpdCntNPGyFJo0dFnjqKw/A/fJdJGUtwEcVNJAdL0rg8ypIbiANFoCNlYPbHBVv4jUMEimIZ7L4//4QkVKm+c+qdf1+rf7lWNSrPUQbIR3NEqnvuSJuyTSKRRrZk0fVdDTLdEKz6aTGUEpiMbfIpMV8YiklEw/jjZ/+SBCgNNOFNtmnspFmvVaSi2nuJAAACLP2XJtDITRTWUKSAAFb3YApqpFeWvFBx9AYfAFSlM9GguXYXtIE2VwWh8PjCyEpyOSwJSXYFJIEA2o8lnBCKHOiYoX3TDMFuVJ6EqqIs5tOl5DkSJAf1yB5QlLIpDhcYRFxKTL0fegw0EGO6KtBYwXeX5wohyWg0SNYX2HYQhFOu0Tpn/ki4FZgOy8ysAGCAB0gAI0AEniGAOAhCFQFCwp+unQYQJxPMJQQeAAFZf9P3eeiXjxRASjBUISko34hi+J2wrSsnAY9gSSXYrPx7+2JCPNFOeISLDEGU0AQGMda2BBFWsirohCRnC+K4ZQS4k9YO9v8OIi6FKA0gSRWg4vTQeEMsHEWhHA2pHAOeDgfIrgAwrgQfFwEUVwKDi6DOC6HBK4AC1dxMbe6T04w3Oo+O8F0K8acEHArHsVAEF8uYwHE15iAhq+DMQGBr0MxAYlvTz0BHQCkJbQ6MAHaLoCYAQ0AIIVZRZtgSSPTIaBxrqZGxZzyJieKhjq5xaIHRJqna6wz55Zn70OA7TxMrSMEjABjKbTvDSqYWwhJJWx+eN+jpOOc1Np3A+HQlneNv/gI9YjcfK17ncQbZ4hMkJlPZy0YEDuyeGJRGHP2vclKpca+QadeGEdEEE1VcRr5imdeuoAJJ9XSPuNq8RySNyiq1684k7h67/lEBKXbF0ZoNoduX+rZd9mJCMvPhADPDCe1cop7Vzsw9RZGe+H2MqPCcVsRI1BpxO1a3uaWRy1yF/tL3PI6EWuotLJrZNjZgrCmndiOta/h3tlT5+7FUa8ieNXyouq5U3U9ZkzXuVZ2HBn60Wpl25e/YiAL+aOatSCsxW6Xl1QulG7L+eKQe0JMn4Roi503wcEqdIosfwiXMSbqgW0bXxsOldQic6Fvid5xyiM7r3VCUlNKmZ+dxgYkRRJIIy1S83PXDpUS9KV6xxnmPsFaLaXv86qbcFbu9Kovw5m+U6u21YK08nHK5tDOvyWJ2uaLU4UVNV/Nbtwb3lrS2WSWdfdrOVNqEQnYy5n5fOIN/Q6ZLso47TfKbLF6q8vNPUlkIur40vnN3p0SisjoSpbbyiwX1OL5GPYlISm45bIBr87xyRnLHZ1hhvT6v7rJUMx05rJZ7pD382z74jZeyFxhCnG9/W152hbxLVv0StN0KCTworQmHC/0OmnXoM+tPleL0pqSmdr2RdLUmKZrXqhbg9FTKx2EXI2ho7o1BqR8QGqijh8/Wm6bb7vKGfghd8/c/4//13fi+k77/PqIqiTwKkxrJCBY1Fr3F2Uxpti0/ZXHe1bVnplH+nm9XmvR9xKoBBWrBIM0icwBlf+doSYPZksn9Nc7KTwxNzroTnMLDd+bifiendUZ3Ba0sDs3PrjzaUtH8ilMcfnTBFrt8xAE47bmLBuP1cfUREcPi6m/3dKRfArL78wRtSuozaWNuu5RDvKnl0YIIHdwV9kpG3sX5r+/SZLGNG37UavbZx5IvHCmRpVRgw6ZQ53OUB3qkST/Kzshiwu6XVVpTdXL7+ChqXLtCEpRUYVrB2vPQm5LGzsBACoVI2fkAMAY0D/9B6IjOgPOHtoXUPnTaGhUrUzyABXmCYHLyaIfigDC+1v/SE216fRbwDJftOYq6j+z7YkADQAQKAajq+Eq84DOVKdBvAoSsxU6BEJHaqQlALxk2lFIAKABFAWoYB3N9wyojjwwmcbkMcETB4l5prO0YgZPV6Y0NORgS8QaTIwGQVn7R0zjusGErHsg8XWmi/uVGbIhxZQxoXo1lkJo4zdc9qkCYlAkAnye7E9V+1L0tZI8Xp0vrkkzZa/X5s1lkIqXy8lnpcIfiAgfWUj/Sl/yhEozUwhv8brQGiFkBLvgKoD4+ygiAvDxyNQjUBSEEFLaYDRVzQhSweOtjK/mmmhGhxKVOEtUhBwBt03ZAF/LQJR4y8mRfM0kBYj46gMQE6uEhIDJW1zFR8AgJ9rsDJvrk66ppmYucqJVF2JmWCcj6jXTIY2CkjoNmgwwSEWLNh269OgzxDAjjDLGOBNMMsU0MxBzKwiz/1YT3vurObetNcz5i5Ts+1kl605XZ3Y3rmTdbmtMbm7ldPu2KziDS1nNOVzIWVzA+VzEVVzG5SxxNmgAAAA=') format('woff2');
+    unicode-range: U+1F4C5, U+1F501, U+1F53C, U+1F53D, U+1F6EB, U+23EB, U+23F3, U+2705, U+2795;
+    /* 📅, 🔁, 🔼, 🔽, 🛫, ⏫, ⏳, ✅, ➕ */
+    /*! Generator: obsidian-tasks-custom-icons v1.0.2 https://github.com/replete/obsidian-tasks-custom-icons */
+}
+
+span.tasks-list-text,
+.cm-line:has(.task-list-label) [class^=cm-list-] {
+    font-family: 'TasksMonoEmojis', var(--font-text);
+}
+
+
+/* Priority as Checkbox Color and Remove the Emoji */
+.task-list-item[data-task-priority=high] input[type=checkbox] {
+    box-shadow: 0px 0px 1px 1px var(--color-red);
+    border-color: var(--color-red);
+}
+.task-list-item[data-task-priority=medium] input[type=checkbox] {
+    box-shadow: 0px 0px 1px 1px var(--color-orange);
+    border-color: var(--color-orange);
+}
+
+.task-list-item[data-task-priority=low] .task-description {
+    opacity:0.6
+}
+
+.task-priority {
+    display: none;
+}
+
+input[type=checkbox]:checked {
+    box-shadow: none !important;
+    border-color: var(--checkbox-border-color) !important;
+}
+
+.task-description {
+    margin-right:3px;
+}
+
+/* Show dates on emoji hover */
+:is(.task-recurring, .task-start, .task-scheduled, .task-done, .task-created, .task-due) {
+    font-size: 1px;
+    letter-spacing: -1px;
+    color: transparent;
+    background-color: transparent;
+}
+:is(.task-recurring, .task-start, .task-scheduled,.task-done, .task-created, .task-due)::after {
+    letter-spacing: 0px;
+    font-size: var(--font-adaptive-normal);
+    line-height: var(--line-height);
+    color: var(--tx1);
+    margin-left: 3px;
+}
+.task-recurring::after {
+    content: "🔁";
+}
+.task-start::after {
+    content: "🛫";
+}
+.task-scheduled::after {
+    content: "⏳";
+}
+.task-done::after {
+    content: "✅";
+}
+.task-created::after {
+    content: "➕";
+}
+.task-due::after {
+    content: "📅";
+}
+
+.plugin-tasks-query-result [class^=task-]::after {
+    cursor: default !important;
+    opacity:0.6
+}
+
+:is(.task-recurring, .task-start, .task-scheduled, .task-done, .task-created, .task-due):hover::after {
+    opacity:1;
+}
+
+:is(.task-recurring, .task-start, .task-scheduled, .task-done, .task-created, .task-due):hover span {
+    position:absolute;
+    display:inline-block;
+    flex-grow:1;
+    letter-spacing: 0px;
+    font-size: var(--font-adaptive-small);
+    line-height: var(--line-height);
+    color: var(--tx1);
+    background:var(--bg2);
+    border-radius:4px;
+    outline:1px solid var(--tx3);
+    margin-left:10px;
+    padding-left:2px;
+    padding-right:4px;
+    min-width:7rem;
+    width: fit-content;
+    pointer-events:none;
+    z-index:1000;
+    box-shadow:2px 2px 3px var(--bg2), 0 0 7px var(--bg2);
+    line-height:1.2em;
+    margin-top:1.5rem;
+    margin-left:2px;
+}
+
+/* File backlink */
+.plugin-tasks-query-result .tasks-backlink {
+    font-size: 1px;
+    letter-spacing: -1px;
+    color: transparent;
+    background-color: transparent;
+    width:1.5rem;
+    height: 1.5rem;
+    align-self:baseline;
+}
+
+.plugin-tasks-query-result .tasks-backlink::before {
+    content:'... ';
+    font-size: var(--font-adaptive-normal);
+    line-height: var(--line-height);
+    color: var(--tx1);
+    transform: translateX(6px);
+    display:inline-flex;
+    opacity:0.6;
+}
+
+.plugin-tasks-query-result .tasks-backlink:hover {
+    font-size: var(--font-adaptive-normal);
+    line-height: var(--line-height);
+    letter-spacing:0;
+    width:inherit;
+}
+
+.plugin-tasks-query-result .tasks-backlink:hover::before {
+    content:''
+}
+
+/* Show all text on edit hover */
+.tasks-edit {
+    background-color: var(--tx1);
+    -webkit-mask-image: url('data:image/svg+xml,<svg enable-background="new 0 0 24 28" viewBox="0 0 24 28" xmlns="http://www.w3.org/2000/svg"><path d="m22 12c-.3 0-.5-.1-.7-.3l-4-4c-.4-.4-.4-1 0-1.4s1-.4 1.4 0l4 4c.4.4.4 1 0 1.4-.2.2-.4.3-.7.3z"/><path d="m2 28c-.3 0-.5-.1-.7-.3-.3-.3-.4-.6-.3-1l1.5-5.5c0-.2.1-.3.3-.4l11.5-11.5c.4-.4 1-.4 1.4 0l4 4c.4.4.4 1 0 1.4l-11.5 11.5c-.1.1-.3.2-.4.3l-5.5 1.5c-.1 0-.2 0-.3 0zm2.4-6-1 3.6 3.6-1 10.6-10.6-2.6-2.6z"/></svg>');
+    -webkit-mask-size: 85%;
+    -webkit-mask-position: 0 -3px;
+    -webkit-mask-repeat: no-repeat;
+    transform: translate(0,-1px);
+    opacity:0.6;
+    margin-left:5px;
+}
+
+.tasks-edit:hover {
+    opacity: 1;
+}
+
+.plugin-tasks-query-result .tasks-backlink {
+    float:right;
+}
