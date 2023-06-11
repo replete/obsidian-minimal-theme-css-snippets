@@ -4,6 +4,12 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
+/* Navigation footnote underneath title (kludge selector) */
+.dailynote .cm-content > div:nth-of-type(4) {
+    /* outline: 2px solid red; */
+    margin-bottom:15px !important;
+}
+
 /* Blockquote styles */
 /* I only use blockquotes in my daily note for actual quotes */
 .dailynote .HyperMD-quote {
