@@ -1,8 +1,0 @@
-body {
-    --bg1: var(--background-primary) !important;
-    --bg2: var(--background-secondary) !important;
-    --bg3: var(--background-tertiary) !important;
-    --tx1: var(--text-normal) !important;
-    --tx2: var(--text-faint) !important;
-    --tx3: var(--text-muted) !important;
-}
