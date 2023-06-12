@@ -4,10 +4,6 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-.workspace-tab-header-container-inner {
-    /* gap:1px !important */
-}
-
 .workspace-tab-header-inner{
     padding-left:3px;
     padding-right:3px;
@@ -15,6 +11,7 @@
 
 .nav-buttons-container {
     justify-content:start !important;
+    margin-left:-4px
 }
 
 .nav-buttons-container .clickable-icon {
@@ -23,10 +20,10 @@
 }
 
 .nav-buttons-container .clickable-icon{
-    color:var(--tx2) !important;
+    color:var(--tx2, var(--text-normal)) !important;
     transition: .2s color ease-in;
 }
 
 .nav-buttons-container .view-actions:hover .clickable-icon {
-    color: var(--tx1) !important;
+    color: var(--tx1, var(--text-faint)) !important;
 }
