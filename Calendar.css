@@ -27,11 +27,11 @@
 }
 #calendar-container .day.active .filled,
 #calendar-container .day.today.active .filled {
-    fill:var(--tx1) !important;
+    fill:var(--tx1, var(--text-normal)) !important;
 }
 #calendar-container .day.active .hollow,
 #calendar-container .day.today.active .hollow {
-    stroke:var(--tx1) !important;
+    stroke:var(--tx1, var(--text-normal)) !important;
 }
 #calendar-container .day.today .filled {
     fill:var(--text-muted) !important;
@@ -53,7 +53,7 @@
     /* color:var(--text-bright); */
 }
 #calendar-container .day:active {
-    background:var(--tx2);
+    background:var(--tx2, var(--text-muted));
 }
 #calendar-container .day.adjacent-month {
     /* color:var(--tx2) */
