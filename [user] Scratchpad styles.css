@@ -1,0 +1,15 @@
+/*
+    Note styles: Scratchpad
+    Requires `cssclass  scratchpad` in note YAML frontmatter 
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+
+/* h2 styles */
+.scratchpad .cm-header-1 {
+    font-size:13px !important;
+    letter-spacing: 0.05em;
+    color:var(--tx2) !important;
+    text-transform:uppercase;
+    line-height:1em !important;
+}
