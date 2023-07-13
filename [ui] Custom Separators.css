@@ -12,7 +12,9 @@
 }
 
 /* Separator below */
-.nav-folder-children > [class*=nav-]:has([data-path="Scratchpad.md"])::after,
+.nav-folder-children > [class*=nav-]:has([data-path="Inbox"])::after,
+.nav-folder-children > [class*=nav-]:has([data-path="Tasks"])::after,
+.nav-folder-children > [class*=nav-]:has([data-path="Daily Stoic"])::after,
 .nav-folder-children > [class*=nav-]:has([data-path="Archive"])::after
 {
     content:'';
@@ -24,7 +26,6 @@
 }
 
 /* Separator above */
-.nav-folder-children > [class*=nav-]:has([data-path="Daily"])::before,
 .nav-folder-children > [class*=nav-]:has([data-path="People"])::before,
 .nav-folder-children > [class*=nav-]:has([data-path="Archive"])::before
 {
