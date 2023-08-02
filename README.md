@@ -20,7 +20,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 - `MacOS 13.4.1`, ~~Mobile~~ (not tested/fixed yet)
 - `Obsidian v1.3.7 (installer 1.3.5)`, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
-- `Minimal Theme v7.0.7`
+- `Minimal Theme v7.1.1`
 ```js
 // [...new Set(app.plugins.enabledPlugins)]
 [['obsidian-advanced-uri', 'obsidian-attachment-name-formatting', 'auto-class', 'calendar', 'obsidian-checklist-plugin', 'cmdr', 'obsidian-custom-attachment-location', 'custom-sort', 'obsidian-custom-frames', 'dataview', 'dbfolder', 'draw-harada-method', 'folder-note-plugin', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-hover-editor', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-in-new-tab', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-quiet-outline', 'obsidian-smart-typography', 'obsidian-style-settings', 'obsidian-task-progress-bar', 'obsidian-tasks-plugin', 'templater-obsidian', 'obsidian-toggle-list', 'make-md', 'mysnippets-plugin', 'nldates-obsidian', 'no-dupe-leaves', 'file-explorer-note-count', 'obsidian-columns', 'ob-table-enhancer', 'easy-toggle-sidebars', 'obsidian-daily-note-outline', 'settings-search']
