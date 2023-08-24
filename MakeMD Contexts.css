@@ -7,8 +7,12 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-.mk-header {
-    padding-top:10px !important;
+.mk-inline-context {
+    /* padding-top:30px !important; */
+}
+
+.mk-file-context-component > .mk-spacer {
+max-height:10px !important;
 }
 
 /* Tags */
@@ -150,7 +154,7 @@
 
 /* Banners: Fix inline title spacing */
 .mk-note-header:has(img) + .mk-file-context-component {
-    padding-top:5px !important;
+    padding-top:25px !important;
 }
 
 /* Hide banner in hover popover */

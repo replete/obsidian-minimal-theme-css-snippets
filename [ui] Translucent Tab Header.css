@@ -16,11 +16,13 @@
 }
 
 /* Offset editor content */
-.cm-contentContainer {
-    padding-top:var(--header-height);
+.cm-editor > .cm-scroller > .cm-sizer::before {
+    content:'';
+    display:block;
+    height:var(--header-height);
 }
 
 /* Don't offset for notes showing a Make.MD Contexts banner image */
-.cm-contentContainer:has(.mk-note-header img) {
-    padding-top:inherit;
+.cm-editor > .cm-scroller > .cm-sizer:has(.mk-note-header img)::before {
+    display:none;
 }

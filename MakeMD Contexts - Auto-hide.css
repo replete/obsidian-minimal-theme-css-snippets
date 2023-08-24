@@ -4,21 +4,20 @@
     https://i.imgur.com/pqUXiQj.gif
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
-.is-live-preview .cm-content > .mk-header :is(.mk-file-context-field-new,.mk-file-context-section) {
+.is-live-preview .mk-inline-context :is(.mk-file-context-field-new,.mk-file-context-section) {
     display:none;
 }
 
-.is-live-preview .cm-content > .mk-header:is(:hover, :focus-within) :is(.mk-file-context-field-new,.mk-file-context-section) {
+.is-live-preview .mk-inline-context:is(:hover, :focus-within) :is(.mk-file-context-field-new,.mk-file-context-section) {
     display:flex;
 }
 
 /* Fix margin */
-.mk-header {
-    min-height:60px !important;
-    gap: 4px !important
+.mk-inline-context {
+    gap: 4px !important;
 }
 
-.is-live-preview .cm-content > .mk-header:is(:hover, :focus-within) {
+.is-live-preview .mk-inline-context:is(:hover, :focus-within) {
     gap: 16px !important
 }
 
