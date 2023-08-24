@@ -154,7 +154,7 @@ max-height:10px !important;
 
 /* Banners: Fix inline title spacing */
 .mk-note-header:has(img) + .mk-file-context-component {
-    padding-top:25px !important;
+    padding-top:75px !important;
 }
 
 /* Hide banner in hover popover */
