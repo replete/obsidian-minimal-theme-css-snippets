@@ -19,7 +19,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 ## My environment
 
 - `MacOS 13.5`, ~~Mobile~~ (not tested/fixed yet)
-- `Obsidian v1.3.7 (installer 1.3.5)`, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
+- `Obsidian v1.4.5 (installer 1.3.5)`, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
 - `Minimal Theme v7.2.1`
 ```js
 // [...new Set(app.plugins.enabledPlugins)]
@@ -42,7 +42,9 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Collapsible Right Headers** - Hide panel headers until hover in the right sidebar   
     ![Collapsible right headers screenshot](screenshots/collapsible-header.gif)
 - **Compact File Explorer** - Compact styles, chevrons on right, makes attachment folders less visible    
-    ![Compact File Explorer screenshot](screenshots/compact-file-explorer.png)
+    ![Compact File Explorer screenshot](screenshots/compact-file-explorer.png)    
+- **Compact Properties (+autohide)** - Compact Properties (Obsidian 1.4.5 feature) with hover autohide, just like the Make.MD snippet [note: I keep the Make.MD + snippets enabled for the banner functionality]
+    ![Compact Properties screenshot](screenshots/compact-properties.gif)
 - **Compact Tab Header** - Compact icons in toolbar, also fixes `Commander` plugin icon colours    
     ![Compact Tab Header screenshot](screenshots/compact-tab-header.png)
 - **Compact Tabs** - Compact firefox-style pill tabs, better for smaller screens     
@@ -89,7 +91,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Database Folder screenshot](screenshots/dbfolder.png)
 - **Day Planner** - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy    
     ![Day Planner screenshot](screenshots/dayplanner.png)
-- **Make.MD Contexts** - Compact Make.md Contexts, tidier layout   
+- **Make.MD Contexts** - Compact Make.md Contexts, tidier layout (Obsidian shipped Properties feature in 1.4.5 which replaces this)   
     ![Make.MD Contexts screenshot](screenshots/makemdcontexts.png)
 - **Make.MD Contexts: Auto-hide properties** - Hide file properties until hover    
     ![Make.MD Contexts autohide screenshot](screenshots/makemdcontextsautohide.gif)
