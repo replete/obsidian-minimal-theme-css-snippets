@@ -1,0 +1,51 @@
+
+/*
+    Compact Properties
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+
+/* Compact style */
+.metadata-container {
+    padding-top:0;
+    padding-bottom:0;
+
+    .metadata-property {
+        margin-top:-3px;
+        margin-bottom:-3px;
+    }
+}
+
+/* Autohide on hover */
+.metadata-container {
+    height:.5em;
+    margin-bottom:0;
+
+    .metadata-content {
+        display:none;
+    }
+
+    &::before {
+        content:'⋯';
+        display:block;
+        position:absolute;
+        height:100%;
+        width:100%;
+        text-align:center;
+        top:-10px;
+        pointer-events:none;
+    }
+
+    &:is(:hover,:focus-within) {
+        height:auto;
+
+        &::before {
+            display:none;
+        }
+
+        .metadata-content {
+            display:inherit;
+        }   
+    }
+
+}
