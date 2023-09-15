@@ -9,11 +9,6 @@
 .metadata-container {
     padding-top:0;
     padding-bottom:0;
-
-    .metadata-property {
-        margin-top:-3px;
-        margin-bottom:-3px;
-    }
 }
 
 /* Autohide on hover */
@@ -31,13 +26,15 @@
         position:absolute;
         height:100%;
         width:100%;
-        text-align:center;
-        top:-10px;
+        line-height:1em;
+        text-indent:3px;
+        top:-4px;
         pointer-events:none;
     }
-
+    
     &:is(:hover,:focus-within) {
         height:auto;
+        background: inherit;
 
         &::before {
             display:none;
