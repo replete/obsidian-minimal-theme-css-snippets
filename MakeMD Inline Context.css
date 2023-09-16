@@ -1,15 +1,11 @@
 /*
-    Make.MD Contexts 
+    Make.MD Banners 
     
-    Global compact restyle for Make.MD contexts
-    - Spaces disabled
-    - Sticker disabled
+    The only thing I use Make.MD for now is the banner functionality.
+    This base snippet alters metrics and makes the layout comopact.
+    Use the other Duotone, Faded, Autohide, Disable meta in addition.
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
-
-.mk-inline-context {
-    /* padding-top:30px !important; */
-}
 
 .mk-file-context-component > .mk-spacer {
 max-height:10px !important;
@@ -26,12 +22,10 @@ max-height:10px !important;
     opacity:1;
 }
 
-/* .mk-file-context-component .mk-tag-selector .cm-hashtag:hover {
-    opacity:1 !important;
-} */
 
+/* Small tag text */
 .mk-file-context-component .mk-tag-selector :is(.cm-hashtag-begin, .cm-hashtag-end){
-    font-size:11px !important
+    font-size:11px !important;
 }
 
 /* Add Property, Add Tag, Change Cover buttons  */
@@ -154,7 +148,7 @@ max-height:10px !important;
 
 /* Banners: Fix inline title spacing */
 .mk-note-header:has(img) + .mk-file-context-component {
-    padding-top:75px !important;
+    padding-top:45px !important;
 }
 
 /* Hide banner in hover popover */

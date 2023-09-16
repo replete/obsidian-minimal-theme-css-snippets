@@ -91,14 +91,14 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Database Folder screenshot](screenshots/dbfolder.png)
 - **Day Planner** - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy    
     ![Day Planner screenshot](screenshots/dayplanner.png)
-- **Make.MD Contexts** - Compact Make.md Contexts, tidier layout (Obsidian shipped Properties feature in 1.4.5 which replaces this)   
+- **Make.MD Inline Context** - Compact Make.md Contexts, tidier layout (Obsidian shipped Properties feature in 1.4.5 which replaces this)   
     ![Make.MD Contexts screenshot](screenshots/makemdcontexts.png)
-- **Make.MD Contexts: Auto-hide properties** - Hide file properties until hover    
+- **Make.MD Inline Context: Auto-hide meta** -    
     ![Make.MD Contexts autohide screenshot](screenshots/makemdcontextsautohide.gif)
 
-- **Make.MD Contexts: Duotone Banner** - Makes all banner images duotone to match minimal theme    
+- **Make.MD Inline Context: Duotone Banner** - Makes all banner images duotone to match minimal theme    
     ![Make.MD Contexts Duotone banners screenshot](screenshots/makemdcontextsbannerduotone.png)
-- **Make.MD Contexts: Gradient Banner**  Fade images to background with a gradient    
+- **Make.MD Inline Context: Faded Banner**  Fade images to background with a gradient    
     ![Make.MD Contexts Gradient banners screenshot](screenshots/makemdcontextsbannergradient.png)
 - **MySnippets** - make menu wider and fix button style/order    
     ![MySnippets tweaks screenshot](screenshots/mysnippets_tweaks.png)
