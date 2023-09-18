@@ -6,13 +6,13 @@
 
 
 /* Compact style */
-.metadata-container {
+.cm-editor .metadata-container {
     padding-top:0;
     padding-bottom:0;
 }
 
 /* Autohide on hover */
-.metadata-container {
+.cm-editor .metadata-container {
     height:.5em;
     margin-bottom:0;
 
