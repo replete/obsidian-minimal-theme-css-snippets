@@ -90,7 +90,6 @@
 }
 .dailynote .HyperMD-header-5 {
     padding-top:0 !important;
-    /* padding:.4em 0 !important */
 }
 .dailynote .HyperMD-header-5 .cm-task-progress-bar {
     transform:scale(0.7);
@@ -98,6 +97,32 @@
 }
 .dailynote .HyperMD-header-5 .cm-task-progress-bar:has(.progress-bar-inline-4)::after {
     color:var(--tx3)
+}
+
+/* h6 styles */
+.dailynote .cm-header-6 {
+    font-size:14px !important;
+    color:var(--tx3) !important;
+}
+/* .dailynote:not(.is-live-preview) .cm-header-5,
+.dailynote .cm-focused .cm-active .cm-header-5 {
+    text-transform:none !important;
+    letter-spacing:0;
+}
+.dailynote .HyperMD-header-5 {
+    padding-top:0 !important;
+} */
+.dailynote .HyperMD-header-6 .cm-task-progress-bar {
+    transform:scale(0.7);
+    transform-origin:0;
+}
+.dailynote .HyperMD-header-6 .cm-task-progress-bar:has(.progress-bar-inline-4)::after {
+    color:var(--tx3)
+}
+
+/* fold placeholder */
+.dailynote .HyperMD-header .cm-foldPlaceholder {
+    display:none;
 }
 
 
