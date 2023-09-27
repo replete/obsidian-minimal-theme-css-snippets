@@ -18,8 +18,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 ## My environment
 
-- `MacOS 13.5.2`
-- `Obsidian v1.4.13 (installer 1.4.13)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
+- `MacOS 13.6`
+- `Obsidian v1.4.14 (installer 1.4.13)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
 - `Minimal Theme v7.2.1`
 ```js
 // [...new Set(app.plugins.enabledPlugins)]
