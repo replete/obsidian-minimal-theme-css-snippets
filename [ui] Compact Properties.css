@@ -8,7 +8,11 @@
 /* Compact style */
 .cm-editor .metadata-container {
     padding-top:0;
-    padding-bottom:0;
+    padding-bottom:6px;
+}
+
+.cm-editor .metadata-properties-heading {
+    display:none;
 }
 
 /* Autohide on hover */
