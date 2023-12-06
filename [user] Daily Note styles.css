@@ -180,25 +180,31 @@
 
 /* meta bind plugin styles */
 
-.dailynote .meta-bind-plugin-input-wrapper :is(input[type='text'], input[type='search'], input[type='email'], input[type='password'], input[type='number']) {
+.dailynote .mb-input-wrapper :is(input[type='text'], input[type='search'], input[type='email'], input[type='password'], input[type='number']) {
     padding: var(--size-4-1) var(--size-4-1);
     height:auto;
     margin-left:2px;
 }
 
-.dailynote .meta-bind-plugin-input-wrapper input[type=number] {
+.dailynote .mb-input-wrapper input[type=number] {
     width:4em;
 }
 
 .dailynote .taskindent {
-    margin:var(--size-4-1) 0 var(--size-4-1) calc(var(--size-4-6) * 1.25) !important;
+    margin:var(--size-4-1) 0 var(--size-4-1) var(--size-4-5) !important;
+
+    &::after {
+        content:'';
+        display:block;
+        height:10px;
+    }
 }
 
 /* slider */
-.dailynote .meta-bind-plugin-slider-input {
-    transform:translateY(-5px)
+.dailynote .mb-slider-input {
+    transform:translate(-4px, -5px) !important;
 }
-.dailynote .meta-bind-plugin-slider-input::-webkit-slider-thumb {
+.dailynote .mb-slider-input::-webkit-slider-thumb {
     transform:scale(0.75);
     background: var(--tx1)
 }
