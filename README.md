@@ -90,7 +90,9 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Database Folder (Compact)** - compact view    
     ![Database Folder screenshot](screenshots/dbfolder.png)
 - **Day Planner** - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy    
-    ![Day Planner screenshot](screenshots/dayplanner.png)
+    ![Day Planner screenshot](screenshots/dayplanner.png)    
+- **Excel** - Follows minimal colour theme for plugin UI (excluding spreadsheet editor, which is a rendered canvas), tidy up some UI metrics
+    ![Excel screenshot](screenshots/excel.png)
 - **Make.MD Inline Context** - Compact Make.md Contexts, tidier layout (Obsidian shipped Properties feature in 1.4.5 which makes this redundant, though I still have enabled for a few styles)
     ![Make.MD Contexts screenshot](screenshots/makemdcontexts.png)
 - **Make.MD Inline Context: Auto-hide meta** -    
