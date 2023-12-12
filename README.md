@@ -90,8 +90,6 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Daily Note Outline screenshot](screenshots/daily-note-outline.png)
 - **Database Folder (Compact)** - compact view    
     ![Database Folder screenshot](screenshots/dbfolder.png)
-- **Day Planner** - I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy    
-    ![Day Planner screenshot](screenshots/dayplanner.png)    
 - **Excel** - Follows minimal colour theme for plugin UI (excluding spreadsheet editor, which is a rendered canvas), tidy up some UI metrics
     ![Excel screenshot](screenshots/excel.png)
 - **Make.MD Inline Context** - Compact Make.md Contexts, tidier layout (Obsidian shipped Properties feature in 1.4.5 which makes this redundant, though I still have enabled for a few styles)
@@ -120,6 +118,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Heatmap Calendar** - colours and text styles for habit type use-case [(imgur screenshot)](https://i.imgur.com/ndvRLIC.png)
 - **Full Calendar** - pretty hacky due to limits of styling hooks
 - **Obsidian Buttons** - alignments
+- **Day Planner** - ~~I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy~~ Apparantly this plugin has a new maintainer, but I've stopped using it so these styles are for an older v
+    ![Day Planner screenshot](screenshots/dayplanner.png)    
 
 ## Deprecated snippets (deleted from repo)
 - ~~[Make.MD Banner](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc - I refactored/improved this into separate snippets above~~
