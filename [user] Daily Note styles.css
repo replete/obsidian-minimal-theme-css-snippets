@@ -191,13 +191,18 @@
 }
 
 .dailynote .taskindent {
-    margin:var(--size-4-1) 0 var(--size-4-1) var(--size-4-5) !important;
+    margin:var(--size-4-1) 0 var(--size-4-1) var(--size-4-6) !important;
 
     &::after {
         content:'';
         display:block;
         height:10px;
     }
+}
+
+.dailynote select {
+    height: 2.25em;
+    box-shadow: none;
 }
 
 /* slider */
