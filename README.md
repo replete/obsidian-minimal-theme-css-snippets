@@ -129,8 +129,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 <a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 ## TODO
-- [ ] Fix the weird list item alignments that vary depending on file length
 - [ ] Test/fix for Mobile Obsidian
+- [x] Fix the weird list item alignments that vary depending on file length
 - [x] Fix colour inconsistencies across light/dark themes
 - [x] Test/fix for Windows (no fixes needed at time)
 - [x] Test/fix for Linux (no fixes needed at time)
