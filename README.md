@@ -18,7 +18,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 ## My environment
 
-- `MacOS 13.6` (I'm holding off on Sonoma, doubtful this will be a problem for you however)
+- `MacOS 13.6.1` (I'm holding off on Sonoma, doubtful this will be a problem for you however)
 - `Obsidian v1.4.16 (installer 1.4.13)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
 - `Minimal Theme v7.3.5`
 ```js
@@ -35,7 +35,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Table tweaks** - WIP, still waiting for a good table editing plugin...
 - **Top Fade** - Remove harsh edge of content when using "Compact Tabs (classic)" with one of the positional Tab Header snippets (I prefer the Translucent Tab Header)
 ![Top fade screenshot](screenshots/top-fade.png)
-- **Typography fixes** - alignment fixes for editor, headings, quotes etc (WIP)
+- **Typography fixes** - alignment fixes for editor, headings, list items quotes etc (WIP)
+    ![Typography fixes](screenshots/typography-fixes.png)
 ## Font snippets:
 - **Mono Emojis** - embedded Noto Emoji variable font (2MB snippet!) - not recommended
 ## UI snippets:

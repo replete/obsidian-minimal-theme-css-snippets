@@ -4,19 +4,35 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-/* Fix list offset */
+/* Fix list offsets */
 .HyperMD-list-line.cm-line {
-    transform:translate(-8px,0)
-}
 
-/* Fix list styling */
-.HyperMD-list-line.cm-line .cm-formatting-list {
-    margin-left:-5px;
-    margin-right:4px;
+    .cm-formatting-list {
+        margin-left:6px;
+
+        .list-bullet {
+            margin-right:5px;
+        }
+    }
+
+    .cm-formatting-list-ol {
+        margin-left:-3px;
+        margin-right:6px;
+    }
+
+    /* .cm-hmd-list-indent {
+        .cm-indent::before {
+            margin-left:2.5px;
+        }
+    } */
+
+    .task-list-item-checkbox {
+        transform: translateY(-.5px);
+        margin-left:0;
+    }
 }
 
 /* list and blockquote colors */
-.cm-s-obsidian .cm-formatting-list,
 .cm-s-obsidian .cm-formatting-quote {
     color: var(--tx2)
 }
