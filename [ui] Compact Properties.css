@@ -50,3 +50,35 @@
     }
 
 }
+
+/* Properties panel fixes */
+
+.workspace-leaf-content[data-type=all-properties] {
+
+    .nav-header {
+        padding-top:6px;
+        padding-bottom:0;
+
+        .nav-buttons-container {
+            margin-right:0 !important;
+            padding-left:2px
+        }
+
+        /* correct icon alignment */
+        .clickable-icon svg {
+            transform: translate(-2px,0);
+        }
+
+        .search-input-container {
+            outline:2px solid red;
+
+        }
+    }
+
+    .tree-item {
+        /* fix properties panel item alignment */
+        padding-left: 15px;
+        /* more compact */
+        margin-top:-5px;
+    }
+}
