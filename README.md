@@ -20,11 +20,14 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 - `MacOS 13.6.1` (I'm holding off on Sonoma, doubtful this will be a problem for you however)
 - `Obsidian v1.5.3 (installer 1.4.13)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
-- `Minimal Theme v7.4.37`
+- `Minimal Theme v7.4.8`
 ```js
 // [...new Set(app.plugins.enabledPlugins)]
 ['obsidian-advanced-uri', 'obsidian-attachment-name-formatting', 'auto-class', 'calendar', 'obsidian-checklist-plugin', 'cmdr', 'obsidian-custom-attachment-location', 'custom-sort', 'obsidian-custom-frames', 'dataview', 'dbfolder', 'draw-harada-method', 'folder-note-plugin', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-hover-editor', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-in-new-tab', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-quiet-outline', 'obsidian-smart-typography', 'obsidian-style-settings', 'obsidian-task-progress-bar', 'obsidian-tasks-plugin', 'templater-obsidian', 'obsidian-toggle-list', 'make-md', 'mysnippets-plugin', 'nldates-obsidian', 'no-dupe-leaves', 'file-explorer-note-count', 'obsidian-columns', 'ob-table-enhancer', 'easy-toggle-sidebars', 'obsidian-daily-note-outline', 'settings-search']
 ```
+
+## Updates (scroll to next section for snippet details)
+- **2023-02-08**: Make.MD's inline context (filename in editor) has broken for a while, I've refactored CSS and reinstalled Make.MD but ths bug remains, so for some new files the inline context filename does not show. Reinstalling Make.MD did make my banner show again however and I've fixed the CSS for it. If you have problems, try uninstalling and reinstalling the plugin and reseting the options (disable everything but `Sync Context Fields..., Flow (beta), Inline Context, Flow Block, Open Flow Blocks...` if you wish to replicate my setup, which these snippets are configured for). I only use Make.MD for the banner functionality as there's no other option right now, and look forward to getting rid of this plugin entirely in the future.
 
 ## Editor Snippets
 - **Custom Tag Styles** - I'm not using tags much at the moment, but prefer the more compact look than the pill shaped. If I use tags more I'll extend this.
