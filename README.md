@@ -18,16 +18,17 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 ## My environment
 
-- `MacOS 13.6.4` (I'm holding off on Sonoma, doubtful this will be a problem for you however)
+- `MacOS 13.6.4`, `Android 13`
 - `Obsidian v1.5.3 (installer 1.4.13)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
 - `Minimal Theme v7.4.8`
 ```js
 // [...new Set(app.plugins.enabledPlugins)]
-['obsidian-advanced-uri', 'obsidian-attachment-name-formatting', 'auto-class', 'calendar', 'obsidian-checklist-plugin', 'cmdr', 'obsidian-custom-attachment-location', 'custom-sort', 'obsidian-custom-frames', 'dataview', 'dbfolder', 'draw-harada-method', 'folder-note-plugin', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-hover-editor', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-in-new-tab', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-quiet-outline', 'obsidian-smart-typography', 'obsidian-style-settings', 'obsidian-task-progress-bar', 'obsidian-tasks-plugin', 'templater-obsidian', 'obsidian-toggle-list', 'make-md', 'mysnippets-plugin', 'nldates-obsidian', 'no-dupe-leaves', 'file-explorer-note-count', 'obsidian-columns', 'ob-table-enhancer', 'easy-toggle-sidebars', 'obsidian-daily-note-outline', 'settings-search']
+['obsidian-advanced-uri', 'obsidian-attachment-name-formatting', 'auto-class', 'calendar', 'cmdr', 'obsidian-custom-attachment-location', 'custom-sort', 'dataview', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-hover-editor', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-in-new-tab', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-smart-typography', 'obsidian-task-progress-bar', 'templater-obsidian', 'obsidian-toggle-list', 'mysnippets-plugin', 'nldates-obsidian', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'obsidian-daily-note-outline']
 ```
 
 ## Updates (scroll to next section for snippet details)
-- **2023-02-08**: Make.MD's inline context (filename in editor) has broken for a while, I've refactored CSS and reinstalled Make.MD but ths bug remains, so for some new files the inline context filename does not show. Reinstalling Make.MD did make my banner show again however and I've fixed the CSS for it. If you have problems, try uninstalling and reinstalling the plugin and reseting the options (disable everything but `Sync Context Fields..., Flow (beta), Inline Context, Flow Block, Open Flow Blocks...` if you wish to replicate my setup, which these snippets are configured for). I only use Make.MD for the banner functionality as there's no other option right now, and look forward to getting rid of this plugin entirely in the future.
+- **2024-02-21** Works on mobile. Make.MD banners stopped working again, combined with the broken inline file context I've chosen to just give up and disable Make.MD for now. I'll live without the pretty banners, it's a shame to lose this nice functionality but there are no other banner plugin alternatives that work and Make.MD is no longer worth dealing with. I'll leave the banner functionality here but if it works for you now, updating it may cause you problems.
+- **2024-02-08**: Make.MD's inline context (filename in editor) has broken for a while, I've refactored CSS and reinstalled Make.MD but ths bug remains, so for some new files the inline context filename does not show. Reinstalling Make.MD did make my banner show again however and I've fixed the CSS for it. If you have problems, try uninstalling and reinstalling the plugin and reseting the options (disable everything but `Sync Context Fields..., Flow (beta), Inline Context, Flow Block, Open Flow Blocks...` if you wish to replicate my setup, which these snippets are configured for). I only use Make.MD for the banner functionality as there's no other option right now, and look forward to getting rid of this plugin entirely in the future.
 
 ## Editor Snippets
 - **Custom Tag Styles** - I'm not using tags much at the moment, but prefer the more compact look than the pill shaped. If I use tags more I'll extend this.
@@ -93,17 +94,6 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Daily Note Outline screenshot](screenshots/daily-note-outline.png)
 - **Database Folder (Compact)** - compact view    
     ![Database Folder screenshot](screenshots/dbfolder.png)
-- **Excel** - Follows minimal colour theme for plugin UI (excluding spreadsheet editor, which is a rendered canvas), tidy up some UI metrics
-    ![Excel screenshot](screenshots/excel.png)
-- **Make.MD Inline Context** - Compact Make.md Contexts, tidier layout (Obsidian shipped Properties feature in 1.4.5 which makes this redundant, though I still have enabled for a few styles)
-    ![Make.MD Contexts screenshot](screenshots/makemdcontexts.png)
-- **Make.MD Inline Context: Auto-hide meta** -    
-    ![Make.MD Contexts autohide screenshot](screenshots/makemdcontextsautohide.gif)
-
-- **Make.MD Inline Context: Duotone Banner** - Makes all banner images duotone to match minimal theme    
-    ![Make.MD Contexts Duotone banners screenshot](screenshots/makemdcontextsbannerduotone.png)
-- **Make.MD Inline Context: Faded Banner**  Fade images to background with a gradient    
-    ![Make.MD Contexts Gradient banners screenshot](screenshots/makemdcontextsbannergradient.png)
 - **MySnippets** - make menu wider and fix button style/order    
     ![MySnippets tweaks screenshot](screenshots/mysnippets_tweaks.png)
 - **Outline** - chevron on right, compact    
@@ -116,11 +106,24 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Tasks - Compact](screenshots/tasks-compact.gif)
 - **Task progressbars** - alignments and colours
     ![Task Progressbars plugin tweaks screenshot](screenshots/taskprogressbars.png)
+
+## Temporarily abandoned (Make.MD buggy, given up using it for the time being)
+- **Make.MD Inline Context** - Compact Make.md Contexts, tidier layout (Obsidian shipped Properties feature in 1.4.5 which makes this redundant, though I still have enabled for a few styles)
+    ![Make.MD Contexts screenshot](screenshots/makemdcontexts.png)
+- **Make.MD Inline Context: Auto-hide meta** -    
+    ![Make.MD Contexts autohide screenshot](screenshots/makemdcontextsautohide.gif)
+
+- **Make.MD Inline Context: Duotone Banner** - Makes all banner images duotone to match minimal theme    
+    ![Make.MD Contexts Duotone banners screenshot](screenshots/makemdcontextsbannerduotone.png)
+- **Make.MD Inline Context: Faded Banner**  Fade images to background with a gradient    
+    ![Make.MD Contexts Gradient banners screenshot](screenshots/makemdcontextsbannergradient.png)
     
 ## Abandoned snippets (no longer developed)
 - **Heatmap Calendar** - colours and text styles for habit type use-case [(imgur screenshot)](https://i.imgur.com/ndvRLIC.png)
 - **Full Calendar** - pretty hacky due to limits of styling hooks
 - **Obsidian Buttons** - alignments
+- **Excel** - Follows minimal colour theme for plugin UI (excluding spreadsheet editor, which is a rendered canvas), tidy up some UI metrics
+    ![Excel screenshot](screenshots/excel.png)
 - **Day Planner** - ~~I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy~~ Apparantly this plugin has a new maintainer, but I've stopped using it so these styles are for an older v
     ![Day Planner screenshot](screenshots/dayplanner.png)    
 
@@ -132,7 +135,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 <a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 ## TODO
-- [ ] Test/fix for Mobile Obsidian
+- [x] Test/fix for Mobile Obsidian
 - [x] Fix the weird list item alignments that vary depending on file length
 - [x] Fix colour inconsistencies across light/dark themes
 - [x] Test/fix for Windows (no fixes needed at time)
