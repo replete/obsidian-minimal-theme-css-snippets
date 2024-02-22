@@ -4,233 +4,221 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-/* Navigation footnote underneath title (kludge selector) */
-.dailynote .cm-content > div:nth-of-type(4) {
-    /* outline: 2px solid red; */
-    margin-bottom:15px !important;
-}
 
-/* Blockquote styles */
-/* I only use blockquotes in my daily note for actual quotes */
-.dailynote .HyperMD-quote {
-    font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
-    letter-spacing:0.01em
-}
-
-.dailynote .HyperMD-quote .cm-quote.cm-hmd-internal-link {
-    color:var(--tx2);
-    font-style:italic;
-    opacity:0.7
-}
-
-.dailynote .HyperMD-quote .cm-quote.cm-hmd-internal-link > * {
-    text-decoration: none
-}
-
-.dailynote .HyperMD-quote .cm-quote.cm-hmd-internal-link::before {
-    content:'—'
-} 
-
-
-/* h2 styles */
-.dailynote .cm-header-2 {
-    font-size:20px !important;
-    letter-spacing: 0.05em;
-    color:var(--tx2) !important;
-    text-transform:uppercase;
-}
-.dailynote:not(.is-live-preview) .cm-header-2,
-.dailynote .cm-focused .cm-active .cm-header-2 {
-    text-transform:none !important
-}
-
-/* h3 styles */
-.dailynote .cm-header-3 {
-    font-size:18px !important;
-    letter-spacing: 0.05em;
-    color:var(--tx2) !important;
-    text-transform:uppercase;
-}
-.dailynote:not(.is-live-preview) .cm-header-3,
-.dailynote .cm-focused .cm-active .cm-header-3 {
-    text-transform:none !important
-}
-
-/* h4 styles */
-.dailynote .cm-header-4 {
-    font-size:16px !important;
-    color:var(--tx3) !important;
-    text-transform:uppercase;
-    letter-spacing:0.1em;
-}
-.dailynote:not(.is-live-preview) .cm-header-4,
-.dailynote .cm-focused .cm-active .cm-header-4 {
-    text-transform:none !important
-}
-.dailynote .HyperMD-header-4 {
-    padding-top:0 !important;
-    padding:.4em 0 !important
-}
-.dailynote .HyperMD-header-4 .cm-task-progress-bar:has(.progress-bar-inline-4)::after {
-    color:var(--tx3)
-}
-
-/* h5 styles */
-.dailynote .cm-header-5 {
-    font-size:14px !important;
-    color:var(--tx3) !important;
-    text-transform:uppercase;
-    font-weight:400;
-    letter-spacing:0.15em;
-}
-.dailynote:not(.is-live-preview) .cm-header-5,
-.dailynote .cm-focused .cm-active .cm-header-5 {
-    text-transform:none !important;
-    letter-spacing:0;
-}
-.dailynote .HyperMD-header-5 {
-    padding-top:0 !important;
-}
-.dailynote .HyperMD-header-5 .cm-task-progress-bar {
-    transform:scale(0.7);
-    transform-origin:0;
-}
-.dailynote .HyperMD-header-5 .cm-task-progress-bar:has(.progress-bar-inline-4)::after {
-    color:var(--tx3)
-}
-
-/* h6 styles */
-.dailynote .cm-header-6 {
-    font-size:14px !important;
-    color:var(--tx3) !important;
-}
-/* .dailynote:not(.is-live-preview) .cm-header-5,
-.dailynote .cm-focused .cm-active .cm-header-5 {
-    text-transform:none !important;
-    letter-spacing:0;
-}
-.dailynote .HyperMD-header-5 {
-    padding-top:0 !important;
-} */
-.dailynote .HyperMD-header-6 .cm-task-progress-bar {
-    transform:scale(0.7);
-    transform-origin:0;
-}
-.dailynote .HyperMD-header-6 .cm-task-progress-bar:has(.progress-bar-inline-4)::after {
-    color:var(--tx3)
-}
-
-/* fold placeholder */
-.dailynote .HyperMD-header .cm-foldPlaceholder {
-    display:none;
-}
-
-
-/* Callouts */
-
-.dailynote .callout {
-    padding:.5em .75em
-}
-
-.dailynote .callout .callout-content ul {
-    padding-left:0;
-}
-/* Callouts task list fix */
-.dailynote .callout .callout-content li[data-task] {
-    padding-inline-start:var(--list-indent)
-}
-
-.dailynote .callout .callout-content li[data-task] .task-list-item-checkbox {
-    margin-left: -22px;
-    transform: translate(-4px, 0)
-}
-
-
-/* Fix task progressbar for headings */
-.dailynote .HyperMD-header-1 .cm-task-progress-bar {
-    transform:translate(0, -3px) !important
-}
-
-.dailynote .HyperMD-header-2 .cm-task-progress-bar {
-    transform:translate(0, -2px) !important
-}
-
-.dailynote .HyperMD-header-4 .cm-task-progress-bar {
-    transform: translate(0, -2px) scale(0.8);
-    transform-origin: 0
-}
-
-/* Embedded markdown files */
-
-.dailynote .inline-embed {
-    border:none;
-    background: hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 10%), 0.5);
-    padding-top: var(--size-4-6);
-    padding-bottom: var(--size-4-6);
-    padding-right: calc(var(--size-4-6) * 1.5);
-    --font-text: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
-    --line-height: 1.6; 
-    letter-spacing:0.01em
-}
-
-.dailynote .inline-embed blockquote {
-    font-style:italic;
-    border-width:3px;
-}
-
-/* meta bind plugin styles */
-
-.dailynote .mb-input-wrapper :is(input[type='text'], input[type='search'], input[type='email'], input[type='password'], input[type='number']) {
-    padding: var(--size-4-1) var(--size-4-1);
-    height:auto;
-    margin-left:2px;
-}
-
-.dailynote .mb-input-wrapper input[type=number] {
-    width:4em;
-}
-
-.dailynote .taskindent {
-    margin:var(--size-4-1) 0 var(--size-4-1) var(--size-4-6) !important;
-
-    &::after {
-        content:'';
-        display:block;
-        height:10px;
+.dailynote {
+    /* Navigation footnote underneath title (kludge selector) */
+    .cm-content > div:nth-of-type(4) {
+        margin-bottom:15px !important;
     }
-}
 
-.dailynote select {
-    height: 2.25em;
-    box-shadow: none;
-}
+    /* Blockquote styles (I only use blockquotes in my daily note for actual quotes) */
+    .HyperMD-quote {
+        font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
+        letter-spacing:0.01em;
+    
+        .cm-quote.cm-hmd-internal-link {
+            color:var(--tx2);
+            font-style:italic;
+            opacity:0.7;
+    
+                > * {
+                    text-decoration: none
+                }
+    
+                &::before {
+                    content:'—'
+                } 
+        }
+    }
 
-/* slider */
-.dailynote .mb-slider-input {
-    transform:translate(-4px, -5px) !important;
-}
-.dailynote .mb-slider-input::-webkit-slider-thumb {
-    transform:scale(0.75);
-    background: var(--tx1)
-}
+    /* h2 styles */
+    .cm-header-2 {
+        font-size:20px !important;
+        letter-spacing: 0.05em;
+        color:var(--tx2) !important;
+        text-transform:uppercase;
+    }
+    &:not(.is-live-preview) .cm-header-2,
+    .cm-focused .cm-active .cm-header-2 {
+        text-transform:none !important
+    }
 
+    /* h3 styles */
+    .cm-header-3 {
+        font-size:18px !important;
+        letter-spacing: 0.05em;
+        color:var(--tx2) !important;
+        text-transform:uppercase;
+    }
+    &:not(.is-live-preview) .cm-header-3,
+    .cm-focused .cm-active .cm-header-3 {
+        text-transform:none !important
+    }
 
-/* Hide code blocks until hover */
-.dailynote .cm-preview-code-block .edit-block-button {
-    display:none !important;
-}
+    /* h4 styles */
+    .cm-header-4 {
+        font-size:16px !important;
+        color:var(--tx3) !important;
+        text-transform:uppercase;
+        letter-spacing:0.1em;
+    }
+    &:not(.is-live-preview) .cm-header-4,
+    .cm-focused .cm-active .cm-header-4 {
+        text-transform:none !important
+    }
+    .HyperMD-header-4 {
+        padding-top:0 !important;
+        padding:.4em 0 !important;
 
-.dailynote .cm-preview-code-block:hover .edit-block-button {
-    display:block !important;
-}
+        .cm-task-progress-bar:has(.progress-bar-inline-4)::after {
+            color:var(--tx3)
+        }
+    }
 
-/* Style first footnote after page heading */
-.dailynote .HyperMD-header-1 + .HyperMD-footnote {
-    transform:translate(-6px, 4px);
-    opacity:0.7;
-    font-size:11px;
-}
+    /* h5 styles */
+    .cm-header-5 {
+        font-size:14px !important;
+        color:var(--tx3) !important;
+        text-transform:uppercase;
+        font-weight:400;
+        letter-spacing:0.15em;
+    }
+    &:not(.is-live-preview) .cm-header-5,
+    .cm-focused .cm-active .cm-header-5 {
+        text-transform:none !important;
+        letter-spacing:0;
+    }
+    .HyperMD-header-5 {
+        padding-top:0 !important;
 
-.dailynote .HyperMD-header-1 + .HyperMD-footnote .cm-underline {
-    text-decoration: none; 
+        .cm-task-progress-bar {
+            transform:scale(0.7);
+            transform-origin:0;
+
+            &:has(.progress-bar-inline-4)::after {
+                color:var(--tx3)
+            }
+        }
+    }
+
+    /* h6 styles */
+    .cm-header-6 {
+        font-size:14px !important;
+        color:var(--tx3) !important;
+    }
+    .HyperMD-header-6 {
+        .cm-task-progress-bar {
+            transform:scale(0.7);
+            transform-origin:0;
+    
+            &:has(.progress-bar-inline-4)::after {
+                color:var(--tx3)
+            }
+        }
+    }
+
+    /* fold placeholder */
+    .HyperMD-header .cm-foldPlaceholder {
+        display:none;
+    }
+
+    /* Callouts */
+    .callout {
+        padding:.5em .75em;
+
+        .callout-content {
+            ul {
+                padding-left:0;
+            }
+
+            /* Callouts task list fix */
+            li[data-task] {
+                padding-inline-start:var(--list-indent);
+
+                .task-list-item-checkbox {
+                    margin-left: -22px;
+                    transform: translate(-4px, 0)
+                }
+            }
+        }
+    }
+
+    /* Fix task progressbar for headings */
+    .HyperMD-header-1 .cm-task-progress-bar {
+        transform:translate(0, -3px) !important
+    }
+    .HyperMD-header-2 .cm-task-progress-bar {
+        transform:translate(0, -2px) !important
+    }
+    .HyperMD-header-4 .cm-task-progress-bar {
+        transform: translate(0, -2px) scale(0.8);
+        transform-origin: 0
+    }
+
+    /* Embedded markdown files */
+    .inline-embed {
+        border:none;
+        background: hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 10%), 0.5);
+        padding-top: var(--size-4-6);
+        padding-bottom: var(--size-4-6);
+        padding-right: calc(var(--size-4-6) * 1.5);
+        --font-text: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
+        --line-height: 1.6; 
+        letter-spacing:0.01em;
+
+        blockquote {
+            font-style:italic;
+            border-width:3px;
+        }
+    }
+
+    /* meta bind plugin styles */
+    .mb-input-wrapper {
+        :is(input[type='text'], input[type='search'], input[type='email'], input[type='password'], input[type='number']) {
+            padding: var(--size-4-1) var(--size-4-1);
+            height:auto;
+            margin-left:2px;
+        }
+
+    }
+    .taskindent {
+        margin:var(--size-4-1) 0 var(--size-4-1) var(--size-4-5) !important;
+        
+        &::after {
+            content:'';
+            display:block;
+            height:10px;
+        }
+    }
+    select {
+        height: 2.25em;
+        box-shadow: none;
+    }
+    .mb-slider-input {
+        transform:translate(-4px, -5px) !important;
+
+        &::-webkit-slider-thumb {
+            transform:scale(0.75);
+            background: var(--tx1)
+        }
+    }
+
+    /* Hide code blocks until hover */
+    .cm-preview-code-block .edit-block-button {
+        display:none !important;
+    }
+    .cm-preview-code-block:hover .edit-block-button {
+        display:block !important;
+    }
+
+    /* Style first footnote after page heading */
+    .HyperMD-header-1 + .HyperMD-footnote {
+        transform:translate(-6px, 4px);
+        opacity:0.7;
+        font-size:11px;
+
+        .cm-underline {
+            text-decoration: none; 
+        }
+    }
 }
