@@ -19,8 +19,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 ## My environment
 
 - `MacOS 13.6.4`, `Android 13`
-- `Obsidian v1.5.3 (installer 1.4.13)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
-- `Minimal Theme v7.4.8`
+- `Obsidian v1.5.8 (installer 1.4.13)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
+- `Minimal Theme v7.5.0`
 ```js
 // [...new Set(app.plugins.enabledPlugins)]
 ['obsidian-advanced-uri', 'obsidian-attachment-name-formatting', 'auto-class', 'calendar', 'cmdr', 'obsidian-custom-attachment-location', 'custom-sort', 'dataview', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-hover-editor', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-in-new-tab', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-smart-typography', 'obsidian-task-progress-bar', 'templater-obsidian', 'obsidian-toggle-list', 'mysnippets-plugin', 'nldates-obsidian', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'obsidian-daily-note-outline']
