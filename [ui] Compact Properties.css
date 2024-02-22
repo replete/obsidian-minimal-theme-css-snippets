@@ -81,3 +81,9 @@
         margin-top:-5px;
     }
 }
+
+/* Hide banner in hover popover */
+.hover-popover .metadata-container {
+    display:none !important;
+    outline: 2px solid red;
+}
