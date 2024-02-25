@@ -209,6 +209,15 @@
         .mb-input-element-group {
             margin-left:8px;
         }
+
+        .mb-slider-input {
+            margin-left:13px !important;
+        }
+
+        .checkbox-container[role=switch] {
+            margin-left:2px;
+            transform:scale(0.75);
+        }
     }
 
     .mb-slider-input {
