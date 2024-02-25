@@ -4,31 +4,28 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-/* Fix list offsets */
-.HyperMD-list-line.cm-line {
+/* unordered list item children alignment (to match checkbox size metrics) */
+.cm-formatting-list-ul {
 
-    .cm-formatting-list {
-        margin-left:6px;
-
-        .list-bullet {
-            margin-right:5px;
-        }
+    .list-bullet {
+        transform: translateX(-1px);
+        margin-right: 7px;
     }
+}
 
-    .cm-formatting-list-ol {
-        margin-left:-3px;
-        margin-right:6px;
-    }
+/* unordered list item alignment and style */
+.cm-formatting-list-ol {
+padding:0;
+min-width:2rem !important;
+display:inline-flex;
 
-    /* .cm-hmd-list-indent {
-        .cm-indent::before {
-            margin-left:2.5px;
-        }
-    } */
-
-    .task-list-item-checkbox {
-        transform: translateY(-.5px);
-        margin-left:5px;
+    .list-number {
+        text-align:center !important;
+        display:inline-flex;
+        font-size:0.85em;
+        text-align:center !important;
+        min-width:var(--checkbox-size) !important;
+        margin:0 auto; /* centered */
     }
 }
 
@@ -41,7 +38,6 @@
     transform:translate(-3px,0);
     display: inline-block;
 }
-
 
 /* Headings */
 .cm-s-obsidian {
@@ -59,22 +55,6 @@
     --h6-weight:600 !important;
     --h6-variant: normal !important;
 }
-
-/* h5, 
-.markdown-rendered h5, 
-.HyperMD-header-5, 
-.HyperMD-list-line .cm-header-5 {
-    text-transform: uppercase;
-    letter-spacing:0.05em
-}
-
-h6, 
-.markdown-rendered h6, 
-.HyperMD-header-6, 
-.HyperMD-list-line .cm-header-6 {
-    text-transform: uppercase;
-    letter-spacing:0.05em
-} */
 
 /* Quotes */
 .HyperMD-quote {
@@ -107,7 +87,6 @@ h6,
 }
 
 /* fix is-flashing display */
-
 .cm-editor .is-flashing {
     background:hsla(var(--base-h), var(--base-s), calc(var(--base-l) + 30%),0.5);
 }
@@ -116,11 +95,11 @@ h6,
 /* Footnote styles */
 .HyperMD-footnote {
     color:var(--tx2);
-    /* font-size:12px !important; */
-}
+    padding-left:0 !important;
 
-.HyperMD-footnote .cm-hmd-internal-link > *{
-    color:var(--tx2) !important;
-    text-decoration-color:var(--tx2) !important;
-    opacity:1 !important;
+    .cm-hmd-internal-link > *{
+        color:var(--tx2) !important;
+        text-decoration-color:var(--tx2) !important;
+        opacity:1 !important;
+    }
 }
