@@ -4,6 +4,18 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
+/* Markdown source view (not live preview) */
+.cm-s-obsidian.markdown-source-view:not(.is-live-preview) {
+
+    /* Set source view to monospace font */
+    font-family: JetBrains Mono,Menlo, Monaco, 'Courier New', monospace;
+
+    /* Reset header font sizes */
+    .cm-header {
+        font-size:1rem !important;
+    }
+}
+
 /* unordered list item children alignment (to match checkbox size metrics) */
 .cm-formatting-list-ul {
 
