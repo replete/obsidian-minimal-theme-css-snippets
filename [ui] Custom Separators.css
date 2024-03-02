@@ -15,7 +15,7 @@
 .nav-folder-children > [class*=nav-]:has([data-path="Inbox"])::after,
 .nav-folder-children > [class*=nav-]:has([data-path="Tasks"])::after,
 .nav-folder-children > [class*=nav-]:has([data-path="Daily Stoic"])::after,
-.nav-folder-children > [class*=nav-]:has([data-path="Archive"])::after
+.nav-folder-children > [class*=nav-]:has([data-path="Assets"])::after
 {
     content:'';
     display:block;
