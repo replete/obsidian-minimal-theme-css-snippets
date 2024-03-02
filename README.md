@@ -73,7 +73,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Status bar tweaks** - more visible text on dark theme 
 - **Tab Header on bottom** - Move the tab title bar to the bottom, vertical statusbar when right sidedock closed
     ![Tab Header on Bottom screenshot](screenshots/tab-header-bottom.png)
-- **Translucent Tab Header** - Classic style tab header showing blurred document content underneath
+- **Translucent Tab Header** - Classic style tab header showing blurred document content underneath (NOTE: its pretty, but on large documents causes performance issues delaying text due to the constant reflows caused by the graphical effect)
     ![Translucent Tab Header screenshot](screenshots/tab-header-translucent.png)
 ### User Snippets:
 - **Daily Note styles** - supporting styles for my daily note template, scoped to notes with `cssclass: dailynote` in frontmatter
