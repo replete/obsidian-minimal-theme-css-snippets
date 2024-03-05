@@ -143,7 +143,7 @@
         }
     }
 
-    /* Fix task progressbar for headings */
+    /* Fix task progressbar for elements */
     .HyperMD-header-1 .cm-task-progress-bar {
         transform:translate(0, -3px) !important
     }
@@ -152,6 +152,11 @@
     }
     .HyperMD-header-4 .cm-task-progress-bar {
         transform: translate(0, -2px) scale(0.8);
+        transform-origin: 0
+    }
+
+    .HyperMD-list-line .cm-task-progress-bar {
+        transform: translate(0, -7px) scale(0.8);
         transform-origin: 0
     }
 

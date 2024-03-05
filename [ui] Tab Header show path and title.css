@@ -1,0 +1,11 @@
+/*
+    Tab Headder show path and title
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.view-header {
+
+    .view-header-title-container {
+        opacity:1;
+    }
+}
