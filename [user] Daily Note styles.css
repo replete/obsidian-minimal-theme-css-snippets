@@ -7,213 +7,225 @@
 
 .dailynote {
 
-    &.is-live-preview &.cm-content > div:nth-of-type(4) {
+    &.cm-content.is-live-preview > div:nth-of-type(4) {
         margin-bottom:15px !important;
     }
 
-    /* Blockquote styles (I only use blockquotes in my daily note for actual quotes) */
-    .HyperMD-quote {
-        font-family: 'Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif'; 
-        letter-spacing:0.01em;
-    
-        .cm-quote.cm-hmd-internal-link {
-            color:var(--tx2);
+
+    &.is-live-preview  {
+
+
+        /* Blockquote styles (I only use blockquotes in my daily note for actual quotes) */
+        .HyperMD-quote {
+            font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
+            letter-spacing:0.01em;
+        
+            .cm-quote.cm-hmd-internal-link {
+                color:var(--tx2);
+                font-style:italic;
+                opacity:0.7;
+        
+                    > * {
+                        text-decoration: none
+                    }
+        
+                    &::before {
+                        content:'—'
+                    } 
+            }
+        }
+
+        /* h2 styles */
+        .cm-header-2 {
+            font-size:20px !important;
+            letter-spacing: 0.05em;
+            color:var(--tx2) !important;
+            text-transform:uppercase;
+        }
+
+        /* h3 styles */
+        .cm-header-3 {
+            font-size:18px !important;
+            letter-spacing: 0.05em;
+            color:var(--tx2) !important;
+            text-transform:uppercase;
+        }
+
+        /* h4 styles */
+        .cm-header-4 {
+            font-size:16px !important;
+            color:var(--tx3) !important;
+            text-transform:uppercase;
+            letter-spacing:0.1em;
+            font-weight:600;
+        }
+        &:not(.is-live-preview) .cm-header-4,
+        .cm-focused .cm-active .cm-header-4 {
+            text-transform:none !important
+        }
+        .HyperMD-header-4 {
+            padding-top:0 !important;
+            padding:.4em 0 !important;
+
+            .cm-task-progress-bar:has(.progress-bar-inline-4)::after {
+                color:var(--tx3)
+            }
+        }
+
+        /* h5 styles */
+        .cm-header-5 {
+            font-size:14px !important;
+            color:var(--tx3) !important;
+            text-transform:uppercase;
+            font-weight:400;
+            letter-spacing:0.15em;
+        }
+        &:not(.is-live-preview) .cm-header-5,
+        .cm-focused .cm-active .cm-header-5 {
+            text-transform:none !important;
+            letter-spacing:0;
+        }
+        .HyperMD-header-5 {
+            padding-top:0 !important;
+
+            .cm-task-progress-bar {
+                transform:scale(0.7);
+                transform-origin:0;
+
+                &:has(.progress-bar-inline-4)::after {
+                    color:var(--tx3)
+                }
+            }
+        }
+
+        /* h6 styles */
+        .cm-header-6 {
+            font-size:16px !important;
+            font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;
+            font-weight: 300;
             font-style:italic;
+            color:var(--tx2) !important;
+        }
+        .HyperMD-header-6 {
+            /* font-variant:normal;
+            font-weight:bold; */
+            .cm-task-progress-bar {
+                transform:scale(0.7);
+                transform-origin:0;
+        
+                &:has(.progress-bar-inline-4)::after {
+                    color:var(--tx3)
+                }
+            }
+        }
+
+        /* fold placeholder */
+        .HyperMD-header .cm-foldPlaceholder {
+            display:none;
+        }
+
+        /* Callouts */
+        .callout {
+            padding:.5em .75em;
+
+            .callout-content {
+                ul {
+                    padding-left:0;
+                }
+
+                /* Callouts task list fix */
+                li[data-task] {
+                    padding-inline-start:var(--list-indent);
+
+                    .task-list-item-checkbox {
+                        margin-left: -22px;
+                        transform: translate(-4px, 0)
+                    }
+                }
+            }
+        }
+
+        /* Task progressbar style */
+        .cm-task-progress-bar {
+            box-shadow:inset 1.5px 2px 3px -2px rgba(0,0,0,.5),
+                1px 1px 2px -2px rgba(255,255,255,.5);
+            border-radius:10px;
+        }
+
+        /* Fix task progressbar for elements */
+        .HyperMD-header-1 .cm-task-progress-bar {
+            transform:translate(0, -3px) !important
+        }
+        .HyperMD-header-2 .cm-task-progress-bar {
+            transform:translate(0, -2px) !important
+        }
+        .HyperMD-header-4 .cm-task-progress-bar {
+            transform: translate(0, -2px) scale(0.8);
+            transform-origin: 0
+        }
+
+        .HyperMD-list-line .cm-task-progress-bar {
+            transform: translate(0, -7px) scale(0.8);
+            transform-origin: 0
+        }
+
+        /* Embedded markdown files */
+        .inline-embed {
+            border:none;
+            background: hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 10%), 0.5);
+            padding-top: var(--size-4-6);
+            padding-bottom: var(--size-4-6);
+            padding-right: calc(var(--size-4-6) * 1.5);
+            --font-text: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
+            --line-height: 1.6; 
+            letter-spacing:0.01em;
+            
+            blockquote {
+                font-style:italic;
+                border-width:3px;
+            }
+        }
+
+        .file-embed.mod-empty,
+        .file-embed.mod-empty-attachment {
+            border-radius:0;
+            background:transparent;
+            /* border-left:4px solid var(--bg3); */
+            /* font-style: italic; */
+            /* font-family:Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; */
+        }
+
+        /* Hide code blocks until hover */
+        .cm-preview-code-block .edit-block-button {
+            display:none !important;
+        }
+        .cm-preview-code-block:hover .edit-block-button {
+            display:block !important;
+        }
+
+        /* Style first footnote after page heading */
+        .HyperMD-header-1 + .HyperMD-footnote {
+            text-indent:-7px;
             opacity:0.7;
-    
-                > * {
-                    text-decoration: none
-                }
-    
-                &::before {
-                    content:'—'
-                } 
-        }
-    }
-
-    /* h2 styles */
-    .cm-header-2 {
-        font-size:20px !important;
-        letter-spacing: 0.05em;
-        color:var(--tx2) !important;
-        text-transform:uppercase;
-    }
-    &:not(.is-live-preview) .cm-header-2,
-    .cm-focused .cm-active .cm-header-2 {
-        text-transform:none !important
-    }
-
-    /* h3 styles */
-    .cm-header-3 {
-        font-size:18px !important;
-        letter-spacing: 0.05em;
-        color:var(--tx2) !important;
-        text-transform:uppercase;
-    }
-    &:not(.is-live-preview) .cm-header-3,
-    .cm-focused .cm-active .cm-header-3 {
-        text-transform:none !important
-    }
-
-    /* h4 styles */
-    .cm-header-4 {
-        font-size:16px !important;
-        color:var(--tx3) !important;
-        text-transform:uppercase;
-        letter-spacing:0.1em;
-    }
-    &:not(.is-live-preview) .cm-header-4,
-    .cm-focused .cm-active .cm-header-4 {
-        text-transform:none !important
-    }
-    .HyperMD-header-4 {
-        padding-top:0 !important;
-        padding:.4em 0 !important;
-
-        .cm-task-progress-bar:has(.progress-bar-inline-4)::after {
-            color:var(--tx3)
-        }
-    }
-
-    /* h5 styles */
-    .cm-header-5 {
-        font-size:14px !important;
-        color:var(--tx3) !important;
-        text-transform:uppercase;
-        font-weight:400;
-        letter-spacing:0.15em;
-    }
-    &:not(.is-live-preview) .cm-header-5,
-    .cm-focused .cm-active .cm-header-5 {
-        text-transform:none !important;
-        letter-spacing:0;
-    }
-    .HyperMD-header-5 {
-        padding-top:0 !important;
-
-        .cm-task-progress-bar {
-            transform:scale(0.7);
-            transform-origin:0;
-
-            &:has(.progress-bar-inline-4)::after {
-                color:var(--tx3)
+            
+            .cm-underline {
+                text-decoration: none; 
             }
         }
-    }
 
-    /* h6 styles */
-    .cm-header-6 {
-        font-size:14px !important;
-        color:var(--tx3) !important;
-    }
-    .HyperMD-header-6 {
-        .cm-task-progress-bar {
-            transform:scale(0.7);
-            transform-origin:0;
-    
-            &:has(.progress-bar-inline-4)::after {
-                color:var(--tx3)
+        /* Table borders */
+        .table-wrapper {
+            > table thead tr th {
+                border:0;
+                font-weight:normal; /* remove header styling */
             }
-        }
-    }
-
-    /* fold placeholder */
-    .HyperMD-header .cm-foldPlaceholder {
-        display:none;
-    }
-
-    /* Callouts */
-    .callout {
-        padding:.5em .75em;
-
-        .callout-content {
-            ul {
-                padding-left:0;
+            > table td {
+                border-left:0 !important;
+                border-right:0 !important;
             }
-
-            /* Callouts task list fix */
-            li[data-task] {
-                padding-inline-start:var(--list-indent);
-
-                .task-list-item-checkbox {
-                    margin-left: -22px;
-                    transform: translate(-4px, 0)
-                }
+            > table tbody tr:last-child {
+                border-bottom: 1px solid var(--table-border-color);
             }
-        }
-    }
-
-    /* Task progressbar style */
-    .cm-task-progress-bar {
-        box-shadow:inset 1.5px 2px 3px -2px rgba(0,0,0,.5),
-            1px 1px 2px -2px rgba(255,255,255,.5);
-        border-radius:10px;
-    }
-
-    /* Fix task progressbar for elements */
-    .HyperMD-header-1 .cm-task-progress-bar {
-        transform:translate(0, -3px) !important
-    }
-    .HyperMD-header-2 .cm-task-progress-bar {
-        transform:translate(0, -2px) !important
-    }
-    .HyperMD-header-4 .cm-task-progress-bar {
-        transform: translate(0, -2px) scale(0.8);
-        transform-origin: 0
-    }
-
-    .HyperMD-list-line .cm-task-progress-bar {
-        transform: translate(0, -7px) scale(0.8);
-        transform-origin: 0
-    }
-
-    /* Embedded markdown files */
-    .inline-embed {
-        border:none;
-        background: hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 10%), 0.5);
-        padding-top: var(--size-4-6);
-        padding-bottom: var(--size-4-6);
-        padding-right: calc(var(--size-4-6) * 1.5);
-        --font-text: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
-        --line-height: 1.6; 
-        letter-spacing:0.01em;
-        
-        blockquote {
-            font-style:italic;
-            border-width:3px;
-        }
-    }
-
-    /* Hide code blocks until hover */
-    .cm-preview-code-block .edit-block-button {
-        display:none !important;
-    }
-    .cm-preview-code-block:hover .edit-block-button {
-        display:block !important;
-    }
-
-    /* Style first footnote after page heading */
-    .HyperMD-header-1 + .HyperMD-footnote {
-        transform:translate(-7px, 2px);
-        opacity:0.7;
-        
-        .cm-underline {
-            text-decoration: none; 
-        }
-    }
-
-    /* Table borders */
-    .table-wrapper {
-        > table thead tr th {
-            border:0;
-            font-weight:normal; /* remove header styling */
-        }
-        > table td {
-            border-left:0 !important;
-            border-right:0 !important;
-        }
-        > table tbody tr:last-child {
-            border-bottom: 1px solid var(--table-border-color);
         }
     }
 }

@@ -3,33 +3,37 @@
     Styling frontmatter in preview views is tricky, and the opinion I have is that I want frontmatter to be less prominent than the body of the note
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
+    
+:not(.is-live-preview) {
+    /* Editor: Override Syntax Highlighter Frontmatter styles */
 
-.cm-s-obsidian .cm-def:nth-of-type(1){
-    /* both --- */
-    /* font-size:50%; */
+    .cm-s-obsidian .cm-line .cm-hmd-frontmatter.cm-atom {
+        color: var(--text-normal);
+    }
+    .cm-s-obsidian .cm-line .cm-hmd-frontmatter ~ .cm-hmd-frontmatter{
+        color: var(--blockquote-color);
+    }
 }
-.cm-s-obsidian .cm-line:nth-of-type(1) .cm-def {
-    /* first --- */
-    /* background:blue; */
-    color: var(--blockquote-color);
-}
-.cm-s-obsidian .cm-line:nth-of-type(1) ~.cm-line .cm-def {
-    /* last --- */
-    color: var(--blockquote-color);
-}
+    
+.is-live-preview {
+    .cm-s-obsidian .cm-def:nth-of-type(1){
+        /* both --- */
+        /* font-size:50%; */
+    }
+    .cm-s-obsidian .cm-line:nth-of-type(1) .cm-def {
+        /* first --- */
+        /* background:blue; */
+        color: var(--blockquote-color);
+    }
+    .cm-s-obsidian .cm-line:nth-of-type(1) ~.cm-line .cm-def {
+        /* last --- */
+        color: var(--blockquote-color);
+    }
 
-.cm-s-obsidian .cm-hmd-frontmatter {
-    font-size:75%;
-}
-.cm-s-obsidian span.cm-meta {
-    /* opacity:0.5 */
-}
-
-/* Editor: Override Syntax Highlighter Frontmatter styles */
-
-.cm-s-obsidian .cm-line .cm-hmd-frontmatter.cm-atom {
-    color: var(--text-normal);
-}
-.cm-s-obsidian .cm-line .cm-hmd-frontmatter ~ .cm-hmd-frontmatter{
-    color: var(--blockquote-color);
+    .cm-s-obsidian .cm-hmd-frontmatter {
+        font-size:75%;
+    }
+    .cm-s-obsidian span.cm-meta {
+        /* opacity:0.5 */
+    }
 }

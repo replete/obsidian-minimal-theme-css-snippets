@@ -4,10 +4,17 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-.cm-task-progress-bar.with-number{
-    /* background-color: red; */
-    /* TODO maybe */
+.markdown-source-view:not(.is-live-preview) {
+    .cm-task-progress-bar {
+        display:none;
+    }
 }
+
+/* clip bar to border-radius */
+.cm-task-progress-bar {
+    overflow:hidden;
+}
+
 .cm-task-progress-bar.with-number .progress-status {
     color:var(--tx2);
     font-weight:400;

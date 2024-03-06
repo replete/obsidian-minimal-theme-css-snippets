@@ -4,10 +4,10 @@
 */
 
 /* Inline controls styles */
-.cxm-line {
+/* .cm-line {
     background:rgba(0,255,0,0.1);
     box-shadow: inset 0 -2px 3px rgba(255,255,255,.2);
-}
+} */
 
 .markdown-source-view.is-live-preview .cm-editor {
     /* Only apply to live preview view editor */

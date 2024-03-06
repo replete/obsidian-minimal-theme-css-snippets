@@ -1,0 +1,7 @@
+.cm-line {
+    background:rgba(0,255,0,0.1);
+    box-shadow: inset 0 -2px 3px rgba(255,255,255,.2);
+    background-position:right !important;
+    background-image: repeating-linear-gradient(270deg, #00FFFF2E 0em, #073AFF00 9px);
+    /* FIX? */
+}
