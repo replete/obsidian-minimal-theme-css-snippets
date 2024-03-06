@@ -35,6 +35,13 @@
     padding:4px 0 0 4px;
     border-top:1px solid var(--divider-color);
     margin-top:-6px;
+
+    /* file title */
+    > .nav-folder .nav-folder-title {
+        /* Fix indentation of first heading */
+        padding-left:8px;
+    }
+
 }
 
 /* Note detail suffix styling */
