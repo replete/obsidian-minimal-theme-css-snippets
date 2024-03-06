@@ -176,63 +176,6 @@
             border-width:3px;
         }
     }
-    
-    /* meta bind plugin styles */
-    .mb-input-wrapper {
-        :is(input[type='text'], input[type='search'], input[type='email'], input[type='password'], input[type='number']) {
-            padding: var(--size-4-1) var(--size-4-1);
-            height:auto;
-            margin-left:2px;
-        }
-        
-    }
-    .taskindent {
-        margin:var(--size-4-1) 0 var(--size-4-1) var(--size-4-6) !important;
-        
-        &::after {
-            content:'';
-            display:block;
-            height:10px;
-        }
-        
-        /* without :is() element tag names break following selectors in this nest level */
-        :is(input[type=number]) {
-            width:4em !important;
-            margin-left:8px;
-
-        }
-        
-        :is(select) {
-            height: 2.25em;
-            box-shadow: none;
-            height:1.5rem;
-            padding-left:6px;
-            padding-right: 1rem;
-            background-position: right 4px center;
-        }
-
-        .mb-input-element-group {
-            margin-left:8px;
-        }
-
-        .mb-slider-input {
-            margin-left:13px !important;
-        }
-
-        .checkbox-container[role=switch] {
-            margin-left:2px;
-            transform:scale(0.75);
-        }
-    }
-
-    .mb-slider-input {
-        transform:translate(-4px, -5px) !important;
-
-        &::-webkit-slider-thumb {
-            transform:scale(0.75);
-            background: var(--tx1)
-        }
-    }
 
     /* Hide code blocks until hover */
     .cm-preview-code-block .edit-block-button {
@@ -249,6 +192,20 @@
         
         .cm-underline {
             text-decoration: none; 
+        }
+    }
+
+    /* Table borders */
+    .table-wrapper {
+        > table thead tr th {
+            border:0;
+        }
+        > table td {
+            border-left:0 !important;
+            border-right:0 !important;
+        }
+        > table tbody tr:last-child {
+            border-bottom: 1px solid var(--table-border-color);
         }
     }
 }

@@ -102,6 +102,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Daily Note Outline screenshot](screenshots/daily-note-outline.png)
 - **Database Folder (Compact)** - compact view    
     ![Database Folder screenshot](screenshots/dbfolder.png)
+- **Meta Bind (Compact)** ⭐ - Inline controls are more compact, with customizations to some controls    
 - **MySnippets** ⭐ - make menu wider and fix button style/order    
     ![MySnippets tweaks screenshot](screenshots/mysnippets_tweaks.png)
 - **Outline** - chevron on right, compact    
