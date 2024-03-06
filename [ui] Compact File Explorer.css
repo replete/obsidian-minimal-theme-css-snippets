@@ -73,11 +73,17 @@
     width:var(--nav-indentation-guide-width);
     height: 12px;
     position:absolute;
-    background-color:var(--bg2, var(--background-primary));
+    background-color:var(--background-secondary);
     opacity:1 !important;
     bottom:0;
     left:-1px;
 }
+
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder.mod-root .nav-folder > .nav-folder-children:has([class*=nav-])::after {
+    background-color:var(--bg2, var(--background-primary));
+}
+
+
 
 /* Align vault title */
 body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-content {
