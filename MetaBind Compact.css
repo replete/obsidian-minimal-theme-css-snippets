@@ -1,0 +1,86 @@
+/*
+    Metabind compact editor styles
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/* Inline controls styles */
+.cxm-line {
+    background:rgba(0,255,0,0.1);
+    box-shadow: inset 0 -2px 3px rgba(255,255,255,.2);
+}
+
+.markdown-source-view.is-live-preview .cm-editor {
+    /* Only apply to live preview view editor */
+
+    /* inline styling */
+    .mb-input-inline {
+        .mb-input-type-inlineSelect {
+            .dropdown {
+                height:calc(1rem + 6px);
+                vertical-align: bottom;
+                padding-left:6px;
+                padding-right:12px;
+                font-family:var(--font-interface) !important;
+                background-position-x: calc(100% - 6px);
+            }
+        }
+        .mb-input-type-number {
+            [type=number] {
+                height:calc(1rem + 6px);
+                font-family:var(--font-interface) !important;
+                padding-left:6px;
+                padding-right:6px;
+            }
+        }
+        .mb-input-type-time {
+            .mb-input-element-group {
+                position:relative;
+                &::after {
+                    content: ':';
+                    display:block;
+                    position:absolute;
+                    left:50%;
+                    width:1rem;
+                    text-align:center;
+                    margin-left:-.5rem;
+                    color: var(--tx2);
+                    user-select:none;
+                }
+            }
+            .dropdown {
+                height:calc(1rem + 6px);
+                vertical-align: bottom;
+                padding-left:6px;
+                padding-right:6px;
+                font-family:var(--font-interface) !important;
+                background-image:none;
+
+                &:nth-of-type(1) {
+                    padding-right:4px;
+                }
+                &:nth-of-type(2) {
+                    padding-left:4px;
+                }
+            }
+        }
+        .mb-input-type-toggle {
+            .checkbox-container {
+                transform: scale(0.8) translateY(2px) !important;
+                transform-origin:left center;
+            }
+        }
+
+        .em2 > * {width: 2rem}
+        .em3 > * {width: 3rem}
+        .em4 > * {width: 4rem}
+        .em5 > * {width: 5rem}
+        .em6 > * {width: 6rem}
+        .em7 > * {width: 7rem}
+        .em8 > * {width: 8rem}
+        .em9 > * {width: 9rem}
+        .em10 > * {width: 10rem}
+    }
+}
+
+
+
