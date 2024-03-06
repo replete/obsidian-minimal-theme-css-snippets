@@ -75,7 +75,7 @@ display:inline-flex;
 .HyperMD-quote::before {
     opacity:0;
 }
-.HyperMD-quote::after {
+.is-live-preview .HyperMD-quote::after {
     content:'';
     display:block;
     background:var(--bg3);
