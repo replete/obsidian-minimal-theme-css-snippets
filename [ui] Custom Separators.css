@@ -12,8 +12,10 @@
 }
 
 /* Separator below */
-.nav-folder-children > [class*=nav-]:has([data-path="Inbox"])::after,
-.nav-folder-children > [class*=nav-]:has([data-path="Tasks"])::after,
+.nav-folder-children > [class*=nav-]:has([data-path="Reference"])::after,
+.nav-folder-children > [class*=nav-]:has([data-path="Meetings"])::after,
+.nav-folder-children > [class*=nav-]:has([data-path="Sundown"])::after,
+.nav-folder-children > [class*=nav-]:has([data-path="Writing"])::after,
 .nav-folder-children > [class*=nav-]:has([data-path="Daily Stoic"])::after,
 .nav-folder-children > [class*=nav-]:has([data-path="Assets"])::after
 {
@@ -26,7 +28,7 @@
 }
 
 /* Separator above */
-.nav-folder-children > [class*=nav-]:has([data-path="People"])::before,
+/* .nav-folder-children > [class*=nav-]:has([data-path="People"])::before,
 .nav-folder-children > [class*=nav-]:has([data-path="Archive"])::before
 {
     content:'';
@@ -35,7 +37,7 @@
     width:calc(100% + 32px);
     background:var(--tab-outline-color);
     margin:var(--replete-custom-separators-vertical-padding) 0 var(--replete-custom-separators-vertical-padding) var(--replete-custom-separators-left-margin);
-}
+} */
 
 
 /* Separator for first item */
