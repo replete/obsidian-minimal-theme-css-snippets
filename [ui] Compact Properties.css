@@ -4,7 +4,6 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-
 /* Compact style */
 .cm-editor .metadata-container {
     padding-top:0;
@@ -15,40 +14,47 @@
     display:none;
 }
 
-/* Autohide on hover */
-.cm-editor .metadata-container {
-    height:.5em;
-    margin-bottom:0;
+/* Autohide on hover for desktop */
+body:not(.is-mobile) {
+    .cm-editor .metadata-container {
+        height:.5em;
+        margin-bottom:0;
 
-    .metadata-content {
-        display:none;
-    }
-
-    &::before {
-        content:'⋯';
-        display:block;
-        position:absolute;
-        height:100%;
-        width:100%;
-        line-height:1em;
-        text-indent:3px;
-        top:-4px;
-        pointer-events:none;
-    }
-    
-    &:is(:hover,:focus-within) {
-        height:auto;
-        background: inherit;
-
-        &::before {
+        .metadata-content {
             display:none;
         }
 
-        .metadata-content {
-            display:inherit;
-        }   
-    }
+        &::before {
+            content:'⋯';
+            display:block;
+            position:absolute;
+            height:100%;
+            width:100%;
+            line-height:1em;
+            text-indent:3px;
+            top:-4px;
+            pointer-events:none;
+        }
+        
+        &:is(:hover,:focus-within) {
+            height:auto;
+            background: inherit;
 
+            &::before {
+                display:none;
+            }
+
+            .metadata-content {
+                display:inherit;
+            }   
+        }
+
+    }
+}
+
+/* Hide properties on mobile */
+body:is(.is-mobile) {
+    --metadata-display-editing: none;
 }
 
 /* Properties panel fixes */
