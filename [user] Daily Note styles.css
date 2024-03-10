@@ -11,9 +11,7 @@
         margin-bottom:15px !important;
     }
 
-
     &.is-live-preview  {
-
 
         /* Blockquote styles (I only use blockquotes in my daily note for actual quotes) */
         .HyperMD-quote {
@@ -110,6 +108,7 @@
             /* font-variant:normal;
             font-weight:bold; */
             .cm-task-progress-bar {
+                display:none; /* hide on h6 */
                 transform:scale(0.7);
                 transform-origin:0;
         
