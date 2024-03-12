@@ -183,14 +183,18 @@
             .embed-title {
                 display:none;
             }
+            .markdown-embed-link {
+                width:1.5rem;
+                height:1.5rem;
+                position:absolute;
+                right:5px;
+                top:5px;
+            }
         }
         .file-embed.mod-empty,
         .file-embed.mod-empty-attachment {
             border-radius:0;
             background:transparent;
-            /* border-left:4px solid var(--bg3); */
-            /* font-style: italic; */
-            /* font-family:Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; */
         }
 
         /* Embedded markdown files - content */
