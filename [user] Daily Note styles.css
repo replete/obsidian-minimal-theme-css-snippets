@@ -167,8 +167,9 @@
             transform: translate(0, -7px) scale(0.8);
             transform-origin: 0
         }
+        
 
-        /* Embedded markdown files */
+        /* Embedded markdown files - containers */
         .inline-embed {
             border:none;
             background: hsla(var(--base-h), var(--base-s), calc(var(--base-l) - 10%), 0.5);
@@ -178,13 +179,11 @@
             --font-text: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
             --line-height: 1.6; 
             letter-spacing:0.01em;
-            
-            blockquote {
-                font-style:italic;
-                border-width:3px;
+
+            .embed-title {
+                display:none;
             }
         }
-
         .file-embed.mod-empty,
         .file-embed.mod-empty-attachment {
             border-radius:0;
@@ -192,6 +191,41 @@
             /* border-left:4px solid var(--bg3); */
             /* font-style: italic; */
             /* font-family:Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; */
+        }
+
+        /* Embedded markdown files - content */
+        .markdown-embed-content {
+
+            /* Hide embeded header title */
+            .mod-header {
+                & + div {
+                    display:none
+                }
+            }
+
+            .markdown-preview-sizer[style] {
+
+                /* fix min-height being too large, to fit content better */
+                min-height:auto !important;
+            }
+
+            /* p */
+            :is(p) {
+                /* margin-bottom:0; */
+                margin-block-end: 1rem;
+            }
+        
+            [data-heading] {
+                margin-top:0;
+                
+                &:is(h6) {
+                    margin-bottom: 0;
+                    color:var(--tx2) !important;
+                    font-style:italic;
+                    font-weight:400;
+                    font-size:15px;
+                }
+            }
         }
 
         /* Hide code blocks until hover */
