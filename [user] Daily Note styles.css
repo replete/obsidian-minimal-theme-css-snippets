@@ -72,11 +72,11 @@
 
         /* h5 styles */
         .cm-header-5 {
-            font-size:14px !important;
+            font-size:13px !important;
             color:var(--tx3) !important;
             text-transform:uppercase;
-            font-weight:400;
-            letter-spacing:0.15em;
+            /* font-weight:400; */
+            /* letter-spacing:0.1em; */
         }
         &:not(.is-live-preview) .cm-header-5,
         .cm-focused .cm-active .cm-header-5 {

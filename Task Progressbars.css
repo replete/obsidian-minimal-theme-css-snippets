@@ -12,7 +12,7 @@
 
 /* clip bar to border-radius */
 .cm-task-progress-bar {
-    overflow:hidden;
+    /* overflow:hidden; */
 }
 
 .cm-task-progress-bar.with-number .progress-status {
@@ -50,7 +50,7 @@
 
 /* complete checkmark state */
 .cm-task-progress-bar .progress-bar-inline-4 {
-    display:none
+    display:none;
 }
 .cm-task-progress-bar:has(.progress-bar-inline-4)::after {
     content:'✓';
