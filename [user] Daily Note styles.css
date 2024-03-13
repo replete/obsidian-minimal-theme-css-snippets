@@ -200,13 +200,6 @@
         /* Embedded markdown files - content */
         .markdown-embed-content {
 
-            /* Hide embeded header title */
-            .mod-header {
-                & + div {
-                    display:none
-                }
-            }
-
             .markdown-preview-sizer[style] {
 
                 /* fix min-height being too large, to fit content better */

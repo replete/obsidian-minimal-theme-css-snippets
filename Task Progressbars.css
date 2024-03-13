@@ -10,11 +10,6 @@
     }
 }
 
-/* clip bar to border-radius */
-.cm-task-progress-bar {
-    /* overflow:hidden; */
-}
-
 .cm-task-progress-bar.with-number .progress-status {
     color:var(--tx2);
     font-weight:400;
