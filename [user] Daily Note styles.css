@@ -259,3 +259,42 @@
         }
     }
 }
+
+/* Daily Note Outline tweaks */
+/* Container */
+.workspace-leaf-content[data-type="daily-note-outline"] .view-content {
+
+    /* Disable inline preview */
+    .nav-file-title-preview {
+        display:none;
+    }
+
+    /* h4 heading */
+    .tree-item-self[aria-label*='####'] {
+        font-size:12px !important;
+        color:var(--tx3) !important;
+        text-transform:uppercase;
+        letter-spacing:0.1em;
+        font-weight:600;
+    }
+
+    /* h5 heading */
+    .tree-item-self[aria-label*='#####'] {
+        font-size:12px !important;
+        color:var(--tx3) !important;
+        text-transform:uppercase;
+        letter-spacing:0.1em;
+        font-weight:600;
+    }
+
+    /* h4 heading */
+    .tree-item-self[aria-label*='######'] {
+        font-size:13px !important;
+        font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;
+        font-weight: 400;
+        font-style:italic;
+        color:var(--tx3) !important;
+        letter-spacing:0;
+        text-transform:none;
+    }
+}
