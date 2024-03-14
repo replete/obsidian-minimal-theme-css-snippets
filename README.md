@@ -38,6 +38,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 ## Editor Snippets
 - **Custom Tag Styles** ⭐ - I'm not using tags much at the moment, but prefer the more compact look than the pill shaped. If I use tags more I'll extend this.
     ![Custom tag styles screenshot](screenshots/custom-tags.png)
+- **Compact Right Sidebar notes** ⭐ - This shortens the margins and enables a duotone when not hovering for when a note is open in the right panel workspace (reading view atm)
 - **Editor fixes** ⭐ - gutter component alignments, general editor fixes, less visible indentation guide
 - **Frontmatter tweaks** ⭐ - styling, fixes for `editor syntax highlighter plugin`
 - **Mono Emojis everywhere** - uses mono emoji font (activate separately) for everything in an editor (this is actually pretty ugly and I don't use it)  
