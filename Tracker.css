@@ -1,0 +1,524 @@
+/*
+    Tracker
+    Tracker plugin styles and themed colours
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+/* chart display tweaks */
+.block-language-tracker {
+
+    .tracker-legend {
+        stroke: none;
+    }
+
+    .tracker-tick-label {
+        fill:var(--tx2);
+    }
+}
+
+/* Duotone on hover effect */
+/* Light themes */
+.theme-light.minimal-default-light .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.5 1"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.5 1"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.5 1"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-light.minimal-atom-light .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.6274509804 0.9803921569"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.631372549 0.9803921569"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.6588235294 0.9803921569"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-light.minimal-ayu-light .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.5490196078 0.9098039216"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.5764705882 0.9254901961"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.6078431373 0.9411764706"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-light.minimal-catppuccin-light .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.631372549 0.937254902"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.6352941176 0.9450980392"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.6901960784 0.9607843137"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-light.minimal-everforest-light .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.5098039216 0.9921568627"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.568627451 0.9647058824"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.5058823529 0.8901960784"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-light.minimal-gruvbox-light .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.4862745098 0.9882352941"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.4392156863 0.9490196078"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.3960784314 0.7803921569"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-light.minimal-macos-light .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.5019607843 1"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.5019607843 1"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.5019607843 1"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-light.minimal-nord-light .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.4901960784 1"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.5215686275 1"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.5921568627 1"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-light.minimal-notion-light .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.4470588235 1"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.4392156863 1"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.4156862745 1"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-light.minimal-rose-pine-light .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.4745098039 1"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.4588235294 0.9803921569"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.5764705882 0.9529411765"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-light.minimal-solarized-light .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.3450980392 0.9921568627"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.431372549 0.9647058824"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.4588235294 0.8901960784"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-light.minimal-things-light .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.4901960784 1"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.4980392157 1"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.5176470588 1"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+
+/* Dark themes */
+
+.theme-dark.minimal-default-dark .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.1450980392 0.6"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.1450980392 0.6"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.1450980392 0.6"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-dark.minimal-atom-dark .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.1568627451 0.537254902"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.1725490196 0.5607843137"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.2039215686 0.6156862745"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+       
+.theme-dark.minimal-ayu-dark .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.137254902 0.4392156863"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.1607843137 0.4784313725"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.2156862745 0.5490196078"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-dark.minimal-catppuccin-dark .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.1882352941 0.7264705882"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.2039215686 0.7956862745"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.2745098039 0.9407843137"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+        /* removed .2 from light values text overlay legibility */
+}
+
+.theme-dark.minimal-dracula-dark .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.1568627451 0.5803921569"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.1647058824 0.6235294118"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.2156862745 0.7450980392"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-dark.minimal-everforest-dark .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.1764705882 0.6156862745"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.20784313734 0.662745098"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.231372549 0.6274509804"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-dark.minimal-gruvbox-dark .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.1568627451 0.7411764706"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.1568627451 0.6823529412"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.1568627451 0.5725490196"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-dark.minimal-macos-dark .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.1176470588 0.5490196078"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.1176470588 0.5490196078"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.1176470588 0.5490196078"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-dark.minimal-nord-dark .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.1803921569 0.6196078431"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.2 0.6862745098"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.2549019608 0.8"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-dark.minimal-notion-dark .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.1843137255 0.5647058824"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.2039215686 0.5725490196"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.2156862745 0.5803921569"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-dark.minimal-rose-pine-dark .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.1215686275 0.5647058824"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.1137254902 0.5490196078"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.1803921569 0.6666666667"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-dark.minimal-solarized-dark .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.0196078431 0.3960784314"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.1647058824 0.4823529412"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.2117647059 0.5137254902"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+
+.theme-dark.minimal-things-dark .block-language-tracker:not(:hover) {
+    filter: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg">\
+            <filter id="filter">\
+                <feColorMatrix type="matrix" result="grayscale"\
+                    values="1 0 0 0 0\
+                    1 0 0 0 0\
+                    1 0 0 0 0\
+                    0 0 0 1 0">\
+                </feColorMatrix>\
+                <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">\
+                    <feFuncR type="table" tableValues="0.1411764706 0.7960784314"></feFuncR>\
+                    <feFuncG type="table" tableValues="0.1490196078 0.8"></feFuncG>\
+                    <feFuncB type="table" tableValues="0.1647058824 0.8039215686ƒ"></feFuncB>\
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>\
+                </feComponentTransfer>\
+            </filter>\
+        </svg>#filter');
+}
+

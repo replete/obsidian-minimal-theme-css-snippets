@@ -116,7 +116,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Tasks - Compact](screenshots/tasks-compact.gif)
 - **Task progressbars** ⭐ - alignments and themed colours
     ![Task Progressbars plugin tweaks screenshot](screenshots/taskprogressbars.png)
-
+- **Tracker** ⭐ - cleaner styles and duotone on hover
 ## Temporarily abandoned (Make.MD buggy, given up using it for the time being)
 - **Make.MD Inline Context** - Compact Make.md Contexts, tidier layout (Obsidian shipped Properties feature in 1.4.5 which makes this redundant, though I still have enabled for a few styles)
     ![Make.MD Contexts screenshot](screenshots/makemdcontexts.png)
