@@ -3,7 +3,9 @@
     Make custom frames appear duotone before interaction
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
-
+.custom-frames-view:not(:hover) {
+    filter:brightness(0.55) !important;
+ }
 /* Light themes */
 
 .theme-light.minimal-default-light .custom-frames-view webview:not(:hover) {

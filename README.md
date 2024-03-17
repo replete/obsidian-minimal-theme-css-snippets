@@ -31,7 +31,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - `Minimal Theme v7.5.2`
 ```js
 // plugins I currently have enabled:
-['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'dataview', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-hover-editor', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-in-new-tab', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'obsidian-toggle-list', 'mysnippets-plugin', 'nldates-obsidian', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'smart-second-brain', 'modalforms', 'custom-sort', 'obsidian-daily-note-outline']
+['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'dataview', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'obsidian-toggle-list', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'modalforms', 'obsidian-daily-note-outline', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'obsidian-custom-frames']
 // [...new Set(app.plugins.enabledPlugins)]
 ```
 
