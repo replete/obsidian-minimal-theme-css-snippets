@@ -195,6 +195,14 @@
         .file-embed.mod-empty-attachment {
             border-radius:0;
             background:transparent;
+            text-align:left;
+            font-style: italic;
+            color: var(--tx3);
+            padding-left:0;
+
+            &:hover {
+                color:var(--link-color);
+            }
         }
 
         /* Embedded markdown files - content */
