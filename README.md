@@ -106,6 +106,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Meta Bind (Compact)** ⭐ - Inline controls are more compact, with customizations to some controls    
 - **MySnippets** ⭐ - make menu wider and fix button style/order    
     ![MySnippets tweaks screenshot](screenshots/mysnippets_tweaks.png)
+- **Omnisearch** ⭐ - Cleaner styles, less visual noise    
+    ![Omnisearch screenshot](screenshots/omnisearch.png)
 - **Outline** - chevron on right, compact    
     ![Outline tweaks screenshot](screenshots/outline.png)
 - **Quiet Outline** - Remove rainbow colours to theme colors, re-arrange layout (I use this instead of Outline panel)

@@ -1,0 +1,94 @@
+/*
+    Omnisearch 
+    Cleaner and less jank, essential fixes to be honest it was noisy on the eyes
+    
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.omnisearch-modal.prompt {
+
+    .prompt-results {
+
+    }
+    
+    :has(> .omnisearch-result__title-container) {
+        width:100%;
+    }
+
+    .omnisearch-result__title {
+    display:flex;
+    width:100%;
+    font-size:1rem;
+    font-weight:500;
+    margin-bottom:3px;
+
+        :has(svg) {
+            display:none;
+            margin-left:-2px;
+            transform:scale(0.9) translate(0, 2px)
+        }
+    }
+
+    .omnisearch-result {
+    }
+
+    .omnisearch-result__folder-path {
+        /* font-style:italic; */
+        font-size:11px;
+        margin-top:-5px;
+        margin-bottom:3px;
+
+        /* > span {
+            background: var(--bg3);
+            padding:0px 4px;
+            border-radius:2px;
+
+            &::before {
+                content:'/';
+            }
+        } */
+
+        :has(svg) {
+            /* display:none; */
+            /* icon resized inline with text: */
+            transform: scale(0.7) translate(0,2px);
+            transform-origin: left center;
+            margin-right:-7px;
+        }
+    }
+
+    .omnisearch-result__extension {
+        display:none;
+        transform: translate(-4px,2px);
+        font-weight:500;
+    }
+
+    .omnisearch-result__counter {
+        margin-left: auto;
+
+        /* &::before {
+            content:'('
+        }
+        &::after {
+            content:')'
+        } */
+    }
+
+    .omnisearch-result__body {
+        margin-left:0;
+        font-style:italic;
+    }
+
+    .omnisearch-result {
+        padding-top:var(--size-4-3);
+        padding-bottom:var(--size-4-3);
+        margin-top:calc( (-1 * var(--size-4-3)) / 2);
+    }
+
+    .omnisearch-highlight {
+        text-decoration-color:var(--accent-color);
+        text-underline-offset:3px;
+        text-decoration-thickness:1px;
+    }
+    
+}
