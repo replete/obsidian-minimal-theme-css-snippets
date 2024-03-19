@@ -12,7 +12,7 @@
     }
 
     &.is-live-preview  {
-
+        
         /* Blockquote styles (I only use blockquotes in my daily note for actual quotes) */
         .HyperMD-quote {
             font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
@@ -24,7 +24,8 @@
                 opacity:0.7;
         
                     > * {
-                        text-decoration: none
+                        color:var(--tx2);
+                        text-decoration: none !important
                     }
         
                     &::before {
@@ -247,6 +248,7 @@
             opacity:0.7;
             
             .cm-underline {
+                color:var(--tx2);
                 text-decoration: none; 
             }
         }
