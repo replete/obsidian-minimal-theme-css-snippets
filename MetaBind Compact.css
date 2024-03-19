@@ -19,7 +19,7 @@
                 height:calc(1rem + 6px);
                 vertical-align: bottom;
                 padding-left:6px;
-                padding-right:12px;
+                padding-right:18px;
                 font-family:var(--font-interface) !important;
                 background-position-x: calc(100% - 6px);
             }
