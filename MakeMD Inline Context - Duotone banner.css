@@ -7,14 +7,14 @@
 */
 
             
-.mk-note-header {
+.mk-space-banner {
     /* Needed for blending mode function */
     background:var(--background-primary);
 }
 
 /* Light themes */
 
-.theme-light.minimal-default-light .mk-note-header img {
+.theme-light.minimal-default-light .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -34,7 +34,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-atom-light .mk-note-header img {
+.theme-light.minimal-atom-light .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -54,7 +54,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-ayu-light .mk-note-header img {
+.theme-light.minimal-ayu-light .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -74,7 +74,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-catppuccin-light .mk-note-header img {
+.theme-light.minimal-catppuccin-light .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -94,7 +94,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-everforest-light .mk-note-header img {
+.theme-light.minimal-everforest-light .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -114,7 +114,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-gruvbox-light .mk-note-header img {
+.theme-light.minimal-gruvbox-light .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -134,7 +134,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-macos-light .mk-note-header img {
+.theme-light.minimal-macos-light .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -154,7 +154,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-nord-light .mk-note-header img {
+.theme-light.minimal-nord-light .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -174,7 +174,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-notion-light .mk-note-header img {
+.theme-light.minimal-notion-light .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -194,7 +194,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-rose-pine-light .mk-note-header img {
+.theme-light.minimal-rose-pine-light .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -214,7 +214,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-solarized-light .mk-note-header img {
+.theme-light.minimal-solarized-light .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -234,7 +234,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-things-light .mk-note-header img {
+.theme-light.minimal-things-light .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -257,7 +257,7 @@
 
 /* Dark themes */
 
-.theme-dark.minimal-default-dark .mk-note-header img {
+.theme-dark.minimal-default-dark .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -277,7 +277,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-atom-dark .mk-note-header img {
+.theme-dark.minimal-atom-dark .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -297,7 +297,7 @@
         </svg>#filter');
 }
        
-.theme-dark.minimal-ayu-dark .mk-note-header img {
+.theme-dark.minimal-ayu-dark .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -317,7 +317,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-catppuccin-dark .mk-note-header img {
+.theme-dark.minimal-catppuccin-dark .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -338,7 +338,7 @@
         /* removed .2 from light values text overlay legibility */
 }
 
-.theme-dark.minimal-dracula-dark .mk-note-header img {
+.theme-dark.minimal-dracula-dark .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -358,7 +358,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-everforest-dark .mk-note-header img {
+.theme-dark.minimal-everforest-dark .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -378,7 +378,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-gruvbox-dark .mk-note-header img {
+.theme-dark.minimal-gruvbox-dark .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -398,7 +398,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-macos-dark .mk-note-header img {
+.theme-dark.minimal-macos-dark .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -418,7 +418,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-nord-dark .mk-note-header img {
+.theme-dark.minimal-nord-dark .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -438,7 +438,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-notion-dark .mk-note-header img {
+.theme-dark.minimal-notion-dark .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -458,7 +458,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-rose-pine-dark .mk-note-header img {
+.theme-dark.minimal-rose-pine-dark .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -478,7 +478,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-solarized-dark .mk-note-header img {
+.theme-dark.minimal-solarized-dark .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -498,7 +498,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-things-dark .mk-note-header img {
+.theme-dark.minimal-things-dark .mk-space-banner img {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\

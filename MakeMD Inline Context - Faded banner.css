@@ -5,32 +5,39 @@
     https://i.imgur.com/o3e6GTa.png
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
+:root {
+    --replete-banner-fade-offset: 2; /* integer */
+}
+.mk-inline-context {
 
-.mk-note-header::after {
-    content:'';
-    display: block;
-    width:100%;
-    height:100%;
-    left:0;
-    top:0;
-    background:
-        linear-gradient(to bottom, transparent 20%, var(--background-primary)),
-        linear-gradient(to bottom, transparent 60%, var(--background-primary));
-    position: absolute;
-    pointer-events:none;
+    .mk-path-context-component {
+        
+        &:has(.mk-space-banner) {
+            /* Moves the note text above the fade of the banner */
+            height:calc(var(--replete-banner-height) / var(--replete-banner-fade-offset));
+        }
+    }
+
+    .mk-space-banner {
+        &::after {
+            content:'';
+            display: block;
+            width:100%;
+            height:100%;
+            left:0;
+            top:0;
+            background:
+                linear-gradient(to bottom, transparent 20%, var(--background-primary)),
+                linear-gradient(to bottom, transparent 60%, var(--background-primary));
+            position: absolute;
+            pointer-events:none;
+        }
+
+        img {
+            /* Disable magnify cursor */
+            cursor:default !important
+        }
+    }
 }
 
-.mk-header .mk-note-header:has(img) + .mk-file-context-component > .mk-spacer {
-    margin-top:-120px;
-}
 
-.mk-note-header {
-    z-index:-1000 !important
-}
-
-/* Improve text legibility on notes with banners */
-
-.mk-header .mk-note-header:has(img) + .mk-file-context-component .mk-tag-selector .cm-hashtag{
-    /* text-shadow: 1px 1px 1px rgba(0,0,0,.3); */
-    /* background:red !important */
-}

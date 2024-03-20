@@ -17,8 +17,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 <a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 
-
 ## Updates (scroll to next section for snippet details)
+- **2024-03-20** Make.MD Banners are back. Thankfully they've sorted out whatever was going on, so I've refactored the snippets entirely, and it works much better with less code.
 - **2024-03-17** Added new Omnisearch plugin visual fixes. I've made a number of changes in recent commits but haven't updated notes. At some point I'll update screenshots and things. Where is that banner plugin to replace buggy Make.MD?!?!?!?!
 - **2024-02-21** Disabled a number of plugins for performance reasons. Trying out ollama embeddings plugin, but its early days.
 - **2024-02-21** Works on mobile. Make.MD banners stopped working again, combined with the broken inline file context I've chosen to just give up and disable Make.MD for now. I'll live without the pretty banners, it's a shame to lose this nice functionality but there are no other banner plugin alternatives that work and Make.MD is no longer worth dealing with. I'll leave the banner functionality here but if it works for you now, updating it may cause you problems.
@@ -97,13 +97,19 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
  
 - **Checklist (Ultra compact)** - Compact view (for tag mode users)    
     ![Checklist (ultra compact) screenshot](screenshots/checklist.png)
-- **Custom Frames** - Compact panel
-- **Custom Frames (Duotone)** - blend custom frames content in with theme until hover    
+- **Custom Frames** ⭐ - Compact panel
+- **Custom Frames (Duotone)** ⭐ - blend custom frames content in with theme until hover    
     ![Custom Frames - Duotone screenshot](screenshots/custom-frames-duotone.png)
 - **Daily Note Outline** ⭐ - Compact, visual tweaks, works with compact file explorer snippet    
     ![Daily Note Outline screenshot](screenshots/daily-note-outline.png)
 - **Database Folder (Compact)** - compact view    
     ![Database Folder screenshot](screenshots/dbfolder.png)
+- **Make.MD Inline Context** ⭐ - Only used for banner functionality, inline context components are hidden. To use, add a `banner` property to a note's frontmatter directly or via Properties (see Autohide snippet)
+    ![Make.MD Contexts screenshot](screenshots/makemdinlinecontexts.png)
+- **Make.MD Inline Context: Duotone Banner** ⭐- Makes all banner images duotone to match minimal theme    
+    ![Make.MD Contexts Duotone banners screenshot](screenshots/makemdcontextsbannerduotone.png)
+- **Make.MD Inline Context: Faded Banner** ⭐ Fade images to background with a gradient, and offsets text    
+    ![Make.MD Contexts Gradient banners screenshot](screenshots/makemdcontextsbannergradient.png)
 - **Meta Bind (Compact)** ⭐ - Inline controls are more compact, with customizations to some controls    
 - **MySnippets** ⭐ - make menu wider and fix button style/order    
     ![MySnippets tweaks screenshot](screenshots/mysnippets_tweaks.png)
@@ -120,16 +126,6 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Task progressbars** ⭐ - alignments and themed colours
     ![Task Progressbars plugin tweaks screenshot](screenshots/taskprogressbars.png)
 - **Tracker** ⭐ - cleaner styles and duotone on hover
-## Temporarily abandoned (Make.MD buggy, given up using it for the time being)
-- **Make.MD Inline Context** - Compact Make.md Contexts, tidier layout (Obsidian shipped Properties feature in 1.4.5 which makes this redundant, though I still have enabled for a few styles)
-    ![Make.MD Contexts screenshot](screenshots/makemdcontexts.png)
-- **Make.MD Inline Context: Auto-hide meta** -    
-    ![Make.MD Contexts autohide screenshot](screenshots/makemdcontextsautohide.gif)
-
-- **Make.MD Inline Context: Duotone Banner** - Makes all banner images duotone to match minimal theme    
-    ![Make.MD Contexts Duotone banners screenshot](screenshots/makemdcontextsbannerduotone.png)
-- **Make.MD Inline Context: Faded Banner**  Fade images to background with a gradient    
-    ![Make.MD Contexts Gradient banners screenshot](screenshots/makemdcontextsbannergradient.png)
     
 ## Abandoned snippets (no longer developed)
 - **Heatmap Calendar** - colours and text styles for habit type use-case [(imgur screenshot)](https://i.imgur.com/ndvRLIC.png)
@@ -143,6 +139,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 ## Deprecated snippets (deleted from repo)
 - ~~[Make.MD Banner](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc - I refactored/improved this into separate snippets above~~
 - ~~Make.MD Compact Spaces - use less space, like Compact File Explorer snippet (deprecated)~~
+- ~~Make.MD Inline Context - Autohide meta ~~
 
 ## Support development
 <a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
