@@ -28,10 +28,10 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 - `MacOS 13.6.4`, `Android 13`
 - `Obsidian v1.5.11 (installer 1.4.13)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
-- `Minimal Theme v7.5.2`
+- `Minimal Theme v7.5.3`
 ```js
 // plugins I currently have enabled:
-['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'dataview', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'obsidian-toggle-list', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'modalforms', 'obsidian-daily-note-outline', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'obsidian-custom-frames']
+['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'dataview', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'obsidian-toggle-list', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'modalforms', 'obsidian-daily-note-outline', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'obsidian-custom-frames', 'obsidian-banners', 'make-md']
 // [...new Set(app.plugins.enabledPlugins)]
 ```
 
