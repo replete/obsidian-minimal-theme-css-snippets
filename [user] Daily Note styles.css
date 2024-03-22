@@ -191,6 +191,17 @@
                 right:5px;
                 top:5px;
             }
+
+            /* Specific sections: */
+            &:has(:is(
+                [data-heading=Errors],
+                [data-heading=Reflect])
+             ) {
+                .mod-header + [data-heading] {display:none}
+                .has-list-bullet {margin-top:5px}
+                .el-ul:has(.contains-task-list) {display:none}
+            }
+
         }
         .file-embed.mod-empty,
         .file-embed.mod-empty-attachment {
