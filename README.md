@@ -19,19 +19,19 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 ## Updates (scroll to next section for snippet details)
 - **2024-03-20** Make.MD Banners are back. Thankfully they've sorted out whatever was going on, so I've refactored the snippets entirely, and it works much better with less code.
-- **2024-03-17** Added new Omnisearch plugin visual fixes. I've made a number of changes in recent commits but haven't updated notes. At some point I'll update screenshots and things. Where is that banner plugin to replace buggy Make.MD?!?!?!?!
+- **2024-03-17** Added new Omnisearch plugin visual fixes. I've made a number of changes in recent commits but haven't updated notes. At some point I'll update screenshots and things.
 - **2024-02-21** Disabled a number of plugins for performance reasons. Trying out ollama embeddings plugin, but its early days.
 - **2024-02-21** Works on mobile. Make.MD banners stopped working again, combined with the broken inline file context I've chosen to just give up and disable Make.MD for now. I'll live without the pretty banners, it's a shame to lose this nice functionality but there are no other banner plugin alternatives that work and Make.MD is no longer worth dealing with. I'll leave the banner functionality here but if it works for you now, updating it may cause you problems.
 - **2024-02-08**: Make.MD's inline context (filename in editor) has broken for a while, I've refactored CSS and reinstalled Make.MD but ths bug remains, so for some new files the inline context filename does not show. Reinstalling Make.MD did make my banner show again however and I've fixed the CSS for it. If you have problems, try uninstalling and reinstalling the plugin and reseting the options (disable everything but `Sync Context Fields..., Flow (beta), Inline Context, Flow Block, Open Flow Blocks...` if you wish to replicate my setup, which these snippets are configured for). I only use Make.MD for the banner functionality as there's no other option right now, and look forward to getting rid of this plugin entirely in the future.
 
 ## My environment
 
-- `MacOS 13.6.4`, `Android 13`
+- `MacOS 13.6.5`, `Android 13`
 - `Obsidian v1.5.11 (installer 1.4.13)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
 - `Minimal Theme v7.5.3`
 ```js
 // plugins I currently have enabled:
-['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'dataview', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'obsidian-toggle-list', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'modalforms', 'obsidian-daily-note-outline', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'obsidian-custom-frames', 'obsidian-banners', 'make-md']
+['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'dataview', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'obsidian-toggle-list', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'modalforms', 'obsidian-daily-note-outline', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'obsidian-custom-frames', 'make-md']
 // [...new Set(app.plugins.enabledPlugins)]
 ```
 
