@@ -202,6 +202,24 @@
                 .el-ul:has(.contains-task-list) {display:none}
             }
 
+            :is(h1) {
+                text-align: center;
+            }
+
+            &[src*='The Daily Laws'] {
+                :is(h2) {
+                    text-align: center;
+                    font-family:var(--font-default);
+                    text-transform:uppercase;
+                    letter-spacing: 0.05rem;
+                    font-size: 16px;
+                    opacity:0.7;
+                }
+                :is(h3) {
+                    margin:2rem 0 1rem;
+                }
+            }
+
         }
         .file-embed.mod-empty,
         .file-embed.mod-empty-attachment {
