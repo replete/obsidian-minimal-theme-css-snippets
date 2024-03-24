@@ -12,12 +12,11 @@
 }
 
 /* Separator below */
-.nav-folder-children > [class*=nav-]:has([data-path="Reference"])::after,
+.nav-folder-children > [class*=nav-]:has([data-path="Areas.md"])::after,
 .nav-folder-children > [class*=nav-]:has([data-path="Meetings"])::after,
 .nav-folder-children > [class*=nav-]:has([data-path="Sundown"])::after,
-.nav-folder-children > [class*=nav-]:has([data-path="Writing"])::after,
-.nav-folder-children > [class*=nav-]:has([data-path="Daily Stoic"])::after,
-.nav-folder-children > [class*=nav-]:has([data-path="Assets"])::after
+.nav-folder-children > [class*=nav-]:has([data-path="Thoughts"])::after,
+.nav-folder-children > [class*=nav-]:has([data-path="Daily Stoic"])::after
 {
     content:'';
     display:block;
