@@ -16,7 +16,7 @@
 .nav-folder-children > [class*=nav-]:has([data-path="Meetings"])::after,
 .nav-folder-children > [class*=nav-]:has([data-path="Sundown"])::after,
 .nav-folder-children > [class*=nav-]:has([data-path="Thoughts"])::after,
-.nav-folder-children > [class*=nav-]:has([data-path="Daily Stoic"])::after
+.nav-folder-children > [class*=nav-]:has([data-path="Meditations"])::after
 {
     content:'';
     display:block;
