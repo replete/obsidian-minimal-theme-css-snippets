@@ -42,7 +42,6 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Compact Right Sidebar notes** ⭐ - This shortens the margins and enables a duotone when not hovering for when a note is open in the right panel workspace (reading view atm)
 - **Editor fixes** ⭐ - gutter component alignments, general editor fixes, less visible indentation guide
 - **Frontmatter tweaks** ⭐ - styling, fixes for `editor syntax highlighter plugin`
-- **Mono Emojis everywhere** - uses mono emoji font (activate separately) for everything in an editor (this is actually pretty ugly and I don't use it)  
 - **Table tweaks** ⭐ - WIP, still waiting for a good table editing plugin...
 - **Top Fade** - Remove harsh edge of content when using "Compact Tabs (classic)" with one of the positional Tab Header snippets (I prefer the Translucent Tab Header)
 ![Top fade screenshot](screenshots/top-fade.png)
@@ -105,7 +104,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Database Folder (Compact)** - compact view    
     ![Database Folder screenshot](screenshots/dbfolder.png)
 - **Make.MD Inline Context** ⭐ - Only used for banner functionality, inline context components are hidden. To use, add a `banner` property to a note's frontmatter directly or via Properties (see Autohide snippet)
-    ![Make.MD Contexts screenshot](screenshots/makemdinlinecontexts.png)
+    ![Make.MD Contexts screenshot](screenshots/makemdinlinecontexts.gif)
 - **Make.MD Inline Context: Duotone Banner** ⭐- Makes all banner images duotone to match minimal theme    
     ![Make.MD Contexts Duotone banners screenshot](screenshots/makemdcontextsbannerduotone.png)
 - **Make.MD Inline Context: Faded Banner** ⭐ Fade images to background with a gradient, and offsets text    
@@ -128,6 +127,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Tracker** ⭐ - cleaner styles and duotone on hover
     
 ## Abandoned snippets (no longer developed)
+- **Mono Emojis everywhere** - uses mono emoji font (activate separately) for everything in an editor (this is actually pretty ugly and I don't use it)  
 - **Heatmap Calendar** - colours and text styles for habit type use-case [(imgur screenshot)](https://i.imgur.com/ndvRLIC.png)
 - **Full Calendar** - pretty hacky due to limits of styling hooks
 - **Obsidian Buttons** - alignments
@@ -135,6 +135,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Excel screenshot](screenshots/excel.png)
 - **Day Planner** - ~~I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy~~ Apparantly this plugin has a new maintainer, but I've stopped using it so these styles are for an older v
     ![Day Planner screenshot](screenshots/dayplanner.png)    
+
 
 ## Deprecated snippets (deleted from repo)
 - ~~[Make.MD Banner](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc - I refactored/improved this into separate snippets above~~

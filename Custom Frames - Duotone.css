@@ -3,12 +3,12 @@
     Make custom frames appear duotone before interaction
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
-.custom-frames-view:not(:hover) {
-    filter:brightness(0.55) !important;
+.custom-frames-view webview:not(:hover) {
+    filter:grayscale() brightness(1) contrast(1.7);
  }
 /* Light themes */
 
-.theme-light.minimal-default-light .custom-frames-view webview:not(:hover) {
+.theme-light.minimal-default-light .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -28,7 +28,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-atom-light .custom-frames-view webview:not(:hover) {
+.theme-light.minimal-atom-light .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -48,7 +48,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-ayu-light .custom-frames-view webview:not(:hover) {
+.theme-light.minimal-ayu-light .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -68,7 +68,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-catppuccin-light .custom-frames-view webview:not(:hover) {
+.theme-light.minimal-catppuccin-light .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -88,7 +88,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-everforest-light .custom-frames-view webview:not(:hover) {
+.theme-light.minimal-everforest-light .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -108,7 +108,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-gruvbox-light .custom-frames-view webview:not(:hover) {
+.theme-light.minimal-gruvbox-light .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -128,7 +128,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-macos-light .custom-frames-view webview:not(:hover) {
+.theme-light.minimal-macos-light .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -148,7 +148,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-nord-light .custom-frames-view webview:not(:hover) {
+.theme-light.minimal-nord-light .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -168,7 +168,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-notion-light .custom-frames-view webview:not(:hover) {
+.theme-light.minimal-notion-light .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -188,7 +188,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-rose-pine-light .custom-frames-view webview:not(:hover) {
+.theme-light.minimal-rose-pine-light .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -208,7 +208,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-solarized-light .custom-frames-view webview:not(:hover) {
+.theme-light.minimal-solarized-light .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -228,7 +228,7 @@
         </svg>#filter');
 }
 
-.theme-light.minimal-things-light .custom-frames-view webview:not(:hover) {
+.theme-light.minimal-things-light .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -251,7 +251,7 @@
 
 /* Dark themes */
 
-.theme-dark.minimal-default-dark .custom-frames-view webview:not(:hover) {
+.theme-dark.minimal-default-dark .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -271,7 +271,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-atom-dark .custom-frames-view webview:not(:hover) {
+.theme-dark.minimal-atom-dark .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -291,7 +291,7 @@
         </svg>#filter');
 }
        
-.theme-dark.minimal-ayu-dark .custom-frames-view webview:not(:hover) {
+.theme-dark.minimal-ayu-dark .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -311,7 +311,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-catppuccin-dark .custom-frames-view webview:not(:hover) {
+.theme-dark.minimal-catppuccin-dark .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -332,7 +332,7 @@
         /* removed .2 from light values text overlay legibility */
 }
 
-.theme-dark.minimal-dracula-dark .custom-frames-view webview:not(:hover) {
+.theme-dark.minimal-dracula-dark .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -352,7 +352,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-everforest-dark .custom-frames-view webview:not(:hover) {
+.theme-dark.minimal-everforest-dark .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -372,7 +372,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-gruvbox-dark .custom-frames-view webview:not(:hover) {
+.theme-dark.minimal-gruvbox-dark .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -392,7 +392,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-macos-dark .custom-frames-view webview:not(:hover) {
+.theme-dark.minimal-macos-dark .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -412,7 +412,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-nord-dark .custom-frames-view webview:not(:hover) {
+.theme-dark.minimal-nord-dark .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -432,7 +432,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-notion-dark .custom-frames-view webview:not(:hover) {
+.theme-dark.minimal-notion-dark .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -452,7 +452,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-rose-pine-dark .custom-frames-view webview:not(:hover) {
+.theme-dark.minimal-rose-pine-dark .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -472,7 +472,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-solarized-dark .custom-frames-view webview:not(:hover) {
+.theme-dark.minimal-solarized-dark .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
@@ -492,7 +492,7 @@
         </svg>#filter');
 }
 
-.theme-dark.minimal-things-dark .custom-frames-view webview:not(:hover) {
+.theme-dark.minimal-things-dark .custom-frames-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\
