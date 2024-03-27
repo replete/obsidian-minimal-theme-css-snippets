@@ -12,9 +12,13 @@
 }
 
 /* Separator below */
-.nav-folder-children > [class*=nav-]:has([data-path="Scratchpad.md"])::after,
-.nav-folder-children > [class*=nav-]:has([data-path="Archive"])::after
-{
+.nav-folder-children > [class*=nav-]:has(:is(
+    [data-path="Areas.md"],
+    [data-path="Meetings"],
+    [data-path="Sundown"],
+    [data-path="Thoughts"],
+    [data-path="Meditations"]
+))::after {
     content:'';
     display:block;
     height:1px;
@@ -24,10 +28,11 @@
 }
 
 /* Separator above */
-.nav-folder-children > [class*=nav-]:has([data-path="Daily"])::before,
-.nav-folder-children > [class*=nav-]:has([data-path="People"])::before,
-.nav-folder-children > [class*=nav-]:has([data-path="Archive"])::before
-{
+.nav-folder-children > [class*=nav-]:has(:is(
+    [data-path="Daily"],
+    [data-path="People"],
+    [data-path="Archive"]
+))::before {
     content:'';
     display:block;
     height:1px;
