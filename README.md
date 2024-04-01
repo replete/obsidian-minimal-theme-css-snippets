@@ -27,11 +27,11 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 ## My environment
 
 - `MacOS 13.6.5`, `Android 13`
-- `Obsidian v1.5.11 (installer 1.4.13)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
+- `Obsidian v1.5.12 (installer 1.5.11)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
 - `Minimal Theme v7.5.3`
 ```js
 // plugins I currently have enabled:
-['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'dataview', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'obsidian-toggle-list', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'modalforms', 'obsidian-daily-note-outline', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'obsidian-custom-frames', 'make-md']
+['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'obsidian-toggle-list', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'modalforms', 'obsidian-daily-note-outline', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'snippet-commands-obsidian', 'dataview', 'obsidian-custom-frames', 'make-md', 'meld-encrypt', 'obsidian-static-file-server']
 // [...new Set(app.plugins.enabledPlugins)]
 ```
 
