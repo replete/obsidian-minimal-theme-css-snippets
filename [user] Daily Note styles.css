@@ -296,6 +296,14 @@
                 border-bottom: 1px solid var(--table-border-color);
             }
         }
+
+        /* Dataview styles */
+        .dataview {
+            &.list-view-ul {
+                margin-top:0;
+                /* margin-bottom:0; */
+            }
+        }
     }
 }
 
