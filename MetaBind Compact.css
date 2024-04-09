@@ -33,7 +33,20 @@
             }
         }
         .mb-input-type-time {
-            .mb-input-element-group {
+            :is([type=time]) {
+                height:calc(1rem + 6px);
+                vertical-align: bottom;
+                padding-left:6px;
+                padding-right:0px;
+                font-family:var(--font-interface) !important;
+                background-image:none;
+                box-shadow: var(--input-shadow);
+                border-radius: var(--input-radius);
+                background-color: var(--interactive-normal);
+            }
+
+            /* meta-bind updated recently and now uses a real 'time' input type, so this is deprecated: */
+            /* .mb-input-element-group {
                 position:relative;
                 &::after {
                     content: ':';
@@ -62,6 +75,7 @@
                     padding-left:4px;
                 }
             }
+            */
         }
         .mb-input-type-toggle {
             .checkbox-container {

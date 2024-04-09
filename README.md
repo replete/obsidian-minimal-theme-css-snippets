@@ -18,6 +18,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 
 ## Updates (scroll to next section for snippet details)
+- **2024-04-09** Make.MD banners broke for me again. Might be a conflict of some kind. I've submitted an [issue on their github](https://github.com/Make-md/makemd/issues/297) so chip in if you also have the same problem.
 - **2024-03-20** Make.MD Banners are back. Thankfully they've sorted out whatever was going on, so I've refactored the snippets entirely, and it works much better with less code.
 - **2024-03-17** Added new Omnisearch plugin visual fixes. I've made a number of changes in recent commits but haven't updated notes. At some point I'll update screenshots and things.
 - **2024-02-21** Disabled a number of plugins for performance reasons. Trying out ollama embeddings plugin, but its early days.
@@ -28,9 +29,9 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 - `MacOS 13.6.5`, `Android 13`
 - `Obsidian v1.5.12 (installer 1.5.11)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
-- `Minimal Theme v7.5.3`
+- `Minimal Theme v7.5.4`
 ```js
-// plugins I currently have enabled:
+// plugins I currently have enabled (36):
 ['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'obsidian-toggle-list', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'modalforms', 'obsidian-daily-note-outline', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'snippet-commands-obsidian', 'dataview', 'obsidian-custom-frames', 'make-md', 'meld-encrypt', 'obsidian-static-file-server']
 // [...new Set(app.plugins.enabledPlugins)]
 ```
