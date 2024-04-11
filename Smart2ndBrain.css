@@ -1,0 +1,45 @@
+/*
+    Smart Second Brain 
+    Very basic styling tweaks, likely to change as I use it more
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.workspace-leaf {
+
+    [data-type=chat-view] .view-content:has(.chat-window) {
+        /* selectors aren't great in this plugin right now */
+        padding:0;
+
+        output {
+            font-size:13px;
+        }
+
+        [aria-label="Open quick settings"] {
+            transform:translate(0, 7px) !important;
+            opacity: 0.7;
+        }
+
+        :is(.min-h-\[33\%\]) {
+            padding:10px;
+            min-height: 20% !important;
+            height:auto;
+            font-size:13px;
+        }
+
+        .chat-window {
+            border-radius:0;
+            border:0;
+            
+            .group {
+                margin:4px;
+                margin-left:12px;
+                padding-left:12px;
+                font-size:13px;
+            }
+        }
+
+        > div:first-child {
+            padding-bottom:0 !important;
+        }
+    }
+}
