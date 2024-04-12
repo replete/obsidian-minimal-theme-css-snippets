@@ -1,0 +1,22 @@
+/*
+    Day Planner (Ivan Lednev version)
+    Ivan has done an amazing job with this plugin. THANK YOU.
+    This snippet just makes the toolbar a little bit more compact.
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+.workspace-leaf-content[data-type=timeline] {
+    .view-content {
+        > .controls > .controls {
+            padding:4px;
+            .header {
+                .clickable-icon:not(:is(
+                    [aria-label="Go to previous day"],
+                    [aria-label="Go to next day"]
+                )) {
+                    padding-left:0px !important;
+                    padding-right:0px !important;
+                }
+            }
+        }
+    }
+}

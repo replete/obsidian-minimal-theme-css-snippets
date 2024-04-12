@@ -93,6 +93,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Custom Frames** ⭐ - Compact panel
 - **Custom Frames (Duotone)** ⭐ - blend custom frames content in with theme until hover    
     ![Custom Frames - Duotone screenshot](screenshots/custom-frames-duotone.png)
+- **Day Planner (Ivan Lednev's version)** ⭐ - Ivan has done an amazing job at reviving this plugin. I think this version is the best of those available on Community Plugins. This snippet makes the header a little more compact (I am a compact UI fiend)
+    ![Daily Note Outline screenshot](screenshots/dayplanner-ivanlednev.png)
 - **Daily Note Outline** ⭐ - Compact, visual tweaks, works with compact file explorer snippet    
     ![Daily Note Outline screenshot](screenshots/daily-note-outline.png)
 - **Database Folder (Compact)** - compact view    
