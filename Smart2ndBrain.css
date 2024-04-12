@@ -1,6 +1,7 @@
 /*
     Smart Second Brain 
-    Very basic styling tweaks, likely to change as I use it more
+    This plugin is early and there are no CSS classes really being used so this is extremely hacky, but improves the UX a bit.
+    The plugin isn't quite practical enough for me just yet, so I'll revisit this another time in the future.
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
@@ -17,6 +18,17 @@
         [aria-label="Open quick settings"] {
             transform:translate(0, 7px) !important;
             opacity: 0.7;
+        }
+
+        textarea {
+            margin-left: 16px;
+            margin-right: 12px;
+
+            + button {
+                padding-left:8px;
+                padding-right:8px;
+                margin-right:12px;
+            }
         }
 
         :is(.min-h-\[33\%\]) {
