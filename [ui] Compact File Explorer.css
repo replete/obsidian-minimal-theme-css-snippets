@@ -134,6 +134,12 @@ body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-co
     /* font-family: "JetBrains Mono", monospace; */
     font-family: "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
     border-radius:0;
+
+    /* suffix file tag styling */
+    .nav-file-title-content + & {
+        margin-left: .5rem;
+        letter-spacing: 0;
+    }
 }
 
 /* Hide file tag when an icon is set */
