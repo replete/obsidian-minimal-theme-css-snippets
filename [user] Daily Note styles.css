@@ -168,6 +168,15 @@
             transform: translate(0, -7px) scale(0.8);
             transform-origin: 0
         }
+
+        /* Callout */
+
+        .cm-callout {
+
+            .callout-content {
+                font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif !important; 
+            }
+        }
         
 
         /* Embedded markdown files - containers */
