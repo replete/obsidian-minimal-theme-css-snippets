@@ -18,21 +18,22 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 
 ## Updates (scroll to next section for snippet details)
-- **2024-04-09** Make.MD banners broke for me again. Might be a conflict of some kind. I've submitted an [issue on their github](https://github.com/Make-md/makemd/issues/297) so chip in if you also have the same problem.
-- **2024-03-20** Make.MD Banners are back. Thankfully they've sorted out whatever was going on, so I've refactored the snippets entirely, and it works much better with less code.
+- **2024-05-17** Added [Sticky Headings for Daily Note](#user-snippets)
+- **2024-04-09** MakeMD banners broke for me again. Might be a conflict of some kind. I've submitted an [issue on their github](https://github.com/Make-md/makemd/issues/297) so chip in if you also have the same problem.
+- **2024-03-20** MakeMD Banners are back. Thankfully they've sorted out whatever was going on, so I've refactored the snippets entirely, and it works much better with less code.
 - **2024-03-17** Added new Omnisearch plugin visual fixes. I've made a number of changes in recent commits but haven't updated notes. At some point I'll update screenshots and things.
 - **2024-02-21** Disabled a number of plugins for performance reasons. Trying out ollama embeddings plugin, but its early days.
-- **2024-02-21** Works on mobile. Make.MD banners stopped working again, combined with the broken inline file context I've chosen to just give up and disable Make.MD for now. I'll live without the pretty banners, it's a shame to lose this nice functionality but there are no other banner plugin alternatives that work and Make.MD is no longer worth dealing with. I'll leave the banner functionality here but if it works for you now, updating it may cause you problems.
-- **2024-02-08**: Make.MD's inline context (filename in editor) has broken for a while, I've refactored CSS and reinstalled Make.MD but ths bug remains, so for some new files the inline context filename does not show. Reinstalling Make.MD did make my banner show again however and I've fixed the CSS for it. If you have problems, try uninstalling and reinstalling the plugin and reseting the options (disable everything but `Sync Context Fields..., Flow (beta), Inline Context, Flow Block, Open Flow Blocks...` if you wish to replicate my setup, which these snippets are configured for). I only use Make.MD for the banner functionality as there's no other option right now, and look forward to getting rid of this plugin entirely in the future.
+- **2024-02-21** Works on mobile. MakeMD banners stopped working again, combined with the broken inline file context I've chosen to just give up and disable MakeMD for now. I'll live without the pretty banners, it's a shame to lose this nice functionality but there are no other banner plugin alternatives that work and MakeMD is no longer worth dealing with. I'll leave the banner functionality here but if it works for you now, updating it may cause you problems.
+- **2024-02-08**: MakeMD's inline context (filename in editor) has broken for a while, I've refactored CSS and reinstalled MakeMD but ths bug remains, so for some new files the inline context filename does not show. Reinstalling MakeMD did make my banner show again however and I've fixed the CSS for it. If you have problems, try uninstalling and reinstalling the plugin and reseting the options (disable everything but `Sync Context Fields..., Flow (beta), Inline Context, Flow Block, Open Flow Blocks...` if you wish to replicate my setup, which these snippets are configured for). I only use MakeMD for the banner functionality as there's no other option right now, and look forward to getting rid of this plugin entirely in the future.
 
 ## My environment
 
-- `MacOS 13.6.6`, `Android 13`
+- `MacOS 13.6.7`, `Android 13`
 - `Obsidian v1.5.12 (installer 1.5.11)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
 - `Minimal Theme v7.5.4`
 ```js
-// plugins I currently have enabled (34):
-['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'obsidian-hide-sidebars-when-narrow', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'obsidian-toggle-list', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'snippet-commands-obsidian', 'dataview', 'make-md', 'meld-encrypt', 'obsidian-day-planner', 'excalibrain']
+// plugins I have enabled (33):
+['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'obsidian-toggle-list', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'snippet-commands-obsidian', 'dataview', 'make-md', 'meld-encrypt', 'obsidian-day-planner', 'sticky-heading']
 // [...new Set(app.plugins.enabledPlugins)]
 ```
 
@@ -84,6 +85,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Translucent Tab Header screenshot](screenshots/tab-header-translucent.png)
 ### User Snippets:
 - **Daily Note styles** ⭐ - supporting styles for my daily note template, scoped to notes with `cssclass: dailynote` in frontmatter
+- **Daily Note (Sticky Headings)** ⭐ - requires 'Sticky Headings' plugin, and disables the stick view for anything other than `cssclass: dailynote`    
+    ![Daily Note Sticky Headings](screenshots/dailynote-sticky.png)
 - **Themed colours** ⭐ - Custom accent colours for each minimal theme subtheme, I like switchng minimal colour theme ocassionally and this ensures the accent color is overridden with a color that makes sense for the theme without needing to manually set it
     ![Themed Accents screenshot](screenshots/accents.gif)
 
@@ -118,7 +121,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Task Progressbars plugin tweaks screenshot](screenshots/taskprogressbars.png)
 - **Tracker** ⭐ - cleaner styles and duotone on hover
     
-## No longer developed (I don't use these plugins anymore)
+## No longer developed (I don't use these styles anymore)
 - **Mono Emojis everywhere** - uses mono emoji font (activate separately) for everything in an editor (this is actually pretty ugly and I don't use it)  
 - **Heatmap Calendar** - colours and text styles for habit type use-case [(imgur screenshot)](https://i.imgur.com/ndvRLIC.png)
 - **Full Calendar** - pretty hacky due to limits of styling hooks

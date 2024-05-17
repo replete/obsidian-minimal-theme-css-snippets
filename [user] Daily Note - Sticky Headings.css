@@ -1,0 +1,73 @@
+/*
+    Daily note styles for Sticky Headings plugin. Disables plugin on non-daily note pages.
+    Enable 'PrevToH1' option in plugin settings
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.obsidian-sticky-heading {
+
+    display:none; /* Enable only for some templates */
+    .dailynote & {
+        display:flex;
+    }
+
+    background:linear-gradient(0deg, transparent, var(--bg2) 20%);
+
+    &:has(.obsidian-sticky-heading_inner:not(:empty)) {
+        padding:8px 0 16px 0;
+    }
+
+    .obsidian-sticky-heading_inner {
+        background:transparent;
+
+        .HyperMD-header {
+            margin-top:0 !important;
+            margin-bottom:0 !important;
+
+            /* second item */
+            + .HyperMD-header {
+                padding:0 !important;
+                 
+                h1, h2, h3, h4, h5, h6 {
+                    font-size:14px;
+                }
+            }
+
+            /* Hide 3rd onwards items */
+            + .HyperMD-header ~ .HyperMD-header {
+                display:none;
+            }
+
+            .cm-header[class*=cm-header-] {
+                margin-top:0 !important;
+                margin-bottom:0 !important;
+            }
+        }
+    }
+
+    .obsidian-sticky-heading_text {
+        margin-top:0;
+
+        h1, h2, h3, h4, h5, h6 {
+            font-size:18px;
+        }
+    }
+
+
+    /* Hide the H* level text */
+    .obsidian-sticky-heading_level {
+        /* color: transparent; */
+        display:none;
+
+        /* &::before {
+            content:'›';
+            color: var(--tx2);
+            display:block;
+            position:absolute;
+            right:0;
+            top:50%;
+            transform: translateY(-50%);
+            font-size:1rem
+        } */
+    }
+}
