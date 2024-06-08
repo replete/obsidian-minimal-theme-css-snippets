@@ -5,18 +5,54 @@
 */
 
 /* Workspace: Sidebar navigation */
-[data-type=file-explorer] .nav-header {
-    padding-left:13px;
+[data-type=file-explorer] {
+    .nav-header {
+        padding-left:14px;
+        padding-bottom:3px;
+        padding-top: 6px;
+
+        .nav-buttons-container {
+            opacity:0.7;
+            transition: .2s opacity ease-in;
+
+            &:hover {
+                opacity:1;
+            }
+        }
+
+        .clickable-icon {
+            padding-left:4px;
+        }
+    }
+
+    .nav-files-container {
+        padding-left: 9px;
+        padding-right: 9%;
+    }
+
+    .nav-folder-collapse-indicator {
+        position:relative !important;
+        margin-left:0 !important;
+        order:4;
+        padding-left:3px;
+
+        svg {
+            stroke:var(--text-faint);
+            margin-top:1px;
+        }
+    }
+
+    /* Fix Folder Note Count display */
+    .nav-folder-title-content {
+        flex-grow:0 !important;
+    }
+
+    /* Fix flashing color */
+    .is-flashing {
+        background-color: var(--tx3)
+    }
 }
 
-[data-type=file-explorer] .nav-header .nav-buttons-container {
-    opacity:0.7;
-    transition: .2s opacity ease-in;
-}
-
-[data-type=file-explorer] .nav-header .nav-buttons-container:hover {
-    opacity:1;
-}
 
 .tree-item-self[style] {
     padding-left:8px !important;
@@ -26,16 +62,7 @@
     margin-left:13px !important
 }
 
-.nav-folder-collapse-indicator {
-    position:relative !important;
-    margin-left:0 !important;
-    order:4;
-    padding-left:3px;
-}
-.nav-folder-collapse-indicator svg {
-    stroke:var(--text-faint);
-    margin-top:1px;
-}
+
 .nav-file-title,
 .nav-folder-title {
     padding-right:4px;
