@@ -18,6 +18,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 
 ## Updates (scroll to next section for snippet details)
+- **2024-06-11** Obsidian 1.6 fixes: Fixed Custom Separators and Compact File Explorer snippets
 - **2024-05-17** Added [Sticky Headings for Daily Note](#user-snippets)
 - **2024-04-09** MakeMD banners broke for me again. Might be a conflict of some kind. I've submitted an [issue on their github](https://github.com/Make-md/makemd/issues/297) so chip in if you also have the same problem.
 - **2024-03-20** MakeMD Banners are back. Thankfully they've sorted out whatever was going on, so I've refactored the snippets entirely, and it works much better with less code.
@@ -30,7 +31,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 - `MacOS 14.5`, `Android 13`
 - `Obsidian v1.6.2 (installer 1.5.11)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
-- `Minimal Theme v7.5.4`
+- `Minimal Theme v7.7.0`
 ```js
 // plugins I have enabled (33):
 ['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'obsidian-toggle-list', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'snippet-commands-obsidian', 'dataview', 'make-md', 'meld-encrypt', 'obsidian-day-planner', 'sticky-heading']
