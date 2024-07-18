@@ -7,7 +7,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 ## How to use
 
 1. Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork)/[unzip](https://github.com/replete/obsidian-minimal-theme-css-snippets/archive/refs/heads/main.zip) into `<your vault location>/.obsidian/snippets` or use 'Snippet Downloader' plugin
-2. (recommended) Install the [MySnippets plugin](https://github.com/chetachiezikeuzor/MySnippets-Plugin) via 'Community plugins' to easily manage snippets    
+2. (recommended) Install the [MySnippets plugin](https://github.com/chetachiezikeuzor/MySnippets-Plugin) via 'Community plugins' to easily manage snippets
 ![MySnippets plugin screenshot](screenshots/mysnippets.png)
 4. Check periodically for updates and new goodies
 
@@ -30,8 +30,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 ## My environment
 
 - `MacOS 14.5`, `Android 13`
-- `Obsidian v1.6.2 (installer 1.5.11)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
-- `Minimal Theme v7.7.0`
+- `Obsidian v1.6.7 (installer 1.5.11)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
+- `Minimal Theme v7.7.8`
 ```js
 // plugins I have enabled (33):
 ['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'obsidian-toggle-list', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'snippet-commands-obsidian', 'dataview', 'make-md', 'meld-encrypt', 'obsidian-day-planner', 'sticky-heading']
@@ -53,40 +53,40 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 ## UI snippets:
 - **Collapsible Right Headers** ⭐ - Hide panel headers until hover in the right sidebar.
     ![Collapsible right headers screenshot](screenshots/collapsible-header.gif)
-- **Compact File Explorer** ⭐ - Compact styles, chevrons on right, makes attachment folders less visible    
-    ![Compact File Explorer screenshot](screenshots/compact-file-explorer.png)    
+- **Compact File Explorer** ⭐ - Compact styles, chevrons on right, makes attachment folders less visible
+    ![Compact File Explorer screenshot](screenshots/compact-file-explorer.png)
 - **Compact Properties (+autohide)** ⭐ - Compact Properties (Obsidian 1.4.5 feature) with hover autohide, just like the Make.MD snippet [note: I keep the Make.MD + snippets enabled for the banner functionality]
     ![Compact Properties screenshot](screenshots/compact-properties.gif)
-- **Compact Tab Header** ⭐ - Compact icons in toolbar, also fixes `Commander` plugin icon colours    
+- **Compact Tab Header** ⭐ - Compact icons in toolbar, also fixes `Commander` plugin icon colours
 - **Compact Sidebar Header** ⭐ - Make main tab header items more compact
     ![Compact Tab Header screenshot](screenshots/compact-tab-header.png)
-- **Compact Tabs** ⭐ - Compact firefox-style pill tabs, better for smaller screens     
+- **Compact Tabs** ⭐ - Compact firefox-style pill tabs, better for smaller screens
     ![Compact Tabs screenshot](screenshots/compact-tabs.png)
-- **Compact Tabs (classic)** - Compact classic tabs, better for smaller screens    
+- **Compact Tabs (classic)** - Compact classic tabs, better for smaller screens
     ![Compact Tabs classic screenshot](screenshots/compact-tabs-classic.png)
-- **Custom Separators** ⭐ - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin    
+- **Custom Separators** ⭐ - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
     ![Custom Separator screenshot](screenshots/custom-separators.png)
-- **Custom Separators (gradient)** - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin    
+- **Custom Separators (gradient)** - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
     ![Custom Separators (gradient) screenshot](screenshots/custom-separators-gradient.png)
-- **Floating Tab Header** - Save space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)    
+- **Floating Tab Header** - Save space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)
     ![Floating Tab Header screenshot](screenshots/floating-tab-header.gif)
-- **Floating Tab Header (mini)** - Save even more space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)    
+- **Floating Tab Header (mini)** - Save even more space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)
     ![Floating Tab Header (mini) screenshot](screenshots/floating-tab-header-mini.gif)
 - **Hide Ribbon** ⭐
 - **Hide Vault Title in Sidebar** ⭐ - hide the vault name in the left, makes sense if you only ever use one vault
 - **Native Scrollbar styles** ⭐ - make scrollbars way nicer and color themed
 - **Resize Handles** ⭐ - prefer more muted theme colours
 - **Restrict Last Right Sidebar Panel** ⭐ - Sets max-height on last bottom right sidebar panel, saving you from constantly resizing the panel when resizing windows (e.g. for the calendar plugin panel, which is to me essential)
-![Restrict last right sidebar panel screenshot](screenshots/restrict-last-right-sidebar-panel.png) 
-- **Status bar tweaks** ⭐ - more visible text on dark theme 
-- **Tab Header on bottom** - Move the tab title bar to the bottom, vertical statusbar when right sidedock closed    
+![Restrict last right sidebar panel screenshot](screenshots/restrict-last-right-sidebar-panel.png)
+- **Status bar tweaks** ⭐ - more visible text on dark theme
+- **Tab Header on bottom** - Move the tab title bar to the bottom, vertical statusbar when right sidedock closed
 ![Tab Header on Bottom screenshot](screenshots/tab-header-bottom.png)
 - **Tab Header show path and title** ⭐ - I've disabled inline context filename editing and rely on this now, this shows the filename always without hover and allows rename with one click
 - **Translucent Tab Header** - Classic style tab header showing blurred document content underneath (NOTE: its pretty, but on large documents causes performance issues delaying text due to the constant reflows caused by the graphical effect)
     ![Translucent Tab Header screenshot](screenshots/tab-header-translucent.png)
 ### User Snippets:
 - **Daily Note styles** ⭐ - supporting styles for my daily note template, scoped to notes with `cssclass: dailynote` in frontmatter
-- **Daily Note (Sticky Headings)** ⭐ - requires 'Sticky Headings' plugin, and disables the stick view for anything other than `cssclass: dailynote`    
+- **Daily Note (Sticky Headings)** ⭐ - requires 'Sticky Headings' plugin, and disables the stick view for anything other than `cssclass: dailynote`
     ![Daily Note Sticky Headings](screenshots/dailynote-sticky.png)
 - **Themed colours** ⭐ - Custom accent colours for each minimal theme subtheme, I like switchng minimal colour theme ocassionally and this ensures the accent color is overridden with a color that makes sense for the theme without needing to manually set it
     ![Themed Accents screenshot](screenshots/accents.gif)
@@ -95,51 +95,51 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Calendar** ⭐ - Compact, weekend, day styles, colours, essential plugin for me
     ![Calendar screenshot](screenshots/calendar.png)
 - **Custom Frames** ⭐ - Compact panel
-- **Custom Frames (Duotone)** ⭐ - blend custom frames content in with theme until hover    
+- **Custom Frames (Duotone)** ⭐ - blend custom frames content in with theme until hover
     ![Custom Frames - Duotone screenshot](screenshots/custom-frames-duotone.png)
 - **Day Planner (Ivan Lednev's version)** ⭐ - Ivan has done an amazing job at reviving this plugin. I think this version is the best of those available on Community Plugins. This snippet makes the header a little more compact (I am a compact UI fiend)
     ![Daily Note Outline screenshot](screenshots/dayplanner-ivanlednev.png)
-- **Daily Note Outline** ⭐ - Compact, visual tweaks, works with compact file explorer snippet    
+- **Daily Note Outline** ⭐ - Compact, visual tweaks, works with compact file explorer snippet
     ![Daily Note Outline screenshot](screenshots/daily-note-outline.png)
-- **Database Folder (Compact)** - compact view    
+- **Database Folder (Compact)** - compact view
     ![Database Folder screenshot](screenshots/dbfolder.png)
 - **Make.MD Inline Context** ⭐ - Only used for banner functionality, inline context components are hidden. To use, add a `banner` property to a note's frontmatter directly or via Properties (see Autohide snippet)
     ![Make.MD Contexts screenshot](screenshots/makemdinlinecontexts.gif)
-- **Make.MD Inline Context: Duotone Banner** ⭐- Makes all banner images duotone to match minimal theme    
+- **Make.MD Inline Context: Duotone Banner** ⭐- Makes all banner images duotone to match minimal theme
     ![Make.MD Contexts Duotone banners screenshot](screenshots/makemdcontextsbannerduotone.png)
-- **Make.MD Inline Context: Faded Banner** ⭐ Fade images to background with a gradient, and offsets text    
+- **Make.MD Inline Context: Faded Banner** ⭐ Fade images to background with a gradient, and offsets text
     ![Make.MD Contexts Gradient banners screenshot](screenshots/makemdcontextsbannergradient.png)
-- **Meta Bind (Compact)** ⭐ - Inline controls are more compact, with customizations to some controls    
-- **MySnippets** ⭐ - make menu wider and fix button style/order    
+- **Meta Bind (Compact)** ⭐ - Inline controls are more compact, with customizations to some controls
+- **MySnippets** ⭐ - make menu wider and fix button style/order
     ![MySnippets tweaks screenshot](screenshots/mysnippets_tweaks.png)
-- **Omnisearch** ⭐ - Cleaner styles, less visual noise    
+- **Omnisearch** ⭐ - Cleaner styles, less visual noise
     ![Omnisearch screenshot](screenshots/omnisearch.png)
-- **Outline** - chevron on right, compact    
+- **Outline** - chevron on right, compact
     ![Outline tweaks screenshot](screenshots/outline.png)
 - **Quiet Outline** - Remove rainbow colours to theme colors, re-arrange layout (I use this instead of Outline panel)
     ![Quiet Outline plugin tweaks screenshot](screenshots/quietoutline.png)
 - **Task progressbars** ⭐ - alignments and themed colours
     ![Task Progressbars plugin tweaks screenshot](screenshots/taskprogressbars.png)
 - **Tracker** ⭐ - cleaner styles and duotone on hover
-    
+
 ## No longer developed (I don't use these styles anymore)
-- **Mono Emojis everywhere** - uses mono emoji font (activate separately) for everything in an editor (this is actually pretty ugly and I don't use it)  
+- **Mono Emojis everywhere** - uses mono emoji font (activate separately) for everything in an editor (this is actually pretty ugly and I don't use it)
 - **Heatmap Calendar** - colours and text styles for habit type use-case [(imgur screenshot)](https://i.imgur.com/ndvRLIC.png)
 - **Full Calendar** - pretty hacky due to limits of styling hooks
 - **Obsidian Buttons** - alignments
 - **Excel** - Follows minimal colour theme for plugin UI (excluding spreadsheet editor, which is a rendered canvas), tidy up some UI metrics
     ![Excel screenshot](screenshots/excel.png)
 - **Day Planner (old version)** - ~~I'm using [my own fork](https://github.com/replete/obsidian-day-planner) of this abandoned plugin for more features but the styles here are not dependent on fork changes, yes its still buggy~~ Apparantly this plugin has a new maintainer, but I've stopped using it so these styles are for an older v
-    ![Day Planner screenshot](screenshots/dayplanner.png)    
-- **Tasks - Mono Icons (lucide2)** - Lucide2 Monotone icon set for Tasks Emoji Format, generated by [this tool I made](https://github.com/replete/obsidian-tasks-custom-icons)     
+    ![Day Planner screenshot](screenshots/dayplanner.png)
+- **Tasks - Mono Icons (lucide2)** - Lucide2 Monotone icon set for Tasks Emoji Format, generated by [this tool I made](https://github.com/replete/obsidian-tasks-custom-icons)
     ![Tasks - Mono Icons (lucide2) screenshot](screenshots/tasks-icons-lucide2.png)
 - **Tasks - Compact** - Dates/backlink as tooltip. Colour-based priority. Incudes ['lucide2' monochrome tasks emojis](https://github.com/replete/obsidian-tasks-custom-icons).
     ![Tasks - Compact](screenshots/tasks-compact.gif)
-- **Checklist (Ultra compact)** - Compact view (for tag mode users)    
+- **Checklist (Ultra compact)** - Compact view (for tag mode users)
     ![Checklist (ultra compact) screenshot](screenshots/checklist.png)
 - **CardBoard** - Compact styles, waiting on feature update so WIP
     ![CardBoard screenshot](screenshots/cardboard.png)
-- **Smart 2nd Brain (compact)** - Some basic styles to fix some of the UX of this plugin, there are no class selectors in the plugin UI so its extremely hacky but makes it more compact  
+- **Smart 2nd Brain (compact)** - Some basic styles to fix some of the UX of this plugin, there are no class selectors in the plugin UI so its extremely hacky but makes it more compact
     ![Smart second brain screenshot](screenshots/smart2ndbrain.png)
 - **Mono Emojis** - embedded Noto Emoji variable font (2MB snippet!) - not recommended
 
