@@ -18,6 +18,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 
 ## Updates (scroll to next section for snippet details)
+- **2024-08-31** Renamed `[ui] Compact Sidebar Header.css` to `[ui] Compact Sidebar.css`. Made vault selector compact.
+![compact vault sidebar screenshot](screenshots/compact-sidebar-footer.png)
 - **2024-06-11** Obsidian 1.6 fixes: Fixed Custom Separators and Compact File Explorer snippets
 - **2024-05-17** Added [Sticky Headings for Daily Note](#user-snippets)
 - **2024-04-09** MakeMD banners broke for me again. Might be a conflict of some kind. I've submitted an [issue on their github](https://github.com/Make-md/makemd/issues/297) so chip in if you also have the same problem.
@@ -29,9 +31,9 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 ## My environment
 
-- `MacOS 14.5`, `Android 13`
+- `MacOS 14.5`, `Android 13`, `Linux`, `Windows 11`
 - `Obsidian v1.6.7 (installer 1.5.11)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
-- `Minimal Theme v7.7.8`
+- `Minimal Theme v7.7.18`
 ```js
 // plugins I have enabled (33):
 ['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'obsidian-toggle-list', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'snippet-commands-obsidian', 'dataview', 'make-md', 'meld-encrypt', 'obsidian-day-planner', 'sticky-heading']
@@ -58,8 +60,10 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Compact Properties (+autohide)** ⭐ - Compact Properties (Obsidian 1.4.5 feature) with hover autohide, just like the Make.MD snippet [note: I keep the Make.MD + snippets enabled for the banner functionality]
     ![Compact Properties screenshot](screenshots/compact-properties.gif)
 - **Compact Tab Header** ⭐ - Compact icons in toolbar, also fixes `Commander` plugin icon colours
-- **Compact Sidebar Header** ⭐ - Make main tab header items more compact
     ![Compact Tab Header screenshot](screenshots/compact-tab-header.png)
+- **Compact Sidebar** ⭐ - Make main tab header items more compact. Makes vault selector footer compact.
+    ![Compact sidebar screenshot](screenshots/compact-sidebar-header.png) 
+	![Compact vault sidebar screenshot](screenshots/compact-sidebar-footer.png)
 - **Compact Tabs** ⭐ - Compact firefox-style pill tabs, better for smaller screens
     ![Compact Tabs screenshot](screenshots/compact-tabs.png)
 - **Compact Tabs (classic)** - Compact classic tabs, better for smaller screens
