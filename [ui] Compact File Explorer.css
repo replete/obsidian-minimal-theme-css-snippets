@@ -27,7 +27,7 @@
 
     .nav-files-container {
         padding-left: 9px;
-        padding-right: 9%;
+        padding-right: 9px;
     }
 
     .nav-folder-collapse-indicator {
@@ -72,7 +72,7 @@
     position:relative;
     z-index:1;
 }
-.nav-folder-children .nav-folder-children .nav-file-title::before, 
+.nav-folder-children .nav-folder-children .nav-file-title::before,
 .nav-folder-children .nav-folder-children .nav-folder-title::before {
     content:'';
     display:block;
@@ -130,11 +130,11 @@ body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-co
     transition: .2s opacity ease-in;
     padding-right:3px;
 }
-    
+
 .nav-files-container:hover .nav-folder-title[data-count]::after {
     opacity:1;
 }
-       
+
 
 /* Make attachment folders less visible */
 .nav-files-container [data-path*=attachments],
