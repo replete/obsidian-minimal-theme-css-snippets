@@ -16,7 +16,7 @@
     background: none;
     box-shadow: none;
 }
-.workspace .mod-root .workspace-tab-header.is-active::before, 
+.workspace .mod-root .workspace-tab-header.is-active::before,
 .workspace .mod-root .workspace-tab-header.is-active::after {
     display:none;
 }
@@ -31,8 +31,12 @@
     } */
 
 .workspace .mod-root .workspace-tab-header {
-    padding-left:3px;
-    padding-right:3px;
+    padding-left:2px;
+    padding-right:2px;
+
+	&:first-of-type {
+		padding-left:0;
+	}
 }
 .workspace .mod-root .workspace-tab-header .workspace-tab-header-inner {
     gap:0 !important;
