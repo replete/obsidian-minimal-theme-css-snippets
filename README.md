@@ -18,6 +18,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 
 ## Updates (scroll to next section for snippet details)
+- **2024-09-05** Added Ultra Compact snippet. ![Ultra Compact screenshot](screenshots/ultra-compact.png)
 - **2024-09-05** Added Excalidraw - Compact Snippet. Added Compact-er Tab Header. ![Compact Tab Header screenshot](screenshots/compact-tab-header-plus.png)
 - **2024-08-31** Renamed `[ui] Compact Sidebar Header.css` to `[ui] Compact Sidebar.css`. Made vault selector compact.
 ![compact vault sidebar screenshot](screenshots/compact-sidebar-footer.png)
@@ -91,6 +92,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Tab Header show path and title** ⭐ - I've disabled inline context filename editing and rely on this now, this shows the filename always without hover and allows rename with one click
 - **Translucent Tab Header** - Classic style tab header showing blurred document content underneath (NOTE: its pretty, but on large documents causes performance issues delaying text due to the constant reflows caused by the graphical effect)
     ![Translucent Tab Header screenshot](screenshots/tab-header-translucent.png)
+- **Ultra Compact** - Super small navigation tabs, smaller toolbar icons, shorter file explorer. Usecase: tiny screen
+    ![ultra compact screenshot](screenshots/ultra-compact.png)
 ### User Snippets:
 - **Daily Note styles** ⭐ - supporting styles for my daily note template, scoped to notes with `cssclass: dailynote` in frontmatter
 - **Daily Note (Sticky Headings)** ⭐ - requires 'Sticky Headings' plugin, and disables the stick view for anything other than `cssclass: dailynote`

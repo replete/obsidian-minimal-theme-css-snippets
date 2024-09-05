@@ -1,0 +1,160 @@
+/*
+    Ultra Compact
+
+	More compact navigation tabs, toolbars, smaller icons.
+	Requires Compact Tabs snippet.
+
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+:root {
+	--replete-ultra-compact-header-height: 29px;
+	--replete-custom-separators-vertical-padding: 3px;
+}
+
+/* Left sidebar header
+*/
+.mod-top-left-space {
+	/* Hide border underneath sidebar top buttons */
+	.workspace-tab-header-container {
+		border-bottom:0 !important;
+		padding-top:7px;
+		/* margin-left:-5px !important; */
+
+		&::after {
+			content:'';
+			position:absolute;
+			display:block;
+			bottom:0;
+			width:100%;
+			height:1px;
+			background:linear-gradient(to right, transparent, var(--tab-outline-color) 20%);
+		}
+
+		/* &::after {
+			content:'';
+			position:absolute;
+			display:block;
+			top:0;
+			width:100%;
+			height:calc(100% - 1px);
+			border-bottom-left-radius: 8px;
+			border-left: 1px solid var(--tab-outline-color);
+			border-bottom: 1px solid var(--tab-outline-color);
+		} */
+
+		/* .workspace-tab-header-container-inner {
+			padding-left:5px;
+		} */
+
+		.sidebar-toggle-button {
+			margin-top:-12px;
+			margin-right:-3px;
+		}
+	}
+
+	.workspace-tab-header {
+		&.is-active {
+			background:none;
+		}
+
+		.workspace-tab-header-inner {
+			padding-left:1px !important;
+			padding-right:1px !important;
+		}
+	}
+
+	/* File Explorer */
+	[data-type=file-explorer] {
+		/* header */
+		.nav-buttons-container {
+			justify-content: flex-end !important;
+			margin-top:-3px;
+			margin-right:-2px;
+			margin-bottom:-5px;
+
+			.nav-action-button {
+				padding:2px;
+
+				svg {
+					width:15px;
+					height:15px;
+				}
+			}
+		}
+		/* explorer */
+		.nav-files-container {
+			.tree-item[class*=nav-] .tree-item-self {
+				padding-top:2px;
+				padding-bottom:2px;
+				border-radius: 3px;
+			}
+		}
+	}
+}
+
+/* Navigation header */
+.workspace-tab-header-container {
+	padding-left:0;
+	max-height: var(--replete-ultra-compact-header-height) !important;
+}
+.workspace-tab-header {
+	padding-bottom:0 !important;
+	padding-right:0 !important;
+	padding-left:0 !important;
+
+	&.is-active {
+		/* background:transparent !important; */
+		border-radius:0;
+	}
+}
+.workspace-tab-header-inner {
+	border-radius:0;
+}
+div.workspace-tab-header-container-inner.workspace-tab-header-container-inner { /* specificity hack */
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+.workspace-tab-header-tab-list {
+	/* Navigation tabs chevron menu */
+	margin-right:0;
+}
+
+/* Right sidebar header
+*/
+.mod-top-right-space {
+
+	/* Panel icons */
+	.workspace-tab-header-container-inner {
+		padding-top:0;
+		padding-bottom:0;
+		gap:0;
+	}
+
+	/* Right sidebar toggle button */
+	.sidebar-toggle-button.mod-right {
+		padding-top: 0 !important;
+		padding-right:2px !important;
+		margin-top:-2px !important;
+		background:transparent !important;
+	}
+}
+
+/* View header
+*/
+.view-header {
+	/* border-bottom:1px solid var(--divider-color) */
+	box-shadow: 0 0px 4px 3px var(--bg2);
+
+	.view-header-nav-buttons {
+		padding-left:2px;
+
+		.clickable-icon {
+			padding-left:3px;
+			padding-right:3px;
+		}
+	}
+	.view-action {
+		margin-right:2px;
+	}
+}
