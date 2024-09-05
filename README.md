@@ -108,7 +108,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Daily Note Outline screenshot](screenshots/daily-note-outline.png)
 - **Database Folder (Compact)** - compact view
     ![Database Folder screenshot](screenshots/dbfolder.png)
-- **Excalidraw (Compact)** - Compact status bar. Move help icon for minimal statusbar visibility. Fix island colours. Compact floating toolbar.
+- **Excalidraw (Compact)** ⭐ - Compact status bar. Move help icon for minimal statusbar visibility. Fix island colours. Compact floating toolbar.
     ![Excalidraw compact screenshot](screenshots/excalidraw-compact.png)
 - **Make.MD Inline Context** ⭐ - Only used for banner functionality, inline context components are hidden. To use, add a `banner` property to a note's frontmatter directly or via Properties (see Autohide snippet)
     ![Make.MD Contexts screenshot](screenshots/makemdinlinecontexts.gif)
