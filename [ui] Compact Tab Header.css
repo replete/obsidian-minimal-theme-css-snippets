@@ -6,7 +6,7 @@
 
 /* Make header title left justified */
 .view-header-title-container {
-    justify-content:start
+    justify-content:start;
 }
 .view-header-title-container .view-header-title {
     color:var(--tx2) !important;

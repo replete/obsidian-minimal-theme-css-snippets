@@ -18,7 +18,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 
 ## Updates (scroll to next section for snippet details)
-- **2024-09-05** Added Excalidraw - Compact Snippet
+- **2024-09-05** Added Excalidraw - Compact Snippet. Added Compact-er Tab Header. ![Compact Tab Header screenshot](screenshots/compact-tab-header-plus.png)
 - **2024-08-31** Renamed `[ui] Compact Sidebar Header.css` to `[ui] Compact Sidebar.css`. Made vault selector compact.
 ![compact vault sidebar screenshot](screenshots/compact-sidebar-footer.png)
 - **2024-06-11** Obsidian 1.6 fixes: Fixed Custom Separators and Compact File Explorer snippets
@@ -60,8 +60,10 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Compact File Explorer screenshot](screenshots/compact-file-explorer.png)
 - **Compact Properties (+autohide)** ⭐ - Compact Properties (Obsidian 1.4.5 feature) with hover autohide, just like the Make.MD snippet [note: I keep the Make.MD + snippets enabled for the banner functionality]
     ![Compact Properties screenshot](screenshots/compact-properties.gif)
-- **Compact Tab Header** ⭐ - Compact icons in toolbar, also fixes `Commander` plugin icon colours
+- **Compact Tab Header** - Compact icons in toolbar, also fixes `Commander` plugin icon colours
     ![Compact Tab Header screenshot](screenshots/compact-tab-header.png)
+- **Compact-er Tab Header** ⭐ - Compact icons in ultra toolbar, also fixes `Commander` plugin icon colours
+    ![Compact Tab Header screenshot](screenshots/compact-tab-header-plus.png)
 - **Compact Sidebar** ⭐ - Make main tab header items more compact. Makes vault selector footer compact.
     ![Compact sidebar screenshot](screenshots/compact-sidebar-header.png) 
 	![Compact vault sidebar screenshot](screenshots/compact-sidebar-footer.png)
