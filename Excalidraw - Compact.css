@@ -1,0 +1,109 @@
+/*
+    Excalidraw plugin
+    Compact layout.
+
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.excalidraw {
+
+	--island-bg-color:#d1d8de  !important;
+	/* Fix illegible control borders in dark mode */
+	&.theme--dark {
+		--island-bg-color:#292929 !important;
+	}
+
+	/* fix Floating panel */
+	> .Island {
+		width:200px !important;
+
+		> div:first-child {
+			border-bottom-left-radius: 0 !important;
+			svg {
+				opacity:0.3;
+				/* height:16px; */
+
+				> path {
+					/* display:none */
+				}
+			}
+		}
+		> .Island {
+			border-top-left-radius: 0 !important;
+			border-top-right-radius: 0 !important;
+			margin-top:-4px;
+			border-top:1px solid rgba(255,255,255,.2);
+
+
+			legend {
+				opacity:0.5;
+				/* text-align:center; */
+				text-transform:uppercase;
+				letter-spacing:0.04em;
+				font-size:10px;
+				/* border-bottom:1px solid rgba(255,255,255,0.5); */
+				width:100%;
+			}
+
+			.buttonList {
+				gap:2px
+			}
+
+			.ToolIcon_type_button {
+				padding:2px !important;
+				border-radius:0 !important;
+
+				.ToolIcon__icon {
+					transform: scale(1.3) !important;
+				}
+			}
+		}
+	}
+
+	/* Remove padding around canvas UI */
+	.FixedSideContainer.FixedSideContainer_side_top {
+		padding:0;
+		top:8px !important;
+		left:10px !important;
+		bottom:0 !important;
+		right:2px !important;
+	}
+	.App-menu_top__left,
+	.layer-ui__wrapper__top-right {
+		margin-top:4px !important;
+	}
+
+	.sidebar-trigger {
+		padding-top:12px;
+	}
+
+	[role=contentinfo] {
+		bottom:-1px !important;
+		left:0 !important;
+		padding-left:34px;
+
+		.help-icon {
+			position:fixed;
+			bottom: -1px;
+			padding:0;
+			left: 2px;
+			opacity:0.8;
+		}
+
+		.reset-zoom-button {
+			font-size:75% !important;
+			opacity: 0.8;
+		}
+	}
+}
+
+/* Show excalidraw right footer help icon above minimal statusbar */
+/* @container style(--status-bar-position: fixed) {
+	.excalidraw-container {
+		[role=contentinfo] {
+			.help-icon {
+				margin-top:-40px;
+			}
+		}
+	}
+} */

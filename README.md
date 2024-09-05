@@ -18,6 +18,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 
 ## Updates (scroll to next section for snippet details)
+- **2024-09-05** Added Excalidraw - Compact Snippet
 - **2024-08-31** Renamed `[ui] Compact Sidebar Header.css` to `[ui] Compact Sidebar.css`. Made vault selector compact.
 ![compact vault sidebar screenshot](screenshots/compact-sidebar-footer.png)
 - **2024-06-11** Obsidian 1.6 fixes: Fixed Custom Separators and Compact File Explorer snippets
@@ -31,8 +32,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 ## My environment
 
-- `MacOS 14.5`, `Android 13`, `Linux`, `Windows 11`
-- `Obsidian v1.6.7 (installer 1.5.11)` Desktop, if installer < 1.1.8 reinstall from official installer to update electron for updated CSS features like `:has()` - homebrew update didn't work for this version)
+- `MacOS 14`, `Android 13`, `Windows 11`, `Linux`
+- `Obsidian v1.6.7 (installer v1.5.11)` Desktop (if installer version is less than 1.1.8, you _must_ reinstall from official installer to update electron for updated CSS features like `:has()`)
 - `Minimal Theme v7.7.18`
 ```js
 // plugins I have enabled (33):
@@ -107,6 +108,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Daily Note Outline screenshot](screenshots/daily-note-outline.png)
 - **Database Folder (Compact)** - compact view
     ![Database Folder screenshot](screenshots/dbfolder.png)
+- **Excalidraw (Compact)** - Compact status bar. Move help icon for minimal statusbar visibility. Fix island colours. Compact floating toolbar.
+    ![Excalidraw compact screenshot](screenshots/excalidraw-compact.png)
 - **Make.MD Inline Context** ⭐ - Only used for banner functionality, inline context components are hidden. To use, add a `banner` property to a note's frontmatter directly or via Properties (see Autohide snippet)
     ![Make.MD Contexts screenshot](screenshots/makemdinlinecontexts.gif)
 - **Make.MD Inline Context: Duotone Banner** ⭐- Makes all banner images duotone to match minimal theme

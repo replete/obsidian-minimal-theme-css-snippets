@@ -4,26 +4,29 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
+.status-bar {
 
+	/* More visibility on dark theme */
+	.theme-dark & {
+		color:var(--nav-item-color) !important;
+	}
 
-/* Visual style */
-/* .status-bar{
-    background:transparent !important;
-    transition: .2s all ease-in;
+	/* Compact icons */
+	.clickable-icon {
+		padding-left:3px;
+		padding-right:3px;
+	}
 }
 
-.status-bar:hover{
-    background:var(--background-primary) !important;
-    box-shadow: 0 0 3px 3px rgba(0,0,0,.1);
-} */
+@container style(--status-bar-position: fixed) {
+	/* transparent minimal status bar */
+	.status-bar{
+		background:transparent !important;
+		transition: .2s all ease-in;
 
-/* More visibility on dark theme */
-.theme-dark .status-bar {
-    color:var(--nav-item-color) !important;
-}
-
-/* Compact icons */
-.status-bar .clickable-icon {
-    padding-left:3px;
-    padding-right:3px;
+		&:hover {
+			background: var(--background-primary) !important;
+			box-shadow: 0 0 3px 3px rgba(0,0,0,.1);
+		}
+	}
 }
