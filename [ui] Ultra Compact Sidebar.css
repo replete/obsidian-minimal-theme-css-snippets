@@ -1,0 +1,9 @@
+/*
+    Ultra Compact Sidebar (non-resiable)
+
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+.mod-sidedock.mod-left-split {
+	width:135px !important;
+}

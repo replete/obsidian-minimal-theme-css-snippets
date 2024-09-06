@@ -98,6 +98,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Translucent Tab Header screenshot](screenshots/tab-header-translucent.png)
 - **Ultra Compact** - Super small navigation tabs, smaller toolbar icons, shorter file explorer. Usecase: tiny screen
     ![ultra compact screenshot](screenshots/ultra-compact.png)
+- **Ultra Compact Sidebar** - Hardcodes sidebar to 135px. Goes well with Ultra Compact snippet. Caveats: mouse resize not possible, resize animation broken
+    ![ultra compact screenshot](screenshots/ultra-compact.png)
 ### User Snippets:
 - **Daily Note styles** ⭐ - supporting styles for my daily note template, scoped to notes with `cssclass: dailynote` in frontmatter
 - **Daily Note (Sticky Headings)** ⭐ - requires 'Sticky Headings' plugin, and disables the stick view for anything other than `cssclass: dailynote`
