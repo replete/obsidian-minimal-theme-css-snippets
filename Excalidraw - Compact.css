@@ -13,8 +13,6 @@
 		--island-bg-color:#292929 !important;
 	}
 
-
-
 	/* Better looking floating utility island */
 	> .Island:not(.sidebar) {
 		width:180px !important;
@@ -104,7 +102,8 @@
 		margin-top:4px !important;
 	}
 
-	.dropdown-menu .Island{
+	.dropdown-menu .Island /* desktop */,
+	.dropdown-menu--mobile > .Stack /*mobile*/{
 		padding:0 !important;
 
 		[data-testid=canvas-background-label] {
@@ -115,13 +114,17 @@
 
 		.dropdown-menu-item {
 			margin:0;
-			height:1.5rem;
+			height:1.5rem !important;
 			font-size:0.85rem;
 
 			+ div[style]:empty {
 				margin:4px 0 !important;
 			}
 		}
+	}
+
+	.dropdown-menu-container {
+		gap:0; /* mobile */
 	}
 
 	.sidebar-trigger {
@@ -190,6 +193,21 @@
 			padding-top:4px !important;
 			width:40%;
 
+		}
+	}
+
+	/* Smaller on mobile */
+	&.excalidraw--mobile .Island.sidebar {
+		width:250px !important;
+
+		.Checkbox-box {
+			width:12px;
+			height:12px;
+			border-radius:2px;
+		}
+
+		.library-menu-control-buttons--at-bottom[style] {
+			width:60%;
 		}
 	}
 

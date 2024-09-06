@@ -91,6 +91,7 @@
 		}
 		/* explorer */
 		.nav-files-container {
+			margin-top:6px;
 			.tree-item[class*=nav-] .tree-item-self {
 				padding-top:2px;
 				padding-bottom:2px;

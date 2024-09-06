@@ -18,9 +18,9 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 
 ## Updates (scroll to next section for snippet details)
-- **2024-09-06** Fixed Excalidraw - Compact snippet tray mode ![Excalidraw Compact screenshot](screenshots/excalidraw-compact.png)
+- **2024-09-06** Fixed Excalidraw Compact. Fixed Ultra Compact. Added Ultra Compact Sidebar. ![Ultra](screenshots/ultra.png)
 - **2024-09-05** Compact File Explorer refactor and bugfix. Notes on startup padding JS fix in snippet header comment.
-- **2024-09-05** Added Ultra Compact snippet. ![Ultra Compact screenshot](screenshots/ultra-compact.png)
+- **2024-09-05** Added Ultra Compact snippet. Ultra Compact Sidebar snippet. ![Ultra Compact screenshot](screenshots/ultra-compact.png)
 - **2024-09-05** Added Excalidraw - Compact Snippet. Added Compact-er Tab Header. ![Compact Tab Header screenshot](screenshots/compact-tab-header-plus.png)
 - **2024-08-31** Renamed `[ui] Compact Sidebar Header.css` to `[ui] Compact Sidebar.css`. Made vault selector compact.
 ![compact vault sidebar screenshot](screenshots/compact-sidebar-footer.png)
