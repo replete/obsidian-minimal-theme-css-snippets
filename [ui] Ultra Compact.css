@@ -15,11 +15,14 @@
 /* Left sidebar header
 */
 .mod-top-left-space {
+
+	.workspace-tab-header-container-inner {
+		padding-bottom:2px;
+	}
+
 	/* Hide border underneath sidebar top buttons */
 	.workspace-tab-header-container {
 		border-bottom:0 !important;
-		padding-top:7px;
-		/* margin-left:-5px !important; */
 
 		&::after {
 			content:'';
@@ -48,8 +51,12 @@
 		} */
 
 		.sidebar-toggle-button {
-			margin-top:-12px;
+			margin-top: -6px;
 			margin-right:-3px;
+
+			.clickable-icon {
+				border-radius:0 !important;
+			}
 		}
 	}
 
@@ -92,6 +99,9 @@
 		}
 	}
 }
+body:has(.mod-left-split.is-sidedock-collapsed) .mod-top-left-space .sidebar-toggle-button {
+	margin-right:4px !important;
+}
 
 /* Navigation header */
 .workspace-tab-header-container {
@@ -110,6 +120,9 @@
 }
 .workspace-tab-header-inner {
 	border-radius:0;
+}
+.workspace-tab-header-inner-icon {
+	padding-left:2px;
 }
 div.workspace-tab-header-container-inner.workspace-tab-header-container-inner { /* specificity hack */
 	margin-top:0 !important;
