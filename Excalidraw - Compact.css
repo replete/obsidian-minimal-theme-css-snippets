@@ -1,6 +1,6 @@
 /*
     Excalidraw plugin
-    Compact layout.
+    Compact layout. Only tested on Desktop.
 
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
@@ -13,8 +13,10 @@
 		--island-bg-color:#292929 !important;
 	}
 
-	/* Better looking islands */
-	> .Island {
+
+
+	/* Better looking floating utility island */
+	> .Island:not(.sidebar) {
 		width:180px !important;
 
 		> div:first-child {
@@ -72,6 +74,7 @@
 			}
 		}
 
+		/* make keyboard shortcut numbers more visible */
 		.ToolIcon__keybinding {
 			font-size:8px !important;
 			top:30px;
@@ -91,7 +94,7 @@
 	/* Remove padding around canvas UI */
 	.FixedSideContainer.FixedSideContainer_side_top {
 		padding:0;
-		top:4px !important;
+		top:2px !important;
 		left:10px !important;
 		bottom:0 !important;
 		right:2px !important;
@@ -142,6 +145,93 @@
 			font-size:75% !important;
 			opacity: 0.8;
 		}
+	}
+
+	/* Library sidebar */
+	.Island.sidebar {
+		width:400px;
+		background: var(--island-bg-color);
+
+		.sidebar-tabs-root {
+			padding-top:4px;
+		}
+
+		.sidebar__header {
+			padding-bottom:0;
+		}
+
+		.library-menu-items-container__items {
+			padding-top:0;
+		}
+
+		.library-menu-dropdown-container {
+			margin-top:-14px;
+		}
+
+		.library-menu-items-container__grid {
+			width:100%;
+			gap:5px;
+
+			.library-unit {
+				width:100%;
+			}
+
+			.library-unit__active {
+				border-radius:2px;
+			}
+
+			.library-unit__dragger {
+				width:100%;
+				height:100%;
+			}
+		}
+
+		.library-menu-control-buttons--at-bottom[style] {
+			padding-top:4px !important;
+			width:40%;
+
+		}
+	}
+
+	/* Fix sidebar trigger bg color */
+	.sidebar-trigger:not(:hover) {
+		background-color:transparent !important
+	}
+
+	/* Tray mode - sidebar*/
+	.mobile-misc-tools-container {
+		right:0;
+
+		.ToolIcon {
+			svg {
+				transform:scale(1.4)
+			}
+		}
+	}
+
+	/* Tray mode - bottom bar */
+	.App-bottom-bar[style] {
+		margin-bottom:0 !important;
+
+		.Island {
+			padding:0;
+			background-color:transparent;
+
+			> .Stack > .Stack {
+				padding:0 !important;
+			}
+		}
+
+		.App-toolbar-content {
+			padding:0;
+		}
+
+		.dropdown-menu-container {
+			background:var(--island-bg-color);
+			margin-bottom:-20px;
+		}
+
+
 	}
 }
 

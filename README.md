@@ -18,6 +18,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 
 ## Updates (scroll to next section for snippet details)
+- **2024-09-06** Fixed Excalidraw - Compact snippet tray mode ![Excalidraw Compact screenshot](screenshots/excalidraw-compact.png)
 - **2024-09-05** Compact File Explorer refactor and bugfix. Notes on startup padding JS fix in snippet header comment.
 - **2024-09-05** Added Ultra Compact snippet. ![Ultra Compact screenshot](screenshots/ultra-compact.png)
 - **2024-09-05** Added Excalidraw - Compact Snippet. Added Compact-er Tab Header. ![Compact Tab Header screenshot](screenshots/compact-tab-header-plus.png)
@@ -34,8 +35,10 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 ## My environment
 
-- `MacOS 14`, `Android 13`, `Windows 11`, `Linux`
-- `Obsidian v1.6.7 (installer v1.5.11)` Desktop (if installer version is less than 1.1.8, you _must_ reinstall from official installer to update electron for updated CSS features like `:has()`)
+- `MacOS 14`, `Android 13`, `Windows 11` (sometimes), `Linux` (sometimes)
+	- Windows 11 and Linux might need little tweaks in snippets that deal with native titlebar controls, welcome fixes if needed but probably only an issue in a few snippets
+- `Obsidian v1.6.7 (installer v1.5.11)` Desktop
+	- NOTE: If your installer version is less than 1.1.8, you _must_ reinstall from official installer to update electron for updated CSS features like `:has()`
 - `Minimal Theme v7.7.18`
 ```js
 // plugins I have enabled (33):
@@ -114,7 +117,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Daily Note Outline screenshot](screenshots/daily-note-outline.png)
 - **Database Folder (Compact)** - compact view
     ![Database Folder screenshot](screenshots/dbfolder.png)
-- **Excalidraw (Compact)** ⭐ - Compact status bar. Move help icon for minimal statusbar visibility. Fix island colours. Compact floating toolbar.
+- **Excalidraw (Compact)** ⭐ - Controls more compact, bigger icons, bigger library, tidier floating utilities island, colour fixes. Note: Screens are bright nowadays so I use dark mode exclusively, light mode works but I hardcoded a colour for control backgrounds that you might not like, designed for a white canvas...). Not tested on mobile, but probably fine...
     ![Excalidraw compact screenshot](screenshots/excalidraw-compact.png)
 - **Make.MD Inline Context** ⭐ - Only used for banner functionality, inline context components are hidden. To use, add a `banner` property to a note's frontmatter directly or via Properties (see Autohide snippet)
     ![Make.MD Contexts screenshot](screenshots/makemdinlinecontexts.gif)
