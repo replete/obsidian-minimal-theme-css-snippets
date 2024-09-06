@@ -172,3 +172,11 @@ div.workspace-tab-header-container-inner.workspace-tab-header-container-inner { 
 		margin-right:2px;
 	}
 }
+
+/* Minimal Statusbar
+*/
+@container style(--status-bar-position: fixed) {
+	.status-bar {
+		padding:0;
+	}
+}
