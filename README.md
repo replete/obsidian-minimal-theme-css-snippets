@@ -18,6 +18,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 
 ## Updates (scroll to next section for snippet details)
+- **2024-09-19** Renamed Compacter Tab Header to Ultra Compact Tab Header. What was I thinking when I named that one...
 - **2024-09-06** Fixed Excalidraw Compact. Fixed Ultra Compact. Added Ultra Compact Sidebar. ![Ultra](screenshots/ultra.png)
 - **2024-09-05** Compact File Explorer refactor and bugfix. Notes on startup padding JS fix in snippet header comment.
 - **2024-09-05** Added Ultra Compact snippet. Ultra Compact Sidebar snippet. ![Ultra Compact screenshot](screenshots/ultra-compact.png)
@@ -67,7 +68,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Compact Properties screenshot](screenshots/compact-properties.gif)
 - **Compact Tab Header** - Compact icons in toolbar, also fixes `Commander` plugin icon colours
     ![Compact Tab Header screenshot](screenshots/compact-tab-header.png)
-- **Compact-er Tab Header** ⭐ - Compact icons in ultra toolbar, also fixes `Commander` plugin icon colours
+- **Ultra Compact Tab Header** ⭐ - Compact icons in ultra toolbar, also fixes `Commander` plugin icon colours
     ![Compact Tab Header screenshot](screenshots/compact-tab-header-plus.png)
 - **Compact Sidebar** ⭐ - Make main tab header items more compact. Makes vault selector footer compact.
     ![Compact sidebar screenshot](screenshots/compact-sidebar-header.png) 
