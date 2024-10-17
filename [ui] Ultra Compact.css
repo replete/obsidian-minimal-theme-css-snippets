@@ -157,8 +157,11 @@ div.workspace-tab-header-container-inner.workspace-tab-header-container-inner { 
 /* View header
 */
 .view-header {
-	/* border-bottom:1px solid var(--divider-color) */
-	box-shadow: 0 0px 4px 3px var(--bg2);
+	box-shadow: 0 0px 4px 2px var(--bg2);
+
+	> [class^=view-] {
+		transform:translateY(1px);
+	}
 
 	.view-header-nav-buttons {
 		padding-left:2px;
