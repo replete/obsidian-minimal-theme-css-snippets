@@ -48,7 +48,7 @@
         padding-right: 9px;
     }
 
-    .nav-folder-collapse-indicator {
+    .collapse-icon {
         position:relative !important;
         margin-left:0 !important;
         order:4;
