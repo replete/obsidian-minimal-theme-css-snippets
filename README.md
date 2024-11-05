@@ -18,6 +18,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 
 ## Updates (scroll to next section for snippet details)
+- **2024-11-05** Version bump to 1.7.5. Installed from Obsidian Installer to get Electron 32 (=Chromium v120 features like `color-mix`,`color-contrast`, and css container queries)
 - **2024-10-17** Fixed Compact File Explorer for Obsidian 1.7x
 - **2024-09-19** Renamed Compacter Tab Header to Ultra Compact Tab Header. What was I thinking when I named that one...
 - **2024-09-06** Fixed Excalidraw Compact. Fixed Ultra Compact. Added Ultra Compact Sidebar. ![Ultra](screenshots/ultra.png)
@@ -39,7 +40,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 - `MacOS 14`, `Android 13`, `Windows 11` (sometimes), `Linux` (sometimes)
 	- Windows 11 and Linux might need little tweaks in snippets that deal with native titlebar controls, welcome fixes if needed but probably only an issue in a few snippets
-- `Obsidian v1.6.7 (installer v1.5.11)` Desktop
+- `Obsidian v1.7.5 (installer v1.7.5)` Desktop
 	- NOTE: If your installer version is less than 1.1.8, you _must_ reinstall from official installer to update electron for updated CSS features like `:has()`
 - `Minimal Theme v7.7.18`
 ```js
