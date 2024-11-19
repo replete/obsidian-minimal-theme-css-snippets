@@ -40,7 +40,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 - `MacOS 14`, `Android 13`, `Windows 11` (sometimes), `Linux` (sometimes)
 	- Windows 11 and Linux might need little tweaks in snippets that deal with native titlebar controls, welcome fixes if needed but probably only an issue in a few snippets
-- `Obsidian v1.7.5 (installer v1.7.5)` Desktop
+- `Obsidian v1.7.7 (installer v1.7.5)` Desktop
 	- NOTE: If your installer version is less than 1.1.8, you _must_ reinstall from official installer to update electron for updated CSS features like `:has()`
 - `Minimal Theme v7.7.18`
 ```js
