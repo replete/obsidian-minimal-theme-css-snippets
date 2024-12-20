@@ -1,0 +1,100 @@
+/*
+    Sheets Plus - Dark mode
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+[data-type=excel-pro-view] {
+	/* compact mode bonus */
+	.my-univer {
+		border:0;
+	}
+	.view-content {
+		padding:0 !important;
+		padding-bottom:32px !important; /* accomodate floating statusbar */
+	}
+}
+
+.theme-dark [data-type=excel-pro-view] {
+	/* &::after {
+		content:'';
+		width:100%;
+		height:100%;
+		display:block;
+		background:var(--bg2);
+		position: absolute;
+		z-index:20;
+		user-select:none;
+		pointer-events:none;
+		opacity:0.2;
+		filter:saturate(2);
+	} */
+
+	/* Dark mode hack */
+	/* for the love of God, do not ever do something like this in production */
+
+	header,
+	footer {
+		filter: invert() contrast(0.78);
+
+		.univer-toolbar-item-select-arrow,
+		.univer-toolbar-item-select-button-arrow,
+		svg {
+			filter:brightness(.2);
+		}
+		.univer-toolbar-group::after {
+			filter:brightness(.8);
+		}
+
+		.univer-slide-tab-div {
+			/* border:1px solid black; */
+			border-bottom:0;
+			box-shadow: 0 -3px 8px -2px rgba(0,0,0,0.7);
+		}
+
+		.univer-sheet-container {
+			padding:0;
+		}
+	}
+
+	footer {
+		.univer-slider-handle {
+			filter:invert()
+		}
+	}
+
+	canvas[id^=univer-sheet-main-canvas] {
+		filter: invert() contrast(1.6);
+	}
+	.univer-workbench-container-canvas {
+		background:var(--bg1) !important;
+	}
+	[id=__INTERNAL_EDITOR__DOCS_NORMAL] {
+		canvas {
+			filter:invert();
+		}
+	}
+
+}
+
+.univer-dropdown {
+	filter: invert() contrast(.78);
+
+	.univer-toolbar-item-select-arrow,
+	.univer-toolbar-item-select-button-arrow,
+	svg {
+		filter:brightness(.2);
+	}
+	.univer-toolbar-group::after {
+		filter:brightness(.8);
+	}
+
+	.univer-slide-tab-div {
+		/* border:1px solid black; */
+		border-bottom:0;
+		box-shadow: 0 -3px 8px -2px rgba(0,0,0,0.7);
+	}
+
+	.univer-menu-item-content {
+		color:black;
+	}
+}

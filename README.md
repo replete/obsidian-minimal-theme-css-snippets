@@ -18,6 +18,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 
 ## Updates (scroll to next section for snippet details)
+- **2024-12-20** Added SheetsPlus - Dark Mode snippet. Mega hacky as JS spreadsheets are usually canvas-based, but it's better than being flashbanged by a screen of pure white. Only applies if a dark theme is active.
+![SheetsPlus Dark mode screenshot](screenshots/sheets-plus.png)
 - **2024-11-05** Version bump to 1.7.5. Installed from Obsidian Installer to get Electron 32 (=Chromium v120 features like `color-mix`,`color-contrast`, and css container queries)
 - **2024-10-17** Fixed Compact File Explorer for Obsidian 1.7x
 - **2024-09-19** Renamed Compacter Tab Header to Ultra Compact Tab Header. What was I thinking when I named that one...
@@ -138,6 +140,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Outline tweaks screenshot](screenshots/outline.png)
 - **Quiet Outline** - Remove rainbow colours to theme colors, re-arrange layout (I use this instead of Outline panel)
     ![Quiet Outline plugin tweaks screenshot](screenshots/quietoutline.png)
+- **Sheets Plus Dark Mode** ⭐ - Dark mode hack for spreadsheets. Only applies if a dark theme is active.
+	![SheetsPlus Dark mode screenshot](screenshots/sheets-plus.png)
 - **Task progressbars** ⭐ - alignments and themed colours
     ![Task Progressbars plugin tweaks screenshot](screenshots/taskprogressbars.png)
 - **Tracker** ⭐ - cleaner styles and duotone on hover
