@@ -5,29 +5,53 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
+/* Compact Top sidebar navigation */
 .workspace-tab-header-inner{
     padding-left:3px;
     padding-right:3px;
 }
 
-.nav-buttons-container {
-    justify-content:start !important;
-    margin-left:-4px
+/* Compact File Explorer Header */
+[data-type=file-explorer] {
+	.nav-header {
+		padding:5px 12px 4px 12px;
+
+		.nav-buttons-container {
+			margin-left:-4px;
+			/* justify-content:flex-end; */
+
+			&:hover {
+				.clickable-icon {
+					opacity:0.7;
+				}
+			}
+
+			.clickable-icon {
+				padding:2px;
+				color:var(--tx2, var(--text-normal)) !important;
+				transition: .2s color ease-in;
+				opacity:0.45;
+				background:transparent;
+				transition: .1s all ease-in;
+
+				&:hover {
+					background-color:transparent;
+					opacity:1;
+				}
+
+				svg {
+					width:18px;
+					height:18px;
+				}
+			}
+
+			.view-actions:hover .clickable-icon {
+				color: var(--tx1, var(--text-faint)) !important;
+			}
+		}
+	}
 }
 
-.nav-buttons-container .clickable-icon {
-    padding-left:8px;
-    padding-right:3px;
-}
-
-.nav-buttons-container .clickable-icon{
-    color:var(--tx2, var(--text-normal)) !important;
-    transition: .2s color ease-in;
-}
-
-.nav-buttons-container .view-actions:hover .clickable-icon {
-    color: var(--tx1, var(--text-faint)) !important;
-}
 
 /* Compact Vault selector sidebar footer */
 body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile {
@@ -53,9 +77,6 @@ body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-p
 		width:16px !important;
 		height:16px !important;
 
-	}
-
-	svg {
 	}
 
 	.workspace-drawer-vault-name {

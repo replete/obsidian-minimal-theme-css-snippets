@@ -1,220 +1,96 @@
 /*
-    Compact File Explorer
-    I prefer a condensed view with the chevron on the right.
-
-	NOTE: Fix padding bug on startup
-	--------------------------------
-
-	Obsidian calculates paddings via JS and there is a bug sometimes
-	with the wrong indents appearing on startup.
-
-	The fix for this is to turn dummy.css snippet on and off.
-
-	To automate this fix (KLUDGE incoming):
-	- Install 'Snippet Commands' by death_au from Community Plugins
-	- Install 'Templater' plugin
-	- Create a new startup script in your vault containing this code:
-	<%* app.commands.executeCommandById('snippet-commands-obsidian:snippet-command-dummy'); %>
-
-	Now, the padding will be reset on startup. Even with this fix, sometimes
-	large folders have incorrect padding offsets further down.
+    Compact File Explorer Minimal
+    This is tweak of the file explorer that avoids messing with the chevrons, to avoid the
+	janky problematic padding calculations issue
 
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-/* Workspace: Sidebar navigation */
 [data-type=file-explorer] {
-    .nav-header {
-        padding-left:14px;
-        padding-bottom:3px;
-        padding-top: 6px;
 
-        .nav-buttons-container {
-            opacity:0.7;
-            transition: .2s opacity ease-in;
+	.nav-files-container {
+		/* compact file explorer */
+		padding: 0;
+		margin-left: -12px;
 
-            &:hover {
-                opacity:1;
-            }
-        }
+		/* hide root chevrons */
+		> div > .nav-folder {
+			> .mod-collapsible .collapse-icon {
+				visibility:hidden;
+			}
+		}
 
-        .clickable-icon {
-            padding-left:4px;
-        }
-    }
+		/* collapse chevrons more subtle*/
+		.collapse-icon {
+			opacity:0.4;
+			transition: opacity 0.2s ease-in-out;
+		}
+		.nav-folder:not(.is-collapsed) .collapse-icon {
+			opacity:1;
+		}
 
-    .nav-files-container {
-        padding-left: 9px;
-        padding-right: 9px;
-    }
+		/* Make some folders appear more subtle */
+		> div > .nav-folder.is-collapsed:has(> [data-path=Assets]),
+		.nav-folder:not(:not(.is-collapsed)):has(> [data-path*="/attachments"]) {
+			opacity:0.6;
+		}
 
-    .collapse-icon {
-        position:relative !important;
-        margin-left:0 !important;
-        order:4;
-        padding-left:3px;
-
-        svg {
-            stroke:var(--text-faint);
-            margin-top:1px;
-        }
-    }
-
-    /* Fix Folder Note Count display */
-    .nav-folder-title-content {
-        flex-grow:0 !important;
-    }
-
-    /* Fix flashing color */
-    .is-flashing {
-        background-color: var(--tx3)
-    }
-
-	/* We're fighting obsidians JS on calculated paddings here, fix left margin */
-	.tree-item-self[style] {
-		padding-left:8px !important;
-	}
-
-	/* Disable sliding animation */
-	* {
-		transition: none !important;
-	}
-
-	/* tree trunk */
-	.tree-item-children {
-		border-inline-start:none;
-		position:relative;
-
-		&::before {
-			content:'';
+		/* Folder Count plugin count appear on hover and more subtle */
+		.nav-folder-title[data-count]::after {
+			color: var(--tx3, var(--text-faint));
 			position:absolute;
-			top:0;
-			left:-1px;
-			bottom:12px;
-			width:1px;
-			background:var(--nav-indentation-guide-color);
+			right:0;
+			transform: translate(0, 1px);
+			opacity:0;
+			transition: .2s opacity ease-in;
+			padding-right:3px;
 		}
-	}
-
-	/* tree branches */
-	.nav-file,
-	.nav-folder {
-		position:relative;
-		z-index:1;
-	}
-	.nav-folder-children .nav-file-title::before,
-	.nav-folder-children .nav-folder-title::before {
-		content:'';
-		display:block;
-		width:8px;
-		height:1px;
-		background-color: var(--nav-indentation-guide-color);
-		position:absolute;
-		margin-left:-13px;
-		z-index:-1;
-	}
-	.nav-folder.mod-root .nav-folder > .nav-folder-children {
-		margin-left:8px;
-		position:relative;
-		padding-left:7px;
-	}
-	.nav-folder.mod-root .nav-file:hover .nav-file-title::before,
-	.nav-folder.mod-root .nav-file-title.is-active::before {
-		width:8px;
-	}
-
-	/* overflowing title alignment fix */
-	.nav-file-title,
-	.nav-folder-title {
-		padding-right:4px;
-		z-index:2;
-	}
-
-	/* .nav-folder.mod-root .nav-folder > .nav-folder-children {
-		margin-left:13px !important;
-		outline:1px solid red;
-	} */
-
-	/* .nav-folder.mod-root .nav-folder > .nav-folder-children:has([class*=nav-])::after {
-		background-color:var(--bg2, var(--background-primary));
-	} */
-
-	/* Fix Folder Note Count display */
-	.nav-folder-title-content {
-		flex-grow:0 !important;
-	}
-
-	/* Folder Count plugin alignment */
-	.nav-folder-title[data-count]::after {
-		color: var(--tx3, var(--text-faint));
-		position:absolute;
-		right:0;
-		transform: translate(0, 1px);
-		opacity:0;
-		transition: .2s opacity ease-in;
-		padding-right:3px;
-	}
-
-	.nav-files-container:hover .nav-folder-title[data-count]::after {
-		opacity:1;
-	}
-
-	/* Make attachment folders less visible */
-	.nav-files-container [data-path*=attachments],
-	.nav-files-container [data-path*=Assets] {
-		opacity:0.6;
-	}
-
-	/* style file tag */
-	.nav-file-tag {
-		/* Here be dragons! */
-		margin-left:0;
-		margin-right:3px;
-		text-shadow: 0.5px 0 0 black;
-		text-indent:-5px;
-		overflow:visible;
-		font-weight:bold;
-		line-height:10px;
-		width:13px;
-		height:13px;
-		font-size: 11px;
-		letter-spacing:-0.5px;
-		vertical-align:middle;
-		text-rendering: geometricPrecision;
-		/* font-family: "JetBrains Mono", monospace; */
-		font-family: "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-		border-radius:0;
-
-		/* suffix file tag styling */
-		.nav-file-title-content + & {
-			margin-left: .5rem;
-			letter-spacing: 0;
-		}
-	}
-
-	/* Hide file tag when an icon is set */
-	.nav-file:has(.nav-file-tag):has(.iconize-icon) {
-		.nav-file-tag {display:none}
-	}
-
-	/* Fix weird indent on root vault files */
-	.nav-files-container .nav-folder.mod-root > .nav-folder-children > .tree-item.nav-file {
-
-		.nav-file-title.is-active::before {
-			/* fix indent on active file in root */
-			display:none;
+		&:hover {
+			.nav-folder-title[data-count]::after {
+				opacity:1;
+			}
 		}
 
-		&:hover .nav-file-title::before {
-			/* fix indent on hovered file in root */
-			display:none !important;
+		/* remove border-radius */
+		.nav-file-title, .nav-folder-title {
+			border-radius:0;
+		}
+
+		/* style file tag */
+		.nav-file-tag {
+			/* Here be dragons! */
+			margin-left:0;
+			margin-right:3px;
+			text-shadow: 0.5px 0 0 black;
+			text-indent:-5px;
+			overflow:visible;
+			font-weight:bold;
+			line-height:10px;
+			width:13px;
+			height:13px;
+			font-size: 11px;
+			letter-spacing:-0.5px;
+			vertical-align:middle;
+			text-rendering: geometricPrecision;
+			font-family: "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+			border-radius:0;
+
+			/* suffix file tag styling */
+			.nav-file-title-content + & {
+				margin-left: .5rem;
+				letter-spacing: 0;
+			}
+		}
+
+		/* Hide file tag when an icon is set */
+		.nav-file:has(.nav-file-tag):has(.iconize-icon) {
+			.nav-file-tag {display:none}
 		}
 	}
-
 }
 
 /* Align vault title */
-body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-content {
+/* body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-content {
     margin-left:-3px;
-}
+} */
 

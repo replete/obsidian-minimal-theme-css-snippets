@@ -17,6 +17,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 
 ## Updates (scroll to next section for snippet details)
+- **2025-03-21** New Compact File Explorer snippet (renamed old to 'Legacy'). No more jankiness. Chevrons hidden at top level, made subtle and other tweaks. Much better. Tweaked 'Compact Sidebar' snippet also, both pictured below.
+![New Compact File Explorer screenshot](screenshots/compact-file-explorer-new.png)
 - **2024-12-20** Added SheetsPlus - Dark Mode snippet. Mega hacky as JS spreadsheets are usually canvas-based, but it's better than being flashbanged by a screen of pure white. Only applies if a dark theme is active.
 ![SheetsPlus Dark mode screenshot](screenshots/sheets-plus.png)
 - **2024-11-05** Version bump to 1.7.5. Installed from Obsidian Installer to get Electron 32 (=Chromium v120 features like `color-mix`,`color-contrast`, and css container queries)
@@ -65,17 +67,16 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 ## UI snippets:
 - **Collapsible Right Headers** ⭐ - Hide panel headers until hover in the right sidebar.
     ![Collapsible right headers screenshot](screenshots/collapsible-header.gif)
-- **Compact File Explorer** ⭐ - Compact styles, chevrons on right, makes attachment folders less visible
-    ![Compact File Explorer screenshot](screenshots/compact-file-explorer.png)
+- **Compact File Explorer (new)** ⭐ - Compact styles, hidden top-level chevrons, jankiness fully removed.
+![New Compact File Explorer screenshot](screenshots/compact-file-explorer-new.png)
 - **Compact Properties (+autohide)** ⭐ - Compact Properties (Obsidian 1.4.5 feature) with hover autohide, just like the Make.MD snippet [note: I keep the Make.MD + snippets enabled for the banner functionality]
     ![Compact Properties screenshot](screenshots/compact-properties.gif)
 - **Compact Tab Header** - Compact icons in toolbar, also fixes `Commander` plugin icon colours
     ![Compact Tab Header screenshot](screenshots/compact-tab-header.png)
 - **Ultra Compact Tab Header** ⭐ - Compact icons in ultra toolbar, also fixes `Commander` plugin icon colours
     ![Compact Tab Header screenshot](screenshots/compact-tab-header-plus.png)
-- **Compact Sidebar** ⭐ - Make main tab header items more compact. Makes vault selector footer compact.
-    ![Compact sidebar screenshot](screenshots/compact-sidebar-header.png) 
-	![Compact vault sidebar screenshot](screenshots/compact-sidebar-footer.png)
+- **Compact Sidebar** ⭐ - Compact top sidebar nav, file explorer nav header, and make vault selector footer compact.
+	![New Compact File Explorer screenshot](screenshots/compact-file-explorer-new.png)
 - **Compact Tabs** ⭐ - Compact firefox-style pill tabs, better for smaller screens
     ![Compact Tabs screenshot](screenshots/compact-tabs.png)
 - **Compact Tabs (classic)** - Compact classic tabs, better for smaller screens
@@ -146,6 +147,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Tracker** ⭐ - cleaner styles and duotone on hover
 
 ## No longer developed (I don't use these styles anymore)
+- **Compact File Explorer Legacy** - Compact styles, chevrons on right, makes attachment folders less visible. A bit janky and now redundant.
+    ![Compact File Explorer Legacy screenshot](screenshots/compact-file-explorer.png)
 - **Mono Emojis everywhere** - uses mono emoji font (activate separately) for everything in an editor (this is actually pretty ugly and I don't use it)
 - **Heatmap Calendar** - colours and text styles for habit type use-case [(imgur screenshot)](https://i.imgur.com/ndvRLIC.png)
 - **Full Calendar** - pretty hacky due to limits of styling hooks
