@@ -1,0 +1,88 @@
+/*
+    File Explorer Folder icons (replace chevrons
+	This adds a folder icon to folders that do not have an icon set
+	by the 'Iconize' plugin, and will follow the same size.
+
+	This makes it easier (for me) to see I'm in a nested folder
+
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+:root {
+	--replete-folder-closed-icon-data: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16px" height="16px"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M12.414 5H21a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2z"></path></g></svg>');
+	--replete-folder-open-icon-data: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16px" height="16px"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M3 21a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2H20a1 1 0 0 1 1 1v3H4v9.996L6 11h16.5l-2.31 9.243a1 1 0 0 1-.97.757H3z"></path></g></svg>');
+}
+
+/* this version has folder icons appear beside the chevrons */
+.workspace-leaf-content[data-type=file-explorer] {
+	.nav-folder-title {
+		&:not(:has(> [data-icon])) {
+			.nav-folder-title-content {
+				&::before {
+					content: '';
+					display:inline-block;
+					width:13px;
+					height:13px;
+					background-color:var(--tx2);
+					mask-image: var(--replete-folder-closed-icon-data);
+					mask-size: contain;
+					mask-repeat: no-repeat;
+					mask-position: center;
+					margin-right:4px;
+					transform:translate(-1px,2px);
+				}
+			}
+			&:has(> .collapse-icon:not(.is-collapsed)) {
+				.nav-folder-title-content::before {
+					mask-image: var(--replete-folder-open-icon-data);
+				}
+			}
+		}
+	}
+}
+/*
+    File Explorer Folder icons
+	This adds a folder icon to folders that do not have an icon set
+	by the 'Iconize' plugin, and will follow the same size.
+
+	This makes it easier (for me) to see I'm in a nested folder
+
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+*/
+
+:root {
+	--replete-folder-closed-icon-data: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16px" height="16px"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M12.414 5H21a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2z"></path></g></svg>');
+	--replete-folder-open-icon-data: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16px" height="16px"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M3 21a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2H20a1 1 0 0 1 1 1v3H4v9.996L6 11h16.5l-2.31 9.243a1 1 0 0 1-.97.757H3z"></path></g></svg>');
+}
+
+/* this version has folder icons that replace the chevrons */
+.workspace-leaf-content[data-type=file-explorer] {
+	.nav-folder-title {
+		&:not(:has(> [data-icon])) {
+			.nav-folder-title-content {
+				&::before {
+					content: '';
+					display:block;
+					position:absolute;
+					width:13px;
+					height:13px;
+					background-color:var(--tx2);
+					mask-image: var(--replete-folder-closed-icon-data);
+					mask-size: contain;
+					mask-repeat: no-repeat;
+					mask-position: center;
+					margin-right:4px;
+					transform:translate(-19px,2px);
+				}
+			}
+			&:has(> .collapse-icon:not(.is-collapsed)) {
+				.nav-folder-title-content::before {
+					mask-image: var(--replete-folder-open-icon-data);
+				}
+			}
+		}
+	}
+	.collapse-icon {
+		visibility:hidden;
+	}
+}

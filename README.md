@@ -17,6 +17,8 @@ I recommend installing the [MySnippets plugin](https://github.com/chetachiezikeu
 
 
 ## Updates (scroll to next section for snippet details)
+- **2025-03-22** Added File Explorer Folder Icons. Harmonizes with the Iconize plugin if you use that.
+![ File Explorer Folder Icons screenshot](screenshots/file-explorer-folder-icons.png)
 - **2025-03-22** Added File Explorer Header Autohide snippet. Hides the file explorer header until hovered over (I never use this and it looks better without it).
 ![ File Explorer Header Autohide screenshot](screenshots/file-explorer-header-autohide.gif)
 - **2025-03-21** New Compact File Explorer snippet (renamed old to 'Legacy'). No more jankiness. Chevrons hidden at top level, made subtle and other tweaks. Much better. Tweaked 'Compact Sidebar' snippet also, both pictured below.
@@ -89,6 +91,8 @@ I recommend installing the [MySnippets plugin](https://github.com/chetachiezikeu
     ![Custom Separators (gradient) screenshot](screenshots/custom-separators-gradient.png)
 - **File Explorer Header Autohide** ⭐ - Hides the file explorer header until hovered over (I never use this and it looks better without it)
 ![ File Explorer Header Autohide screenshot](screenshots/file-explorer-header-autohide.gif)
+- **File Explorer Folder Icons** ⭐ - File Explorer Folder Icons, with an expand icon. Harmonizes with the Iconize plugin if you use that. It's a little weird, but it works - I think I actually want file explorer to be more like vscode's explorer...
+![ File Explorer Folder Icons screenshot](screenshots/file-explorer-folder-icons.png)
 - **Floating Tab Header** - Save space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)
     ![Floating Tab Header screenshot](screenshots/floating-tab-header.gif)
 - **Floating Tab Header (mini)** - Save even more space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)
