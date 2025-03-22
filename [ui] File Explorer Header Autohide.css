@@ -1,0 +1,26 @@
+/*
+    File Explorer Header auto-hide
+    Hides the file explorer header until hovered over (I never use this and it looks better without it)
+    https://github.com/replete/obsidian-minimal-theme-css-snippets
+
+*/
+
+.workspace-leaf-content[data-type=file-explorer] {
+
+	> .nav-header {
+		transition: all 0.2s ease-in-out;
+		opacity:0;
+		margin-bottom:-4px;
+
+		&:not(:hover, :focus-within) {
+			height: 3px !important;
+			overflow: hidden;
+		}
+
+		&:hover,
+		&:focus-within {
+			opacity:1;
+			height: 36px !important; /* suits compact file explorer */
+		}
+	}
+}

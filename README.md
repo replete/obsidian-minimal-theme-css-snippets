@@ -6,8 +6,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 ## How to use
 
-1. Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork)/[unzip](https://github.com/replete/obsidian-minimal-theme-css-snippets/archive/refs/heads/main.zip) into `<your vault location>/.obsidian/snippets` or use 'Snippet Downloader' plugin
-2. (recommended) Install the [MySnippets plugin](https://github.com/chetachiezikeuzor/MySnippets-Plugin) via 'Community plugins' to easily manage snippets
+Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork)/[unzip](https://github.com/replete/obsidian-minimal-theme-css-snippets/archive/refs/heads/main.zip) into `<your vault location>/.obsidian/snippets` or use 'Snippet Downloader' plugin
+I recommend installing the [MySnippets plugin](https://github.com/chetachiezikeuzor/MySnippets-Plugin) via 'Community plugins' to easily manage snippets with a statusbar popup menu:
 ![MySnippets plugin screenshot](screenshots/mysnippets.png)
 
 ## Support development
@@ -17,6 +17,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 
 ## Updates (scroll to next section for snippet details)
+- **2025-03-22** Added File Explorer Header Autohide snippet. Hides the file explorer header until hovered over (I never use this and it looks better without it).
+![ File Explorer Header Autohide screenshot](screenshots/file-explorer-header-autohide.gif)
 - **2025-03-21** New Compact File Explorer snippet (renamed old to 'Legacy'). No more jankiness. Chevrons hidden at top level, made subtle and other tweaks. Much better. Tweaked 'Compact Sidebar' snippet also, both pictured below.
 ![New Compact File Explorer screenshot](screenshots/compact-file-explorer-new.png)
 - **2024-12-20** Added SheetsPlus - Dark Mode snippet. Mega hacky as JS spreadsheets are usually canvas-based, but it's better than being flashbanged by a screen of pure white. Only applies if a dark theme is active.
@@ -85,6 +87,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Custom Separator screenshot](screenshots/custom-separators.png)
 - **Custom Separators (gradient)** - user-configurable CSS for separators, works well with `File Explorer Custom Sorting` plugin
     ![Custom Separators (gradient) screenshot](screenshots/custom-separators-gradient.png)
+- **File Explorer Header Autohide** ⭐ - Hides the file explorer header until hovered over (I never use this and it looks better without it)
+![ File Explorer Header Autohide screenshot](screenshots/file-explorer-header-autohide.gif)
 - **Floating Tab Header** - Save space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)
     ![Floating Tab Header screenshot](screenshots/floating-tab-header.gif)
 - **Floating Tab Header (mini)** - Save even more space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)
