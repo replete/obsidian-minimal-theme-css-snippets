@@ -13,6 +13,12 @@
 		padding: 0;
 		margin-left: -12px;
 
+		.nav-file-title,
+		.nav-folder-title {
+			padding-top:3px;
+			padding-bottom:3px;
+		}
+
 		/* hide root chevrons */
 		> div > .nav-folder {
 			> .mod-collapsible .collapse-icon {
@@ -25,7 +31,7 @@
 			opacity:0.4;
 			transition: opacity 0.2s ease-in-out;
 		}
-		.nav-folder:not(.is-collapsed) .collapse-icon {
+		.nav-folder:not(.is-collapsed) > .mod-collapsible > .collapse-icon {
 			opacity:1;
 		}
 
@@ -52,7 +58,8 @@
 		}
 
 		/* remove border-radius */
-		.nav-file-title, .nav-folder-title {
+		.nav-file-title,
+		.nav-folder-title {
 			border-radius:0;
 		}
 
@@ -88,9 +95,3 @@
 		}
 	}
 }
-
-/* Align vault title */
-/* body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-content {
-    margin-left:-3px;
-} */
-

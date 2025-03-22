@@ -89,7 +89,6 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
     ![Floating Tab Header screenshot](screenshots/floating-tab-header.gif)
 - **Floating Tab Header (mini)** - Save even more space with this float right leaf tab header (show navigation, breadcrumb on hover/focus)
     ![Floating Tab Header (mini) screenshot](screenshots/floating-tab-header-mini.gif)
-- **Hide Ribbon** ⭐
 - **Native Scrollbar styles** ⭐ - make scrollbars way nicer and color themed
 - **Resize Handles** ⭐ - prefer more muted theme colours
 - **Restrict Last Right Sidebar Panel** ⭐ - Sets max-height on last bottom right sidebar panel, saving you from constantly resizing the panel when resizing windows (e.g. for the calendar plugin panel, which is to me essential)
@@ -170,7 +169,8 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 - **Mono Emojis** - embedded Noto Emoji variable font (2MB snippet!) - not recommended
 
 ## Deprecated snippets (deleted from repo)
-- **Hide Vault Title in Sidebar** ⭐ - hide the vault name in the left, makes sense if you only ever use one vault (removed from obsidian)
+- **Hide Ribbon** - built-in to Obsidian now in settings
+- **Hide Vault Title in Sidebar** - hide the vault name in the left, makes sense if you only ever use one vault (removed from obsidian)
 - ~~[Make.MD Banner](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc - I refactored/improved this into separate snippets above~~
 - ~~Make.MD Compact Spaces - use less space, like Compact File Explorer snippet (deprecated)~~
 - ~~Make.MD Inline Context - Autohide meta ~~
