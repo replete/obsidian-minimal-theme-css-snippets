@@ -1,5 +1,8 @@
 /*
-    Ultra Compact Sidebar (non-resiable)
+    Ultra Compact Sidebar
+
+	Resizes to previous set width on hover, and shrinks to 135px when not hovered.
+	Drag handles still work.
 
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
@@ -7,7 +10,19 @@
 .mod-sidedock.mod-left-split {
 	transition: .1s width ease-in-out;
 
-	&:not(:hover) {
+	/* fade sidebar nav icons nicer */
+	.sidebar-toggle-button.mod-left {
+		position:absolute;
+		right:5px;
+		background:linear-gradient(90deg, transparent, var(--bg2) 40%);
+	}
+
+	/* align sidebar toggle icon better */
+	.mod-macos & .workspace-tab-header-container-inner {
+		margin-left:-8px;
+	}
+
+	&:not(:is(:hover, :focus-within)) {
 		/* sidebsr shrinks if not hovered */
 		/* you can still resize the hovered sidebar width by dragging the handles, but its invisible */
 		width:135px !important;
