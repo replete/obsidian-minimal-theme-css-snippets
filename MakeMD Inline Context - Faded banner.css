@@ -6,38 +6,32 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 :root {
-    --replete-banner-fade-offset: 2; /* integer */
+	--make-md-configured-banner-height: 200px;
+	--replete-banner-fade-height: 130px;
+    --replete-banner-fade-offset: 3.5;
 }
 .mk-inline-context {
-
     .mk-path-context-component {
-        
         &:has(.mk-space-banner) {
             /* Moves the note text above the fade of the banner */
             height:calc(var(--replete-banner-height) / var(--replete-banner-fade-offset));
         }
     }
 
-    .mk-space-banner {
-        &::after {
-            content:'';
-            display: block;
-            width:100%;
-            height:100%;
-            left:0;
-            top:0;
-            background:
-                linear-gradient(to bottom, transparent 20%, var(--background-primary)),
-                linear-gradient(to bottom, transparent 60%, var(--background-primary));
-            position: absolute;
-            pointer-events:none;
-        }
+	&::after {
+		content:'';
+		display: block;
+		width:100%;
+		position: absolute;
+		left:0;
+		height:var(--replete-banner-fade-height);
+		top:calc(var(--make-md-configured-banner-height) - (20px + var(--replete-banner-fade-height)));
 
-        img {
-            /* Disable magnify cursor */
-            cursor:default !important
-        }
-    }
+		background:
+			linear-gradient(to bottom, transparent 10%, var(--background-primary)),
+			linear-gradient(to bottom, transparent 20%, var(--background-primary));
+		pointer-events:none;
+	}
 }
 
 

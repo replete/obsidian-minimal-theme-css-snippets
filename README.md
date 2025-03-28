@@ -16,6 +16,9 @@ Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork
 
 
 ## Updates (scroll to next section for snippet details)
+- **2025-03-28** Fixed Make.MD Inline Context - Faded banners and duotone scripts now work again - hoorah!
+![ Make.MD Inline Context - Faded banners screenshot](screenshots/makemd-duotone-fade-2025.png)
+- **2025-03-28** Made Ultra Compact Sidebar expand on hover.
 - **2025-03-22** Added File Explorer Folder Icons. Harmonizes with the Iconize plugin if you use that.
 ![ File Explorer Folder Icons screenshot](screenshots/file-explorer-folder-icons.png)
 - **2025-03-22** Added File Explorer Header Autohide snippet. Hides the file explorer header until hovered over (I never use this and it looks better without it).
@@ -50,8 +53,8 @@ Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork
 	- NOTE: If your installer version is less than 1.1.8, you _must_ reinstall from official installer to update electron for updated CSS features like `:has()`
 - `Minimal Theme v7.7.19`
 ```js
-// plugins I have enabled (32):
-['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'snippet-commands-obsidian', 'dataview', 'meld-encrypt', 'obsidian-day-planner', 'sticky-heading', 'sheet-plus']
+// plugins I have enabled (33):
+['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'snippet-commands-obsidian', 'dataview', 'meld-encrypt', 'obsidian-day-planner', 'sticky-heading', 'sheet-plus', 'make-md']
 // [...new Set(app.plugins.enabledPlugins)]
 ```
 
