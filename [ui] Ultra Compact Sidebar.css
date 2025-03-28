@@ -5,5 +5,12 @@
 */
 
 .mod-sidedock.mod-left-split {
-	width:135px !important;
+	transition: .1s width ease-in-out;
+
+	&:not(:hover) {
+		/* sidebsr shrinks if not hovered */
+		/* you can still resize the hovered sidebar width by dragging the handles, but its invisible */
+		width:135px !important;
+		transition: .1s width ease-in-out;
+	}
 }
