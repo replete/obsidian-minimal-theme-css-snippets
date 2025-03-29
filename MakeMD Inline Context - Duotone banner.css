@@ -8,13 +8,13 @@
 
 
 .mk-space-banner {
-    /* Needed for blending mode function */
-    background-color:var(--background-primary) !important;
+	/* fade image out slightly to improve text contrast */
+	opacity:0.75;
 }
 
 /* Light themes */
 
-.theme-light.minimal-default-light .mk-space-banner{
+.theme-light.minimal-default-light .mk-space-banner {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
             <filter id="filter">\

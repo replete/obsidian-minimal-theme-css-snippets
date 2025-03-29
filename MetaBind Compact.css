@@ -43,6 +43,16 @@
                 box-shadow: var(--input-shadow);
                 border-radius: var(--input-radius);
                 background-color: var(--interactive-normal);
+
+				/* theme icon color */
+				&::-webkit-calendar-picker-indicator {
+					background-image:none;
+					background-color:var(--tx1);
+					mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-clock-icon lucide-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>');
+					mask-repeat:no-repeat;
+					mask-position:center center;
+					mask-size:65%;
+				}
             }
 
             /* meta-bind updated recently and now uses a real 'time' input type, so this is deprecated: */
@@ -79,13 +89,23 @@
         }
         .mb-input-type-toggle {
             .checkbox-container {
-                transform: scale(0.8) translateY(2px) !important;
+                transform: scale(0.8) translateY(3px) !important;
                 transform-origin:left center;
+
+				/* unchecked button */
+				&::after {
+					background-color: var(--tx1);
+				}
+
+				/* checked button */
+				&:has(input:checked)::after {
+					background-color:var(--bg1);
+				}
             }
         }
         .mb-slider-input {
             transform:translate(-4px, -5px) !important;
-    
+
             &::-webkit-slider-thumb {
                 transform:scale(0.75);
                 background: var(--tx1)

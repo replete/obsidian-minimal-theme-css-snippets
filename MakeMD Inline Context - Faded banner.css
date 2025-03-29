@@ -8,7 +8,7 @@
 :root {
 	--make-md-configured-banner-height: 200px;
 	--replete-banner-fade-height: 130px;
-    --replete-banner-fade-offset: 3.5;
+    --replete-banner-fade-offset: 10;
 }
 .mk-inline-context {
     .mk-path-context-component {

@@ -17,11 +17,20 @@
 }
 
 /* Make indentation guides less visible */
-
 .cm-indent {
     opacity:0.4
 }
 
 .theme-dark .cm-indent {
     opacity: 0.5
+}
+
+/* theme audio controls */
+audio {
+	opacity:1;
+	transition: .2s opacity ease-in-out;
+
+	&:not(:hover,:focus-within) {
+		opacity:0.6;
+	}
 }

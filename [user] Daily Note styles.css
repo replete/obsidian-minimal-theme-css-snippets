@@ -1,6 +1,6 @@
 /*
     Note styles: Daily Note template-specific styles
-    Requires `cssclass  dailynote` in note YAML frontmatter 
+    Requires `cssclass  dailynote` in note YAML frontmatter
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
@@ -12,25 +12,25 @@
     }
 
     &.is-live-preview  {
-        
+
         /* Blockquote styles (I only use blockquotes in my daily note for actual quotes) */
         .HyperMD-quote {
-            font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
+            font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;
             letter-spacing:0.01em;
-        
+
             .cm-quote.cm-hmd-internal-link {
                 color:var(--tx2);
                 font-style:italic;
                 opacity:0.7;
-        
+
                     > * {
                         color:var(--tx2);
                         text-decoration: none !important
                     }
-        
+
                     &::before {
                         content:'—'
-                    } 
+                    }
             }
         }
 
@@ -112,7 +112,7 @@
                 display:none; /* hide on h6 */
                 transform:scale(0.7);
                 transform-origin:0;
-        
+
                 &:has(.progress-bar-inline-4)::after {
                     color:var(--tx3)
                 }
@@ -174,10 +174,10 @@
         .cm-callout {
 
             .callout-content {
-                font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif !important; 
+                font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif !important;
             }
         }
-        
+
 
         /* Embedded markdown files - containers */
         .inline-embed {
@@ -186,8 +186,9 @@
             padding-top: var(--size-4-6);
             padding-bottom: var(--size-4-6);
             padding-right: calc(var(--size-4-6) * 1.5);
-            --font-text: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
-            --line-height: 1.6; 
+			padding-left: calc(var(--size-4-6) * 1);
+            --font-text: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;
+            --line-height: 1.6;
             letter-spacing:0.01em;
 
             .embed-title {
@@ -258,10 +259,10 @@
                 /* margin-bottom:0; */
                 margin-block-end: 1rem;
             }
-        
+
             [data-heading] {
                 margin-top:0;
-                
+
                 &:is(h6) {
                     margin-bottom: 0;
                     color:var(--tx2) !important;
@@ -284,10 +285,10 @@
         .HyperMD-header-1 + .HyperMD-footnote {
             text-indent:-7px;
             opacity:0.7;
-            
+
             .cm-underline {
                 color:var(--tx2);
-                text-decoration: none; 
+                text-decoration: none;
             }
         }
 
