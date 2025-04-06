@@ -18,11 +18,6 @@
 		background:linear-gradient(90deg, transparent, var(--bg2) 40%);
 	}
 
-	/* align sidebar toggle icon better */
-	.mod-macos & .workspace-tab-header-container-inner {
-		margin-left:-6px;
-	}
-
 	&:not(:is(:hover, :focus-within)) {
 		/* sidebsr shrinks if not hovered */
 		/* you can still resize the hovered sidebar width by dragging the handles, but its invisible */
