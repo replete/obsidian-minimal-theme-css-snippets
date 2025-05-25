@@ -47,9 +47,9 @@ Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork
 
 ## My environment
 
-- `MacOS 15`, `Android 13`, `Windows 11` (sometimes), `Linux` (sometimes)
+- `MacOS`, `Android`, `Windows 11`
 	- Windows 11 and Linux might need little tweaks in snippets that deal with native titlebar controls, welcome fixes if needed but probably only an issue in a few snippets
-- `Obsidian v1.8.9 (installer v1.8.9)` Desktop
+- `Obsidian v1.8.10 (installer v1.8.9)` Desktop
 	- NOTE: If your installer version is less than 1.1.8, you _must_ reinstall from official installer to update electron for updated CSS features like `:has()`
 - `Minimal Theme v7.7.19`
 ```js
