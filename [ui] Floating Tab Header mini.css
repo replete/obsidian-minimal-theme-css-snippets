@@ -11,9 +11,8 @@
 .view-header {
     background:transparent !important;
     border:none;
-    position:fixed;
+    position:absolute;
     top:8px;
-    right:10px;
     right: calc(var(--scrollbar-size) + 8px);
     padding: 5px 5px;
     justify-content:end;
@@ -61,4 +60,12 @@
 [data-type="excalidraw"] .view-header:hover .clickable-icon:not(.view-header-icon) {
     display:flex;
     opacity:1;
+}
+
+/* Make.MD banner reposition buttons fix  */
+.mk-space-banner-buttons {
+	right:auto;
+	left:10px;
+	transform: scale(0.75);
+	transform-origin: top left;
 }
