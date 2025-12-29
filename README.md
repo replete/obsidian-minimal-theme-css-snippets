@@ -6,7 +6,7 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 
 ## How to use
 
-Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork)/[unzip](https://github.com/replete/obsidian-minimal-theme-css-snippets/archive/refs/heads/main.zip) into `<your vault location>/.obsidian/snippets` or use 'Snippet Downloader' plugin. I recommend installing the [MySnippets plugin](https://github.com/chetachiezikeuzor/MySnippets-Plugin) via 'Community plugins' to easily manage snippets with a statusbar popup menu:
+Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork)/[unzip](https://github.com/replete/obsidian-minimal-theme-css-snippets/archive/refs/heads/main.zip) into `<your vault location>/.obsidian/snippets` or use 'Snippet Downloader' plugin. I recommend installing the [MySnippets plugin](https://github.com/chetachiezikeuzor/MySnippets-Plugin) via 'Community plugins' to easily manage snippets with a statusbar popup menu:<br>
 ![MySnippets plugin screenshot](screenshots/mysnippets.png)
 
 ## Updates (scroll to next section for snippet details)
