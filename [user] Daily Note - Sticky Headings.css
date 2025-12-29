@@ -5,9 +5,9 @@
 */
 
 .obsidian-sticky-heading {
-
-    display:none; /* Enable only for some templates */
-    .dailynote & {
+	/* Enable only for some templates */
+    display:none;
+	.folder-daily & {
         display:flex;
     }
 
@@ -27,7 +27,7 @@
             /* second item */
             + .HyperMD-header {
                 padding:0 !important;
-                 
+
                 h1, h2, h3, h4, h5, h6 {
                     font-size:14px;
                 }

@@ -1,11 +1,10 @@
 /*
     Note styles: Daily Note template-specific styles
-    Requires `cssclass  dailynote` in note YAML frontmatter
+    Requires AutoClass plugin
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 
-
-.dailynote {
+.folder-daily {
 
     &.cm-content.is-live-preview > div:nth-of-type(4) {
         margin-bottom:15px !important;
