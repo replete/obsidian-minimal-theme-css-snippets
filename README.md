@@ -9,12 +9,6 @@ My working folder of CSS snippets for Obsidian configured with the [Minimal Them
 Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork)/[unzip](https://github.com/replete/obsidian-minimal-theme-css-snippets/archive/refs/heads/main.zip) into `<your vault location>/.obsidian/snippets` or use 'Snippet Downloader' plugin. I recommend installing the [MySnippets plugin](https://github.com/chetachiezikeuzor/MySnippets-Plugin) via 'Community plugins' to easily manage snippets with a statusbar popup menu:
 ![MySnippets plugin screenshot](screenshots/mysnippets.png)
 
-## Support development
-
-
-<a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
-
-
 ## Updates (scroll to next section for snippet details)
 - **2025-03-28** Fixed Make.MD Inline Context - Faded banners and duotone scripts now work again - hoorah!
 ![ Make.MD Inline Context - Faded banners screenshot](screenshots/makemd-duotone-fade-2025.png)
@@ -47,11 +41,11 @@ Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork
 
 ## My environment
 
-- `MacOS`, `Android`, `Windows 11`
+- `MacOS`, `Android`, `Linux`
 	- Windows 11 and Linux might need little tweaks in snippets that deal with native titlebar controls, welcome fixes if needed but probably only an issue in a few snippets
-- `Obsidian v1.8.10 (installer v1.8.9)` Desktop
+- `Obsidian v1.10.6 (installer v1.10.6)` Desktop
 	- NOTE: If your installer version is less than 1.1.8, you _must_ reinstall from official installer to update electron for updated CSS features like `:has()`
-- `Minimal Theme v7.7.19`
+- `Minimal Theme v8.1.2`
 ```js
 // plugins I have enabled (33):
 ['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'snippet-commands-obsidian', 'dataview', 'meld-encrypt', 'obsidian-day-planner', 'sticky-heading', 'sheet-plus', 'make-md']
@@ -184,14 +178,3 @@ Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork
 - ~~[Make.MD Banner](https://i.imgur.com/bn5bfMS.gif) - Mostly banner cssclass overrides, gradient, blur, tall, short etc - I refactored/improved this into separate snippets above~~
 - ~~Make.MD Compact Spaces - use less space, like Compact File Explorer snippet (deprecated)~~
 - ~~Make.MD Inline Context - Autohide meta ~~
-
-## Support development
-<a href="https://www.buymeacoffee.com/replete"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=replete&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
-
-## TODO
-- [x] Test/fix for Mobile Obsidian
-- [x] Fix the weird list item alignments that vary depending on file length
-- [x] Fix colour inconsistencies across light/dark themes
-- [x] Test/fix for Windows (no fixes needed at time)
-- [x] Test/fix for Linux (no fixes needed at time)
-
