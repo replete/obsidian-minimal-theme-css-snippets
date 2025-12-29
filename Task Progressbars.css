@@ -28,10 +28,7 @@
 
 
 /* colors */
-/* .cm-task-progress-bar .progress-bar-inline-1 { background-color:var(--color-red) }
-.cm-task-progress-bar .progress-bar-inline-2 { background-color:var(--color-yellow) }
-.cm-task-progress-bar .progress-bar-inline-3 { background-color:var(--color-green) } */
-.cm-task-progress-bar .progress-bar-inline-4 { background-color:#6BCB77 }
+/* .cm-task-progress-bar [class*="progress-bar-inline-"] { background-color:var(--tx1) } */
 
 /* background color */
 .HyperMD-header .cm-task-progress-bar .progress-bar-inline-background {
@@ -44,15 +41,15 @@
 }
 
 /* complete checkmark state */
-.cm-task-progress-bar .progress-bar-inline-4 {
+.cm-task-progress-bar .progress-bar-inline-complete {
     display:none;
 }
-.cm-task-progress-bar:has(.progress-bar-inline-4)::after {
+.cm-task-progress-bar:has(.progress-bar-inline-complete)::after {
     content:'✓';
     position:absolute;
     top:50%;
-    color: var(--tx2);
+    color: var(--tx3);
     font-size:24px;
     line-height: 1em;
-    transform:translate(-4px, -8px)
+    transform:translate(-4px, -8px);
 }
