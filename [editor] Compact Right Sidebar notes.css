@@ -10,16 +10,17 @@
     }
 
     /* TODO editing view */
-    
+
     /* Reading view */
     .markdown-reading-view {
-        
+
         .markdown-preview-view {
             --file-margins: 0;
+			padding-top:6px;
         }
 
         .markdown-rendered {
-            
+
             :has( > :is(p,pre,table,ul,ol)) + div > :is(h1,h2,h3,h4,h5,h6) {
                 margin:0;
                 margin-block-start:1rem;
@@ -43,7 +44,7 @@
             }
         }
 
-        
+
     }
 }
 
@@ -332,7 +333,7 @@
             </filter>\
         </svg>#filter');
 }
-       
+
 .theme-dark.minimal-ayu-dark .mod-top-right-space .markdown-reading-view:not(:hover) {
     filter: url('data:image/svg+xml,\
         <svg xmlns="http://www.w3.org/2000/svg">\
