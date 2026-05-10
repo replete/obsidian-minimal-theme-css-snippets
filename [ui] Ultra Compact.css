@@ -61,11 +61,13 @@
 	}
 
 	.workspace-tab-header {
+		top:3px;
 		&.is-active {
 			background:none;
 		}
 
 		.workspace-tab-header-inner {
+			/* transform:translateY(3px); */
 			padding-left:1px !important;
 			padding-right:1px !important;
 		}
@@ -137,6 +139,10 @@ div.workspace-tab-header-container-inner.workspace-tab-header-container-inner { 
 /* Right sidebar header
 */
 .mod-top-right-space {
+
+	.workspace-tab-header {
+		top:3px
+	}
 
 	/* Panel icons */
 	.workspace-tab-header-container-inner {
