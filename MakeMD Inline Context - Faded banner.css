@@ -6,9 +6,9 @@
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
 :root {
-	--make-md-configured-banner-height: 200px;
+	--make-md-configured-banner-height: 220px;
 	--replete-banner-fade-height: 130px;
-    --replete-banner-fade-offset: 10;
+    --replete-banner-fade-offset: 1.7;
 }
 .mk-inline-context {
     .mk-path-context-component {
