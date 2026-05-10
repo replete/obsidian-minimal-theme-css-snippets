@@ -43,9 +43,9 @@ Clone/[fork](https://github.com/replete/obsidian-minimal-theme-css-snippets/fork
 
 - `MacOS`, `Android`, `Linux`
 	- Windows 11 and Linux might need little tweaks in snippets that deal with native titlebar controls, welcome fixes if needed but probably only an issue in a few snippets
-- `Obsidian v1.10.6 (installer v1.10.6)` Desktop
+- `Obsidian v1.12.6 (installer v1.12.7)` Desktop
 	- NOTE: If your installer version is less than 1.1.8, you _must_ reinstall from official installer to update electron for updated CSS features like `:has()`
-- `Minimal Theme v8.1.2`
+- `Minimal Theme v8.1.7`
 ```js
 // plugins I have enabled (33):
 ['obsidian-advanced-uri', 'auto-class', 'calendar', 'cmdr', 'hotkeysplus-obsidian', 'obsidian-icon-folder', 'obsidian-excalidraw-plugin', 'cm-editor-syntax-highlight-obsidian', 'obsidian-minimal-settings', 'obsidian-meta-bind-plugin', 'open-vscode', 'periodic-notes', 'quickadd', 'obsidian-task-progress-bar', 'templater-obsidian', 'mysnippets-plugin', 'no-dupe-leaves', 'file-explorer-note-count', 'easy-toggle-sidebars', 'settings-search', 'custom-sort', 'obsidian-shortcut-launcher', 'obsidian-contextual-typography', 'open-in-new-tab', 'obsidian-tracker', 'omnisearch', 'snippet-commands-obsidian', 'dataview', 'meld-encrypt', 'obsidian-day-planner', 'sticky-heading', 'sheet-plus', 'make-md']
